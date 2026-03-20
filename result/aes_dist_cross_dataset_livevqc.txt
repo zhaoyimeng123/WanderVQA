@@ -1,0 +1,13 @@
+/data/guest/anaconda3/envs/zhaoyimeng/bin/python3.8 /data/user/zhaoyimeng/ModularBVQA/test_baseline_modular_dist_aes.py
+cuda:1
+loading the trained model
+585it [04:50,  2.01it/s]
+LiveVQC
+The result on the base test databaset: SRCC: 0.6969, KRCC: 0.5089, PLCC: 0.7489, and RMSE: 11.3040
+The result on the S test databaset: SRCC: 0.7136, KRCC: 0.5247, PLCC: 0.7578, and RMSE: 11.1291
+The result on the T test databaset: SRCC: 0.7753, KRCC: 0.5772, PLCC: 0.7869, and RMSE: 10.5268
+The result on the D test databaset: SRCC: 0.7753, KRCC: 0.5772, PLCC: 0.7869, and RMSE: 10.5268
+The result on the A test databaset: SRCC: 0.7612, KRCC: 0.5659, PLCC: 0.8037, and RMSE: 10.1500
+The result on the STDA test databaset: SRCC: 0.8138, KRCC: 0.6198, PLCC: 0.8448, and RMSE: 9.1286
+
+Process finished with exit code 0

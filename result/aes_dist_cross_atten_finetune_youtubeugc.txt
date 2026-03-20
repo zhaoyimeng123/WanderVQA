@@ -1,0 +1,3100 @@
+/data/guest/anaconda3/envs/zhaoyimeng/bin/python3.8 /data/user/zhaoyimeng/ModularBVQA/train_other_modular_dist_aes_cross_atten.py
+0 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [ 640  941  813  261  439  969  491  294  654  494  922    1  310  356
+  820  833  108  818   85  485   27  142  852  656  963  893   18  511
+  676  412  472  240  395  879  800  424  382  682  122  202   75  308
+  501   14  523  214  790  986  828  648  546  822  505  695  603  513
+  443  626  255  752  253   45   31  602  842  453  571  175   55  267
+  957  967  837  103  495  982  723  489  380   77  795  935  578  608
+  418  765  479  278  643  999  913   97  817  997  939  141  316  650
+  619  592  558  952    2  841  500  493  311  718  890  736 1005  569
+  200  698  270  977  319  979  897  422  283  722  196  708  416  801
+  413  812  295  545  805  672  363  609  530   65  317  783 1026  503
+ 1017  496  482  425  851   60  315  631  944  447  618  192  361  985
+  666  742  252  362  239    8  810 1003  101 1018  700  767  804 1006
+  743  635  761   54   34  230   30  408  787 1030  949  711  215  568
+  895  911  604  359  717  899  522  614  785  689  378  330  190  786
+  527  827  145  251  462  866  620  925  651  613  465  144  798  758
+  352  725  658  299  231  746  432  526  686  860  249  204  279    5
+  372  707  751  247  681  150  642  272  358  549  342  298  264  762
+  671 1012  918  113  638   37  420  688  974  403  158  154   40  531
+  627 1027  924  366  236  533  312  629  836  630  386  402   62   79
+  193  661  181 1022  364    9  902  435  478  331  262  605  266  960
+   38 1001  754  520  271  140  320  194  596  644  740  451  691  948
+   50  162  483  367  399  768  933  172  687  576  809  826  892  796
+   39  585  406  156  222  669  210  306  775 1002  729  167  582  724
+  580   10  105   68   90  434  471  258  995  440  304  844  978  964
+  208   20  856  942  409  625  285   71   49  179  436  351  116  293
+   76   48  384  263  848  728  766  332   64  830   52  477  124  678
+  903  624  993  302  118   12  157  337  127   46  235  561  241  947
+  474  962 1000  883  692  325  936  814  350  492   17  966  186  946
+  338  206  467  927  345  313  242  466  170  187  943  133  301  760
+  646  318   78  988  346  396  198  389  385  900  452  954  815 1029
+  484   21  824  747  548  250  243  891   35   81  159  703  333  871
+  481  898  109  458  379  945  557   92  880  745  538  634  390  601
+   70  457  211  171  165  238  188  894  664  344  564  919  641  674
+  864  155  518  665  784  125  456   66  781  233  224  268  161  487
+  597  704  178  793  415  100  887  649  229  334  713  731  928  524
+  959  220  391  951  427  309  869  921   15  521  245  535    6  958
+  720  397  750  821  769  104  506  303  622   51  354  460   22  374
+  218  529  567  712  205  792  497  516  375  185  404  587  401  553
+ 1031  441  132  173  428  590 1010  788  652   96  615  499   74   89
+  920    0  392  476  831  519  107  737  931  223  327  102  733  475
+  213  135  246 1013  748  753  632  365 1014   26  670  417  588  583
+    3  134  355  912  799  955  680  823  225  854  369  929  339  419
+  863  991  454   63  789  360  237  112  780  532  577  126  259  998
+  738  137    7  502  865  764  886  407  721  353  153  566  542  343
+  923  612  655  859   56  400  572  473  468  679  990  504  667 1016
+  971  300  702  693  570  163  636  336   59  855  973  490  819  449
+  732  437  563  839  926  219  706  586  282  348  715    4  838  463
+  808  685  915  517  653  573  647  825  930  534  940  276  284  470
+  426  281  120  593 1024   13  683  455  584  996  160 1020  980  744
+  773  195  191  628  536 1011  164  106   16  575  965  741  540  329
+  480  498  905  405  772   93  433   83  878  811  710  657  414  662
+ 1021  759  757  950  807  322  556  357   69  514  509  340  221  968
+  146  289   29  114  508  843 1015  176  168  347  376  794  906  992
+  803  189  136  446  873  254  917  290  981  914  232  645   33   88
+   44  341   61  994  199  429  776  394  730  297   73  393  547  579
+  541  889  867  874  663  217  539  857  862  623  668  858  421  694
+  138  212  616  876  877  972  727 1007  701  726  956  716  234  771
+   67   24  381  216  735  129  349  111  166  953  207  438  552  274
+  884  591  832  834  525  287  469  326  121 1028  507  228  673]
+YouTube_UGC test_index: [ 595  445  117  464   25  110  149  152  528  696  621  461  598  139
+  749  260  885  829  323  934  248  450  410  840  607   19  328  296
+  269  226   94  515  875  637  280  286  589  970  444  184  371  907
+ 1019  275  806  975  182   32   80  307  770   11  872   43   86  778
+   36 1023   58   41  782  411  562  209  148  739  594  123  734  574
+   98  377  130  699   23  904  555  370  512  383  201  368  554  610
+  387  861  816  292  690  881  256  606  197   95 1004  983  169  581
+  305  560  853  373  909  719  791  227  660  143  846  180  868  131
+  989   47  774  324  203   84  938  633  908  565  611  398  896   91
+   82  430  779  119  870  291   57  937  321  257  888  987  442   42
+  617  388  335  273  756  488  550  901   53  932 1009  128  802   28
+  183  882  459  510  675  151  244  714  543  544  639  697  265  961
+  288  423  910  147  659  797 1008  177  984   99  850  448  431  847
+  709  755  976  115  916  777   72  845  537  677  849 1025  174   87
+  551  486  705  314  600  599  277  763  835  559  684]
+YouTube_UGC train_index: [ 640  941  813  261  439  969  491  294  654  494  922    1  310  356
+  820  833  108  818   85  485   27  142  852  656  963  893   18  511
+  676  412  472  240  395  879  800  424  382  682  122  202   75  308
+  501   14  523  214  790  986  828  648  546  822  505  695  603  513
+  443  626  255  752  253   45   31  602  842  453  571  175   55  267
+  957  967  837  103  495  982  723  489  380   77  795  935  578  608
+  418  765  479  278  643  999  913   97  817  997  939  141  316  650
+  619  592  558  952    2  841  500  493  311  718  890  736 1005  569
+  200  698  270  977  319  979  897  422  283  722  196  708  416  801
+  413  812  295  545  805  672  363  609  530   65  317  783 1026  503
+ 1017  496  482  425  851   60  315  631  944  447  618  192  361  985
+  666  742  252  362  239    8  810 1003  101 1018  700  767  804 1006
+  743  635  761   54   34  230   30  408  787 1030  949  711  215  568
+  895  911  604  359  717  899  522  614  785  689  378  330  190  786
+  527  827  145  251  462  866  620  925  651  613  465  144  798  758
+  352  725  658  299  231  746  432  526  686  860  249  204  279    5
+  372  707  751  247  681  150  642  272  358  549  342  298  264  762
+  671 1012  918  113  638   37  420  688  974  403  158  154   40  531
+  627 1027  924  366  236  533  312  629  836  630  386  402   62   79
+  193  661  181 1022  364    9  902  435  478  331  262  605  266  960
+   38 1001  754  520  271  140  320  194  596  644  740  451  691  948
+   50  162  483  367  399  768  933  172  687  576  809  826  892  796
+   39  585  406  156  222  669  210  306  775 1002  729  167  582  724
+  580   10  105   68   90  434  471  258  995  440  304  844  978  964
+  208   20  856  942  409  625  285   71   49  179  436  351  116  293
+   76   48  384  263  848  728  766  332   64  830   52  477  124  678
+  903  624  993  302  118   12  157  337  127   46  235  561  241  947
+  474  962 1000  883  692  325  936  814  350  492   17  966  186  946
+  338  206  467  927  345  313  242  466  170  187  943  133  301  760
+  646  318   78  988  346  396  198  389  385  900  452  954  815 1029
+  484   21  824  747  548  250  243  891   35   81  159  703  333  871
+  481  898  109  458  379  945  557   92  880  745  538  634  390  601
+   70  457  211  171  165  238  188  894  664  344  564  919  641  674
+  864  155  518  665  784  125  456   66  781  233  224  268  161  487
+  597  704  178  793  415  100  887  649  229  334  713  731  928  524
+  959  220  391  951  427  309  869  921   15  521  245  535    6  958
+  720  397  750  821  769  104  506  303  622   51  354  460   22  374
+  218  529  567  712  205  792  497  516  375  185  404  587  401  553
+ 1031  441  132  173  428  590 1010  788  652   96  615  499   74   89
+  920    0  392  476  831  519  107  737  931  223  327  102  733  475
+  213  135  246 1013  748  753  632  365 1014   26  670  417  588  583
+    3  134  355  912  799  955  680  823  225  854  369  929  339  419
+  863  991  454   63  789  360  237  112  780  532  577  126  259  998
+  738  137    7  502  865  764  886  407  721  353  153  566  542  343
+  923  612  655  859   56  400  572  473  468  679  990  504  667 1016
+  971  300  702  693  570  163  636  336   59  855  973  490  819  449
+  732  437  563  839  926  219  706  586  282  348  715    4  838  463
+  808  685  915  517  653  573  647  825  930  534  940  276  284  470
+  426  281  120  593 1024   13  683  455  584  996  160 1020  980  744
+  773  195  191  628  536 1011  164  106   16  575  965  741  540  329
+  480  498  905  405  772   93  433   83  878  811  710  657  414  662
+ 1021  759  757  950  807  322  556  357   69  514  509  340  221  968
+  146  289   29  114  508  843 1015  176  168  347  376  794  906  992
+  803  189  136  446  873  254  917  290  981  914  232  645   33   88
+   44  341   61  994  199  429  776  394  730  297   73  393  547  579
+  541  889  867  874  663  217  539  857  862  623  668  858  421  694
+  138  212  616  876  877  972  727 1007  701  726  956  716  234  771
+   67   24  381  216  735  129  349  111  166  953  207  438  552  274
+  884  591  832  834  525  287  469  326  121 1028  507  228  673]
+YouTube_UGC test_index: [ 595  445  117  464   25  110  149  152  528  696  621  461  598  139
+  749  260  885  829  323  934  248  450  410  840  607   19  328  296
+  269  226   94  515  875  637  280  286  589  970  444  184  371  907
+ 1019  275  806  975  182   32   80  307  770   11  872   43   86  778
+   36 1023   58   41  782  411  562  209  148  739  594  123  734  574
+   98  377  130  699   23  904  555  370  512  383  201  368  554  610
+  387  861  816  292  690  881  256  606  197   95 1004  983  169  581
+  305  560  853  373  909  719  791  227  660  143  846  180  868  131
+  989   47  774  324  203   84  938  633  908  565  611  398  896   91
+   82  430  779  119  870  291   57  937  321  257  888  987  442   42
+  617  388  335  273  756  488  550  901   53  932 1009  128  802   28
+  183  882  459  510  675  151  244  714  543  544  639  697  265  961
+  288  423  910  147  659  797 1008  177  984   99  850  448  431  847
+  709  755  976  115  916  777   72  845  537  677  849 1025  174   87
+  551  486  705  314  600  599  277  763  835  559  684]
+Starting training:
+51it [01:09,  1.36s/it]
+Epoch 1 averaged training loss: 0.0776
+The current learning rate is 0.000010
+207it [00:48,  4.23it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8337, KRCC: 0.6416, PLCC: 0.8426, and RMSE: 0.3581
+Update best model using best_test_criterion in epoch 1
+51it [00:43,  1.18it/s]
+Epoch 2 averaged training loss: 0.0373
+The current learning rate is 0.000010
+207it [00:17, 12.03it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8365, KRCC: 0.6504, PLCC: 0.8473, and RMSE: 0.3532
+Update best model using best_test_criterion in epoch 2
+51it [00:43,  1.18it/s]
+Epoch 3 averaged training loss: 0.0190
+The current learning rate is 0.000010
+207it [00:17, 12.13it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8298, KRCC: 0.6421, PLCC: 0.8375, and RMSE: 0.3633
+51it [00:41,  1.24it/s]
+Epoch 4 averaged training loss: 0.0125
+The current learning rate is 0.000009
+207it [00:17, 12.11it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8332, KRCC: 0.6457, PLCC: 0.8449, and RMSE: 0.3557
+51it [00:46,  1.11it/s]
+Epoch 5 averaged training loss: 0.0090
+The current learning rate is 0.000009
+207it [00:17, 12.03it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8385, KRCC: 0.6525, PLCC: 0.8515, and RMSE: 0.3486
+Update best model using best_test_criterion in epoch 5
+51it [00:40,  1.26it/s]
+Epoch 6 averaged training loss: 0.0074
+The current learning rate is 0.000009
+207it [00:17, 12.15it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8384, KRCC: 0.6513, PLCC: 0.8507, and RMSE: 0.3495
+51it [00:41,  1.23it/s]
+Epoch 7 averaged training loss: 0.0076
+The current learning rate is 0.000009
+207it [00:17, 12.15it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8412, KRCC: 0.6541, PLCC: 0.8525, and RMSE: 0.3476
+Update best model using best_test_criterion in epoch 7
+51it [00:41,  1.22it/s]
+Epoch 8 averaged training loss: 0.0062
+The current learning rate is 0.000008
+207it [00:17, 12.09it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8385, KRCC: 0.6520, PLCC: 0.8536, and RMSE: 0.3464
+51it [00:43,  1.19it/s]
+Epoch 9 averaged training loss: 0.0052
+The current learning rate is 0.000008
+207it [00:17, 12.11it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8410, KRCC: 0.6534, PLCC: 0.8521, and RMSE: 0.3480
+51it [00:41,  1.23it/s]
+Epoch 10 averaged training loss: 0.0043
+The current learning rate is 0.000008
+207it [00:17, 12.12it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8419, KRCC: 0.6530, PLCC: 0.8544, and RMSE: 0.3455
+Update best model using best_test_criterion in epoch 10
+51it [00:48,  1.05it/s]
+Epoch 11 averaged training loss: 0.0046
+The current learning rate is 0.000008
+207it [00:17, 12.09it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8390, KRCC: 0.6529, PLCC: 0.8497, and RMSE: 0.3506
+51it [00:42,  1.20it/s]
+Epoch 12 averaged training loss: 0.0042
+The current learning rate is 0.000007
+207it [00:17, 12.11it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8463, KRCC: 0.6585, PLCC: 0.8548, and RMSE: 0.3450
+Update best model using best_test_criterion in epoch 12
+51it [00:43,  1.18it/s]
+Epoch 13 averaged training loss: 0.0037
+The current learning rate is 0.000007
+207it [00:17, 12.08it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8451, KRCC: 0.6564, PLCC: 0.8547, and RMSE: 0.3452
+51it [00:42,  1.21it/s]
+Epoch 14 averaged training loss: 0.0029
+The current learning rate is 0.000007
+207it [00:17, 12.09it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8469, KRCC: 0.6605, PLCC: 0.8558, and RMSE: 0.3439
+Update best model using best_test_criterion in epoch 14
+51it [00:41,  1.24it/s]
+Epoch 15 averaged training loss: 0.0031
+The current learning rate is 0.000007
+207it [00:17, 12.10it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8493, KRCC: 0.6637, PLCC: 0.8588, and RMSE: 0.3406
+Update best model using best_test_criterion in epoch 15
+51it [00:38,  1.32it/s]
+Epoch 16 averaged training loss: 0.0029
+The current learning rate is 0.000007
+207it [00:17, 12.07it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8493, KRCC: 0.6629, PLCC: 0.8606, and RMSE: 0.3386
+51it [00:44,  1.15it/s]
+Epoch 17 averaged training loss: 0.0033
+The current learning rate is 0.000007
+207it [00:17, 12.14it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8471, KRCC: 0.6590, PLCC: 0.8571, and RMSE: 0.3425
+51it [00:44,  1.15it/s]
+Epoch 18 averaged training loss: 0.0035
+The current learning rate is 0.000006
+207it [00:17, 12.10it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8434, KRCC: 0.6568, PLCC: 0.8546, and RMSE: 0.3453
+51it [00:43,  1.18it/s]
+Epoch 19 averaged training loss: 0.0029
+The current learning rate is 0.000006
+207it [00:17, 12.11it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8460, KRCC: 0.6606, PLCC: 0.8560, and RMSE: 0.3437
+51it [00:40,  1.25it/s]
+Epoch 20 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:17, 12.11it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8422, KRCC: 0.6566, PLCC: 0.8528, and RMSE: 0.3472
+51it [00:47,  1.08it/s]
+Epoch 21 averaged training loss: 0.0020
+The current learning rate is 0.000006
+207it [00:17, 12.09it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8421, KRCC: 0.6593, PLCC: 0.8554, and RMSE: 0.3444
+51it [00:43,  1.16it/s]
+Epoch 22 averaged training loss: 0.0022
+The current learning rate is 0.000006
+207it [00:17, 12.12it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8434, KRCC: 0.6567, PLCC: 0.8540, and RMSE: 0.3459
+51it [00:40,  1.27it/s]
+Epoch 23 averaged training loss: 0.0022
+The current learning rate is 0.000006
+207it [00:17, 12.12it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8465, KRCC: 0.6601, PLCC: 0.8570, and RMSE: 0.3427
+51it [00:43,  1.18it/s]
+Epoch 24 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:17, 12.10it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8427, KRCC: 0.6584, PLCC: 0.8567, and RMSE: 0.3429
+51it [00:46,  1.10it/s]
+Epoch 25 averaged training loss: 0.0021
+The current learning rate is 0.000005
+207it [00:17, 12.11it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8419, KRCC: 0.6570, PLCC: 0.8565, and RMSE: 0.3432
+51it [00:42,  1.19it/s]
+Epoch 26 averaged training loss: 0.0021
+The current learning rate is 0.000005
+207it [00:17, 12.13it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8475, KRCC: 0.6631, PLCC: 0.8583, and RMSE: 0.3412
+51it [00:45,  1.13it/s]
+Epoch 27 averaged training loss: 0.0022
+The current learning rate is 0.000005
+207it [00:17, 12.09it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8441, KRCC: 0.6582, PLCC: 0.8579, and RMSE: 0.3417
+51it [00:40,  1.25it/s]
+Epoch 28 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:17, 12.10it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8464, KRCC: 0.6629, PLCC: 0.8575, and RMSE: 0.3421
+51it [00:42,  1.21it/s]
+Epoch 29 averaged training loss: 0.0016
+The current learning rate is 0.000005
+207it [00:17, 12.14it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8465, KRCC: 0.6613, PLCC: 0.8550, and RMSE: 0.3448
+51it [00:45,  1.12it/s]
+Epoch 30 averaged training loss: 0.0016
+The current learning rate is 0.000005
+207it [00:17, 12.06it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8478, KRCC: 0.6613, PLCC: 0.8571, and RMSE: 0.3425
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8493, KRCC: 0.6637, PLCC: 0.8588, and RMSE: 0.3406
+1 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [ 339  244  862  567  926  358  576   27  997  563  228  673  985  927
+  590  840   35  368  133  340  195  455  727  403  119  982  434   49
+ 1010  274    6  486  579  329   80  955  671  636  947  408  104  976
+  812  906  310  981  803  895   85  347  191  724  796  798  120  189
+   94  200  650  262   34   41  742  463  931  831  761  439  531  255
+   78  186  892  987  156  509   99  699  495  918  743  108   17  236
+  355  101  345  154   65 1006  834  868  201  311  512  180  769  194
+  555  354  988  482  207   90  711  675  241  698  946  807  810  395
+  543  846  853  929  734   59   13  487  175  135  730  952  541  881
+  383  921  165  645  902  546  814  710  202    3 1013  805  870  718
+  797  989  869  480  148  386    2  599   72  366  142  238  181  331
+  733  422  920   73  117  404  663  111    5  419  494  298  573  436
+  826  428    8  374   56  703  835  496  268   84 1025  159  594  125
+  794  922  504  301  705  825  679  433  757  745   81  248  414  473
+  638  944  935  890  527  258  551  528  894   50  612  525  597 1028
+  259  453  607  491  746  855  320  602  267  314  483  216  223  205
+  676  661  841  242  948  956  669  306   47  538  658  784   19  484
+  577  309  697  822 1021  459  852  667  160  908  177  654   60  304
+  372  780  529  713  788  107  913  893  233   12  250  632  680  827
+  674  443  335  578  942  934  928  479  121  758  187   16  867  553
+  481  364  349  581  106  437   23  860   69  447  861  776  950  721
+  293  863  978 1014   74  218  574  265  382  110 1022 1019  341  750
+  940  185  286  600  691  474  639   61  429  839  830  692  726  833
+  764  725  307  878  134   33  791  370   57  430  640  779  965  507
+  318  291   46  277  874  962  224  897  280  619    0  954  783  323
+   66  432  457  604  589  678  294  800  770  245  257  161  747  623
+  537  961  888  664  552  247  559  239  220  858   92  114  554 1018
+   76 1020  493  854  132  763  388   58  289  246  389 1030   40   89
+  192  452   68  683  993 1009  139  415  530  118  446  958  818  350
+  754  464  684  385  967  972   14  375   82  593  719  801  899   88
+  363  273  598  172  876  103  781  472  426  371   45  449  685  973
+  622 1024   11  214  344  787  744  147  299  283  772  412  649  823
+  768  953  435  762  173  688 1007  226  305   31  535  872  613  285
+  502  991  949  635  116 1004  644  361   95  261  736  521  592  179
+  102   62  204  587  708  184  467  700  819   91  979  731  560  795
+  756  411  346  605  843   29   54  516   39  157  966  146  221  759
+  799  773  741  394   52  641  584  359  523  402  421  448  284  227
+  353    9  701   30  816  334  809  996  517  197  817  392  975  815
+  651  550  510  122  378   38  582  984  162   67  124    4  702  716
+  786  427  851  571  506  943  399  937  352  916  682  260  333  153
+  396  501  373  312   42  785  522  672  879  932  704  629  614  782
+  659  608  445  272  911  519  377  498  912  885  647   97  128  544
+  379  203  343 1003  837  518  806  488  237  549  400  570  232  442
+   98  909 1017  511  631  217  360  558  765  995  225   18  168  292
+  625  397  540  328  802  994   93  213  337  425  832  618  115  158
+ 1026  112   36  105  362  365  441  565  351 1012  249  882  634  824
+  406  886  164  910  842  857   83  720  295  652   70  643  610  686
+  959  898  737  748  127  873    1  677  539  601  308  585  410  171
+  417  790  709  603  460  900  637  423  315  376  524  901  438  766
+  150   37  556  848  836  409  143  526  891  583  856  208  440  131
+  380  174  533  270  407  735  123  138   51  624  275 1002  342  256
+  182  617  300  690  971  240  230  951  326  828  458  681  662  789
+  465  163  167  145  206  500  188  324  657  767  923  859  963  880
+  930  575   79  838  687  938  877  229  723  804  740  100  290  755
+  444 1005   53  739  391  999 1031  666  251  499  475  670  271   44
+  113   24  211  620  169  591 1008  596  520   32  611  109  136  330
+  222   28  287  722   55 1011  915  936   48  939 1015  642  545  477
+  547   63  413  384  924  322  451  808  234  656  557  462  424 1016
+  303  919  689  219  904  296   21  760  420  325  821  199  450]
+YouTube_UGC test_index: [ 137  536  696  717  646  811  628  212  998  970  957  505  844  231
+  405  729  568  317  183  889  887  693  609  626  485  278  630   20
+  170  401 1027  566  176  327  706  198  470  850  875 1000  694  266
+  866  615  732  492  130  865  338  884  489  572  606  193  140  416
+  660  476  714  152  849  941   10  269   96  210 1023  752  569  813
+  775  871  548  980  532  969  332   75  712   77  263 1029  149  968
+  514  977  469  564  774  461  253  990  771  845  369  321  695  151
+  986  302  190  586  348  243  793   87  751  655  945  778  418  288
+  648  166  595  974  933  155  356  381  279  126  707  777   22  616
+  665  282  903  471  738  367   25  196   64   15  466  297  883  621
+  336  820   26  588   43  497  792  964  515  992  561  917  454  387
+   71  542  456  633  431  627  653  728  264  209  316  896  513  313
+  534  829  319    7  393  141   86  864  478  503  753 1001  983  215
+  580  562  398  925  668  490  252  907  468  914  357  254  276  178
+  281  390  508  749  129  144  960  847  715  905  235]
+YouTube_UGC train_index: [ 339  244  862  567  926  358  576   27  997  563  228  673  985  927
+  590  840   35  368  133  340  195  455  727  403  119  982  434   49
+ 1010  274    6  486  579  329   80  955  671  636  947  408  104  976
+  812  906  310  981  803  895   85  347  191  724  796  798  120  189
+   94  200  650  262   34   41  742  463  931  831  761  439  531  255
+   78  186  892  987  156  509   99  699  495  918  743  108   17  236
+  355  101  345  154   65 1006  834  868  201  311  512  180  769  194
+  555  354  988  482  207   90  711  675  241  698  946  807  810  395
+  543  846  853  929  734   59   13  487  175  135  730  952  541  881
+  383  921  165  645  902  546  814  710  202    3 1013  805  870  718
+  797  989  869  480  148  386    2  599   72  366  142  238  181  331
+  733  422  920   73  117  404  663  111    5  419  494  298  573  436
+  826  428    8  374   56  703  835  496  268   84 1025  159  594  125
+  794  922  504  301  705  825  679  433  757  745   81  248  414  473
+  638  944  935  890  527  258  551  528  894   50  612  525  597 1028
+  259  453  607  491  746  855  320  602  267  314  483  216  223  205
+  676  661  841  242  948  956  669  306   47  538  658  784   19  484
+  577  309  697  822 1021  459  852  667  160  908  177  654   60  304
+  372  780  529  713  788  107  913  893  233   12  250  632  680  827
+  674  443  335  578  942  934  928  479  121  758  187   16  867  553
+  481  364  349  581  106  437   23  860   69  447  861  776  950  721
+  293  863  978 1014   74  218  574  265  382  110 1022 1019  341  750
+  940  185  286  600  691  474  639   61  429  839  830  692  726  833
+  764  725  307  878  134   33  791  370   57  430  640  779  965  507
+  318  291   46  277  874  962  224  897  280  619    0  954  783  323
+   66  432  457  604  589  678  294  800  770  245  257  161  747  623
+  537  961  888  664  552  247  559  239  220  858   92  114  554 1018
+   76 1020  493  854  132  763  388   58  289  246  389 1030   40   89
+  192  452   68  683  993 1009  139  415  530  118  446  958  818  350
+  754  464  684  385  967  972   14  375   82  593  719  801  899   88
+  363  273  598  172  876  103  781  472  426  371   45  449  685  973
+  622 1024   11  214  344  787  744  147  299  283  772  412  649  823
+  768  953  435  762  173  688 1007  226  305   31  535  872  613  285
+  502  991  949  635  116 1004  644  361   95  261  736  521  592  179
+  102   62  204  587  708  184  467  700  819   91  979  731  560  795
+  756  411  346  605  843   29   54  516   39  157  966  146  221  759
+  799  773  741  394   52  641  584  359  523  402  421  448  284  227
+  353    9  701   30  816  334  809  996  517  197  817  392  975  815
+  651  550  510  122  378   38  582  984  162   67  124    4  702  716
+  786  427  851  571  506  943  399  937  352  916  682  260  333  153
+  396  501  373  312   42  785  522  672  879  932  704  629  614  782
+  659  608  445  272  911  519  377  498  912  885  647   97  128  544
+  379  203  343 1003  837  518  806  488  237  549  400  570  232  442
+   98  909 1017  511  631  217  360  558  765  995  225   18  168  292
+  625  397  540  328  802  994   93  213  337  425  832  618  115  158
+ 1026  112   36  105  362  365  441  565  351 1012  249  882  634  824
+  406  886  164  910  842  857   83  720  295  652   70  643  610  686
+  959  898  737  748  127  873    1  677  539  601  308  585  410  171
+  417  790  709  603  460  900  637  423  315  376  524  901  438  766
+  150   37  556  848  836  409  143  526  891  583  856  208  440  131
+  380  174  533  270  407  735  123  138   51  624  275 1002  342  256
+  182  617  300  690  971  240  230  951  326  828  458  681  662  789
+  465  163  167  145  206  500  188  324  657  767  923  859  963  880
+  930  575   79  838  687  938  877  229  723  804  740  100  290  755
+  444 1005   53  739  391  999 1031  666  251  499  475  670  271   44
+  113   24  211  620  169  591 1008  596  520   32  611  109  136  330
+  222   28  287  722   55 1011  915  936   48  939 1015  642  545  477
+  547   63  413  384  924  322  451  808  234  656  557  462  424 1016
+  303  919  689  219  904  296   21  760  420  325  821  199  450]
+YouTube_UGC test_index: [ 137  536  696  717  646  811  628  212  998  970  957  505  844  231
+  405  729  568  317  183  889  887  693  609  626  485  278  630   20
+  170  401 1027  566  176  327  706  198  470  850  875 1000  694  266
+  866  615  732  492  130  865  338  884  489  572  606  193  140  416
+  660  476  714  152  849  941   10  269   96  210 1023  752  569  813
+  775  871  548  980  532  969  332   75  712   77  263 1029  149  968
+  514  977  469  564  774  461  253  990  771  845  369  321  695  151
+  986  302  190  586  348  243  793   87  751  655  945  778  418  288
+  648  166  595  974  933  155  356  381  279  126  707  777   22  616
+  665  282  903  471  738  367   25  196   64   15  466  297  883  621
+  336  820   26  588   43  497  792  964  515  992  561  917  454  387
+   71  542  456  633  431  627  653  728  264  209  316  896  513  313
+  534  829  319    7  393  141   86  864  478  503  753 1001  983  215
+  580  562  398  925  668  490  252  907  468  914  357  254  276  178
+  281  390  508  749  129  144  960  847  715  905  235]
+Starting training:
+51it [00:42,  1.20it/s]
+Epoch 1 averaged training loss: 0.0854
+The current learning rate is 0.000010
+207it [00:17, 11.53it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8668, KRCC: 0.6762, PLCC: 0.8819, and RMSE: 0.3109
+Update best model using best_test_criterion in epoch 1
+51it [00:42,  1.20it/s]
+Epoch 2 averaged training loss: 0.0418
+The current learning rate is 0.000010
+207it [00:18, 11.50it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8602, KRCC: 0.6765, PLCC: 0.8837, and RMSE: 0.3087
+51it [00:41,  1.24it/s]
+Epoch 3 averaged training loss: 0.0211
+The current learning rate is 0.000010
+207it [00:18, 11.48it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8590, KRCC: 0.6743, PLCC: 0.8832, and RMSE: 0.3092
+51it [00:40,  1.26it/s]
+Epoch 4 averaged training loss: 0.0126
+The current learning rate is 0.000009
+207it [00:18, 11.47it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8399, KRCC: 0.6504, PLCC: 0.8710, and RMSE: 0.3240
+51it [00:39,  1.30it/s]
+Epoch 5 averaged training loss: 0.0116
+The current learning rate is 0.000009
+207it [00:17, 11.51it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8421, KRCC: 0.6564, PLCC: 0.8732, and RMSE: 0.3214
+51it [00:44,  1.15it/s]
+Epoch 6 averaged training loss: 0.0108
+The current learning rate is 0.000009
+207it [00:18, 11.48it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8473, KRCC: 0.6584, PLCC: 0.8756, and RMSE: 0.3186
+51it [00:44,  1.15it/s]
+Epoch 7 averaged training loss: 0.0082
+The current learning rate is 0.000009
+207it [00:18, 11.48it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8505, KRCC: 0.6652, PLCC: 0.8765, and RMSE: 0.3175
+51it [00:40,  1.27it/s]
+Epoch 8 averaged training loss: 0.0059
+The current learning rate is 0.000008
+207it [00:18, 11.47it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8550, KRCC: 0.6710, PLCC: 0.8782, and RMSE: 0.3154
+51it [00:43,  1.16it/s]
+Epoch 9 averaged training loss: 0.0055
+The current learning rate is 0.000008
+207it [00:18, 11.46it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8512, KRCC: 0.6666, PLCC: 0.8798, and RMSE: 0.3135
+51it [00:39,  1.31it/s]
+Epoch 10 averaged training loss: 0.0041
+The current learning rate is 0.000008
+207it [00:18, 11.48it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8506, KRCC: 0.6657, PLCC: 0.8775, and RMSE: 0.3163
+51it [00:37,  1.35it/s]
+Epoch 11 averaged training loss: 0.0040
+The current learning rate is 0.000008
+207it [00:18, 11.48it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8517, KRCC: 0.6651, PLCC: 0.8768, and RMSE: 0.3171
+51it [00:42,  1.20it/s]
+Epoch 12 averaged training loss: 0.0036
+The current learning rate is 0.000007
+207it [00:18, 11.49it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8505, KRCC: 0.6650, PLCC: 0.8769, and RMSE: 0.3169
+51it [00:42,  1.19it/s]
+Epoch 13 averaged training loss: 0.0034
+The current learning rate is 0.000007
+207it [00:18, 11.37it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8485, KRCC: 0.6653, PLCC: 0.8777, and RMSE: 0.3161
+51it [00:41,  1.23it/s]
+Epoch 14 averaged training loss: 0.0031
+The current learning rate is 0.000007
+207it [00:18, 11.45it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8541, KRCC: 0.6697, PLCC: 0.8803, and RMSE: 0.3129
+51it [00:39,  1.30it/s]
+Epoch 15 averaged training loss: 0.0031
+The current learning rate is 0.000007
+207it [00:18, 11.48it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8513, KRCC: 0.6654, PLCC: 0.8794, and RMSE: 0.3140
+51it [00:41,  1.23it/s]
+Epoch 16 averaged training loss: 0.0028
+The current learning rate is 0.000007
+207it [00:18, 11.41it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8497, KRCC: 0.6657, PLCC: 0.8758, and RMSE: 0.3183
+51it [00:39,  1.28it/s]
+Epoch 17 averaged training loss: 0.0026
+The current learning rate is 0.000007
+207it [00:17, 11.53it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8535, KRCC: 0.6673, PLCC: 0.8786, and RMSE: 0.3149
+51it [00:39,  1.28it/s]
+Epoch 18 averaged training loss: 0.0029
+The current learning rate is 0.000006
+207it [00:18, 11.48it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8479, KRCC: 0.6635, PLCC: 0.8757, and RMSE: 0.3185
+51it [00:47,  1.07it/s]
+Epoch 19 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:18, 11.48it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8497, KRCC: 0.6640, PLCC: 0.8766, and RMSE: 0.3174
+51it [00:46,  1.10it/s]
+Epoch 20 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:18, 11.42it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8500, KRCC: 0.6659, PLCC: 0.8776, and RMSE: 0.3162
+51it [00:43,  1.18it/s]
+Epoch 21 averaged training loss: 0.0027
+The current learning rate is 0.000006
+207it [00:18, 11.47it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8521, KRCC: 0.6676, PLCC: 0.8765, and RMSE: 0.3175
+51it [00:41,  1.22it/s]
+Epoch 22 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:18, 11.46it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8560, KRCC: 0.6730, PLCC: 0.8791, and RMSE: 0.3144
+51it [00:44,  1.14it/s]
+Epoch 23 averaged training loss: 0.0021
+The current learning rate is 0.000006
+207it [00:17, 11.50it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8566, KRCC: 0.6727, PLCC: 0.8812, and RMSE: 0.3117
+51it [00:43,  1.16it/s]
+Epoch 24 averaged training loss: 0.0020
+The current learning rate is 0.000005
+207it [00:17, 11.53it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8512, KRCC: 0.6662, PLCC: 0.8802, and RMSE: 0.3130
+51it [00:40,  1.25it/s]
+Epoch 25 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:18, 11.48it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8523, KRCC: 0.6684, PLCC: 0.8795, and RMSE: 0.3138
+51it [00:40,  1.27it/s]
+Epoch 26 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:17, 11.51it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8501, KRCC: 0.6671, PLCC: 0.8779, and RMSE: 0.3158
+51it [00:41,  1.22it/s]
+Epoch 27 averaged training loss: 0.0020
+The current learning rate is 0.000005
+207it [00:17, 11.51it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8551, KRCC: 0.6731, PLCC: 0.8824, and RMSE: 0.3103
+51it [00:42,  1.19it/s]
+Epoch 28 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:17, 11.51it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8520, KRCC: 0.6657, PLCC: 0.8796, and RMSE: 0.3138
+51it [00:39,  1.28it/s]
+Epoch 29 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:18, 11.49it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8525, KRCC: 0.6689, PLCC: 0.8768, and RMSE: 0.3171
+51it [00:42,  1.20it/s]
+Epoch 30 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:18, 11.49it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8547, KRCC: 0.6703, PLCC: 0.8796, and RMSE: 0.3137
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8668, KRCC: 0.6762, PLCC: 0.8819, and RMSE: 0.3109
+2 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [ 456  990  811  581  549  312  436  476  612  653  943   67  473  817
+  437  471  397  621  143  197  515  589  542  802  322  742  702  597
+  194  729  391  600  192   71  459   68  213  565  752  645   66  311
+  241   37  999  791  633  575   99  687  888  226  164 1005  917  573
+  951  535  267 1019  137  985  291  280   20  642  768  447  182  374
+  568  212  981  876   15  919  681  444 1021  419    7  912  643  958
+  486  295  239  508  355  318  977  232  315  617  878  576  463  185
+  707  580  608  906  929  310  896  512  273  281  540  101  941  141
+  236  496  688  860  778  199  910  317  293   65  492  886  525  871
+  490  916  677  426  235  250  183  947  673  776  968  599  345 1006
+  205 1011  579  146  898  829  845  842  770  624  694  272   89  158
+  719  458  775  402  209   70  396  465  993  526  384  887  880  470
+  223  924  193  230  438  400   74  595  934  409  327   84  431  909
+  347  231  142  701  682  832  705  330  783  179  979  551  970    1
+  859  636  109  160  773  863  455  692  936  172  128  365  480  806
+  169  510 1031  826  596   77  505 1013  388  949  948 1026  175  706
+  656  748  200  532  284  417  544  930  996  376  933  152  864  286
+  849  911  571   91  735  749  488  786  251  799  333   62   18  704
+  288  965  824  771  865  953  432   22  620  964  188  629  840  258
+  227  107  743  335  309  614   80  521 1016  671   30   10  418  445
+  305  157  363  779  257  712  519    4  522  198  116  279  204  925
+  174  732  468  202  504  955  119  177  275  343   13  248  944  926
+  637  923  793  557  733  663  129   90  460  126  338  163  111  728
+  789  543  774  971  812  632  902   72    2  920  427  960   12  836
+  763  713  451  108  724  379  181  959  983  370  890  346  308  780
+  304  809  356   42  375  777  552  901  798  412  294  578  900  577
+  398  950  414  462  988  862  340   55  814  907  344  216  927   40
+  423  518  699  895  513  737  178  176  399   58  853  502   16  411
+  726  464  711  593  484  852  883  659  683  536  441   29  991  727
+  897  882  440  453  601  203  371   32  530  641  987  156  652  913
+  334  382  684  372  828  665  439    3  452  716  130  429  976  813
+  646  342  866   41  321  222  328  556  915  113   48  289   76  206
+  457  781  285 1010  386  225  606  120  263  529  481  387  615  221
+  268  171  857  795  856  618  731  848  567  792  123  962  180  161
+  982  265  874  117  669  998  790  558  696 1003  664  639  240  134
+  155  353  139  572  967  511   60  352  843  165  734  685  300  214
+  407  546  297  394  131  314  946  765  757  416  584   38  249  524
+   53  136  717  695   35  638  378  666  861  740   52  377  738  787
+  995  246  975  425  700   28  644  672  244  103  276  393  110  159
+  112 1023  854  329  262  794  678  167  869  154  984   24  889  443
+  150  553   94  217  381   23  292  173  100   25  782  658  489  710
+  354  667  242  168   73  559 1000  118  114  520    5  475  932  858
+   69   14 1027  640  369   78  479  870   54  467  266  815  940  514
+  537  905  503 1015  166  715  331  851  247  373  654  472  499  660
+  690  616  563  834  307  822  662  566  501  234  626  744  430  839
+  191  151  435  256  796  691  816  541  569  582  383  145  833  922
+  533  215  788  935  893  196 1008  495  591   17  803   27  277  631
+  395  228  320  147  747  986  494  598  449  739  106  350  523  650
+  389  448   93  259  554  675  921  170  254  602  252  306  547  825
+  989  428  186  269  630  162  413  801  818   98    6  830  686  884
+  611  229  264  368  721  894  877  931  403  756  610  189  332  303
+  260  144  627  698  283  963   11  844  594  693  531  469  127  891
+   57   33  237  956  282  586  362  243  603   92  210  337  755  668
+  301   85  190   39  500  623  507  634  516  723  104  835  233  676
+  105  341  753  961  253  408  422  208 1017  797   82  497  954  583
+  899   87   64  270  605  274 1022  903  821  928  153  613  810  410
+  837  517   44  625  390  220  140  349  357  722  133  261  278   79
+ 1012  115  846  867  718  380  969  184  819  358  945   36  339 1001
+  754  420  149    9 1014   45   95  937  534  548  560  298  290]
+YouTube_UGC test_index: [ 415  313  421  657  122  872  847  361  336  135  881  827  709  769
+  651  367  997  939  619    8   97 1007  348  509  992  703  746   21
+  482 1004  405  784  952 1024  879  478  590  491  841   46  364  296
+   49  487  224  750  219  980  850  761 1025  647  201  562  622   75
+   63  804  604  245  442  908  574    0  539  767  762  868  689  187
+  406  148  751 1020  978   26  461  670  655  785   59  714  326  424
+  720  477   43  661  635  823  528  736  483  218  741  820 1029  966
+  855  957  914  609  485  125 1009   61   81  680  324  385 1028   56
+   19  994   86  838  758  649  316   34  808  138  766  588  904  498
+  538  800  555   96   83  446  474  764  366  873  697  585  885  973
+  760  918  401  759  392  974  745  271  506 1030  434  648  942  807
+  561  207  319 1018  132   50  972  238  564  592  450   31  121  211
+  351  454  302  708   88  325  323  255  892  570  545 1002  550  359
+   51  875  938  772  102  195  679  805  628  124  404  730  287  831
+   47  725  587  607  433  674  360  466  299  493  527]
+YouTube_UGC train_index: [ 456  990  811  581  549  312  436  476  612  653  943   67  473  817
+  437  471  397  621  143  197  515  589  542  802  322  742  702  597
+  194  729  391  600  192   71  459   68  213  565  752  645   66  311
+  241   37  999  791  633  575   99  687  888  226  164 1005  917  573
+  951  535  267 1019  137  985  291  280   20  642  768  447  182  374
+  568  212  981  876   15  919  681  444 1021  419    7  912  643  958
+  486  295  239  508  355  318  977  232  315  617  878  576  463  185
+  707  580  608  906  929  310  896  512  273  281  540  101  941  141
+  236  496  688  860  778  199  910  317  293   65  492  886  525  871
+  490  916  677  426  235  250  183  947  673  776  968  599  345 1006
+  205 1011  579  146  898  829  845  842  770  624  694  272   89  158
+  719  458  775  402  209   70  396  465  993  526  384  887  880  470
+  223  924  193  230  438  400   74  595  934  409  327   84  431  909
+  347  231  142  701  682  832  705  330  783  179  979  551  970    1
+  859  636  109  160  773  863  455  692  936  172  128  365  480  806
+  169  510 1031  826  596   77  505 1013  388  949  948 1026  175  706
+  656  748  200  532  284  417  544  930  996  376  933  152  864  286
+  849  911  571   91  735  749  488  786  251  799  333   62   18  704
+  288  965  824  771  865  953  432   22  620  964  188  629  840  258
+  227  107  743  335  309  614   80  521 1016  671   30   10  418  445
+  305  157  363  779  257  712  519    4  522  198  116  279  204  925
+  174  732  468  202  504  955  119  177  275  343   13  248  944  926
+  637  923  793  557  733  663  129   90  460  126  338  163  111  728
+  789  543  774  971  812  632  902   72    2  920  427  960   12  836
+  763  713  451  108  724  379  181  959  983  370  890  346  308  780
+  304  809  356   42  375  777  552  901  798  412  294  578  900  577
+  398  950  414  462  988  862  340   55  814  907  344  216  927   40
+  423  518  699  895  513  737  178  176  399   58  853  502   16  411
+  726  464  711  593  484  852  883  659  683  536  441   29  991  727
+  897  882  440  453  601  203  371   32  530  641  987  156  652  913
+  334  382  684  372  828  665  439    3  452  716  130  429  976  813
+  646  342  866   41  321  222  328  556  915  113   48  289   76  206
+  457  781  285 1010  386  225  606  120  263  529  481  387  615  221
+  268  171  857  795  856  618  731  848  567  792  123  962  180  161
+  982  265  874  117  669  998  790  558  696 1003  664  639  240  134
+  155  353  139  572  967  511   60  352  843  165  734  685  300  214
+  407  546  297  394  131  314  946  765  757  416  584   38  249  524
+   53  136  717  695   35  638  378  666  861  740   52  377  738  787
+  995  246  975  425  700   28  644  672  244  103  276  393  110  159
+  112 1023  854  329  262  794  678  167  869  154  984   24  889  443
+  150  553   94  217  381   23  292  173  100   25  782  658  489  710
+  354  667  242  168   73  559 1000  118  114  520    5  475  932  858
+   69   14 1027  640  369   78  479  870   54  467  266  815  940  514
+  537  905  503 1015  166  715  331  851  247  373  654  472  499  660
+  690  616  563  834  307  822  662  566  501  234  626  744  430  839
+  191  151  435  256  796  691  816  541  569  582  383  145  833  922
+  533  215  788  935  893  196 1008  495  591   17  803   27  277  631
+  395  228  320  147  747  986  494  598  449  739  106  350  523  650
+  389  448   93  259  554  675  921  170  254  602  252  306  547  825
+  989  428  186  269  630  162  413  801  818   98    6  830  686  884
+  611  229  264  368  721  894  877  931  403  756  610  189  332  303
+  260  144  627  698  283  963   11  844  594  693  531  469  127  891
+   57   33  237  956  282  586  362  243  603   92  210  337  755  668
+  301   85  190   39  500  623  507  634  516  723  104  835  233  676
+  105  341  753  961  253  408  422  208 1017  797   82  497  954  583
+  899   87   64  270  605  274 1022  903  821  928  153  613  810  410
+  837  517   44  625  390  220  140  349  357  722  133  261  278   79
+ 1012  115  846  867  718  380  969  184  819  358  945   36  339 1001
+  754  420  149    9 1014   45   95  937  534  548  560  298  290]
+YouTube_UGC test_index: [ 415  313  421  657  122  872  847  361  336  135  881  827  709  769
+  651  367  997  939  619    8   97 1007  348  509  992  703  746   21
+  482 1004  405  784  952 1024  879  478  590  491  841   46  364  296
+   49  487  224  750  219  980  850  761 1025  647  201  562  622   75
+   63  804  604  245  442  908  574    0  539  767  762  868  689  187
+  406  148  751 1020  978   26  461  670  655  785   59  714  326  424
+  720  477   43  661  635  823  528  736  483  218  741  820 1029  966
+  855  957  914  609  485  125 1009   61   81  680  324  385 1028   56
+   19  994   86  838  758  649  316   34  808  138  766  588  904  498
+  538  800  555   96   83  446  474  764  366  873  697  585  885  973
+  760  918  401  759  392  974  745  271  506 1030  434  648  942  807
+  561  207  319 1018  132   50  972  238  564  592  450   31  121  211
+  351  454  302  708   88  325  323  255  892  570  545 1002  550  359
+   51  875  938  772  102  195  679  805  628  124  404  730  287  831
+   47  725  587  607  433  674  360  466  299  493  527]
+Starting training:
+51it [00:40,  1.25it/s]
+Epoch 1 averaged training loss: 0.0781
+The current learning rate is 0.000010
+207it [00:15, 13.75it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.7920, KRCC: 0.5979, PLCC: 0.8077, and RMSE: 0.3664
+Update best model using best_test_criterion in epoch 1
+51it [00:43,  1.17it/s]
+Epoch 2 averaged training loss: 0.0382
+The current learning rate is 0.000010
+207it [00:15, 13.76it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8234, KRCC: 0.6318, PLCC: 0.8386, and RMSE: 0.3386
+Update best model using best_test_criterion in epoch 2
+51it [00:41,  1.23it/s]
+Epoch 3 averaged training loss: 0.0219
+The current learning rate is 0.000010
+207it [00:15, 13.79it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8144, KRCC: 0.6268, PLCC: 0.8247, and RMSE: 0.3514
+51it [00:43,  1.19it/s]
+Epoch 4 averaged training loss: 0.0137
+The current learning rate is 0.000009
+207it [00:15, 13.75it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8368, KRCC: 0.6475, PLCC: 0.8470, and RMSE: 0.3303
+Update best model using best_test_criterion in epoch 4
+51it [00:41,  1.24it/s]
+Epoch 5 averaged training loss: 0.0109
+The current learning rate is 0.000009
+207it [00:15, 13.76it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8340, KRCC: 0.6461, PLCC: 0.8477, and RMSE: 0.3296
+51it [00:43,  1.18it/s]
+Epoch 6 averaged training loss: 0.0070
+The current learning rate is 0.000009
+207it [00:15, 13.76it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8386, KRCC: 0.6515, PLCC: 0.8494, and RMSE: 0.3280
+Update best model using best_test_criterion in epoch 6
+51it [00:45,  1.13it/s]
+Epoch 7 averaged training loss: 0.0070
+The current learning rate is 0.000009
+207it [00:15, 13.72it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8255, KRCC: 0.6356, PLCC: 0.8385, and RMSE: 0.3386
+51it [00:45,  1.13it/s]
+Epoch 8 averaged training loss: 0.0065
+The current learning rate is 0.000008
+207it [00:15, 13.77it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8247, KRCC: 0.6363, PLCC: 0.8403, and RMSE: 0.3369
+51it [00:43,  1.16it/s]
+Epoch 9 averaged training loss: 0.0056
+The current learning rate is 0.000008
+207it [00:15, 13.79it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8343, KRCC: 0.6454, PLCC: 0.8440, and RMSE: 0.3333
+51it [00:40,  1.26it/s]
+Epoch 10 averaged training loss: 0.0049
+The current learning rate is 0.000008
+207it [00:15, 13.71it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8388, KRCC: 0.6506, PLCC: 0.8490, and RMSE: 0.3284
+Update best model using best_test_criterion in epoch 10
+51it [00:42,  1.21it/s]
+Epoch 11 averaged training loss: 0.0045
+The current learning rate is 0.000008
+207it [00:15, 13.74it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8356, KRCC: 0.6487, PLCC: 0.8474, and RMSE: 0.3299
+51it [00:43,  1.17it/s]
+Epoch 12 averaged training loss: 0.0039
+The current learning rate is 0.000007
+207it [00:15, 13.80it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8409, KRCC: 0.6545, PLCC: 0.8527, and RMSE: 0.3246
+Update best model using best_test_criterion in epoch 12
+51it [00:44,  1.15it/s]
+Epoch 13 averaged training loss: 0.0037
+The current learning rate is 0.000007
+207it [00:15, 13.72it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8405, KRCC: 0.6526, PLCC: 0.8525, and RMSE: 0.3248
+51it [00:48,  1.05it/s]
+Epoch 14 averaged training loss: 0.0036
+The current learning rate is 0.000007
+207it [00:15, 13.78it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8438, KRCC: 0.6550, PLCC: 0.8545, and RMSE: 0.3228
+Update best model using best_test_criterion in epoch 14
+51it [00:40,  1.27it/s]
+Epoch 15 averaged training loss: 0.0037
+The current learning rate is 0.000007
+207it [00:14, 13.81it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8387, KRCC: 0.6502, PLCC: 0.8519, and RMSE: 0.3254
+51it [00:45,  1.13it/s]
+Epoch 16 averaged training loss: 0.0030
+The current learning rate is 0.000007
+207it [00:14, 13.81it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8383, KRCC: 0.6514, PLCC: 0.8485, and RMSE: 0.3289
+51it [00:47,  1.07it/s]
+Epoch 17 averaged training loss: 0.0029
+The current learning rate is 0.000007
+207it [00:15, 13.77it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8389, KRCC: 0.6504, PLCC: 0.8490, and RMSE: 0.3284
+51it [00:46,  1.11it/s]
+Epoch 18 averaged training loss: 0.0025
+The current learning rate is 0.000006
+207it [00:15, 13.70it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8355, KRCC: 0.6452, PLCC: 0.8454, and RMSE: 0.3319
+51it [00:42,  1.20it/s]
+Epoch 19 averaged training loss: 0.0026
+The current learning rate is 0.000006
+207it [00:15, 13.76it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8345, KRCC: 0.6475, PLCC: 0.8460, and RMSE: 0.3313
+51it [00:43,  1.18it/s]
+Epoch 20 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:15, 13.74it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8339, KRCC: 0.6441, PLCC: 0.8452, and RMSE: 0.3322
+51it [00:42,  1.21it/s]
+Epoch 21 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:15, 13.77it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8365, KRCC: 0.6477, PLCC: 0.8474, and RMSE: 0.3299
+51it [00:44,  1.14it/s]
+Epoch 22 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:15, 13.76it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8370, KRCC: 0.6482, PLCC: 0.8489, and RMSE: 0.3285
+51it [00:45,  1.13it/s]
+Epoch 23 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:15, 13.76it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8357, KRCC: 0.6476, PLCC: 0.8469, and RMSE: 0.3304
+51it [00:44,  1.15it/s]
+Epoch 24 averaged training loss: 0.0023
+The current learning rate is 0.000005
+207it [00:15, 13.73it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8356, KRCC: 0.6480, PLCC: 0.8451, and RMSE: 0.3322
+51it [00:40,  1.27it/s]
+Epoch 25 averaged training loss: 0.0023
+The current learning rate is 0.000005
+207it [00:15, 13.71it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8368, KRCC: 0.6501, PLCC: 0.8480, and RMSE: 0.3293
+51it [00:40,  1.25it/s]
+Epoch 26 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:15, 13.77it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8370, KRCC: 0.6495, PLCC: 0.8474, and RMSE: 0.3299
+51it [00:42,  1.20it/s]
+Epoch 27 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:15, 13.75it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8328, KRCC: 0.6451, PLCC: 0.8456, and RMSE: 0.3317
+51it [00:44,  1.16it/s]
+Epoch 28 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:15, 13.78it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8360, KRCC: 0.6485, PLCC: 0.8476, and RMSE: 0.3298
+51it [00:41,  1.23it/s]
+Epoch 29 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:15, 13.76it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8306, KRCC: 0.6431, PLCC: 0.8423, and RMSE: 0.3350
+51it [00:41,  1.23it/s]
+Epoch 30 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:15, 13.74it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8368, KRCC: 0.6486, PLCC: 0.8470, and RMSE: 0.3304
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8438, KRCC: 0.6550, PLCC: 0.8545, and RMSE: 0.3228
+3 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [ 954  522  961  558  175  336  593  982  128  189  873  269  648   87
+  147  756 1020  347  977  554  626  488  477  552  761  121  639   57
+  903   83  842   58 1014  600 1016  631  498  562  557  918  190   99
+  833  227  238  614  778  856  263  180  445  813  790  964  448  416
+  479  687 1019   65  556  216  636  945  794  667  586  793  969  266
+  385  330   73  157  287  458  787  928  239  777  392  360  749   81
+  199  197  958   85  924  301  829  938  456  722  505  923  145  801
+  243  855   28  770   27   48  464  400  155  123   30  656  709  997
+  465  255  773   61  443  832  193  644  715  729   51  628  328  956
+  235  740   10  689  512  487  247  901   92  637  103  389  321  807
+  716  914  381  324  739  702  891  439  579  506  264  796  710   91
+  632  144  211  784  719  606  712  528  312  431  741  549  232  246
+   86  359  358  101  194   39  772   16  533  437  907 1002  454  177
+  136   80  126  118  499  846  666  825  357   95  303  192  548  591
+  108  304  523  585  440  124  527  766   41  270    5   64  916   45
+  376  314  980    3  350  509  781  446  816  293  195  642  651  904
+ 1024  339  721  333  868  349  942  249  665  472  164  814  450  973
+  999   78  109  201  452  111  143  810  206  288  911  362  726  102
+  803   46    4  555  401  457  468  697  705  841  461  759  760  886
+  902  214  137  876  387  821  134  571  751  409  146  290  529  237
+  536  575  386  514  668  802  105  163  835  871  127  730  745  643
+  354 1006 1027  415   31  399  724  546  638  112  780  132  994  371
+  736  763  534  831  261  294  209  449  543  370  629  159  975  610
+   97  539  411  279  447  186  970  406  818  224   14  170  475  391
+  115  683  880  983   19  107  931  960  236  646  407  378  233  229
+  410  797  617  319  753  596  774  587  466  671   59  469  792  882
+  116   68  518  799  390  682  654  623  526   37  714  573  106  707
+  351  356  323  785  251  673  967  692   55  215  338  737   56  755
+ 1013  169  291  181   53  680  897  346  767  151  429  230  800 1000
+  713  717  889  188  388  926  812  574  185   43  895  620  624  142
+ 1030  866  819  352  317  322  809  669  478  811  329  974  150  804
+   67  743  589  565  879  922  327  525  993  550  569  733  678  808
+  849  619  838  131  806  296  283  860  417  746  130  613  985  114
+  532  939  567  847  427  271  313  377  649  584  428  284  129  395
+  894  393  326  674  210  652  635  179  563   40  306  676  373  524
+  204  844 1028  272    8  355  612  839   70  397  941  930 1022  139
+  168    7  869  859  521  870   93  537  630  701  491   79  578  342
+  996   49  250  984  599  135  878  949  661  382   25   47  748  174
+   29  153  542  570  735  161  244  851  158  530  501  432  700  850
+  771  366  890   54  653   24  298   18  254  225  419  615  822  222
+ 1023  424  218  927  723  990  442 1003  286   66  453  962   71  640
+  412   82  933  852   15  935  535  658  451  592  404  490  992  775
+  364  459  104  268  885  888  241  430  703  203  963  595   96  467
+  633  492  166  694  854 1025  315  361  138  276  384  568  919   88
+  826  280  460  645  900  698  202  402  340  365   23  345  966  334
+  310  932  353  988  240  318  820  262   98  769  925  898   89  515
+  331  706  433  946  752  486  867  865  823  260  305  920  196  140
+  594  122  494  110   84  691  513  482  708  955   74  991  757  273
+  396  154  191  948  187   50   38  418  909  208  375  463  470  517
+   75  248  559  302  582  783  987   11 1008  485  462 1011  627  281
+  253 1018  742  944  577  950  219  425  369  979   69 1015  580   21
+   77  547 1029  981  125  228   42  516  572  576 1007  621  374  205
+ 1004 1026    6  493  957  978  798  965  259  282  634  590  915 1009
+  455  320  434  663  299  896  436  675  845  438  325  403  265  564
+  602  951  278  655  791  732  711  553  782  921  929  231  245  167
+  502  332  840  815  426  541  750  762  162  149  226  685   94  768
+  221  597  699  473 1012  601  906   34  217   72  220  213  893  394
+  998  367   12  881  343  198  725  696  234  695  420  861  908  608
+  817  297   63  734  607   13  435   17  764  857  758  779  348]
+YouTube_UGC test_index: [ 207   90  307  341  380  344  471  837  874  551  598  693   32  971
+  657  670  172  883  884  408  863  936  200  292  583  899  510  943
+  877  913 1010  995  489  910  905  133   60  690   26  100  531  588
+  664  776  788  520  363  309  795  828  604  252  544  481  441  647
+  476   22   62  148  483  727  934  786  257   52  242  173   35  178
+  679  738  120  275   44  300  836   76  720  368  212  267  311  728
+  444  503  495   33    9  688  160  285  295  616  824  625  277  937
+  603  484  496  182  827  986  684  744 1001   36  156    2  754  508
+  497  308  289  560  414  421  141  223  864  183  843  972  953  672
+  848  511  912  731  611  892  747  976  117  853    1  113  989  686
+  765  165 1031  184  677 1005  372  274  704    0  566  887  540  500
+  718  383  405  561  862   20  805  176  335  379  545  171  519  830
+  507  152  618  413  609  622  872  581  858  947  641  316  959  258
+  834  662  474  337  538  504  398  423  605  940  660  480  422  119
+  917  650  681 1017  875  659 1021  789  256  968  952]
+YouTube_UGC train_index: [ 954  522  961  558  175  336  593  982  128  189  873  269  648   87
+  147  756 1020  347  977  554  626  488  477  552  761  121  639   57
+  903   83  842   58 1014  600 1016  631  498  562  557  918  190   99
+  833  227  238  614  778  856  263  180  445  813  790  964  448  416
+  479  687 1019   65  556  216  636  945  794  667  586  793  969  266
+  385  330   73  157  287  458  787  928  239  777  392  360  749   81
+  199  197  958   85  924  301  829  938  456  722  505  923  145  801
+  243  855   28  770   27   48  464  400  155  123   30  656  709  997
+  465  255  773   61  443  832  193  644  715  729   51  628  328  956
+  235  740   10  689  512  487  247  901   92  637  103  389  321  807
+  716  914  381  324  739  702  891  439  579  506  264  796  710   91
+  632  144  211  784  719  606  712  528  312  431  741  549  232  246
+   86  359  358  101  194   39  772   16  533  437  907 1002  454  177
+  136   80  126  118  499  846  666  825  357   95  303  192  548  591
+  108  304  523  585  440  124  527  766   41  270    5   64  916   45
+  376  314  980    3  350  509  781  446  816  293  195  642  651  904
+ 1024  339  721  333  868  349  942  249  665  472  164  814  450  973
+  999   78  109  201  452  111  143  810  206  288  911  362  726  102
+  803   46    4  555  401  457  468  697  705  841  461  759  760  886
+  902  214  137  876  387  821  134  571  751  409  146  290  529  237
+  536  575  386  514  668  802  105  163  835  871  127  730  745  643
+  354 1006 1027  415   31  399  724  546  638  112  780  132  994  371
+  736  763  534  831  261  294  209  449  543  370  629  159  975  610
+   97  539  411  279  447  186  970  406  818  224   14  170  475  391
+  115  683  880  983   19  107  931  960  236  646  407  378  233  229
+  410  797  617  319  753  596  774  587  466  671   59  469  792  882
+  116   68  518  799  390  682  654  623  526   37  714  573  106  707
+  351  356  323  785  251  673  967  692   55  215  338  737   56  755
+ 1013  169  291  181   53  680  897  346  767  151  429  230  800 1000
+  713  717  889  188  388  926  812  574  185   43  895  620  624  142
+ 1030  866  819  352  317  322  809  669  478  811  329  974  150  804
+   67  743  589  565  879  922  327  525  993  550  569  733  678  808
+  849  619  838  131  806  296  283  860  417  746  130  613  985  114
+  532  939  567  847  427  271  313  377  649  584  428  284  129  395
+  894  393  326  674  210  652  635  179  563   40  306  676  373  524
+  204  844 1028  272    8  355  612  839   70  397  941  930 1022  139
+  168    7  869  859  521  870   93  537  630  701  491   79  578  342
+  996   49  250  984  599  135  878  949  661  382   25   47  748  174
+   29  153  542  570  735  161  244  851  158  530  501  432  700  850
+  771  366  890   54  653   24  298   18  254  225  419  615  822  222
+ 1023  424  218  927  723  990  442 1003  286   66  453  962   71  640
+  412   82  933  852   15  935  535  658  451  592  404  490  992  775
+  364  459  104  268  885  888  241  430  703  203  963  595   96  467
+  633  492  166  694  854 1025  315  361  138  276  384  568  919   88
+  826  280  460  645  900  698  202  402  340  365   23  345  966  334
+  310  932  353  988  240  318  820  262   98  769  925  898   89  515
+  331  706  433  946  752  486  867  865  823  260  305  920  196  140
+  594  122  494  110   84  691  513  482  708  955   74  991  757  273
+  396  154  191  948  187   50   38  418  909  208  375  463  470  517
+   75  248  559  302  582  783  987   11 1008  485  462 1011  627  281
+  253 1018  742  944  577  950  219  425  369  979   69 1015  580   21
+   77  547 1029  981  125  228   42  516  572  576 1007  621  374  205
+ 1004 1026    6  493  957  978  798  965  259  282  634  590  915 1009
+  455  320  434  663  299  896  436  675  845  438  325  403  265  564
+  602  951  278  655  791  732  711  553  782  921  929  231  245  167
+  502  332  840  815  426  541  750  762  162  149  226  685   94  768
+  221  597  699  473 1012  601  906   34  217   72  220  213  893  394
+  998  367   12  881  343  198  725  696  234  695  420  861  908  608
+  817  297   63  734  607   13  435   17  764  857  758  779  348]
+YouTube_UGC test_index: [ 207   90  307  341  380  344  471  837  874  551  598  693   32  971
+  657  670  172  883  884  408  863  936  200  292  583  899  510  943
+  877  913 1010  995  489  910  905  133   60  690   26  100  531  588
+  664  776  788  520  363  309  795  828  604  252  544  481  441  647
+  476   22   62  148  483  727  934  786  257   52  242  173   35  178
+  679  738  120  275   44  300  836   76  720  368  212  267  311  728
+  444  503  495   33    9  688  160  285  295  616  824  625  277  937
+  603  484  496  182  827  986  684  744 1001   36  156    2  754  508
+  497  308  289  560  414  421  141  223  864  183  843  972  953  672
+  848  511  912  731  611  892  747  976  117  853    1  113  989  686
+  765  165 1031  184  677 1005  372  274  704    0  566  887  540  500
+  718  383  405  561  862   20  805  176  335  379  545  171  519  830
+  507  152  618  413  609  622  872  581  858  947  641  316  959  258
+  834  662  474  337  538  504  398  423  605  940  660  480  422  119
+  917  650  681 1017  875  659 1021  789  256  968  952]
+Starting training:
+51it [00:45,  1.11it/s]
+Epoch 1 averaged training loss: 0.0739
+The current learning rate is 0.000010
+207it [00:15, 13.52it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.7998, KRCC: 0.6101, PLCC: 0.7902, and RMSE: 0.3897
+Update best model using best_test_criterion in epoch 1
+51it [00:44,  1.14it/s]
+Epoch 2 averaged training loss: 0.0355
+The current learning rate is 0.000010
+207it [00:15, 13.44it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8092, KRCC: 0.6165, PLCC: 0.8083, and RMSE: 0.3743
+Update best model using best_test_criterion in epoch 2
+51it [00:39,  1.31it/s]
+Epoch 3 averaged training loss: 0.0183
+The current learning rate is 0.000010
+207it [00:15, 13.43it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8088, KRCC: 0.6146, PLCC: 0.8012, and RMSE: 0.3805
+51it [00:43,  1.16it/s]
+Epoch 4 averaged training loss: 0.0113
+The current learning rate is 0.000009
+207it [00:15, 13.53it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.7989, KRCC: 0.6099, PLCC: 0.7888, and RMSE: 0.3908
+51it [00:38,  1.31it/s]
+Epoch 5 averaged training loss: 0.0100
+The current learning rate is 0.000009
+207it [00:15, 13.53it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8085, KRCC: 0.6133, PLCC: 0.8015, and RMSE: 0.3802
+51it [00:40,  1.26it/s]
+Epoch 6 averaged training loss: 0.0082
+The current learning rate is 0.000009
+207it [00:15, 13.48it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8149, KRCC: 0.6245, PLCC: 0.8102, and RMSE: 0.3727
+Update best model using best_test_criterion in epoch 6
+51it [00:41,  1.24it/s]
+Epoch 7 averaged training loss: 0.0075
+The current learning rate is 0.000009
+207it [00:15, 13.50it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8090, KRCC: 0.6161, PLCC: 0.8043, and RMSE: 0.3779
+51it [00:42,  1.21it/s]
+Epoch 8 averaged training loss: 0.0071
+The current learning rate is 0.000008
+207it [00:15, 13.50it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8156, KRCC: 0.6202, PLCC: 0.8088, and RMSE: 0.3739
+Update best model using best_test_criterion in epoch 8
+51it [00:40,  1.27it/s]
+Epoch 9 averaged training loss: 0.0052
+The current learning rate is 0.000008
+207it [00:15, 13.55it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8103, KRCC: 0.6134, PLCC: 0.8084, and RMSE: 0.3743
+51it [00:41,  1.22it/s]
+Epoch 10 averaged training loss: 0.0039
+The current learning rate is 0.000008
+207it [00:15, 13.52it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8127, KRCC: 0.6176, PLCC: 0.8080, and RMSE: 0.3746
+51it [00:41,  1.23it/s]
+Epoch 11 averaged training loss: 0.0041
+The current learning rate is 0.000008
+207it [00:15, 13.50it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8118, KRCC: 0.6159, PLCC: 0.8045, and RMSE: 0.3777
+51it [00:41,  1.22it/s]
+Epoch 12 averaged training loss: 0.0037
+The current learning rate is 0.000007
+207it [00:15, 13.49it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8073, KRCC: 0.6133, PLCC: 0.8007, and RMSE: 0.3809
+51it [00:40,  1.27it/s]
+Epoch 13 averaged training loss: 0.0040
+The current learning rate is 0.000007
+207it [00:15, 13.51it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8086, KRCC: 0.6133, PLCC: 0.8037, and RMSE: 0.3783
+51it [00:40,  1.26it/s]
+Epoch 14 averaged training loss: 0.0035
+The current learning rate is 0.000007
+207it [00:15, 13.48it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8042, KRCC: 0.6081, PLCC: 0.8004, and RMSE: 0.3811
+51it [00:44,  1.14it/s]
+Epoch 15 averaged training loss: 0.0034
+The current learning rate is 0.000007
+207it [00:15, 13.51it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8139, KRCC: 0.6181, PLCC: 0.8091, and RMSE: 0.3737
+51it [00:40,  1.25it/s]
+Epoch 16 averaged training loss: 0.0032
+The current learning rate is 0.000007
+207it [00:15, 13.48it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6129, PLCC: 0.8050, and RMSE: 0.3772
+51it [00:42,  1.21it/s]
+Epoch 17 averaged training loss: 0.0031
+The current learning rate is 0.000007
+207it [00:15, 13.51it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8124, KRCC: 0.6167, PLCC: 0.8084, and RMSE: 0.3743
+51it [00:47,  1.08it/s]
+Epoch 18 averaged training loss: 0.0030
+The current learning rate is 0.000006
+207it [00:15, 13.53it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8123, KRCC: 0.6160, PLCC: 0.8100, and RMSE: 0.3729
+51it [00:44,  1.14it/s]
+Epoch 19 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:15, 13.51it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8072, KRCC: 0.6100, PLCC: 0.8051, and RMSE: 0.3771
+51it [00:39,  1.31it/s]
+Epoch 20 averaged training loss: 0.0029
+The current learning rate is 0.000006
+207it [00:15, 13.49it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8082, KRCC: 0.6129, PLCC: 0.8031, and RMSE: 0.3789
+51it [00:41,  1.23it/s]
+Epoch 21 averaged training loss: 0.0026
+The current learning rate is 0.000006
+207it [00:15, 13.54it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8063, KRCC: 0.6090, PLCC: 0.8026, and RMSE: 0.3793
+51it [00:42,  1.19it/s]
+Epoch 22 averaged training loss: 0.0019
+The current learning rate is 0.000006
+207it [00:15, 13.47it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8050, KRCC: 0.6101, PLCC: 0.7999, and RMSE: 0.3816
+51it [00:40,  1.26it/s]
+Epoch 23 averaged training loss: 0.0020
+The current learning rate is 0.000006
+207it [00:15, 13.54it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8095, KRCC: 0.6139, PLCC: 0.8046, and RMSE: 0.3776
+51it [00:39,  1.29it/s]
+Epoch 24 averaged training loss: 0.0022
+The current learning rate is 0.000005
+207it [00:15, 13.49it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8095, KRCC: 0.6121, PLCC: 0.8034, and RMSE: 0.3786
+51it [00:39,  1.30it/s]
+Epoch 25 averaged training loss: 0.0022
+The current learning rate is 0.000005
+207it [00:15, 13.54it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8074, KRCC: 0.6100, PLCC: 0.8018, and RMSE: 0.3800
+51it [00:44,  1.15it/s]
+Epoch 26 averaged training loss: 0.0020
+The current learning rate is 0.000005
+207it [00:15, 13.55it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8098, KRCC: 0.6135, PLCC: 0.8037, and RMSE: 0.3783
+51it [00:39,  1.28it/s]
+Epoch 27 averaged training loss: 0.0021
+The current learning rate is 0.000005
+207it [00:15, 13.46it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8091, KRCC: 0.6120, PLCC: 0.8042, and RMSE: 0.3779
+51it [00:44,  1.14it/s]
+Epoch 28 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:15, 13.52it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8051, KRCC: 0.6088, PLCC: 0.8007, and RMSE: 0.3810
+51it [00:40,  1.26it/s]
+Epoch 29 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:15, 13.52it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8042, KRCC: 0.6092, PLCC: 0.8008, and RMSE: 0.3808
+51it [00:40,  1.27it/s]
+Epoch 30 averaged training loss: 0.0020
+The current learning rate is 0.000005
+207it [00:15, 13.50it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8054, KRCC: 0.6114, PLCC: 0.8022, and RMSE: 0.3796
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8156, KRCC: 0.6202, PLCC: 0.8088, and RMSE: 0.3739
+4 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [  98  574   76  661  585  702  504  592  924  110   58  178  901  831
+  477  682   92  644  214  663  929  889   63  401  756  475  786  837
+  593  571  431  807  325  588  211  115  299  283  179  714  147  981
+   72  769  244  614  455  869   47  858  658  286  651  809  340  307
+  659 1026  802  260  354  236  152  703  943   88  237  768  789  512
+  723  739  695   40  801  385  575  724  518  520  717  270  336  293
+  640  983  347   33  630  778  904  850  621   17  599  395  170  133
+  836  557  163  225  916  792  164  465  544  797  287  153  656  525
+   89  413  957  238  870  987  935  289  522  678  998  191   66  265
+  221  611  777  554  102  815  215  988  781  955  535   70  766   35
+  280  617  594  154  138  784  379  262  224  577  472  674  104  734
+  157  664   55  675   74  852  600  567  303  155   67  521  319  558
+  698  290  930 1029  636  878  672  538  254  146  848  993  404  958
+  253   65  854  646  773  793  578  620  817  942  304  345  919  568
+  398  616  822  888  481  436   13 1001  779  595  615   77  963 1003
+  437  420  162  604  333  482  712  799  524  328  834  652  503  710
+  127  357  634  726   11  536  463  358  112  427  402  934  762  285
+  408  188  306  715  995  774  959   36  462  582  473  247  124  380
+  687  654  300  530  381  337  228  239   62  855  960  921  701  193
+  905  409  744  735  189  330   34  209  857  961  849  273  180  136
+  643  362 1018  991  353  374  721  429  908 1007   42  511  194 1009
+  563  826  120  545  106  113  321  796  608  894  851  537  669  508
+  733   90 1025  390  220 1004  718  288  411  950  601  406   53  282
+  683  816   50  496  956  295   83  994  423  489  873  399  938  324
+  278  167  139  539  184  964  363  937  446  219  896  526  917  419
+ 1021  704 1017  310  760  576  881  775  668  631  790  326  277  758
+  479  213  918  984   31  372  856  969  866  944  203  859  899  914
+  730  135  541  875  780  428  117   57 1016  101  231  976 1015  612
+  405  732  728  559  212    8  384  649  108  897  596  359  176  641
+  364  645  495  248   45  159  266  320  986   80  424  342  803  886
+  268  624  441  474  783  267   97  705  570  249   18  467  628  425
+   61  989  166   25  794  911  906   71  275  965  915  776  169   75
+  902  811  305  923  376  383  348  770 1024  350  523  625  982  891
+   68  876  276 1027  434  378  864  175  452  216  843  990 1011  584
+  657  517  936  992  177  623  202  490  430  931  880    3  263  432
+  458  933  685  642  261  251  397  447   93  813  226  444   24  925
+  927  433  580  844  200  666   15  257  812   14  229  909  476 1014
+  144   99  459  507  841  973  845  898  471  316  846  271  767  123
+  885  860  158  707  317  168  671  382  274    6    4  417  210  122
+    1  497  590  977   64  461  311  763  100 1000  821  722  338  922
+  389  103  196  334  751  550  134  341  492  192  142  410  298  681
+  301  464  551  128  160  356  632  740  618  105  759  700  970  235
+  752   85  365  892  677  980  650   16  839   46  629  572  344  129
+  269  440  853   94  468  716  910  513  907  195  757  573  332  242
+   79  798  684   43  947   20  205  738  206  665   91  292  605  150
+  829   82   87  635  141  725  256  692  339  819  974  741   39  694
+  939   84  230  546  750 1005  874  314  392  838  451  619  633  555
+  483  172  197  887  731  945  449  361  201  140  884  312   48  368
+  900   96  737  241   28  232  442  920  877   60   12  863 1008   21
+  696  637  173   38  788  469  272  349  673  765   69  791  245  871
+  329 1023  386  996  302  861  814  820  130  583  506  346  186  355
+  787  438  697  679  753  622  137  528  979  323  782  603  453  903
+  415 1019  613  204  968  529  810  327  532  367  400 1020   41  351
+  997  199  868  883  581  223  480  832  514  835  825  369  755  182
+  542  185  531  132  549  689  745  234  485  827   19  407  999  560
+  867  607  403  952  450  912  116  148  747  556  926  246  217  111
+ 1006 1022   37  366  118  233  824   23  258  309  602  540  377  418
+  547  975  207  143  690   81  569  948  121  454  494   26  500  754
+  396  771  890  516  589  971  949  795  647  318  435  218  335]
+YouTube_UGC test_index: [ 895  806  296  667  830  967  761  284   22  227  720    2  445  548
+   29  498  457    5  862  805  281   32  421  879  627  156 1012  519
+  966  978  586  259  297  655  502  470  553  932   10  691    7  208
+  660  842  375  598  833  414  291  764   49  686  609  727  448   52
+  308  315  488  591  742  391  985  501  119 1028  394 1010  653  527
+  639   86  171  828  865   27  785  746  510  748  662  693  491  579
+  736  252  552  928  772  131  699  626  708  565  125    9   78  913
+  808  543  484  940  587   54  388  670  352  487  566  893  250  443
+  840  165  505  264   51  107   59  804  847  478  597  972  499  181
+ 1030  466  711  749  743  198  882 1013  279  331  962  190  534  222
+  114  151  460  688  187   73  729  240  145  562  255  953   95  610
+  719  371  370  515  412  493  638  800  161  941  426  243  680  416
+  343  954  322  561  648   30  373 1031  706   56  486  509  422  713
+  149  533  183    0  387  564 1002  126  294   44  946  676  872  313
+  951  823  606  109  393  818  456  360  709  439  174]
+YouTube_UGC train_index: [  98  574   76  661  585  702  504  592  924  110   58  178  901  831
+  477  682   92  644  214  663  929  889   63  401  756  475  786  837
+  593  571  431  807  325  588  211  115  299  283  179  714  147  981
+   72  769  244  614  455  869   47  858  658  286  651  809  340  307
+  659 1026  802  260  354  236  152  703  943   88  237  768  789  512
+  723  739  695   40  801  385  575  724  518  520  717  270  336  293
+  640  983  347   33  630  778  904  850  621   17  599  395  170  133
+  836  557  163  225  916  792  164  465  544  797  287  153  656  525
+   89  413  957  238  870  987  935  289  522  678  998  191   66  265
+  221  611  777  554  102  815  215  988  781  955  535   70  766   35
+  280  617  594  154  138  784  379  262  224  577  472  674  104  734
+  157  664   55  675   74  852  600  567  303  155   67  521  319  558
+  698  290  930 1029  636  878  672  538  254  146  848  993  404  958
+  253   65  854  646  773  793  578  620  817  942  304  345  919  568
+  398  616  822  888  481  436   13 1001  779  595  615   77  963 1003
+  437  420  162  604  333  482  712  799  524  328  834  652  503  710
+  127  357  634  726   11  536  463  358  112  427  402  934  762  285
+  408  188  306  715  995  774  959   36  462  582  473  247  124  380
+  687  654  300  530  381  337  228  239   62  855  960  921  701  193
+  905  409  744  735  189  330   34  209  857  961  849  273  180  136
+  643  362 1018  991  353  374  721  429  908 1007   42  511  194 1009
+  563  826  120  545  106  113  321  796  608  894  851  537  669  508
+  733   90 1025  390  220 1004  718  288  411  950  601  406   53  282
+  683  816   50  496  956  295   83  994  423  489  873  399  938  324
+  278  167  139  539  184  964  363  937  446  219  896  526  917  419
+ 1021  704 1017  310  760  576  881  775  668  631  790  326  277  758
+  479  213  918  984   31  372  856  969  866  944  203  859  899  914
+  730  135  541  875  780  428  117   57 1016  101  231  976 1015  612
+  405  732  728  559  212    8  384  649  108  897  596  359  176  641
+  364  645  495  248   45  159  266  320  986   80  424  342  803  886
+  268  624  441  474  783  267   97  705  570  249   18  467  628  425
+   61  989  166   25  794  911  906   71  275  965  915  776  169   75
+  902  811  305  923  376  383  348  770 1024  350  523  625  982  891
+   68  876  276 1027  434  378  864  175  452  216  843  990 1011  584
+  657  517  936  992  177  623  202  490  430  931  880    3  263  432
+  458  933  685  642  261  251  397  447   93  813  226  444   24  925
+  927  433  580  844  200  666   15  257  812   14  229  909  476 1014
+  144   99  459  507  841  973  845  898  471  316  846  271  767  123
+  885  860  158  707  317  168  671  382  274    6    4  417  210  122
+    1  497  590  977   64  461  311  763  100 1000  821  722  338  922
+  389  103  196  334  751  550  134  341  492  192  142  410  298  681
+  301  464  551  128  160  356  632  740  618  105  759  700  970  235
+  752   85  365  892  677  980  650   16  839   46  629  572  344  129
+  269  440  853   94  468  716  910  513  907  195  757  573  332  242
+   79  798  684   43  947   20  205  738  206  665   91  292  605  150
+  829   82   87  635  141  725  256  692  339  819  974  741   39  694
+  939   84  230  546  750 1005  874  314  392  838  451  619  633  555
+  483  172  197  887  731  945  449  361  201  140  884  312   48  368
+  900   96  737  241   28  232  442  920  877   60   12  863 1008   21
+  696  637  173   38  788  469  272  349  673  765   69  791  245  871
+  329 1023  386  996  302  861  814  820  130  583  506  346  186  355
+  787  438  697  679  753  622  137  528  979  323  782  603  453  903
+  415 1019  613  204  968  529  810  327  532  367  400 1020   41  351
+  997  199  868  883  581  223  480  832  514  835  825  369  755  182
+  542  185  531  132  549  689  745  234  485  827   19  407  999  560
+  867  607  403  952  450  912  116  148  747  556  926  246  217  111
+ 1006 1022   37  366  118  233  824   23  258  309  602  540  377  418
+  547  975  207  143  690   81  569  948  121  454  494   26  500  754
+  396  771  890  516  589  971  949  795  647  318  435  218  335]
+YouTube_UGC test_index: [ 895  806  296  667  830  967  761  284   22  227  720    2  445  548
+   29  498  457    5  862  805  281   32  421  879  627  156 1012  519
+  966  978  586  259  297  655  502  470  553  932   10  691    7  208
+  660  842  375  598  833  414  291  764   49  686  609  727  448   52
+  308  315  488  591  742  391  985  501  119 1028  394 1010  653  527
+  639   86  171  828  865   27  785  746  510  748  662  693  491  579
+  736  252  552  928  772  131  699  626  708  565  125    9   78  913
+  808  543  484  940  587   54  388  670  352  487  566  893  250  443
+  840  165  505  264   51  107   59  804  847  478  597  972  499  181
+ 1030  466  711  749  743  198  882 1013  279  331  962  190  534  222
+  114  151  460  688  187   73  729  240  145  562  255  953   95  610
+  719  371  370  515  412  493  638  800  161  941  426  243  680  416
+  343  954  322  561  648   30  373 1031  706   56  486  509  422  713
+  149  533  183    0  387  564 1002  126  294   44  946  676  872  313
+  951  823  606  109  393  818  456  360  709  439  174]
+Starting training:
+51it [00:42,  1.20it/s]
+Epoch 1 averaged training loss: 0.0821
+The current learning rate is 0.000010
+207it [00:16, 12.53it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8168, KRCC: 0.6246, PLCC: 0.8427, and RMSE: 0.3460
+Update best model using best_test_criterion in epoch 1
+51it [00:42,  1.21it/s]
+Epoch 2 averaged training loss: 0.0335
+The current learning rate is 0.000010
+207it [00:16, 12.55it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8126, KRCC: 0.6197, PLCC: 0.8312, and RMSE: 0.3574
+51it [00:37,  1.35it/s]
+Epoch 3 averaged training loss: 0.0210
+The current learning rate is 0.000010
+207it [00:16, 12.55it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8248, KRCC: 0.6353, PLCC: 0.8468, and RMSE: 0.3419
+Update best model using best_test_criterion in epoch 3
+51it [00:46,  1.10it/s]
+Epoch 4 averaged training loss: 0.0147
+The current learning rate is 0.000009
+207it [00:16, 12.58it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8317, KRCC: 0.6386, PLCC: 0.8539, and RMSE: 0.3345
+Update best model using best_test_criterion in epoch 4
+51it [00:40,  1.26it/s]
+Epoch 5 averaged training loss: 0.0099
+The current learning rate is 0.000009
+207it [00:16, 12.59it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8251, KRCC: 0.6299, PLCC: 0.8464, and RMSE: 0.3423
+51it [00:41,  1.21it/s]
+Epoch 6 averaged training loss: 0.0080
+The current learning rate is 0.000009
+207it [00:16, 12.58it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8266, KRCC: 0.6337, PLCC: 0.8496, and RMSE: 0.3390
+51it [00:42,  1.20it/s]
+Epoch 7 averaged training loss: 0.0066
+The current learning rate is 0.000009
+207it [00:16, 12.56it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8417, KRCC: 0.6497, PLCC: 0.8591, and RMSE: 0.3290
+Update best model using best_test_criterion in epoch 7
+51it [00:40,  1.26it/s]
+Epoch 8 averaged training loss: 0.0056
+The current learning rate is 0.000008
+207it [00:16, 12.56it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8333, KRCC: 0.6435, PLCC: 0.8552, and RMSE: 0.3332
+51it [00:39,  1.30it/s]
+Epoch 9 averaged training loss: 0.0055
+The current learning rate is 0.000008
+207it [00:16, 12.44it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8390, KRCC: 0.6490, PLCC: 0.8591, and RMSE: 0.3290
+51it [00:39,  1.28it/s]
+Epoch 10 averaged training loss: 0.0047
+The current learning rate is 0.000008
+207it [00:16, 12.59it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8380, KRCC: 0.6489, PLCC: 0.8581, and RMSE: 0.3301
+51it [00:45,  1.13it/s]
+Epoch 11 averaged training loss: 0.0043
+The current learning rate is 0.000008
+207it [00:16, 12.56it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8280, KRCC: 0.6407, PLCC: 0.8509, and RMSE: 0.3377
+51it [00:43,  1.19it/s]
+Epoch 12 averaged training loss: 0.0040
+The current learning rate is 0.000007
+207it [00:16, 12.56it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8367, KRCC: 0.6468, PLCC: 0.8572, and RMSE: 0.3310
+51it [00:39,  1.28it/s]
+Epoch 13 averaged training loss: 0.0037
+The current learning rate is 0.000007
+207it [00:16, 12.54it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8297, KRCC: 0.6371, PLCC: 0.8498, and RMSE: 0.3388
+51it [00:40,  1.25it/s]
+Epoch 14 averaged training loss: 0.0035
+The current learning rate is 0.000007
+207it [00:16, 12.59it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8405, KRCC: 0.6526, PLCC: 0.8583, and RMSE: 0.3299
+51it [00:39,  1.29it/s]
+Epoch 15 averaged training loss: 0.0030
+The current learning rate is 0.000007
+207it [00:16, 12.56it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8341, KRCC: 0.6440, PLCC: 0.8523, and RMSE: 0.3362
+51it [00:38,  1.31it/s]
+Epoch 16 averaged training loss: 0.0033
+The current learning rate is 0.000007
+207it [00:16, 12.59it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8326, KRCC: 0.6414, PLCC: 0.8525, and RMSE: 0.3359
+51it [00:41,  1.22it/s]
+Epoch 17 averaged training loss: 0.0034
+The current learning rate is 0.000007
+207it [00:16, 12.57it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8324, KRCC: 0.6404, PLCC: 0.8517, and RMSE: 0.3368
+51it [00:40,  1.27it/s]
+Epoch 18 averaged training loss: 0.0030
+The current learning rate is 0.000006
+207it [00:16, 12.53it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8363, KRCC: 0.6460, PLCC: 0.8548, and RMSE: 0.3336
+51it [00:44,  1.16it/s]
+Epoch 19 averaged training loss: 0.0025
+The current learning rate is 0.000006
+207it [00:16, 12.57it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8352, KRCC: 0.6447, PLCC: 0.8581, and RMSE: 0.3301
+51it [00:43,  1.19it/s]
+Epoch 20 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:16, 12.54it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8328, KRCC: 0.6408, PLCC: 0.8524, and RMSE: 0.3361
+51it [00:38,  1.34it/s]
+Epoch 21 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:16, 12.54it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8412, KRCC: 0.6531, PLCC: 0.8591, and RMSE: 0.3290
+51it [00:42,  1.21it/s]
+Epoch 22 averaged training loss: 0.0025
+The current learning rate is 0.000006
+207it [00:16, 12.56it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8413, KRCC: 0.6505, PLCC: 0.8616, and RMSE: 0.3262
+51it [00:39,  1.28it/s]
+Epoch 23 averaged training loss: 0.0025
+The current learning rate is 0.000006
+207it [00:16, 12.55it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8414, KRCC: 0.6517, PLCC: 0.8584, and RMSE: 0.3297
+51it [00:38,  1.32it/s]
+Epoch 24 averaged training loss: 0.0021
+The current learning rate is 0.000005
+207it [00:16, 12.51it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8356, KRCC: 0.6455, PLCC: 0.8557, and RMSE: 0.3326
+51it [00:38,  1.33it/s]
+Epoch 25 averaged training loss: 0.0023
+The current learning rate is 0.000005
+207it [00:16, 12.56it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8356, KRCC: 0.6461, PLCC: 0.8537, and RMSE: 0.3348
+51it [00:41,  1.24it/s]
+Epoch 26 averaged training loss: 0.0021
+The current learning rate is 0.000005
+207it [00:16, 12.60it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8347, KRCC: 0.6440, PLCC: 0.8554, and RMSE: 0.3329
+51it [00:39,  1.30it/s]
+Epoch 27 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:16, 12.56it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8385, KRCC: 0.6487, PLCC: 0.8571, and RMSE: 0.3311
+51it [00:38,  1.32it/s]
+Epoch 28 averaged training loss: 0.0016
+The current learning rate is 0.000005
+207it [00:16, 12.50it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8362, KRCC: 0.6465, PLCC: 0.8565, and RMSE: 0.3318
+51it [00:38,  1.32it/s]
+Epoch 29 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.54it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8384, KRCC: 0.6490, PLCC: 0.8582, and RMSE: 0.3300
+51it [00:40,  1.26it/s]
+Epoch 30 averaged training loss: 0.0016
+The current learning rate is 0.000005
+207it [00:16, 12.59it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8364, KRCC: 0.6466, PLCC: 0.8557, and RMSE: 0.3326
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8417, KRCC: 0.6497, PLCC: 0.8591, and RMSE: 0.3290
+5 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [  35  747  840  773  283  279  201  432  962  247  327  885   34  858
+ 1029  341  384  166 1001  293  464  644   11  615   33  462  968  352
+  275  875  505  898  996  355  939  567    3  176  537  920 1015  668
+  106  954  404  935  842  281  623  477  636  366  419   60 1007  694
+  575  622  347  447  733  628  406  525 1006  485  734  559 1010  786
+   15  193  888  479  595  244  741  504 1025  533  893  299  536  392
+  121  783  343  500   23  593  420   12  379  987  912  807  601  480
+  643   72  416 1013  334  982  336  869  482  880  693  159  198  892
+  509  910   28  267  286  530  845  698  652  634  891  250    8   85
+  131  358  427  288  814  861  797 1003  329  790  466  666  423  604
+  133  494  944  586  763  195  148  701  709  212  234   59  907  977
+ 1008  642 1026  562  390  207  805  467  579  208  492   97  203 1023
+  458  839 1031  874  663  812  544  985  641  448  561  514  577  331
+  104  791  581  126  489  532  650   57  552 1000  441  370  452  794
+  316  365 1018  587  123  246  718  475  236  138  439  322  425  684
+ 1004  353  395  230  309  984  269  305  300  689  117  795  349  841
+   93  889  445  878  436  165   40  938  738  564    4  828  295  426
+  199  196  399   71  162  153  258  521  647  451  796  228  361  627
+ 1020   37  580  683  151   84  972  646  456  775  108  434  545  513
+  937  942  602  610  855  312  344  825  360  178  919  941  978  400
+  817  139  834  981  989  933    7  433  635  955  438  792  388  681
+  902  472  565  883  179  928   42  303  553  118  356  809  501  134
+   52  259  599  808  297  498  502  129  711  213  292  742  886  481
+  282  927  863  833  556  132  975  611  831   66  149  931  894 1009
+  143  726  613  261  653  184  354  806  163  540   45  546  716  120
+  964   89  554  591  107  156  730  600  266  752  966  594  249  669
+  750  862  296  140  424 1002  563  463  592  150  872   99  302  620
+  524  512  124  743  626  348  368  141  555   21  515  821  469   49
+  760  728  573  631   50  323  665  326  443  946  596  788  732  782
+   26  754  253  724  948  830  857  385  612  909  804  272  588  240
+  822  310   53  346  766  394  749 1017  386  979  285  338  884  232
+  155  904  278  583 1028  774  444  865  639  306  273  478   62  882
+  662  526  789  614  657  486  736  111  956  851  661  947  454 1027
+  759  557  488  682  470  629  325  197  710   68  772  658  675  707
+  417  824  409  187  396 1022  959  421  330  342  115  578  363  313
+  128  517  440  194  934  926  495  866  224  843   51  969  242   75
+  219  222  317  590  844  359  319  906  369  673  887    6  764  248
+  713  847  318   56  383  357  510  574  170  737  905  186   10  651
+  813 1011  189  116  568  723  819 1012   48  958  125   46  256  648
+  757  703   16  810  405  630   47  157  697  973  688  541  382  218
+  871  816   90  687  914   54  696  457  924  127  109  484   43  422
+  674  739  798  680  746  876  145  960  921  836  654  289  695  315
+  961  468   98  226  450  381  802  461  936  277  321  608  748  483
+  442  503  582  918  656  576  664  940  679  619  188  856  490  930
+  122    9  735  164  101  714  351  373  571  560  986  971  717  239
+  963   76  223  692  518  667  460  311   18  191  413  852  793  280
+  499  328    0  572  811  686  339  182  493 1021   96   55  350   39
+  522  922  846  304  215  298  371  538  776  237  376   88  731  529
+  993  268   38  152   79  429  241  945  345  174  877  506  765   24
+  161  755  829  119   58  262  570  168   81  823  818  221  970  917
+  777  785  957   83   92  301   19  558  185  227  209  333  607  527
+  231  508  428  314 1016  617  551  756  238  137   25  950  913  340
+   61  307  158  523  471   17  903   67  787  762  721  112  854  725
+  618  516  951  102  415  767  487  473  753  870  291  263  251  605
+  671  820  800    1  549  375  965  781  367  402  678  832    2   95
+  535  771  496  848  916  284  211  410  645  173  287  784  142  412
+  192 1019  401  229  864  758  217  597  761  154  430  403  181  335
+  849   74  414  435 1030  625  640  233   20  990  769  908  803  609
+  589   30  290  252   69   87  114  548   91  465  890  708  167]
+YouTube_UGC test_index: [ 407  616  320  949  585   77  704  566  531  598  690  257  255  727
+  943  705  497  130  991  100  171  967  702  915  453  988  655  895
+  200  202  712  827  660  780  455  633  136  520  659  569  378  706
+  270  606   63  393   70  534  271  543  778  160  899  169   36  243
+   82  260  860  372  992   22  337  308 1005  751  507  220   13  997
+  672  584  511  177  276  879  547  838  719  476  225  632  216   29
+  859  700  722  837  180  745  932  459  929  677  638 1014  474  264
+   64  953  214  994  896  850  952  175  398  901  172  332   32   31
+  744  235  374  397  408  699  685  418  389  995  815  550  265  983
+   14   94  528  391  853  729  801  925  923   78  603  387  183  449
+  380  835  491  779  190 1024  621  364  868  135  245  881  274  147
+  105  294  324  770  799  539  691  873  676  110  900  976  768  826
+    5  974  144  103  210  897  446   41  362  649  377  254  146  637
+   86  980  542  431   65  715  205   44   27   80  999  437  113  911
+  204  519  720  670  624  411  740   73  998  206  867]
+YouTube_UGC train_index: [  35  747  840  773  283  279  201  432  962  247  327  885   34  858
+ 1029  341  384  166 1001  293  464  644   11  615   33  462  968  352
+  275  875  505  898  996  355  939  567    3  176  537  920 1015  668
+  106  954  404  935  842  281  623  477  636  366  419   60 1007  694
+  575  622  347  447  733  628  406  525 1006  485  734  559 1010  786
+   15  193  888  479  595  244  741  504 1025  533  893  299  536  392
+  121  783  343  500   23  593  420   12  379  987  912  807  601  480
+  643   72  416 1013  334  982  336  869  482  880  693  159  198  892
+  509  910   28  267  286  530  845  698  652  634  891  250    8   85
+  131  358  427  288  814  861  797 1003  329  790  466  666  423  604
+  133  494  944  586  763  195  148  701  709  212  234   59  907  977
+ 1008  642 1026  562  390  207  805  467  579  208  492   97  203 1023
+  458  839 1031  874  663  812  544  985  641  448  561  514  577  331
+  104  791  581  126  489  532  650   57  552 1000  441  370  452  794
+  316  365 1018  587  123  246  718  475  236  138  439  322  425  684
+ 1004  353  395  230  309  984  269  305  300  689  117  795  349  841
+   93  889  445  878  436  165   40  938  738  564    4  828  295  426
+  199  196  399   71  162  153  258  521  647  451  796  228  361  627
+ 1020   37  580  683  151   84  972  646  456  775  108  434  545  513
+  937  942  602  610  855  312  344  825  360  178  919  941  978  400
+  817  139  834  981  989  933    7  433  635  955  438  792  388  681
+  902  472  565  883  179  928   42  303  553  118  356  809  501  134
+   52  259  599  808  297  498  502  129  711  213  292  742  886  481
+  282  927  863  833  556  132  975  611  831   66  149  931  894 1009
+  143  726  613  261  653  184  354  806  163  540   45  546  716  120
+  964   89  554  591  107  156  730  600  266  752  966  594  249  669
+  750  862  296  140  424 1002  563  463  592  150  872   99  302  620
+  524  512  124  743  626  348  368  141  555   21  515  821  469   49
+  760  728  573  631   50  323  665  326  443  946  596  788  732  782
+   26  754  253  724  948  830  857  385  612  909  804  272  588  240
+  822  310   53  346  766  394  749 1017  386  979  285  338  884  232
+  155  904  278  583 1028  774  444  865  639  306  273  478   62  882
+  662  526  789  614  657  486  736  111  956  851  661  947  454 1027
+  759  557  488  682  470  629  325  197  710   68  772  658  675  707
+  417  824  409  187  396 1022  959  421  330  342  115  578  363  313
+  128  517  440  194  934  926  495  866  224  843   51  969  242   75
+  219  222  317  590  844  359  319  906  369  673  887    6  764  248
+  713  847  318   56  383  357  510  574  170  737  905  186   10  651
+  813 1011  189  116  568  723  819 1012   48  958  125   46  256  648
+  757  703   16  810  405  630   47  157  697  973  688  541  382  218
+  871  816   90  687  914   54  696  457  924  127  109  484   43  422
+  674  739  798  680  746  876  145  960  921  836  654  289  695  315
+  961  468   98  226  450  381  802  461  936  277  321  608  748  483
+  442  503  582  918  656  576  664  940  679  619  188  856  490  930
+  122    9  735  164  101  714  351  373  571  560  986  971  717  239
+  963   76  223  692  518  667  460  311   18  191  413  852  793  280
+  499  328    0  572  811  686  339  182  493 1021   96   55  350   39
+  522  922  846  304  215  298  371  538  776  237  376   88  731  529
+  993  268   38  152   79  429  241  945  345  174  877  506  765   24
+  161  755  829  119   58  262  570  168   81  823  818  221  970  917
+  777  785  957   83   92  301   19  558  185  227  209  333  607  527
+  231  508  428  314 1016  617  551  756  238  137   25  950  913  340
+   61  307  158  523  471   17  903   67  787  762  721  112  854  725
+  618  516  951  102  415  767  487  473  753  870  291  263  251  605
+  671  820  800    1  549  375  965  781  367  402  678  832    2   95
+  535  771  496  848  916  284  211  410  645  173  287  784  142  412
+  192 1019  401  229  864  758  217  597  761  154  430  403  181  335
+  849   74  414  435 1030  625  640  233   20  990  769  908  803  609
+  589   30  290  252   69   87  114  548   91  465  890  708  167]
+YouTube_UGC test_index: [ 407  616  320  949  585   77  704  566  531  598  690  257  255  727
+  943  705  497  130  991  100  171  967  702  915  453  988  655  895
+  200  202  712  827  660  780  455  633  136  520  659  569  378  706
+  270  606   63  393   70  534  271  543  778  160  899  169   36  243
+   82  260  860  372  992   22  337  308 1005  751  507  220   13  997
+  672  584  511  177  276  879  547  838  719  476  225  632  216   29
+  859  700  722  837  180  745  932  459  929  677  638 1014  474  264
+   64  953  214  994  896  850  952  175  398  901  172  332   32   31
+  744  235  374  397  408  699  685  418  389  995  815  550  265  983
+   14   94  528  391  853  729  801  925  923   78  603  387  183  449
+  380  835  491  779  190 1024  621  364  868  135  245  881  274  147
+  105  294  324  770  799  539  691  873  676  110  900  976  768  826
+    5  974  144  103  210  897  446   41  362  649  377  254  146  637
+   86  980  542  431   65  715  205   44   27   80  999  437  113  911
+  204  519  720  670  624  411  740   73  998  206  867]
+Starting training:
+51it [00:45,  1.13it/s]
+Epoch 1 averaged training loss: 0.0872
+The current learning rate is 0.000010
+207it [00:15, 13.04it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8550, KRCC: 0.6726, PLCC: 0.8580, and RMSE: 0.3448
+Update best model using best_test_criterion in epoch 1
+51it [00:43,  1.16it/s]
+Epoch 2 averaged training loss: 0.0383
+The current learning rate is 0.000010
+207it [00:15, 13.01it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8627, KRCC: 0.6837, PLCC: 0.8728, and RMSE: 0.3276
+Update best model using best_test_criterion in epoch 2
+51it [00:41,  1.23it/s]
+Epoch 3 averaged training loss: 0.0210
+The current learning rate is 0.000010
+207it [00:15, 13.04it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8697, KRCC: 0.6888, PLCC: 0.8796, and RMSE: 0.3194
+Update best model using best_test_criterion in epoch 3
+51it [00:41,  1.24it/s]
+Epoch 4 averaged training loss: 0.0126
+The current learning rate is 0.000009
+207it [00:15, 13.01it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8729, KRCC: 0.6917, PLCC: 0.8887, and RMSE: 0.3078
+Update best model using best_test_criterion in epoch 4
+51it [00:42,  1.21it/s]
+Epoch 5 averaged training loss: 0.0112
+The current learning rate is 0.000009
+207it [00:15, 12.95it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8761, KRCC: 0.6965, PLCC: 0.8910, and RMSE: 0.3048
+Update best model using best_test_criterion in epoch 5
+51it [00:45,  1.12it/s]
+Epoch 6 averaged training loss: 0.0095
+The current learning rate is 0.000009
+207it [00:15, 12.99it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8743, KRCC: 0.6968, PLCC: 0.8885, and RMSE: 0.3080
+51it [00:43,  1.17it/s]
+Epoch 7 averaged training loss: 0.0072
+The current learning rate is 0.000009
+207it [00:15, 12.97it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8851, KRCC: 0.7062, PLCC: 0.8889, and RMSE: 0.3075
+Update best model using best_test_criterion in epoch 7
+51it [00:46,  1.11it/s]
+Epoch 8 averaged training loss: 0.0054
+The current learning rate is 0.000008
+207it [00:15, 12.97it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8768, KRCC: 0.6979, PLCC: 0.8872, and RMSE: 0.3098
+51it [00:44,  1.14it/s]
+Epoch 9 averaged training loss: 0.0050
+The current learning rate is 0.000008
+207it [00:15, 12.99it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8763, KRCC: 0.6950, PLCC: 0.8852, and RMSE: 0.3124
+51it [00:44,  1.15it/s]
+Epoch 10 averaged training loss: 0.0045
+The current learning rate is 0.000008
+207it [00:15, 13.00it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8744, KRCC: 0.6939, PLCC: 0.8853, and RMSE: 0.3122
+51it [00:40,  1.27it/s]
+Epoch 11 averaged training loss: 0.0042
+The current learning rate is 0.000008
+207it [00:15, 13.04it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8758, KRCC: 0.6967, PLCC: 0.8877, and RMSE: 0.3090
+51it [00:45,  1.13it/s]
+Epoch 12 averaged training loss: 0.0036
+The current learning rate is 0.000007
+207it [00:15, 13.03it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8712, KRCC: 0.6906, PLCC: 0.8867, and RMSE: 0.3104
+51it [00:48,  1.06it/s]
+Epoch 13 averaged training loss: 0.0035
+The current learning rate is 0.000007
+207it [00:15, 13.00it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8787, KRCC: 0.7030, PLCC: 0.8939, and RMSE: 0.3009
+51it [00:40,  1.25it/s]
+Epoch 14 averaged training loss: 0.0034
+The current learning rate is 0.000007
+207it [00:15, 13.01it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8685, KRCC: 0.6882, PLCC: 0.8852, and RMSE: 0.3124
+51it [00:42,  1.20it/s]
+Epoch 15 averaged training loss: 0.0036
+The current learning rate is 0.000007
+207it [00:15, 12.99it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8749, KRCC: 0.6968, PLCC: 0.8880, and RMSE: 0.3087
+51it [00:42,  1.21it/s]
+Epoch 16 averaged training loss: 0.0033
+The current learning rate is 0.000007
+207it [00:15, 13.03it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8711, KRCC: 0.6908, PLCC: 0.8872, and RMSE: 0.3097
+51it [00:42,  1.20it/s]
+Epoch 17 averaged training loss: 0.0034
+The current learning rate is 0.000007
+207it [00:15, 13.04it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8730, KRCC: 0.6956, PLCC: 0.8872, and RMSE: 0.3098
+51it [00:50,  1.00it/s]
+Epoch 18 averaged training loss: 0.0033
+The current learning rate is 0.000006
+207it [00:15, 12.97it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8740, KRCC: 0.6961, PLCC: 0.8869, and RMSE: 0.3102
+51it [00:42,  1.21it/s]
+Epoch 19 averaged training loss: 0.0029
+The current learning rate is 0.000006
+207it [00:15, 13.03it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8688, KRCC: 0.6890, PLCC: 0.8836, and RMSE: 0.3143
+51it [00:43,  1.16it/s]
+Epoch 20 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:15, 12.95it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8689, KRCC: 0.6897, PLCC: 0.8833, and RMSE: 0.3147
+51it [00:40,  1.27it/s]
+Epoch 21 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:15, 12.94it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8705, KRCC: 0.6910, PLCC: 0.8849, and RMSE: 0.3127
+51it [00:41,  1.22it/s]
+Epoch 22 averaged training loss: 0.0021
+The current learning rate is 0.000006
+207it [00:15, 12.98it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8722, KRCC: 0.6932, PLCC: 0.8852, and RMSE: 0.3124
+51it [00:41,  1.22it/s]
+Epoch 23 averaged training loss: 0.0026
+The current learning rate is 0.000006
+207it [00:15, 12.99it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8662, KRCC: 0.6879, PLCC: 0.8791, and RMSE: 0.3200
+51it [00:40,  1.27it/s]
+Epoch 24 averaged training loss: 0.0023
+The current learning rate is 0.000005
+207it [00:15, 13.03it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8716, KRCC: 0.6943, PLCC: 0.8848, and RMSE: 0.3129
+51it [00:38,  1.31it/s]
+Epoch 25 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:15, 13.00it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8698, KRCC: 0.6924, PLCC: 0.8816, and RMSE: 0.3169
+51it [00:42,  1.21it/s]
+Epoch 26 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:15, 12.97it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8683, KRCC: 0.6887, PLCC: 0.8824, and RMSE: 0.3158
+51it [00:45,  1.12it/s]
+Epoch 27 averaged training loss: 0.0022
+The current learning rate is 0.000005
+207it [00:15, 12.99it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8692, KRCC: 0.6885, PLCC: 0.8810, and RMSE: 0.3176
+51it [00:43,  1.16it/s]
+Epoch 28 averaged training loss: 0.0021
+The current learning rate is 0.000005
+207it [00:15, 12.99it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8676, KRCC: 0.6885, PLCC: 0.8790, and RMSE: 0.3201
+51it [00:43,  1.19it/s]
+Epoch 29 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:15, 13.02it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8695, KRCC: 0.6893, PLCC: 0.8819, and RMSE: 0.3165
+51it [00:41,  1.24it/s]
+Epoch 30 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.89it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8676, KRCC: 0.6883, PLCC: 0.8794, and RMSE: 0.3196
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8851, KRCC: 0.7062, PLCC: 0.8889, and RMSE: 0.3075
+6 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [ 148  763  232  887  845  583  105  744  858  243  521  107  601  774
+  179   22  248  634 1003  804  926 1000  716  359  505  938  629   71
+  421  140  132  465  487  482   12   56  957  558  273  983   55  943
+ 1031  365  181  162  579  360  896  288  956  542  504  681  134  767
+  379  701  178   43  990  647  640  260  642  256  655  884  109  137
+  908   17   11  432  568  390  156   40  207  399  756  958  635  861
+  201  409  745  468  190  675  857  349  481   15   79  470  117  584
+  430  231  287  169  344  150   98  530  800  822  776  912  771   33
+  729    4 1008  651  524  429  225  951  860  472  502  596  427  477
+  867  499  932  970  855  263  160  812  670  351  591  667   92  649
+    2   59  366  976  925  616  412   93  676  557  936  851    0  630
+  328  992  736  796  292   46  690  155  488  444  394  493  825  909
+  375  717  589  182  187  199  765  136  512  511  757  646  459  837
+  315  168  378  843  462  196  332  496  834  961  595  615 1024  302
+  844  434  529  960  387  350  476  396  166  954  457  203  515  340
+  753  316  996  888  400  578  461  849  967  407  722   37  223  803
+  823  781  152  492  658  795  971  257  725   88  205  153 1013  862
+  679   91  570 1015  899  964  498  239  544  240  525  707  627   14
+  362  856  995  739   52  195  556  510  158  395  210  766   13   10
+  720  661  694  895  841   32  508  733  718  357  382  215  376  874
+  385  915  478  122  115  905   25   41  398  291  381  368  836  141
+  188  405  531  266  308  916  106  735  830 1025  121   51  786  426
+  445  517  103  242  331  299  643  277  363  176  711  955  241  953
+  480  588  668  280  612  163  934  522  403  356  371  972  208  785
+  839  562   87  663  838  336  237  648  813  509  911  974  759  348
+    8  624  219  408 1009  798  607  724  113  891  454  212  734  659
+  386  165  621  817  135  772  942  224  183  311  743   95  948  211
+  361  486  880  533  620  732  566  886  296  300  345  821  384  682
+ 1020  435  631   53  799  438   48  471  686  968  872 1028  789   73
+  307  312  271  590  962    7  977  894  325  941  602  138  652  523
+  828  278  383  784  323  571  852  539  594  853  892  889  712  947
+ 1016  111  695  921  354  112  650  777  420  416  742  330  714  581
+  683  249  528  222  276  700  443  534  118  229  758  576  343  520
+  452  928  374  439  893  440 1017  126  422  560  704  752  290  751
+  780  401  114  875  986  687  221  247  930  275  309   27 1007  741
+  159  593  261  329  228  442   96  448  610  985  801  269  514  497
+   80  274  317  226  414  217  185  691  164  540    6  868  609  613
+   83 1001  305  645  131   28  653  628 1002  238  565  367  696  988
+  881  819  192  279  863  933  666  446  265  245  281   61  715  364
+  870   30  128  890  146  999  447  154  787 1018  286  298   66  543
+  346   90  761  689  143   49  436   69  437  282  946  975  314  310
+   44  842  747  173  674  428  827  775  811  142  259  577   85  253
+   20  605   74  574  573  719  489  902   86  372  200  267  692  418
+  898  815  393  810   16 1019  116  678  304  606  969  388   72  824
+  708  402  924  561  816  550  723  792  145  419  728  660  587  516
+  230  218  897  569  189   65  507  255  582  175  551  214  334  177
+   81  865  373  797  252  586  885  669  484  235 1004  171   19  788
+  500  202  464  617  913  441  764  859  625 1029  806   54  501  337
+  244  377 1012   35  833  535  490  463  411  518  293  963   84  506
+  705  283  832  829  910  100  794  321  431 1022  467  339   50  209
+  937  250  167  922  392  133  768  721  866  709  608  727    1  809
+    5  110  760  198  680  413  664 1005   78  174  864  662   47  391
+   34  572  564  883  699   23  919  693  262   21  614  671  180   67
+  782  755  820  186  927  139  338  877   29  397  220  425  453  417
+  959   58   38  503  353  737  826  423  979  389  639  871  703  981
+  920  993  297   99  546  869  706   24  914  191  254  285  949  940
+  170  294  598  779  236  854   64  258  347  320  754   94  978  526
+  559  268  991  479  738  950  272  904  818  537  793  370  449  108
+  641 1030  677  685  184   89  900  805  104  369  656  246  672]
+YouTube_UGC test_index: [ 600  726   97   18  850  702  102  456 1021  541  945  532  270  770
+  749  547  483  144  415   45  599  380  791  352  878  611  982  773
+  355  295 1027  840  451  491  455  327  563  923  474  994  289  638
+  619  549  731  807  688  406  151  750 1011  313  847  120  684  301
+   76  973 1026  632   39  935  424  216  740  469  519  603  657  769
+  172  876  575  213  604  814  494  567  984  475  802  623 1010  710
+  633  879  466  358  404  698  762  458  206   60  233   36  673    3
+  790  654  157  580  746  460  149  665  989  831  193  585   77  552
+  554  101  124    9  966   70  251  917  125  303  998  783 1014   68
+  882  545  952 1023  548  903   42  944  536  873  123  553  918  931
+   82  129  907  341  835  778   63  730  234  326  965  808  119  846
+  538  306 1006   57  555  284  636  597  147  319  322  127  194  592
+   62  997  644  433  485  197  939  626  342  473  527  410  637  901
+  450   31  987  980  204  130  264  929  324  622  748  161  495   26
+  697  333   75  513  318  848  335  618  227  713  906]
+YouTube_UGC train_index: [ 148  763  232  887  845  583  105  744  858  243  521  107  601  774
+  179   22  248  634 1003  804  926 1000  716  359  505  938  629   71
+  421  140  132  465  487  482   12   56  957  558  273  983   55  943
+ 1031  365  181  162  579  360  896  288  956  542  504  681  134  767
+  379  701  178   43  990  647  640  260  642  256  655  884  109  137
+  908   17   11  432  568  390  156   40  207  399  756  958  635  861
+  201  409  745  468  190  675  857  349  481   15   79  470  117  584
+  430  231  287  169  344  150   98  530  800  822  776  912  771   33
+  729    4 1008  651  524  429  225  951  860  472  502  596  427  477
+  867  499  932  970  855  263  160  812  670  351  591  667   92  649
+    2   59  366  976  925  616  412   93  676  557  936  851    0  630
+  328  992  736  796  292   46  690  155  488  444  394  493  825  909
+  375  717  589  182  187  199  765  136  512  511  757  646  459  837
+  315  168  378  843  462  196  332  496  834  961  595  615 1024  302
+  844  434  529  960  387  350  476  396  166  954  457  203  515  340
+  753  316  996  888  400  578  461  849  967  407  722   37  223  803
+  823  781  152  492  658  795  971  257  725   88  205  153 1013  862
+  679   91  570 1015  899  964  498  239  544  240  525  707  627   14
+  362  856  995  739   52  195  556  510  158  395  210  766   13   10
+  720  661  694  895  841   32  508  733  718  357  382  215  376  874
+  385  915  478  122  115  905   25   41  398  291  381  368  836  141
+  188  405  531  266  308  916  106  735  830 1025  121   51  786  426
+  445  517  103  242  331  299  643  277  363  176  711  955  241  953
+  480  588  668  280  612  163  934  522  403  356  371  972  208  785
+  839  562   87  663  838  336  237  648  813  509  911  974  759  348
+    8  624  219  408 1009  798  607  724  113  891  454  212  734  659
+  386  165  621  817  135  772  942  224  183  311  743   95  948  211
+  361  486  880  533  620  732  566  886  296  300  345  821  384  682
+ 1020  435  631   53  799  438   48  471  686  968  872 1028  789   73
+  307  312  271  590  962    7  977  894  325  941  602  138  652  523
+  828  278  383  784  323  571  852  539  594  853  892  889  712  947
+ 1016  111  695  921  354  112  650  777  420  416  742  330  714  581
+  683  249  528  222  276  700  443  534  118  229  758  576  343  520
+  452  928  374  439  893  440 1017  126  422  560  704  752  290  751
+  780  401  114  875  986  687  221  247  930  275  309   27 1007  741
+  159  593  261  329  228  442   96  448  610  985  801  269  514  497
+   80  274  317  226  414  217  185  691  164  540    6  868  609  613
+   83 1001  305  645  131   28  653  628 1002  238  565  367  696  988
+  881  819  192  279  863  933  666  446  265  245  281   61  715  364
+  870   30  128  890  146  999  447  154  787 1018  286  298   66  543
+  346   90  761  689  143   49  436   69  437  282  946  975  314  310
+   44  842  747  173  674  428  827  775  811  142  259  577   85  253
+   20  605   74  574  573  719  489  902   86  372  200  267  692  418
+  898  815  393  810   16 1019  116  678  304  606  969  388   72  824
+  708  402  924  561  816  550  723  792  145  419  728  660  587  516
+  230  218  897  569  189   65  507  255  582  175  551  214  334  177
+   81  865  373  797  252  586  885  669  484  235 1004  171   19  788
+  500  202  464  617  913  441  764  859  625 1029  806   54  501  337
+  244  377 1012   35  833  535  490  463  411  518  293  963   84  506
+  705  283  832  829  910  100  794  321  431 1022  467  339   50  209
+  937  250  167  922  392  133  768  721  866  709  608  727    1  809
+    5  110  760  198  680  413  664 1005   78  174  864  662   47  391
+   34  572  564  883  699   23  919  693  262   21  614  671  180   67
+  782  755  820  186  927  139  338  877   29  397  220  425  453  417
+  959   58   38  503  353  737  826  423  979  389  639  871  703  981
+  920  993  297   99  546  869  706   24  914  191  254  285  949  940
+  170  294  598  779  236  854   64  258  347  320  754   94  978  526
+  559  268  991  479  738  950  272  904  818  537  793  370  449  108
+  641 1030  677  685  184   89  900  805  104  369  656  246  672]
+YouTube_UGC test_index: [ 600  726   97   18  850  702  102  456 1021  541  945  532  270  770
+  749  547  483  144  415   45  599  380  791  352  878  611  982  773
+  355  295 1027  840  451  491  455  327  563  923  474  994  289  638
+  619  549  731  807  688  406  151  750 1011  313  847  120  684  301
+   76  973 1026  632   39  935  424  216  740  469  519  603  657  769
+  172  876  575  213  604  814  494  567  984  475  802  623 1010  710
+  633  879  466  358  404  698  762  458  206   60  233   36  673    3
+  790  654  157  580  746  460  149  665  989  831  193  585   77  552
+  554  101  124    9  966   70  251  917  125  303  998  783 1014   68
+  882  545  952 1023  548  903   42  944  536  873  123  553  918  931
+   82  129  907  341  835  778   63  730  234  326  965  808  119  846
+  538  306 1006   57  555  284  636  597  147  319  322  127  194  592
+   62  997  644  433  485  197  939  626  342  473  527  410  637  901
+  450   31  987  980  204  130  264  929  324  622  748  161  495   26
+  697  333   75  513  318  848  335  618  227  713  906]
+Starting training:
+51it [00:42,  1.20it/s]
+Epoch 1 averaged training loss: 0.0830
+The current learning rate is 0.000010
+207it [00:16, 12.28it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8365, KRCC: 0.6425, PLCC: 0.8495, and RMSE: 0.3429
+Update best model using best_test_criterion in epoch 1
+51it [00:48,  1.04it/s]
+Epoch 2 averaged training loss: 0.0352
+The current learning rate is 0.000010
+207it [00:16, 12.30it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8317, KRCC: 0.6366, PLCC: 0.8429, and RMSE: 0.3497
+51it [00:42,  1.20it/s]
+Epoch 3 averaged training loss: 0.0209
+The current learning rate is 0.000010
+207it [00:16, 12.31it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8472, KRCC: 0.6530, PLCC: 0.8567, and RMSE: 0.3352
+Update best model using best_test_criterion in epoch 3
+51it [00:45,  1.12it/s]
+Epoch 4 averaged training loss: 0.0138
+The current learning rate is 0.000009
+207it [00:16, 12.29it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8359, KRCC: 0.6399, PLCC: 0.8486, and RMSE: 0.3438
+51it [00:39,  1.29it/s]
+Epoch 5 averaged training loss: 0.0130
+The current learning rate is 0.000009
+207it [00:16, 12.25it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8410, KRCC: 0.6511, PLCC: 0.8538, and RMSE: 0.3384
+51it [00:40,  1.26it/s]
+Epoch 6 averaged training loss: 0.0099
+The current learning rate is 0.000009
+207it [00:16, 12.26it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8343, KRCC: 0.6424, PLCC: 0.8463, and RMSE: 0.3462
+51it [00:42,  1.19it/s]
+Epoch 7 averaged training loss: 0.0070
+The current learning rate is 0.000009
+207it [00:16, 12.29it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8436, KRCC: 0.6520, PLCC: 0.8566, and RMSE: 0.3354
+51it [00:38,  1.31it/s]
+Epoch 8 averaged training loss: 0.0060
+The current learning rate is 0.000008
+207it [00:16, 12.27it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8481, KRCC: 0.6579, PLCC: 0.8596, and RMSE: 0.3321
+Update best model using best_test_criterion in epoch 8
+51it [00:39,  1.30it/s]
+Epoch 9 averaged training loss: 0.0059
+The current learning rate is 0.000008
+207it [00:16, 12.30it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8492, KRCC: 0.6592, PLCC: 0.8583, and RMSE: 0.3335
+Update best model using best_test_criterion in epoch 9
+51it [00:41,  1.22it/s]
+Epoch 10 averaged training loss: 0.0048
+The current learning rate is 0.000008
+207it [00:16, 12.32it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8435, KRCC: 0.6490, PLCC: 0.8556, and RMSE: 0.3365
+51it [00:38,  1.32it/s]
+Epoch 11 averaged training loss: 0.0052
+The current learning rate is 0.000008
+207it [00:16, 12.29it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8481, KRCC: 0.6568, PLCC: 0.8576, and RMSE: 0.3343
+51it [00:42,  1.21it/s]
+Epoch 12 averaged training loss: 0.0037
+The current learning rate is 0.000007
+207it [00:16, 12.25it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8450, KRCC: 0.6547, PLCC: 0.8563, and RMSE: 0.3357
+51it [00:47,  1.07it/s]
+Epoch 13 averaged training loss: 0.0035
+The current learning rate is 0.000007
+207it [00:16, 12.30it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8419, KRCC: 0.6512, PLCC: 0.8501, and RMSE: 0.3422
+51it [00:41,  1.22it/s]
+Epoch 14 averaged training loss: 0.0030
+The current learning rate is 0.000007
+207it [00:16, 12.28it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8468, KRCC: 0.6556, PLCC: 0.8569, and RMSE: 0.3350
+51it [00:39,  1.30it/s]
+Epoch 15 averaged training loss: 0.0031
+The current learning rate is 0.000007
+207it [00:16, 12.22it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8436, KRCC: 0.6535, PLCC: 0.8540, and RMSE: 0.3381
+51it [00:39,  1.28it/s]
+Epoch 16 averaged training loss: 0.0029
+The current learning rate is 0.000007
+207it [00:16, 12.26it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8489, KRCC: 0.6595, PLCC: 0.8571, and RMSE: 0.3349
+51it [00:40,  1.26it/s]
+Epoch 17 averaged training loss: 0.0032
+The current learning rate is 0.000007
+207it [00:16, 12.30it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8491, KRCC: 0.6581, PLCC: 0.8587, and RMSE: 0.3331
+51it [00:44,  1.14it/s]
+Epoch 18 averaged training loss: 0.0026
+The current learning rate is 0.000006
+207it [00:16, 12.31it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8490, KRCC: 0.6583, PLCC: 0.8577, and RMSE: 0.3341
+51it [00:41,  1.24it/s]
+Epoch 19 averaged training loss: 0.0028
+The current learning rate is 0.000006
+207it [00:16, 12.29it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8521, KRCC: 0.6628, PLCC: 0.8606, and RMSE: 0.3310
+Update best model using best_test_criterion in epoch 19
+51it [00:38,  1.33it/s]
+Epoch 20 averaged training loss: 0.0027
+The current learning rate is 0.000006
+207it [00:16, 12.25it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8482, KRCC: 0.6575, PLCC: 0.8558, and RMSE: 0.3363
+51it [00:41,  1.23it/s]
+Epoch 21 averaged training loss: 0.0026
+The current learning rate is 0.000006
+207it [00:16, 12.29it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8455, KRCC: 0.6553, PLCC: 0.8540, and RMSE: 0.3382
+51it [00:40,  1.26it/s]
+Epoch 22 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:16, 12.27it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8451, KRCC: 0.6532, PLCC: 0.8546, and RMSE: 0.3375
+51it [00:45,  1.13it/s]
+Epoch 23 averaged training loss: 0.0021
+The current learning rate is 0.000006
+207it [00:16, 12.24it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8480, KRCC: 0.6566, PLCC: 0.8575, and RMSE: 0.3343
+51it [00:41,  1.23it/s]
+Epoch 24 averaged training loss: 0.0020
+The current learning rate is 0.000005
+207it [00:16, 12.28it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8444, KRCC: 0.6537, PLCC: 0.8532, and RMSE: 0.3390
+51it [00:40,  1.26it/s]
+Epoch 25 averaged training loss: 0.0023
+The current learning rate is 0.000005
+207it [00:16, 12.29it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8482, KRCC: 0.6562, PLCC: 0.8571, and RMSE: 0.3348
+51it [00:44,  1.14it/s]
+Epoch 26 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:16, 12.28it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8472, KRCC: 0.6559, PLCC: 0.8559, and RMSE: 0.3361
+51it [00:50,  1.02it/s]
+Epoch 27 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.30it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8471, KRCC: 0.6572, PLCC: 0.8587, and RMSE: 0.3331
+51it [00:42,  1.19it/s]
+Epoch 28 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.29it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8474, KRCC: 0.6556, PLCC: 0.8563, and RMSE: 0.3357
+51it [00:42,  1.19it/s]
+Epoch 29 averaged training loss: 0.0021
+The current learning rate is 0.000005
+207it [00:16, 12.22it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8490, KRCC: 0.6559, PLCC: 0.8582, and RMSE: 0.3336
+51it [00:46,  1.11it/s]
+Epoch 30 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:16, 12.32it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8471, KRCC: 0.6551, PLCC: 0.8575, and RMSE: 0.3344
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8521, KRCC: 0.6628, PLCC: 0.8606, and RMSE: 0.3310
+7 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [ 168  138  316  734    9  781  842 1023  861  232  790  379  712  702
+  485  205  526  179  669  564  170  244  113  594  140   13  765  185
+  918  863  471  818  794  299  449  452 1012   46  108   94  724  707
+  659   24  975  146  540   98  947  558  544  705  446  423  788  620
+   25  993  760  375  498  365   60  846  515  334  778  874  384  437
+  840  262  625  482  473  822  412  663  484  920   26  328  817  666
+  285   34   53  899  890  752  806  837  939  403  204  701  153  746
+  344  848  171  618  324  810  407  791  125  419  442  582  308  928
+ 1000  798   99  865  880  667  652 1019  657  350  297  563  898  253
+  336  742  347  776  447  110  507   57  834 1009  656  222  812   43
+  598   63  572  685   38  872  850  503  952  164  228  611  786 1025
+ 1031 1011  988  163  523  362  445  570  357  454  831  339   61  728
+  971  525  680  968  610  626  897  186  259  795  551  109  256  196
+  961  591 1017  799  148  814  804  627  664  991  643   23  511  128
+  577  623  603  912  981 1022  718  691  820  397  216  565  389  510
+  590  134  351   15  829  159  860  586  499   48  284   74  172 1004
+  513  869  220  435  305  426  755  668  779  396   54  602   97  966
+  613  487  319  127  941  457  361  451  237 1020  408  472   80  158
+  903  459  567  980  318  908 1029  242  650  716  326  321  756  683
+   27  270  122  777  906  409  491  480  733 1010  271  900  695  277
+  821  879  587  828  717  147  785  541  580   51  983  871   22  294
+  653  395  209  314  142   50  166  694  770   81  595  714  934   66
+  360  682  289  385  557  283  531  534   64  671  264  417  596  528
+   20  732  796  722  296  463  553  261  411  676  970  758  609  530
+  854  188  251   71  859  793  418  367  965  547  878  964  877  330
+  420  935  896  504  839  489 1005  431  372  207  708  218  239  542
+  355  723  192  280  191  377  706  736  132  600  399  252  945  674
+  263   70  272  999  327  115  323  994  689  977 1026  644  801  986
+  649  972  747  632  278  813  679    2  229  466  959  500  886  492
+  199  371  888  750   65  307   40  571  769  852  467  958  978  658
+  273  720  651  808  932  177  300   37  353  202  236  149  217  699
+  518  568  936  992  302  885  946  693  954  388  455  422  387  556
+  390  677  352  193  235  478  862   55  509   96  141  892  889  562
+  578  830  120  619  585   62  783  807  453  754  414    3   58  223
+  740  101  744  221  508    4  465   52   17  768  938  306  686  155
+  684  700  715  248  249  358  514  493  430  441  943  875   30  616
+  281  838  997  117  662  116 1030  757  291  381  615  200  737  933
+  505  789  340  154  887  833  751  925  322  621  974   82  601  464
+  569  333   10  470   32  660 1021  382  624  739  929  937  378   89
+  213  864  133  346    7  922  320  805  187  552  304   31  630  240
+  749  174  245   56  773  145   90  392  310  359   93  713  990  376
+  243  867   87  214 1007  173  425  901  118  119  655    0  394  401
+  404  635  642  162  114  150  729  597  748  368  543  477  532 1013
+  982  984  258  870  135  950  951  592  845  501  538  673  581  343
+  696  641  293  364  761   14   86  370  165  905  335   59  354  424
+  292   41  329  614  429   79   28  254  771  458  383  313   84  574
+  136  111  194  178  909  496  129  337  608  124  985  226  268 1002
+  584  103  593  876  681  227  907  301  275  126  405  913   36  139
+  303  267  533  545  212  468  198  672  527  675  815  241  342  549
+  386  882  206  295  792   73  767  104  709  731  989   16  439   91
+   88  450  102  238  743  246 1027  157  479  645  868  926   18  881
+  121  858  725  274  433  921  311  780  857  546  181  184  406  719
+  606  692  520  380  410  634  369  884  987  775   78  573  637  607
+  916 1018  853  948  416  883  561   67  536   77  105 1028  802  638
+  559  782  690  955  963  893  735  800  490 1024  866  605  363   69
+  548  160   11  144  517  427  639  176  440  521  894  967  688  231
+  210  640  143  753  519  348  298  766  428  612  953  962    8  156
+  539  506  436  266  461  576  338  255  826  873  665  560  208  287
+    1  341  269  265  836  843   95  995   42  825  398  856  628]
+YouTube_UGC test_index: [  45  161  727  629  288  589  917  979  575  315  914  230  809  698
+  849  711   76  633 1001  247  819 1003  476  670   85  469  225  774
+  331  233  588  475  915  942  599  421  687  182  617  332  438   49
+  902    5  529  234  486  930  497  924  106  443  488  646   12  738
+  726  190  973  832  282   29  169  180  100  197  495  721  647 1006
+  996  710  373  678  910  648  797  847  460  413  131   39  434  215
+  555  566  762  474  456  811  260  816   35  827  911  309  276  636
+  654  622  835  844  393  969  107  976  524  784   47  203  956  631
+   21  402   83  130  415 1016  841  741  697  286  123   33 1008  516
+  923   19  957  219  891  579  481  931  356  661  224  759   92  151
+ 1015  317  448  803  745  522  279  583  764  604 1014  349  927  374
+  400  704  257  944  851   72  195  483  855  137  494  772  550  462
+  201  312  290  960  189  763  112  949  183  152  824  325  703   44
+  444  787    6  250  823   75  512  940  391  895  432   68  998  167
+  904  730  554  366  345  535  919  211  502  537  175]
+YouTube_UGC train_index: [ 168  138  316  734    9  781  842 1023  861  232  790  379  712  702
+  485  205  526  179  669  564  170  244  113  594  140   13  765  185
+  918  863  471  818  794  299  449  452 1012   46  108   94  724  707
+  659   24  975  146  540   98  947  558  544  705  446  423  788  620
+   25  993  760  375  498  365   60  846  515  334  778  874  384  437
+  840  262  625  482  473  822  412  663  484  920   26  328  817  666
+  285   34   53  899  890  752  806  837  939  403  204  701  153  746
+  344  848  171  618  324  810  407  791  125  419  442  582  308  928
+ 1000  798   99  865  880  667  652 1019  657  350  297  563  898  253
+  336  742  347  776  447  110  507   57  834 1009  656  222  812   43
+  598   63  572  685   38  872  850  503  952  164  228  611  786 1025
+ 1031 1011  988  163  523  362  445  570  357  454  831  339   61  728
+  971  525  680  968  610  626  897  186  259  795  551  109  256  196
+  961  591 1017  799  148  814  804  627  664  991  643   23  511  128
+  577  623  603  912  981 1022  718  691  820  397  216  565  389  510
+  590  134  351   15  829  159  860  586  499   48  284   74  172 1004
+  513  869  220  435  305  426  755  668  779  396   54  602   97  966
+  613  487  319  127  941  457  361  451  237 1020  408  472   80  158
+  903  459  567  980  318  908 1029  242  650  716  326  321  756  683
+   27  270  122  777  906  409  491  480  733 1010  271  900  695  277
+  821  879  587  828  717  147  785  541  580   51  983  871   22  294
+  653  395  209  314  142   50  166  694  770   81  595  714  934   66
+  360  682  289  385  557  283  531  534   64  671  264  417  596  528
+   20  732  796  722  296  463  553  261  411  676  970  758  609  530
+  854  188  251   71  859  793  418  367  965  547  878  964  877  330
+  420  935  896  504  839  489 1005  431  372  207  708  218  239  542
+  355  723  192  280  191  377  706  736  132  600  399  252  945  674
+  263   70  272  999  327  115  323  994  689  977 1026  644  801  986
+  649  972  747  632  278  813  679    2  229  466  959  500  886  492
+  199  371  888  750   65  307   40  571  769  852  467  958  978  658
+  273  720  651  808  932  177  300   37  353  202  236  149  217  699
+  518  568  936  992  302  885  946  693  954  388  455  422  387  556
+  390  677  352  193  235  478  862   55  509   96  141  892  889  562
+  578  830  120  619  585   62  783  807  453  754  414    3   58  223
+  740  101  744  221  508    4  465   52   17  768  938  306  686  155
+  684  700  715  248  249  358  514  493  430  441  943  875   30  616
+  281  838  997  117  662  116 1030  757  291  381  615  200  737  933
+  505  789  340  154  887  833  751  925  322  621  974   82  601  464
+  569  333   10  470   32  660 1021  382  624  739  929  937  378   89
+  213  864  133  346    7  922  320  805  187  552  304   31  630  240
+  749  174  245   56  773  145   90  392  310  359   93  713  990  376
+  243  867   87  214 1007  173  425  901  118  119  655    0  394  401
+  404  635  642  162  114  150  729  597  748  368  543  477  532 1013
+  982  984  258  870  135  950  951  592  845  501  538  673  581  343
+  696  641  293  364  761   14   86  370  165  905  335   59  354  424
+  292   41  329  614  429   79   28  254  771  458  383  313   84  574
+  136  111  194  178  909  496  129  337  608  124  985  226  268 1002
+  584  103  593  876  681  227  907  301  275  126  405  913   36  139
+  303  267  533  545  212  468  198  672  527  675  815  241  342  549
+  386  882  206  295  792   73  767  104  709  731  989   16  439   91
+   88  450  102  238  743  246 1027  157  479  645  868  926   18  881
+  121  858  725  274  433  921  311  780  857  546  181  184  406  719
+  606  692  520  380  410  634  369  884  987  775   78  573  637  607
+  916 1018  853  948  416  883  561   67  536   77  105 1028  802  638
+  559  782  690  955  963  893  735  800  490 1024  866  605  363   69
+  548  160   11  144  517  427  639  176  440  521  894  967  688  231
+  210  640  143  753  519  348  298  766  428  612  953  962    8  156
+  539  506  436  266  461  576  338  255  826  873  665  560  208  287
+    1  341  269  265  836  843   95  995   42  825  398  856  628]
+YouTube_UGC test_index: [  45  161  727  629  288  589  917  979  575  315  914  230  809  698
+  849  711   76  633 1001  247  819 1003  476  670   85  469  225  774
+  331  233  588  475  915  942  599  421  687  182  617  332  438   49
+  902    5  529  234  486  930  497  924  106  443  488  646   12  738
+  726  190  973  832  282   29  169  180  100  197  495  721  647 1006
+  996  710  373  678  910  648  797  847  460  413  131   39  434  215
+  555  566  762  474  456  811  260  816   35  827  911  309  276  636
+  654  622  835  844  393  969  107  976  524  784   47  203  956  631
+   21  402   83  130  415 1016  841  741  697  286  123   33 1008  516
+  923   19  957  219  891  579  481  931  356  661  224  759   92  151
+ 1015  317  448  803  745  522  279  583  764  604 1014  349  927  374
+  400  704  257  944  851   72  195  483  855  137  494  772  550  462
+  201  312  290  960  189  763  112  949  183  152  824  325  703   44
+  444  787    6  250  823   75  512  940  391  895  432   68  998  167
+  904  730  554  366  345  535  919  211  502  537  175]
+Starting training:
+51it [00:44,  1.16it/s]
+Epoch 1 averaged training loss: 0.0792
+The current learning rate is 0.000010
+207it [00:16, 12.43it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8527, KRCC: 0.6605, PLCC: 0.8527, and RMSE: 0.3537
+Update best model using best_test_criterion in epoch 1
+51it [00:41,  1.23it/s]
+Epoch 2 averaged training loss: 0.0378
+The current learning rate is 0.000010
+207it [00:16, 12.39it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8494, KRCC: 0.6583, PLCC: 0.8636, and RMSE: 0.3413
+51it [00:43,  1.17it/s]
+Epoch 3 averaged training loss: 0.0189
+The current learning rate is 0.000010
+207it [00:16, 12.39it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8507, KRCC: 0.6580, PLCC: 0.8702, and RMSE: 0.3336
+51it [00:38,  1.33it/s]
+Epoch 4 averaged training loss: 0.0117
+The current learning rate is 0.000009
+207it [00:16, 12.38it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8595, KRCC: 0.6705, PLCC: 0.8762, and RMSE: 0.3263
+Update best model using best_test_criterion in epoch 4
+51it [00:45,  1.11it/s]
+Epoch 5 averaged training loss: 0.0105
+The current learning rate is 0.000009
+207it [00:16, 12.33it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8504, KRCC: 0.6628, PLCC: 0.8684, and RMSE: 0.3357
+51it [00:38,  1.33it/s]
+Epoch 6 averaged training loss: 0.0074
+The current learning rate is 0.000009
+207it [00:16, 12.42it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8556, KRCC: 0.6665, PLCC: 0.8707, and RMSE: 0.3329
+51it [00:47,  1.08it/s]
+Epoch 7 averaged training loss: 0.0064
+The current learning rate is 0.000009
+207it [00:16, 12.41it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8537, KRCC: 0.6649, PLCC: 0.8711, and RMSE: 0.3325
+51it [00:43,  1.16it/s]
+Epoch 8 averaged training loss: 0.0058
+The current learning rate is 0.000008
+207it [00:16, 12.36it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8547, KRCC: 0.6676, PLCC: 0.8769, and RMSE: 0.3254
+51it [00:40,  1.25it/s]
+Epoch 9 averaged training loss: 0.0054
+The current learning rate is 0.000008
+207it [00:16, 12.36it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8534, KRCC: 0.6623, PLCC: 0.8726, and RMSE: 0.3306
+51it [00:42,  1.20it/s]
+Epoch 10 averaged training loss: 0.0051
+The current learning rate is 0.000008
+207it [00:16, 12.42it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8528, KRCC: 0.6651, PLCC: 0.8707, and RMSE: 0.3330
+51it [00:41,  1.23it/s]
+Epoch 11 averaged training loss: 0.0046
+The current learning rate is 0.000008
+207it [00:16, 12.38it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8539, KRCC: 0.6670, PLCC: 0.8740, and RMSE: 0.3290
+51it [00:41,  1.22it/s]
+Epoch 12 averaged training loss: 0.0033
+The current learning rate is 0.000007
+207it [00:16, 12.38it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8576, KRCC: 0.6691, PLCC: 0.8724, and RMSE: 0.3309
+51it [00:42,  1.20it/s]
+Epoch 13 averaged training loss: 0.0035
+The current learning rate is 0.000007
+207it [00:16, 12.41it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8594, KRCC: 0.6719, PLCC: 0.8748, and RMSE: 0.3279
+51it [00:41,  1.24it/s]
+Epoch 14 averaged training loss: 0.0031
+The current learning rate is 0.000007
+207it [00:16, 12.38it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8583, KRCC: 0.6712, PLCC: 0.8748, and RMSE: 0.3280
+51it [00:44,  1.15it/s]
+Epoch 15 averaged training loss: 0.0030
+The current learning rate is 0.000007
+207it [00:16, 12.39it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8614, KRCC: 0.6732, PLCC: 0.8781, and RMSE: 0.3239
+Update best model using best_test_criterion in epoch 15
+51it [00:42,  1.19it/s]
+Epoch 16 averaged training loss: 0.0031
+The current learning rate is 0.000007
+207it [00:16, 12.35it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8553, KRCC: 0.6662, PLCC: 0.8737, and RMSE: 0.3293
+51it [00:45,  1.12it/s]
+Epoch 17 averaged training loss: 0.0025
+The current learning rate is 0.000007
+207it [00:16, 12.38it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8530, KRCC: 0.6640, PLCC: 0.8724, and RMSE: 0.3309
+51it [00:40,  1.27it/s]
+Epoch 18 averaged training loss: 0.0027
+The current learning rate is 0.000006
+207it [00:16, 12.41it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8527, KRCC: 0.6664, PLCC: 0.8732, and RMSE: 0.3299
+51it [00:40,  1.25it/s]
+Epoch 19 averaged training loss: 0.0030
+The current learning rate is 0.000006
+207it [00:16, 12.38it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8485, KRCC: 0.6578, PLCC: 0.8684, and RMSE: 0.3357
+51it [00:43,  1.18it/s]
+Epoch 20 averaged training loss: 0.0028
+The current learning rate is 0.000006
+207it [00:16, 12.41it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8568, KRCC: 0.6691, PLCC: 0.8725, and RMSE: 0.3307
+51it [00:43,  1.17it/s]
+Epoch 21 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:16, 12.40it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8544, KRCC: 0.6660, PLCC: 0.8714, and RMSE: 0.3321
+51it [00:42,  1.19it/s]
+Epoch 22 averaged training loss: 0.0020
+The current learning rate is 0.000006
+207it [00:16, 12.39it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8572, KRCC: 0.6707, PLCC: 0.8727, and RMSE: 0.3305
+51it [00:40,  1.26it/s]
+Epoch 23 averaged training loss: 0.0019
+The current learning rate is 0.000006
+207it [00:16, 12.36it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8550, KRCC: 0.6679, PLCC: 0.8719, and RMSE: 0.3315
+51it [00:40,  1.27it/s]
+Epoch 24 averaged training loss: 0.0022
+The current learning rate is 0.000005
+207it [00:16, 12.38it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8570, KRCC: 0.6682, PLCC: 0.8717, and RMSE: 0.3318
+51it [00:41,  1.23it/s]
+Epoch 25 averaged training loss: 0.0021
+The current learning rate is 0.000005
+207it [00:16, 12.41it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8522, KRCC: 0.6623, PLCC: 0.8694, and RMSE: 0.3345
+51it [00:44,  1.15it/s]
+Epoch 26 averaged training loss: 0.0020
+The current learning rate is 0.000005
+207it [00:16, 12.41it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8571, KRCC: 0.6702, PLCC: 0.8727, and RMSE: 0.3306
+51it [00:41,  1.22it/s]
+Epoch 27 averaged training loss: 0.0016
+The current learning rate is 0.000005
+207it [00:16, 12.43it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8577, KRCC: 0.6700, PLCC: 0.8736, and RMSE: 0.3295
+51it [00:40,  1.27it/s]
+Epoch 28 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:16, 12.36it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8591, KRCC: 0.6699, PLCC: 0.8746, and RMSE: 0.3282
+51it [00:42,  1.20it/s]
+Epoch 29 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.42it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8580, KRCC: 0.6701, PLCC: 0.8753, and RMSE: 0.3274
+51it [00:39,  1.28it/s]
+Epoch 30 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.40it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8517, KRCC: 0.6619, PLCC: 0.8689, and RMSE: 0.3351
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8614, KRCC: 0.6732, PLCC: 0.8781, and RMSE: 0.3239
+8 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [ 754   16  120  574  181  193  920  867  616  728  984  414  233  912
+  587   51  961  554  708   41  565  173  745  806  274  842  379 1025
+  723  204  668  498  348  632  909  523  621  567  915  236  401  579
+  444  549   56  883  276  656  953  366  638  250  653   58  960  200
+  848  976  427  543  404  947   12  983  959  495   40  775  627  709
+  840  674  813  302  654  253   80  521  740  951  743    0   92  306
+  129  283  103  512  601  545  106  768  465    4  963  995   90  714
+   78  131  235   18  922  331  622   64  288  100  312  696  833  765
+  245  374  661  600  441  584  899  852  208  296  478  687  244  246
+  391  747  940  392  697  134 1002  159   35  928  101   73  557  997
+  804   91  993  397  635  197  431  505  353  991  151  317  387  753
+  503  694  477  210  289  866  849  282  580  981  479  793  372  908
+  475  737   43  292  629  455  682  332  643  796  126  931  365  409
+  111 1016  249  367  544  631  411  688  859  165  517  328  785 1023
+  469  658  430  830  124   30  763  145  346  680  846  868  183  835
+  485  529  461  665  468  640  720  157  125  109  937  218  520  542
+  641  592  265  838   66   39  421  967  300  490  704  794  254 1011
+  501  130  429  590   79  127  749  752  817  499   50  869  888  766
+  307  692  515  207  153  856  330  612  678  286  897  185  284  750
+  932  433  305  689  898   57  608  925  568  439  670  390  831   32
+  825  319  824   83 1020  176   89  810  649  637  971  334  344  335
+  540  815  224  408  677  633  327  345 1008   76  771  666  163   93
+  733  907  281  681  167  882  686  853  263  978  462  194  472  607
+  625  547  273  746 1021  876  407  864  606  162  294  311  340  119
+  368  942  531  182 1019  691  719  329  510  791  413  955  639  934
+   59  436  223  862  303  287  996  502  943 1027    8  108  558  755
+  504  589  562  546  718  823  258    5   25  320  844   15  857  428
+  437  195  739   53  500  599  175  496   85  891  662  773  786  534
+  972    1  492  442  538  675  924  726  930  352   33  576  188  446
+  871  149  230  918  148  644  509  186  180  116  652  256  539  506
+  471  314  596   74  722  731  706  556  219  318  781  884   27  272
+  228   22   49  488 1001  663  671  990  948  938  904  886  593  398
+  308   63  486  196  518  604  240  350  298  710  213  805  238  537
+  338  811 1007  818  826  333  107  355   60   71  211  896  578  985
+  787  585  234   70  415  861  994  146   65  980  760  443  799  222
+  141  227  615  764  929  264  887  822  778   84  895 1004  626  158
+  313  232  759  370  789  524   96  384 1012  879  610 1031  402 1003
+ 1006  342  122  191  911  790  782  358  693  812  164  553  762   95
+  874  958  583  135  727  373  260  395  619  933  573  988  855  609
+  780  138  190  420  893  843  921  807  698   13 1030  221  651   47
+  522  203  969  729  623  279  595  459    3  894  371  360  900   68
+   44   97  507  982   55 1015  655  383  571  935  189  703  965  734
+  516   37   72  901  369  400  154  449 1029  979  974  487  251  999
+  266  464  774   67  278  309   69   11   52  239  290  166  364  508
+  295  617   87  881  820  424  535  801   24  950  526  225  802  532
+  885  525  255  939  917  511  467  323   17  814  389  906  247  736
+  243  725  952  944  926   36  591  536  577  114  860  751  177  445
+ 1028  201  470  836  377  231  566  711  325  902  962  854  732  104
+  816  179   45  647  202  156  257  890  724  552  438  453  259  155
+  850  707   99  581  779  481  168 1018  837  757  582  594  406 1022
+  845  337  316  927 1009  889  602  514  110  683  916  650  847  798
+  705  784  137  356  187  564 1024   88  672  701  484   34  863  301
+  291  713   94  386  699   29  132  513  605  690  113  242  772  241
+  715  730  268  405  770  489   21  237   62   26  388   77  139  229
+  385  717  957  630  892  878  648   23  425  171  262  936  343  336
+   42  618  212 1005  973  299  142  399   38  339   82  673  628 1010
+  721  769  359  261  660  497  128   86  657  676  277  416  216  877
+  569  919  198  321  417  597  588  551  482  435  684  209  448  792
+  738  480  913  975  275  457  795  396  178  460  474  923  914]
+YouTube_UGC test_index: [ 285  378  613  362  858  989  172  966  117  744  121  214  452  447
+  808  758  324  252  432  403  819  326  357  271  434  803  636  624
+   10  829   54  968  946 1013  140  970  541  642  572  205   14  297
+  463  152  800  865  280  954  184  700  560  192  748  797  669  419
+  561  341  987  716  150  809  418  776 1026  519  702  454  493  161
+  586  144  169  611  977  527  555  380  375  992  880  872  570  147
+  679  910  473  456  220  174  267   75  483  659  834  645  412  767
+    6  664  226  215   98  248  788  105  695  756  761  118  206  112
+  528 1017  304 1000   19  426  742  393  382    7  841  160  351  646
+  998   46  634  423  310  550  466  450  363  293  603  614  956  217
+  376  123  548  199  422    2  941  903  832  394  559  735   28  712
+  533  685   20   31  598  575  491  347  476  783  875   81  494  381
+  741    9  870  322  410  873  170  827  839  821  949  964  563  777
+  440 1014  102  270  530  315  354  349  143   61  905  269  620  667
+  458  115  945  828   48  851  136  986  133  361  451]
+YouTube_UGC train_index: [ 754   16  120  574  181  193  920  867  616  728  984  414  233  912
+  587   51  961  554  708   41  565  173  745  806  274  842  379 1025
+  723  204  668  498  348  632  909  523  621  567  915  236  401  579
+  444  549   56  883  276  656  953  366  638  250  653   58  960  200
+  848  976  427  543  404  947   12  983  959  495   40  775  627  709
+  840  674  813  302  654  253   80  521  740  951  743    0   92  306
+  129  283  103  512  601  545  106  768  465    4  963  995   90  714
+   78  131  235   18  922  331  622   64  288  100  312  696  833  765
+  245  374  661  600  441  584  899  852  208  296  478  687  244  246
+  391  747  940  392  697  134 1002  159   35  928  101   73  557  997
+  804   91  993  397  635  197  431  505  353  991  151  317  387  753
+  503  694  477  210  289  866  849  282  580  981  479  793  372  908
+  475  737   43  292  629  455  682  332  643  796  126  931  365  409
+  111 1016  249  367  544  631  411  688  859  165  517  328  785 1023
+  469  658  430  830  124   30  763  145  346  680  846  868  183  835
+  485  529  461  665  468  640  720  157  125  109  937  218  520  542
+  641  592  265  838   66   39  421  967  300  490  704  794  254 1011
+  501  130  429  590   79  127  749  752  817  499   50  869  888  766
+  307  692  515  207  153  856  330  612  678  286  897  185  284  750
+  932  433  305  689  898   57  608  925  568  439  670  390  831   32
+  825  319  824   83 1020  176   89  810  649  637  971  334  344  335
+  540  815  224  408  677  633  327  345 1008   76  771  666  163   93
+  733  907  281  681  167  882  686  853  263  978  462  194  472  607
+  625  547  273  746 1021  876  407  864  606  162  294  311  340  119
+  368  942  531  182 1019  691  719  329  510  791  413  955  639  934
+   59  436  223  862  303  287  996  502  943 1027    8  108  558  755
+  504  589  562  546  718  823  258    5   25  320  844   15  857  428
+  437  195  739   53  500  599  175  496   85  891  662  773  786  534
+  972    1  492  442  538  675  924  726  930  352   33  576  188  446
+  871  149  230  918  148  644  509  186  180  116  652  256  539  506
+  471  314  596   74  722  731  706  556  219  318  781  884   27  272
+  228   22   49  488 1001  663  671  990  948  938  904  886  593  398
+  308   63  486  196  518  604  240  350  298  710  213  805  238  537
+  338  811 1007  818  826  333  107  355   60   71  211  896  578  985
+  787  585  234   70  415  861  994  146   65  980  760  443  799  222
+  141  227  615  764  929  264  887  822  778   84  895 1004  626  158
+  313  232  759  370  789  524   96  384 1012  879  610 1031  402 1003
+ 1006  342  122  191  911  790  782  358  693  812  164  553  762   95
+  874  958  583  135  727  373  260  395  619  933  573  988  855  609
+  780  138  190  420  893  843  921  807  698   13 1030  221  651   47
+  522  203  969  729  623  279  595  459    3  894  371  360  900   68
+   44   97  507  982   55 1015  655  383  571  935  189  703  965  734
+  516   37   72  901  369  400  154  449 1029  979  974  487  251  999
+  266  464  774   67  278  309   69   11   52  239  290  166  364  508
+  295  617   87  881  820  424  535  801   24  950  526  225  802  532
+  885  525  255  939  917  511  467  323   17  814  389  906  247  736
+  243  725  952  944  926   36  591  536  577  114  860  751  177  445
+ 1028  201  470  836  377  231  566  711  325  902  962  854  732  104
+  816  179   45  647  202  156  257  890  724  552  438  453  259  155
+  850  707   99  581  779  481  168 1018  837  757  582  594  406 1022
+  845  337  316  927 1009  889  602  514  110  683  916  650  847  798
+  705  784  137  356  187  564 1024   88  672  701  484   34  863  301
+  291  713   94  386  699   29  132  513  605  690  113  242  772  241
+  715  730  268  405  770  489   21  237   62   26  388   77  139  229
+  385  717  957  630  892  878  648   23  425  171  262  936  343  336
+   42  618  212 1005  973  299  142  399   38  339   82  673  628 1010
+  721  769  359  261  660  497  128   86  657  676  277  416  216  877
+  569  919  198  321  417  597  588  551  482  435  684  209  448  792
+  738  480  913  975  275  457  795  396  178  460  474  923  914]
+YouTube_UGC test_index: [ 285  378  613  362  858  989  172  966  117  744  121  214  452  447
+  808  758  324  252  432  403  819  326  357  271  434  803  636  624
+   10  829   54  968  946 1013  140  970  541  642  572  205   14  297
+  463  152  800  865  280  954  184  700  560  192  748  797  669  419
+  561  341  987  716  150  809  418  776 1026  519  702  454  493  161
+  586  144  169  611  977  527  555  380  375  992  880  872  570  147
+  679  910  473  456  220  174  267   75  483  659  834  645  412  767
+    6  664  226  215   98  248  788  105  695  756  761  118  206  112
+  528 1017  304 1000   19  426  742  393  382    7  841  160  351  646
+  998   46  634  423  310  550  466  450  363  293  603  614  956  217
+  376  123  548  199  422    2  941  903  832  394  559  735   28  712
+  533  685   20   31  598  575  491  347  476  783  875   81  494  381
+  741    9  870  322  410  873  170  827  839  821  949  964  563  777
+  440 1014  102  270  530  315  354  349  143   61  905  269  620  667
+  458  115  945  828   48  851  136  986  133  361  451]
+Starting training:
+51it [00:46,  1.09it/s]
+Epoch 1 averaged training loss: 0.0810
+The current learning rate is 0.000010
+207it [00:16, 12.77it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8320, KRCC: 0.6394, PLCC: 0.8375, and RMSE: 0.3520
+Update best model using best_test_criterion in epoch 1
+51it [00:41,  1.23it/s]
+Epoch 2 averaged training loss: 0.0352
+The current learning rate is 0.000010
+207it [00:16, 12.73it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8181, KRCC: 0.6264, PLCC: 0.8333, and RMSE: 0.3562
+51it [00:42,  1.20it/s]
+Epoch 3 averaged training loss: 0.0220
+The current learning rate is 0.000010
+207it [00:16, 12.78it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8153, KRCC: 0.6236, PLCC: 0.8303, and RMSE: 0.3590
+51it [00:42,  1.19it/s]
+Epoch 4 averaged training loss: 0.0149
+The current learning rate is 0.000009
+207it [00:16, 12.78it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8158, KRCC: 0.6264, PLCC: 0.8308, and RMSE: 0.3586
+51it [00:45,  1.12it/s]
+Epoch 5 averaged training loss: 0.0111
+The current learning rate is 0.000009
+207it [00:16, 12.79it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8189, KRCC: 0.6259, PLCC: 0.8310, and RMSE: 0.3583
+51it [00:40,  1.25it/s]
+Epoch 6 averaged training loss: 0.0080
+The current learning rate is 0.000009
+207it [00:16, 12.78it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8225, KRCC: 0.6326, PLCC: 0.8352, and RMSE: 0.3542
+51it [00:41,  1.23it/s]
+Epoch 7 averaged training loss: 0.0076
+The current learning rate is 0.000009
+207it [00:16, 12.75it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8208, KRCC: 0.6261, PLCC: 0.8358, and RMSE: 0.3537
+51it [00:45,  1.12it/s]
+Epoch 8 averaged training loss: 0.0064
+The current learning rate is 0.000008
+207it [00:16, 12.77it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8267, KRCC: 0.6330, PLCC: 0.8375, and RMSE: 0.3520
+51it [00:46,  1.10it/s]
+Epoch 9 averaged training loss: 0.0050
+The current learning rate is 0.000008
+207it [00:16, 12.78it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8333, KRCC: 0.6419, PLCC: 0.8448, and RMSE: 0.3446
+Update best model using best_test_criterion in epoch 9
+51it [00:42,  1.21it/s]
+Epoch 10 averaged training loss: 0.0047
+The current learning rate is 0.000008
+207it [00:16, 12.75it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8077, KRCC: 0.6174, PLCC: 0.8249, and RMSE: 0.3642
+51it [00:42,  1.19it/s]
+Epoch 11 averaged training loss: 0.0057
+The current learning rate is 0.000008
+207it [00:16, 12.75it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8353, KRCC: 0.6485, PLCC: 0.8490, and RMSE: 0.3404
+Update best model using best_test_criterion in epoch 11
+51it [00:39,  1.28it/s]
+Epoch 12 averaged training loss: 0.0048
+The current learning rate is 0.000007
+207it [00:16, 12.62it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8232, KRCC: 0.6317, PLCC: 0.8371, and RMSE: 0.3524
+51it [00:41,  1.24it/s]
+Epoch 13 averaged training loss: 0.0046
+The current learning rate is 0.000007
+207it [00:16, 12.73it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8334, KRCC: 0.6433, PLCC: 0.8463, and RMSE: 0.3432
+51it [00:39,  1.29it/s]
+Epoch 14 averaged training loss: 0.0036
+The current learning rate is 0.000007
+207it [00:16, 12.74it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8306, KRCC: 0.6401, PLCC: 0.8399, and RMSE: 0.3496
+51it [00:41,  1.24it/s]
+Epoch 15 averaged training loss: 0.0035
+The current learning rate is 0.000007
+207it [00:16, 12.63it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8355, KRCC: 0.6439, PLCC: 0.8484, and RMSE: 0.3409
+Update best model using best_test_criterion in epoch 15
+51it [00:44,  1.16it/s]
+Epoch 16 averaged training loss: 0.0035
+The current learning rate is 0.000007
+207it [00:16, 12.78it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8314, KRCC: 0.6403, PLCC: 0.8442, and RMSE: 0.3452
+51it [00:44,  1.15it/s]
+Epoch 17 averaged training loss: 0.0028
+The current learning rate is 0.000007
+207it [00:16, 12.72it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8407, KRCC: 0.6502, PLCC: 0.8538, and RMSE: 0.3354
+Update best model using best_test_criterion in epoch 17
+51it [00:42,  1.21it/s]
+Epoch 18 averaged training loss: 0.0026
+The current learning rate is 0.000006
+207it [00:16, 12.76it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8371, KRCC: 0.6449, PLCC: 0.8479, and RMSE: 0.3415
+51it [00:41,  1.22it/s]
+Epoch 19 averaged training loss: 0.0023
+The current learning rate is 0.000006
+207it [00:16, 12.73it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8336, KRCC: 0.6433, PLCC: 0.8453, and RMSE: 0.3441
+51it [00:41,  1.22it/s]
+Epoch 20 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:16, 12.75it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8349, KRCC: 0.6438, PLCC: 0.8464, and RMSE: 0.3431
+51it [00:43,  1.17it/s]
+Epoch 21 averaged training loss: 0.0022
+The current learning rate is 0.000006
+207it [00:16, 12.62it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8333, KRCC: 0.6430, PLCC: 0.8432, and RMSE: 0.3463
+51it [00:44,  1.15it/s]
+Epoch 22 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:16, 12.79it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8324, KRCC: 0.6410, PLCC: 0.8449, and RMSE: 0.3446
+51it [00:40,  1.25it/s]
+Epoch 23 averaged training loss: 0.0030
+The current learning rate is 0.000006
+207it [00:16, 12.74it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8295, KRCC: 0.6382, PLCC: 0.8412, and RMSE: 0.3483
+51it [00:43,  1.17it/s]
+Epoch 24 averaged training loss: 0.0025
+The current learning rate is 0.000005
+207it [00:16, 12.71it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8360, KRCC: 0.6450, PLCC: 0.8456, and RMSE: 0.3439
+51it [00:43,  1.16it/s]
+Epoch 25 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:16, 12.75it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8334, KRCC: 0.6411, PLCC: 0.8446, and RMSE: 0.3448
+51it [00:40,  1.27it/s]
+Epoch 26 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:16, 12.78it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8322, KRCC: 0.6433, PLCC: 0.8449, and RMSE: 0.3445
+51it [00:47,  1.08it/s]
+Epoch 27 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.81it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8369, KRCC: 0.6458, PLCC: 0.8463, and RMSE: 0.3432
+51it [00:43,  1.18it/s]
+Epoch 28 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.77it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8353, KRCC: 0.6420, PLCC: 0.8481, and RMSE: 0.3413
+51it [00:42,  1.19it/s]
+Epoch 29 averaged training loss: 0.0016
+The current learning rate is 0.000005
+207it [00:16, 12.80it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8398, KRCC: 0.6503, PLCC: 0.8501, and RMSE: 0.3392
+51it [00:41,  1.22it/s]
+Epoch 30 averaged training loss: 0.0016
+The current learning rate is 0.000005
+207it [00:16, 12.78it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8393, KRCC: 0.6493, PLCC: 0.8478, and RMSE: 0.3416
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8407, KRCC: 0.6502, PLCC: 0.8538, and RMSE: 0.3354
+9 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_modular_dropout_cross_attention
+loading the pretrained model
+Trainable params: 89.55 million
+YouTube_UGC train_index: [ 987  325  562  337  281  889  362    2  803  111  888  877  461  815
+  974  116  885  148  122  482  246  788  997  311  106  939  471 1027
+  724  699  517  823   39  412   98   45  342  840  128  950   10 1029
+  431  671  384  848  600  139  251  667  451  834  925  503  334  200
+  645   80   65  863  120   91  309  109  323  369  299  780   72  734
+  702   57  969   24  753  464 1013  316  560  213  591  249  189  921
+  971  295  448  949  504  651  881  576  449  771  279  324  259  858
+  855 1028  819  947  693  648  604  304  124  735  581  441  516  211
+  544  847  875  538  672   62  193   40  579  433  908  255   55  462
+  132  941  164   16 1025  372  764  574  880  527  103   18  910  445
+  267  583  668  551  665  614  280  750  916   44   30  639  343  446
+   60  674  458  745  363   77   17  687  873   54  754  418   68  898
+  785  857  321  634  376  644  410  613   32  607  618  791   47  590
+  895  928  408  811  370  346  679  968  697  459  979  982  567  794
+  143  269  345  690  284  150  518  476  228  800  860  479  686  444
+  945  271  159  393  421  662  758  496  589  550  570  453  489  649
+   27   81  749  322 1011  920  520  335  814  422  330  561  475   97
+  237  210  681  606  499  912  748  141  650 1021  392  627  227  231
+  777  498  367  170  442  549  869  707  493  851  978  838  130 1017
+  199  922  779   25   99  368    4 1023   41  894  509    3  792  152
+  485  352  146  774   90  300  194  883  490  602  821   37   87  641
+  610  569  582  131  704  254  796  565  351  394  196  806   34  191
+   14   21  944  502  658  454  766  390   89  611  692  992  287    6
+  100  628  181  283  716  514  861 1010  744  380   11   74  192  176
+  542  533  816   70  812  174  166  991  768  670  689  647  409  906
+  946   20  967  603  867  846 1014  954  494  989  940  257  294  344
+  151  495  572  466  398  684  221  732 1031  845  741  288  327  769
+  450  548  934   94   71  960  260  258  178  126  506  529  657  843
+  799  761  999  608  597  953  112  789   63  566  195  558  383  661
+  736  425  197  184  743  822  825  677  415  478  265  218  804  373
+  165  902  437  961  145  289  543  713  756  411  580   88  277  913
+  593  138  866   42  173  107  252  134  359  891  439   50  233  268
+  402  854   36  397  273  512  706  660  341  907 1004  886  313  414
+  429   51  936  180  365  480  302  981  223  609  712  635   38  673
+  783  379  123  256  868  887  559  207  519  534  584  773  911  396
+   73  250  757  784  770   13  943  594  525  563  828  616  964  617
+  893  759  535  175  308  700  119  856 1012  586  621  185   84  147
+  955  361  775  406  487  723  216  155  592  297  568  829  666  317
+  427  276  832  564   26  114  675 1026  795  160  349  215  708  105
+  578  556  747  655  329   93  878   28  879  387  331  292  917  530
+   83  474  546  460   95  212  428  975   15  701  171  983   23  424
+  966  601  765  705  719  167  914  488  270  787  932  901  831  336
+   76  938  636   75  742  140  110  235  874  307  378  595    9 1005
+  729  833   31  356  423  456  364  715  217  990  730  101  554  818
+  220 1019   69  172  432  149  236  481  731  385  986  957  340  612
+  807  127  805  728  835  890  615  993 1002  588  389   53  229   35
+  691  622  314    7  537  678  318  310  740  301  404  721  884  532
+  984  521   86  976   61  452  726  511  630  188  162  242  900  531
+  948  357  899  837   96  244  113  919 1024  426  798  849  416 1001
+  776  163  391  839  767  286  505  264  282  977  293  206  232  942
+  782  996  400  929  683  871  157  820  654  491  781  904  339  755
+  810  377  401  447  841  156  386  179  664  663   78  817  652  923
+  937  872   92  694  319  643  709  484  695  198  104  524  711  620
+ 1018  882  438 1008  133  118  646  813  541  407  801    5  278  680
+  315  115  763  587  852  827  333  208  718  585    8  222  557  468
+  262  539  515  528  239  553  927  272 1020  457  419  965   79  676
+   59  802  430  202  183  320  177  930  605  168  201   82 1030  158
+   85  703  153  154  642  405  633  125  522  598  547  980  725  381
+  540  746  303  117  619  710  637  793  508  738 1006  353   29]
+YouTube_UGC test_index: [ 435  523  142  924  865  285  737   67  778  483  338  836  375  298
+  826  248  844  263  473  305   19  850  121  545  136   43  714  596
+ 1000  625  998  555  972  862  935  909  903  226  470  291  698  623
+   33  685    0  135  465  808  358  985 1009  225  326  513  190  995
+  797 1003  243  266  786  905   48  204  102   66  809   22  994  463
+  510  332  350  752  253  727  467  853  656  864  469  915  161  374
+  599  876  870  897   64  420  722  859  669  203  526  624  824  931
+  963  951  224  209  688  958  497  306  682  169  659  366  573  354
+  973  413  230   46  500  240  399  626  247  455  205  371  108  219
+  290    1  328  507  962  552  926  403  536  261  751  388  144  440
+  842  640  186   52  355  245  772 1022  434  790  575  182  492 1015
+  717 1016   58  443  653  360  959   49  312  720  137  631  486  275
+  933  395  739 1007  129  696  214  274   12  632  892  234  830  477
+  952  970  472  187  238  956  896  988  733  417  347  629  760  241
+  762  296  571  436  577  918   56  501  638  348  382]
+YouTube_UGC train_index: [ 987  325  562  337  281  889  362    2  803  111  888  877  461  815
+  974  116  885  148  122  482  246  788  997  311  106  939  471 1027
+  724  699  517  823   39  412   98   45  342  840  128  950   10 1029
+  431  671  384  848  600  139  251  667  451  834  925  503  334  200
+  645   80   65  863  120   91  309  109  323  369  299  780   72  734
+  702   57  969   24  753  464 1013  316  560  213  591  249  189  921
+  971  295  448  949  504  651  881  576  449  771  279  324  259  858
+  855 1028  819  947  693  648  604  304  124  735  581  441  516  211
+  544  847  875  538  672   62  193   40  579  433  908  255   55  462
+  132  941  164   16 1025  372  764  574  880  527  103   18  910  445
+  267  583  668  551  665  614  280  750  916   44   30  639  343  446
+   60  674  458  745  363   77   17  687  873   54  754  418   68  898
+  785  857  321  634  376  644  410  613   32  607  618  791   47  590
+  895  928  408  811  370  346  679  968  697  459  979  982  567  794
+  143  269  345  690  284  150  518  476  228  800  860  479  686  444
+  945  271  159  393  421  662  758  496  589  550  570  453  489  649
+   27   81  749  322 1011  920  520  335  814  422  330  561  475   97
+  237  210  681  606  499  912  748  141  650 1021  392  627  227  231
+  777  498  367  170  442  549  869  707  493  851  978  838  130 1017
+  199  922  779   25   99  368    4 1023   41  894  509    3  792  152
+  485  352  146  774   90  300  194  883  490  602  821   37   87  641
+  610  569  582  131  704  254  796  565  351  394  196  806   34  191
+   14   21  944  502  658  454  766  390   89  611  692  992  287    6
+  100  628  181  283  716  514  861 1010  744  380   11   74  192  176
+  542  533  816   70  812  174  166  991  768  670  689  647  409  906
+  946   20  967  603  867  846 1014  954  494  989  940  257  294  344
+  151  495  572  466  398  684  221  732 1031  845  741  288  327  769
+  450  548  934   94   71  960  260  258  178  126  506  529  657  843
+  799  761  999  608  597  953  112  789   63  566  195  558  383  661
+  736  425  197  184  743  822  825  677  415  478  265  218  804  373
+  165  902  437  961  145  289  543  713  756  411  580   88  277  913
+  593  138  866   42  173  107  252  134  359  891  439   50  233  268
+  402  854   36  397  273  512  706  660  341  907 1004  886  313  414
+  429   51  936  180  365  480  302  981  223  609  712  635   38  673
+  783  379  123  256  868  887  559  207  519  534  584  773  911  396
+   73  250  757  784  770   13  943  594  525  563  828  616  964  617
+  893  759  535  175  308  700  119  856 1012  586  621  185   84  147
+  955  361  775  406  487  723  216  155  592  297  568  829  666  317
+  427  276  832  564   26  114  675 1026  795  160  349  215  708  105
+  578  556  747  655  329   93  878   28  879  387  331  292  917  530
+   83  474  546  460   95  212  428  975   15  701  171  983   23  424
+  966  601  765  705  719  167  914  488  270  787  932  901  831  336
+   76  938  636   75  742  140  110  235  874  307  378  595    9 1005
+  729  833   31  356  423  456  364  715  217  990  730  101  554  818
+  220 1019   69  172  432  149  236  481  731  385  986  957  340  612
+  807  127  805  728  835  890  615  993 1002  588  389   53  229   35
+  691  622  314    7  537  678  318  310  740  301  404  721  884  532
+  984  521   86  976   61  452  726  511  630  188  162  242  900  531
+  948  357  899  837   96  244  113  919 1024  426  798  849  416 1001
+  776  163  391  839  767  286  505  264  282  977  293  206  232  942
+  782  996  400  929  683  871  157  820  654  491  781  904  339  755
+  810  377  401  447  841  156  386  179  664  663   78  817  652  923
+  937  872   92  694  319  643  709  484  695  198  104  524  711  620
+ 1018  882  438 1008  133  118  646  813  541  407  801    5  278  680
+  315  115  763  587  852  827  333  208  718  585    8  222  557  468
+  262  539  515  528  239  553  927  272 1020  457  419  965   79  676
+   59  802  430  202  183  320  177  930  605  168  201   82 1030  158
+   85  703  153  154  642  405  633  125  522  598  547  980  725  381
+  540  746  303  117  619  710  637  793  508  738 1006  353   29]
+YouTube_UGC test_index: [ 435  523  142  924  865  285  737   67  778  483  338  836  375  298
+  826  248  844  263  473  305   19  850  121  545  136   43  714  596
+ 1000  625  998  555  972  862  935  909  903  226  470  291  698  623
+   33  685    0  135  465  808  358  985 1009  225  326  513  190  995
+  797 1003  243  266  786  905   48  204  102   66  809   22  994  463
+  510  332  350  752  253  727  467  853  656  864  469  915  161  374
+  599  876  870  897   64  420  722  859  669  203  526  624  824  931
+  963  951  224  209  688  958  497  306  682  169  659  366  573  354
+  973  413  230   46  500  240  399  626  247  455  205  371  108  219
+  290    1  328  507  962  552  926  403  536  261  751  388  144  440
+  842  640  186   52  355  245  772 1022  434  790  575  182  492 1015
+  717 1016   58  443  653  360  959   49  312  720  137  631  486  275
+  933  395  739 1007  129  696  214  274   12  632  892  234  830  477
+  952  970  472  187  238  956  896  988  733  417  347  629  760  241
+  762  296  571  436  577  918   56  501  638  348  382]
+Starting training:
+51it [00:49,  1.03it/s]
+Epoch 1 averaged training loss: 0.0851
+The current learning rate is 0.000010
+207it [00:16, 12.25it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8407, KRCC: 0.6411, PLCC: 0.8524, and RMSE: 0.3319
+Update best model using best_test_criterion in epoch 1
+51it [00:41,  1.24it/s]
+Epoch 2 averaged training loss: 0.0359
+The current learning rate is 0.000010
+207it [00:16, 12.26it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8282, KRCC: 0.6296, PLCC: 0.8361, and RMSE: 0.3483
+51it [00:42,  1.19it/s]
+Epoch 3 averaged training loss: 0.0167
+The current learning rate is 0.000010
+207it [00:16, 12.22it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8229, KRCC: 0.6232, PLCC: 0.8312, and RMSE: 0.3530
+51it [00:49,  1.04it/s]
+Epoch 4 averaged training loss: 0.0134
+The current learning rate is 0.000009
+207it [00:16, 12.32it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8297, KRCC: 0.6346, PLCC: 0.8405, and RMSE: 0.3439
+51it [00:38,  1.31it/s]
+Epoch 5 averaged training loss: 0.0104
+The current learning rate is 0.000009
+207it [00:16, 12.25it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8387, KRCC: 0.6419, PLCC: 0.8462, and RMSE: 0.3383
+51it [00:42,  1.21it/s]
+Epoch 6 averaged training loss: 0.0086
+The current learning rate is 0.000009
+207it [00:16, 12.31it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8360, KRCC: 0.6429, PLCC: 0.8446, and RMSE: 0.3398
+51it [00:42,  1.19it/s]
+Epoch 7 averaged training loss: 0.0093
+The current learning rate is 0.000009
+207it [00:16, 12.23it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8405, KRCC: 0.6464, PLCC: 0.8496, and RMSE: 0.3348
+51it [00:41,  1.22it/s]
+Epoch 8 averaged training loss: 0.0083
+The current learning rate is 0.000008
+207it [00:16, 12.25it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8395, KRCC: 0.6473, PLCC: 0.8473, and RMSE: 0.3372
+51it [00:46,  1.10it/s]
+Epoch 9 averaged training loss: 0.0055
+The current learning rate is 0.000008
+207it [00:16, 12.25it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8413, KRCC: 0.6454, PLCC: 0.8470, and RMSE: 0.3374
+Update best model using best_test_criterion in epoch 9
+51it [00:44,  1.16it/s]
+Epoch 10 averaged training loss: 0.0040
+The current learning rate is 0.000008
+207it [00:16, 12.26it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8377, KRCC: 0.6445, PLCC: 0.8488, and RMSE: 0.3356
+51it [00:41,  1.23it/s]
+Epoch 11 averaged training loss: 0.0039
+The current learning rate is 0.000008
+207it [00:16, 12.31it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8395, KRCC: 0.6471, PLCC: 0.8477, and RMSE: 0.3367
+51it [00:45,  1.13it/s]
+Epoch 12 averaged training loss: 0.0040
+The current learning rate is 0.000007
+207it [00:16, 12.23it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8390, KRCC: 0.6464, PLCC: 0.8464, and RMSE: 0.3380
+51it [00:44,  1.14it/s]
+Epoch 13 averaged training loss: 0.0034
+The current learning rate is 0.000007
+207it [00:16, 12.31it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8473, KRCC: 0.6536, PLCC: 0.8523, and RMSE: 0.3321
+Update best model using best_test_criterion in epoch 13
+51it [00:41,  1.23it/s]
+Epoch 14 averaged training loss: 0.0039
+The current learning rate is 0.000007
+207it [00:16, 12.24it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8348, KRCC: 0.6401, PLCC: 0.8401, and RMSE: 0.3443
+51it [00:39,  1.28it/s]
+Epoch 15 averaged training loss: 0.0035
+The current learning rate is 0.000007
+207it [00:16, 12.23it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8436, KRCC: 0.6504, PLCC: 0.8516, and RMSE: 0.3327
+51it [00:40,  1.25it/s]
+Epoch 16 averaged training loss: 0.0031
+The current learning rate is 0.000007
+207it [00:16, 12.28it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8419, KRCC: 0.6506, PLCC: 0.8495, and RMSE: 0.3349
+51it [00:41,  1.22it/s]
+Epoch 17 averaged training loss: 0.0029
+The current learning rate is 0.000007
+207it [00:16, 12.26it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8454, KRCC: 0.6515, PLCC: 0.8512, and RMSE: 0.3332
+51it [00:40,  1.26it/s]
+Epoch 18 averaged training loss: 0.0028
+The current learning rate is 0.000006
+207it [00:16, 12.28it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8405, KRCC: 0.6477, PLCC: 0.8487, and RMSE: 0.3358
+51it [00:43,  1.18it/s]
+Epoch 19 averaged training loss: 0.0028
+The current learning rate is 0.000006
+207it [00:16, 12.26it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8360, KRCC: 0.6411, PLCC: 0.8443, and RMSE: 0.3402
+51it [00:41,  1.24it/s]
+Epoch 20 averaged training loss: 0.0026
+The current learning rate is 0.000006
+207it [00:16, 12.24it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8422, KRCC: 0.6493, PLCC: 0.8495, and RMSE: 0.3349
+51it [00:41,  1.22it/s]
+Epoch 21 averaged training loss: 0.0031
+The current learning rate is 0.000006
+207it [00:16, 12.23it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8388, KRCC: 0.6454, PLCC: 0.8484, and RMSE: 0.3360
+51it [00:41,  1.23it/s]
+Epoch 22 averaged training loss: 0.0027
+The current learning rate is 0.000006
+207it [00:16, 12.19it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8394, KRCC: 0.6472, PLCC: 0.8477, and RMSE: 0.3367
+51it [00:46,  1.10it/s]
+Epoch 23 averaged training loss: 0.0024
+The current learning rate is 0.000006
+207it [00:16, 12.31it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8411, KRCC: 0.6473, PLCC: 0.8502, and RMSE: 0.3342
+51it [00:46,  1.09it/s]
+Epoch 24 averaged training loss: 0.0020
+The current learning rate is 0.000005
+207it [00:17, 12.10it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8351, KRCC: 0.6414, PLCC: 0.8462, and RMSE: 0.3383
+51it [00:42,  1.20it/s]
+Epoch 25 averaged training loss: 0.0019
+The current learning rate is 0.000005
+207it [00:16, 12.25it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8408, KRCC: 0.6488, PLCC: 0.8491, and RMSE: 0.3353
+51it [00:44,  1.14it/s]
+Epoch 26 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:16, 12.25it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8368, KRCC: 0.6455, PLCC: 0.8475, and RMSE: 0.3370
+51it [00:40,  1.26it/s]
+Epoch 27 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:16, 12.23it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8383, KRCC: 0.6474, PLCC: 0.8486, and RMSE: 0.3358
+51it [00:51,  1.01s/it]
+Epoch 28 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:16, 12.28it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8321, KRCC: 0.6384, PLCC: 0.8434, and RMSE: 0.3410
+51it [00:38,  1.32it/s]
+Epoch 29 averaged training loss: 0.0018
+The current learning rate is 0.000005
+207it [00:16, 12.29it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8384, KRCC: 0.6481, PLCC: 0.8484, and RMSE: 0.3361
+51it [00:43,  1.16it/s]
+Epoch 30 averaged training loss: 0.0017
+The current learning rate is 0.000005
+207it [00:16, 12.30it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8374, KRCC: 0.6449, PLCC: 0.8478, and RMSE: 0.3367
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8473, KRCC: 0.6536, PLCC: 0.8523, and RMSE: 0.3321
+The STDA median results SRCC: 0.8483, KRCC: 0.6589, PLCC: 0.8589, and RMSE: 0.3300
+
+Process finished with exit code 0

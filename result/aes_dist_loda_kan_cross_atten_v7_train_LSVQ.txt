@@ -1,0 +1,2778 @@
+/data/guest/anaconda3/envs/zhaoyimeng/bin/python3.8 /data/user/zhaoyimeng/ModularBVQA/train_baseline_modular_dist_aes_loda_kan_cross_atten_v7.py
+The current model is ViTbCLIP_SpatialTemporalDistortionAes_loda_kan_modular_dropout_cross_attention_v7
+load from checkpoint_resume: /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/ViTbCLIP_SpatialTemporalDistortionAes_loda_kan_modular_dropout_cross_attention_v7_LSVQ_plcc_rank_NR_vNone_epoch_3_SRCC_0.878247.pth
+Trainable params: 158.25 million
+Starting training:
+Epoch: 1/50 | Step: 62/1750 | Training loss: 0.0602
+CostTime: 94.3209
+Epoch: 1/50 | Step: 124/1750 | Training loss: 0.0504
+CostTime: 103.5358
+Epoch: 1/50 | Step: 186/1750 | Training loss: 0.0586
+CostTime: 133.0499
+Epoch: 1/50 | Step: 248/1750 | Training loss: 0.0475
+CostTime: 124.9516
+Epoch: 1/50 | Step: 310/1750 | Training loss: 0.0511
+CostTime: 111.9024
+Epoch: 1/50 | Step: 372/1750 | Training loss: 0.0537
+CostTime: 107.9348
+Epoch: 1/50 | Step: 434/1750 | Training loss: 0.0487
+CostTime: 110.9350
+Epoch: 1/50 | Step: 496/1750 | Training loss: 0.0484
+CostTime: 110.4429
+Epoch: 1/50 | Step: 558/1750 | Training loss: 0.0527
+CostTime: 107.3817
+Epoch: 1/50 | Step: 620/1750 | Training loss: 0.0510
+CostTime: 114.3473
+Epoch: 1/50 | Step: 682/1750 | Training loss: 0.0509
+CostTime: 108.5440
+Epoch: 1/50 | Step: 744/1750 | Training loss: 0.0532
+CostTime: 100.5320
+Epoch: 1/50 | Step: 806/1750 | Training loss: 0.0493
+CostTime: 100.7888
+Epoch: 1/50 | Step: 868/1750 | Training loss: 0.0501
+CostTime: 100.5950
+Epoch: 1/50 | Step: 930/1750 | Training loss: 0.0521
+CostTime: 104.6427
+Epoch: 1/50 | Step: 992/1750 | Training loss: 0.0492
+CostTime: 91.3484
+Epoch: 1/50 | Step: 1054/1750 | Training loss: 0.0484
+CostTime: 97.1472
+Epoch: 1/50 | Step: 1116/1750 | Training loss: 0.0514
+CostTime: 107.7404
+Epoch: 1/50 | Step: 1178/1750 | Training loss: 0.0519
+CostTime: 107.4804
+Epoch: 1/50 | Step: 1240/1750 | Training loss: 0.0516
+CostTime: 105.0377
+Epoch: 1/50 | Step: 1302/1750 | Training loss: 0.0477
+CostTime: 110.9931
+Epoch: 1/50 | Step: 1364/1750 | Training loss: 0.0484
+CostTime: 105.1427
+Epoch: 1/50 | Step: 1426/1750 | Training loss: 0.0479
+CostTime: 111.1350
+Epoch: 1/50 | Step: 1488/1750 | Training loss: 0.0491
+CostTime: 110.7026
+Epoch: 1/50 | Step: 1550/1750 | Training loss: 0.0501
+CostTime: 112.4055
+Epoch: 1/50 | Step: 1612/1750 | Training loss: 0.0498
+CostTime: 108.5344
+Epoch: 1/50 | Step: 1674/1750 | Training loss: 0.0522
+CostTime: 106.7702
+Epoch: 1/50 | Step: 1736/1750 | Training loss: 0.0447
+CostTime: 114.1823
+Epoch 1 averaged training loss: 0.0508
+The current learning rate is 0.000008
+test 0: iter: 0
+test 0: iter: 1000
+test 0: iter: 2000
+test 0: iter: 3000
+test 0: iter: 4000
+test 0: iter: 5000
+test 0: iter: 6000
+test 0: iter: 7000
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8706, KRCC: 0.6863, PLCC: 0.8727, and RMSE: 5.1332
+test_1080p 0: iter: 0
+test_1080p 0: iter: 1000
+test_1080p 0: iter: 2000
+test_1080p 0: iter: 3000
+Epoch 1 completed. The result on the STDA test_1080p databaset: SRCC: 0.7813, KRCC: 0.5912, PLCC: 0.8173, and RMSE: 5.9780
+Update best model using best_test_criterion in epoch 1
+Saving model...
+Epoch: 2/50 | Step: 62/1750 | Training loss: 0.0415
+CostTime: 125.3803
+Epoch: 2/50 | Step: 124/1750 | Training loss: 0.0386
+CostTime: 104.8019
+Epoch: 2/50 | Step: 186/1750 | Training loss: 0.0420
+CostTime: 106.8377
+Epoch: 2/50 | Step: 248/1750 | Training loss: 0.0389
+CostTime: 110.9609
+Epoch: 2/50 | Step: 310/1750 | Training loss: 0.0399
+CostTime: 100.5189
+Epoch: 2/50 | Step: 372/1750 | Training loss: 0.0386
+CostTime: 113.8662
+Epoch: 2/50 | Step: 434/1750 | Training loss: 0.0442
+CostTime: 104.2223
+Epoch: 2/50 | Step: 496/1750 | Training loss: 0.0413
+CostTime: 109.1615
+Epoch: 2/50 | Step: 558/1750 | Training loss: 0.0370
+CostTime: 112.8680
+Epoch: 2/50 | Step: 620/1750 | Training loss: 0.0380
+CostTime: 100.6826
+Epoch: 2/50 | Step: 682/1750 | Training loss: 0.0393
+CostTime: 117.3981
+Epoch: 2/50 | Step: 744/1750 | Training loss: 0.0411
+CostTime: 108.3799
+Epoch: 2/50 | Step: 806/1750 | Training loss: 0.0396
+CostTime: 101.5664
+Epoch: 2/50 | Step: 868/1750 | Training loss: 0.0428
+CostTime: 106.8322
+Epoch: 2/50 | Step: 930/1750 | Training loss: 0.0425
+CostTime: 107.1638
+Epoch: 2/50 | Step: 992/1750 | Training loss: 0.0409
+CostTime: 117.4165
+Epoch: 2/50 | Step: 1054/1750 | Training loss: 0.0402
+CostTime: 104.1985
+Epoch: 2/50 | Step: 1116/1750 | Training loss: 0.0405
+CostTime: 112.1184
+Epoch: 2/50 | Step: 1178/1750 | Training loss: 0.0395
+CostTime: 112.6394
+Epoch: 2/50 | Step: 1240/1750 | Training loss: 0.0394
+CostTime: 121.6983
+Epoch: 2/50 | Step: 1302/1750 | Training loss: 0.0408
+CostTime: 103.1384
+Epoch: 2/50 | Step: 1364/1750 | Training loss: 0.0393
+CostTime: 122.3373
+Epoch: 2/50 | Step: 1426/1750 | Training loss: 0.0408
+CostTime: 113.8310
+Epoch: 2/50 | Step: 1488/1750 | Training loss: 0.0398
+CostTime: 112.5407
+Epoch: 2/50 | Step: 1550/1750 | Training loss: 0.0413
+CostTime: 118.1210
+Epoch: 2/50 | Step: 1612/1750 | Training loss: 0.0404
+CostTime: 110.4044
+Epoch: 2/50 | Step: 1674/1750 | Training loss: 0.0413
+CostTime: 117.5651
+Epoch: 2/50 | Step: 1736/1750 | Training loss: 0.0417
+CostTime: 111.3533
+Epoch 2 averaged training loss: 0.0405
+The current learning rate is 0.000008
+test 1: iter: 0
+test 1: iter: 1000
+test 1: iter: 2000
+test 1: iter: 3000
+test 1: iter: 4000
+test 1: iter: 5000
+test 1: iter: 6000
+test 1: iter: 7000
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8730, KRCC: 0.6886, PLCC: 0.8730, and RMSE: 5.1284
+test_1080p 1: iter: 0
+test_1080p 1: iter: 1000
+test_1080p 1: iter: 2000
+test_1080p 1: iter: 3000
+Epoch 2 completed. The result on the STDA test_1080p databaset: SRCC: 0.7755, KRCC: 0.5842, PLCC: 0.8109, and RMSE: 6.0703
+Update best model using best_test_criterion in epoch 2
+Saving model...
+Epoch: 3/50 | Step: 62/1750 | Training loss: 0.0339
+CostTime: 133.7107
+Epoch: 3/50 | Step: 124/1750 | Training loss: 0.0344
+CostTime: 113.7578
+Epoch: 3/50 | Step: 186/1750 | Training loss: 0.0331
+CostTime: 122.6250
+Epoch: 3/50 | Step: 248/1750 | Training loss: 0.0333
+CostTime: 110.8008
+Epoch: 3/50 | Step: 310/1750 | Training loss: 0.0330
+CostTime: 118.5848
+Epoch: 3/50 | Step: 372/1750 | Training loss: 0.0351
+CostTime: 115.2590
+Epoch: 3/50 | Step: 434/1750 | Training loss: 0.0351
+CostTime: 116.5607
+Epoch: 3/50 | Step: 496/1750 | Training loss: 0.0336
+CostTime: 111.9602
+Epoch: 3/50 | Step: 558/1750 | Training loss: 0.0339
+CostTime: 119.2809
+Epoch: 3/50 | Step: 620/1750 | Training loss: 0.0369
+CostTime: 117.2826
+Epoch: 3/50 | Step: 682/1750 | Training loss: 0.0344
+CostTime: 106.1435
+Epoch: 3/50 | Step: 744/1750 | Training loss: 0.0343
+CostTime: 119.6320
+Epoch: 3/50 | Step: 806/1750 | Training loss: 0.0344
+CostTime: 115.4954
+Epoch: 3/50 | Step: 868/1750 | Training loss: 0.0339
+CostTime: 118.0174
+Epoch: 3/50 | Step: 930/1750 | Training loss: 0.0335
+CostTime: 110.1710
+Epoch: 3/50 | Step: 992/1750 | Training loss: 0.0340
+CostTime: 115.2759
+Epoch: 3/50 | Step: 1054/1750 | Training loss: 0.0351
+CostTime: 116.7842
+Epoch: 3/50 | Step: 1116/1750 | Training loss: 0.0348
+CostTime: 118.2469
+Epoch: 3/50 | Step: 1178/1750 | Training loss: 0.0322
+CostTime: 113.7222
+Epoch: 3/50 | Step: 1240/1750 | Training loss: 0.0339
+CostTime: 115.5476
+Epoch: 3/50 | Step: 1302/1750 | Training loss: 0.0350
+CostTime: 112.3505
+Epoch: 3/50 | Step: 1364/1750 | Training loss: 0.0384
+CostTime: 121.5153
+Epoch: 3/50 | Step: 1426/1750 | Training loss: 0.0321
+CostTime: 125.1985
+Epoch: 3/50 | Step: 1488/1750 | Training loss: 0.0342
+CostTime: 112.9619
+Epoch: 3/50 | Step: 1550/1750 | Training loss: 0.0346
+CostTime: 117.2798
+Epoch: 3/50 | Step: 1612/1750 | Training loss: 0.0356
+CostTime: 120.3517
+Epoch: 3/50 | Step: 1674/1750 | Training loss: 0.0356
+CostTime: 111.7667
+Epoch: 3/50 | Step: 1736/1750 | Training loss: 0.0335
+CostTime: 121.0059
+Epoch 3 averaged training loss: 0.0344
+The current learning rate is 0.000008
+test 2: iter: 0
+test 2: iter: 1000
+test 2: iter: 2000
+test 2: iter: 3000
+test 2: iter: 4000
+test 2: iter: 5000
+test 2: iter: 6000
+test 2: iter: 7000
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8745, KRCC: 0.6901, PLCC: 0.8757, and RMSE: 5.0766
+test_1080p 2: iter: 0
+test_1080p 2: iter: 1000
+test_1080p 2: iter: 2000
+test_1080p 2: iter: 3000
+Epoch 3 completed. The result on the STDA test_1080p databaset: SRCC: 0.7803, KRCC: 0.5893, PLCC: 0.8149, and RMSE: 6.0130
+Update best model using best_test_criterion in epoch 3
+Saving model...
+Epoch: 4/50 | Step: 62/1750 | Training loss: 0.0356
+CostTime: 126.7007
+Epoch: 4/50 | Step: 124/1750 | Training loss: 0.0417
+CostTime: 112.6556
+Epoch: 4/50 | Step: 186/1750 | Training loss: 0.0388
+CostTime: 103.5189
+Epoch: 4/50 | Step: 248/1750 | Training loss: 0.0368
+CostTime: 107.9375
+Epoch: 4/50 | Step: 310/1750 | Training loss: 0.0392
+CostTime: 104.1347
+Epoch: 4/50 | Step: 372/1750 | Training loss: 0.0377
+CostTime: 116.0995
+Epoch: 4/50 | Step: 434/1750 | Training loss: 0.0383
+CostTime: 106.8292
+Epoch: 4/50 | Step: 496/1750 | Training loss: 0.0429
+CostTime: 102.3097
+Epoch: 4/50 | Step: 558/1750 | Training loss: 0.0423
+CostTime: 106.9432
+Epoch: 4/50 | Step: 620/1750 | Training loss: 0.0396
+CostTime: 109.5103
+Epoch: 4/50 | Step: 682/1750 | Training loss: 0.0376
+CostTime: 113.0403
+Epoch: 4/50 | Step: 744/1750 | Training loss: 0.0398
+CostTime: 103.0643
+Epoch: 4/50 | Step: 806/1750 | Training loss: 0.0371
+CostTime: 109.1056
+Epoch: 4/50 | Step: 868/1750 | Training loss: 0.0400
+CostTime: 110.1844
+Epoch: 4/50 | Step: 930/1750 | Training loss: 0.0427
+CostTime: 109.9393
+Epoch: 4/50 | Step: 992/1750 | Training loss: 0.0395
+CostTime: 104.2613
+Epoch: 4/50 | Step: 1054/1750 | Training loss: 0.0401
+CostTime: 108.9318
+Epoch: 4/50 | Step: 1116/1750 | Training loss: 0.0403
+CostTime: 103.0914
+Epoch: 4/50 | Step: 1178/1750 | Training loss: 0.0400
+CostTime: 107.0010
+Epoch: 4/50 | Step: 1240/1750 | Training loss: 0.0372
+CostTime: 105.4888
+Epoch: 4/50 | Step: 1302/1750 | Training loss: 0.0353
+CostTime: 113.9974
+Epoch: 4/50 | Step: 1364/1750 | Training loss: 0.0368
+CostTime: 109.3348
+Epoch: 4/50 | Step: 1426/1750 | Training loss: 0.0395
+CostTime: 101.0320
+Epoch: 4/50 | Step: 1488/1750 | Training loss: 0.0388
+CostTime: 108.9831
+Epoch: 4/50 | Step: 1550/1750 | Training loss: 0.0388
+CostTime: 107.7054
+Epoch: 4/50 | Step: 1612/1750 | Training loss: 0.0408
+CostTime: 106.6338
+Epoch: 4/50 | Step: 1674/1750 | Training loss: 0.0425
+CostTime: 105.7167
+Epoch: 4/50 | Step: 1736/1750 | Training loss: 0.0397
+CostTime: 106.4129
+Epoch 4 averaged training loss: 0.0393
+The current learning rate is 0.000007
+test 3: iter: 0
+test 3: iter: 1000
+test 3: iter: 2000
+test 3: iter: 3000
+test 3: iter: 4000
+test 3: iter: 5000
+test 3: iter: 6000
+test 3: iter: 7000
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8647, KRCC: 0.6775, PLCC: 0.8670, and RMSE: 5.2396
+test_1080p 3: iter: 0
+test_1080p 3: iter: 1000
+test_1080p 3: iter: 2000
+test_1080p 3: iter: 3000
+Epoch 4 completed. The result on the STDA test_1080p databaset: SRCC: 0.7661, KRCC: 0.5745, PLCC: 0.8078, and RMSE: 6.1153
+Epoch: 5/50 | Step: 62/1750 | Training loss: 0.0339
+CostTime: 123.4501
+Epoch: 5/50 | Step: 124/1750 | Training loss: 0.0341
+CostTime: 112.0730
+Epoch: 5/50 | Step: 186/1750 | Training loss: 0.0328
+CostTime: 104.6586
+Epoch: 5/50 | Step: 248/1750 | Training loss: 0.0314
+CostTime: 109.2180
+Epoch: 5/50 | Step: 310/1750 | Training loss: 0.0307
+CostTime: 111.2241
+Epoch: 5/50 | Step: 372/1750 | Training loss: 0.0332
+CostTime: 112.9919
+Epoch: 5/50 | Step: 434/1750 | Training loss: 0.0344
+CostTime: 109.6900
+Epoch: 5/50 | Step: 496/1750 | Training loss: 0.0357
+CostTime: 107.8871
+Epoch: 5/50 | Step: 558/1750 | Training loss: 0.0338
+CostTime: 104.4044
+Epoch: 5/50 | Step: 620/1750 | Training loss: 0.0342
+CostTime: 113.0066
+Epoch: 5/50 | Step: 682/1750 | Training loss: 0.0345
+CostTime: 112.7143
+Epoch: 5/50 | Step: 744/1750 | Training loss: 0.0334
+CostTime: 101.9743
+Epoch: 5/50 | Step: 806/1750 | Training loss: 0.0333
+CostTime: 110.8163
+Epoch: 5/50 | Step: 868/1750 | Training loss: 0.0320
+CostTime: 111.5047
+Epoch: 5/50 | Step: 930/1750 | Training loss: 0.0317
+CostTime: 109.9736
+Epoch: 5/50 | Step: 992/1750 | Training loss: 0.0307
+CostTime: 108.9943
+Epoch: 5/50 | Step: 1054/1750 | Training loss: 0.0317
+CostTime: 111.3977
+Epoch: 5/50 | Step: 1116/1750 | Training loss: 0.0355
+CostTime: 109.7510
+Epoch: 5/50 | Step: 1178/1750 | Training loss: 0.0347
+CostTime: 106.3660
+Epoch: 5/50 | Step: 1240/1750 | Training loss: 0.0331
+CostTime: 109.5416
+Epoch: 5/50 | Step: 1302/1750 | Training loss: 0.0372
+CostTime: 109.2280
+Epoch: 5/50 | Step: 1364/1750 | Training loss: 0.0352
+CostTime: 111.4085
+Epoch: 5/50 | Step: 1426/1750 | Training loss: 0.0353
+CostTime: 109.3631
+Epoch: 5/50 | Step: 1488/1750 | Training loss: 0.0355
+CostTime: 108.8565
+Epoch: 5/50 | Step: 1550/1750 | Training loss: 0.0358
+CostTime: 108.3435
+Epoch: 5/50 | Step: 1612/1750 | Training loss: 0.0360
+CostTime: 108.8572
+Epoch: 5/50 | Step: 1674/1750 | Training loss: 0.0355
+CostTime: 111.6028
+Epoch: 5/50 | Step: 1736/1750 | Training loss: 0.0328
+CostTime: 106.9078
+Epoch 5 averaged training loss: 0.0339
+The current learning rate is 0.000007
+test 4: iter: 0
+test 4: iter: 1000
+test 4: iter: 2000
+test 4: iter: 3000
+test 4: iter: 4000
+test 4: iter: 5000
+test 4: iter: 6000
+test 4: iter: 7000
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8716, KRCC: 0.6861, PLCC: 0.8726, and RMSE: 5.1357
+test_1080p 4: iter: 0
+test_1080p 4: iter: 1000
+test_1080p 4: iter: 2000
+test_1080p 4: iter: 3000
+Epoch 5 completed. The result on the STDA test_1080p databaset: SRCC: 0.7803, KRCC: 0.5899, PLCC: 0.8161, and RMSE: 5.9950
+Epoch: 6/50 | Step: 62/1750 | Training loss: 0.0275
+CostTime: 123.5043
+Epoch: 6/50 | Step: 124/1750 | Training loss: 0.0297
+CostTime: 106.2888
+Epoch: 6/50 | Step: 186/1750 | Training loss: 0.0309
+CostTime: 109.5271
+Epoch: 6/50 | Step: 248/1750 | Training loss: 0.0284
+CostTime: 111.7546
+Epoch: 6/50 | Step: 310/1750 | Training loss: 0.0294
+CostTime: 110.7051
+Epoch: 6/50 | Step: 372/1750 | Training loss: 0.0314
+CostTime: 102.1030
+Epoch: 6/50 | Step: 434/1750 | Training loss: 0.0291
+CostTime: 109.5510
+Epoch: 6/50 | Step: 496/1750 | Training loss: 0.0305
+CostTime: 110.2999
+Epoch: 6/50 | Step: 558/1750 | Training loss: 0.0290
+CostTime: 109.0523
+Epoch: 6/50 | Step: 620/1750 | Training loss: 0.0298
+CostTime: 108.9363
+Epoch: 6/50 | Step: 682/1750 | Training loss: 0.0311
+CostTime: 101.2804
+Epoch: 6/50 | Step: 744/1750 | Training loss: 0.0308
+CostTime: 110.0123
+Epoch: 6/50 | Step: 806/1750 | Training loss: 0.0321
+CostTime: 106.5436
+Epoch: 6/50 | Step: 868/1750 | Training loss: 0.0308
+CostTime: 112.3170
+
+.Epoch: 6/50 | Step: 930/1750 | Training loss: 0.0310
+CostTime: 105.8566
+Epoch: 6/50 | Step: 992/1750 | Training loss: 0.0325
+CostTime: 111.0128
+Epoch: 6/50 | Step: 1054/1750 | Training loss: 0.0309
+CostTime: 98.6791
+Epoch: 6/50 | Step: 1116/1750 | Training loss: 0.0293
+CostTime: 111.0624
+Epoch: 6/50 | Step: 1178/1750 | Training loss: 0.0325
+CostTime: 108.3387
+Epoch: 6/50 | Step: 1240/1750 | Training loss: 0.0316
+CostTime: 106.8579
+Epoch: 6/50 | Step: 1302/1750 | Training loss: 0.0295
+CostTime: 106.9820
+Epoch: 6/50 | Step: 1364/1750 | Training loss: 0.0330
+CostTime: 108.6446
+Epoch: 6/50 | Step: 1426/1750 | Training loss: 0.0322
+CostTime: 119.5990
+Epoch: 6/50 | Step: 1488/1750 | Training loss: 0.0328
+CostTime: 119.2833
+Epoch: 6/50 | Step: 1550/1750 | Training loss: 0.0352
+CostTime: 127.3610
+Epoch: 6/50 | Step: 1612/1750 | Training loss: 0.0341
+CostTime: 114.3055
+Epoch: 6/50 | Step: 1674/1750 | Training loss: 0.0324
+CostTime: 111.4811
+Epoch: 6/50 | Step: 1736/1750 | Training loss: 0.0296
+CostTime: 104.2790
+Epoch 6 averaged training loss: 0.0310
+The current learning rate is 0.000007
+test 5: iter: 0
+test 5: iter: 1000
+test 5: iter: 2000
+test 5: iter: 3000
+test 5: iter: 4000
+test 5: iter: 5000
+test 5: iter: 6000
+test 5: iter: 7000
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8710, KRCC: 0.6846, PLCC: 0.8705, and RMSE: 5.1750
+test_1080p 5: iter: 0
+test_1080p 5: iter: 1000
+test_1080p 5: iter: 2000
+test_1080p 5: iter: 3000
+Epoch 6 completed. The result on the STDA test_1080p databaset: SRCC: 0.7716, KRCC: 0.5808, PLCC: 0.8070, and RMSE: 6.1256
+Epoch: 7/50 | Step: 62/1750 | Training loss: 0.0287
+CostTime: 118.6739
+Epoch: 7/50 | Step: 124/1750 | Training loss: 0.0263
+CostTime: 110.5807
+Epoch: 7/50 | Step: 186/1750 | Training loss: 0.0266
+CostTime: 113.7617
+Epoch: 7/50 | Step: 248/1750 | Training loss: 0.0265
+CostTime: 103.7663
+Epoch: 7/50 | Step: 310/1750 | Training loss: 0.0298
+CostTime: 105.6166
+Epoch: 7/50 | Step: 372/1750 | Training loss: 0.0271
+CostTime: 106.4345
+Epoch: 7/50 | Step: 434/1750 | Training loss: 0.0276
+CostTime: 105.4349
+Epoch: 7/50 | Step: 496/1750 | Training loss: 0.0263
+CostTime: 103.0957
+Epoch: 7/50 | Step: 558/1750 | Training loss: 0.0274
+CostTime: 108.1455
+Epoch: 7/50 | Step: 620/1750 | Training loss: 0.0273
+CostTime: 109.8161
+Epoch: 7/50 | Step: 682/1750 | Training loss: 0.0274
+CostTime: 103.3426
+Epoch: 7/50 | Step: 744/1750 | Training loss: 0.0299
+CostTime: 105.9020
+Epoch: 7/50 | Step: 806/1750 | Training loss: 0.0280
+CostTime: 107.6481
+Epoch: 7/50 | Step: 868/1750 | Training loss: 0.0269
+CostTime: 105.7273
+Epoch: 7/50 | Step: 930/1750 | Training loss: 0.0294
+CostTime: 111.6893
+Epoch: 7/50 | Step: 992/1750 | Training loss: 0.0284
+CostTime: 104.2333
+Epoch: 7/50 | Step: 1054/1750 | Training loss: 0.0283
+CostTime: 100.7085
+Epoch: 7/50 | Step: 1116/1750 | Training loss: 0.0277
+CostTime: 111.5670
+Epoch: 7/50 | Step: 1178/1750 | Training loss: 0.0311
+CostTime: 105.8053
+Epoch: 7/50 | Step: 1240/1750 | Training loss: 0.0292
+CostTime: 106.4055
+Epoch: 7/50 | Step: 1302/1750 | Training loss: 0.0308
+CostTime: 109.1299
+Epoch: 7/50 | Step: 1364/1750 | Training loss: 0.0294
+CostTime: 108.3538
+Epoch: 7/50 | Step: 1426/1750 | Training loss: 0.0297
+CostTime: 106.3877
+Epoch: 7/50 | Step: 1488/1750 | Training loss: 0.0290
+CostTime: 103.4937
+Epoch: 7/50 | Step: 1550/1750 | Training loss: 0.0285
+CostTime: 110.1362
+Epoch: 7/50 | Step: 1612/1750 | Training loss: 0.0289
+CostTime: 106.8698
+Epoch: 7/50 | Step: 1674/1750 | Training loss: 0.0295
+CostTime: 104.9403
+Epoch: 7/50 | Step: 1736/1750 | Training loss: 0.0273
+CostTime: 110.6595
+Epoch 7 averaged training loss: 0.0283
+The current learning rate is 0.000007
+test 6: iter: 0
+test 6: iter: 1000
+test 6: iter: 2000
+test 6: iter: 3000
+test 6: iter: 4000
+test 6: iter: 5000
+test 6: iter: 6000
+test 6: iter: 7000
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8744, KRCC: 0.6901, PLCC: 0.8758, and RMSE: 5.0745
+test_1080p 6: iter: 0
+test_1080p 6: iter: 1000
+test_1080p 6: iter: 2000
+test_1080p 6: iter: 3000
+Epoch 7 completed. The result on the STDA test_1080p databaset: SRCC: 0.7779, KRCC: 0.5875, PLCC: 0.8179, and RMSE: 5.9692
+Epoch: 8/50 | Step: 62/1750 | Training loss: 0.0266
+CostTime: 127.3568
+Epoch: 8/50 | Step: 124/1750 | Training loss: 0.0290
+CostTime: 108.4251
+Epoch: 8/50 | Step: 186/1750 | Training loss: 0.0284
+CostTime: 115.0644
+Epoch: 8/50 | Step: 248/1750 | Training loss: 0.0275
+CostTime: 97.9853
+Epoch: 8/50 | Step: 310/1750 | Training loss: 0.0261
+CostTime: 118.7432
+Epoch: 8/50 | Step: 372/1750 | Training loss: 0.0262
+CostTime: 113.3642
+Epoch: 8/50 | Step: 434/1750 | Training loss: 0.0265
+CostTime: 108.0113
+Epoch: 8/50 | Step: 496/1750 | Training loss: 0.0267
+CostTime: 109.3862
+Epoch: 8/50 | Step: 558/1750 | Training loss: 0.0269
+CostTime: 111.9726
+Epoch: 8/50 | Step: 620/1750 | Training loss: 0.0289
+CostTime: 113.2078
+Epoch: 8/50 | Step: 682/1750 | Training loss: 0.0276
+CostTime: 106.9113
+Epoch: 8/50 | Step: 744/1750 | Training loss: 0.0281
+CostTime: 110.6276
+Epoch: 8/50 | Step: 806/1750 | Training loss: 0.0283
+CostTime: 105.9521
+Epoch: 8/50 | Step: 868/1750 | Training loss: 0.0290
+CostTime: 107.4632
+Epoch: 8/50 | Step: 930/1750 | Training loss: 0.0273
+CostTime: 107.8261
+Epoch: 8/50 | Step: 992/1750 | Training loss: 0.0255
+CostTime: 114.1461
+Epoch: 8/50 | Step: 1054/1750 | Training loss: 0.0283
+CostTime: 108.2059
+Epoch: 8/50 | Step: 1116/1750 | Training loss: 0.0275
+CostTime: 108.5903
+Epoch: 8/50 | Step: 1178/1750 | Training loss: 0.0270
+CostTime: 107.0355
+Epoch: 8/50 | Step: 1240/1750 | Training loss: 0.0281
+CostTime: 106.0353
+Epoch: 8/50 | Step: 1302/1750 | Training loss: 0.0258
+CostTime: 109.5845
+Epoch: 8/50 | Step: 1364/1750 | Training loss: 0.0268
+CostTime: 108.4751
+Epoch: 8/50 | Step: 1426/1750 | Training loss: 0.0255
+CostTime: 110.5545
+Epoch: 8/50 | Step: 1488/1750 | Training loss: 0.0272
+CostTime: 104.5139
+Epoch: 8/50 | Step: 1550/1750 | Training loss: 0.0267
+CostTime: 109.0616
+Epoch: 8/50 | Step: 1612/1750 | Training loss: 0.0284
+CostTime: 110.4173
+Epoch: 8/50 | Step: 1674/1750 | Training loss: 0.0274
+CostTime: 110.3900
+Epoch: 8/50 | Step: 1736/1750 | Training loss: 0.0264
+CostTime: 109.0897
+Epoch 8 averaged training loss: 0.0273
+The current learning rate is 0.000007
+test 7: iter: 0
+test 7: iter: 1000
+test 7: iter: 2000
+test 7: iter: 3000
+test 7: iter: 4000
+test 7: iter: 5000
+test 7: iter: 6000
+test 7: iter: 7000
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8806, KRCC: 0.6982, PLCC: 0.8810, and RMSE: 4.9749
+test_1080p 7: iter: 0
+test_1080p 7: iter: 1000
+test_1080p 7: iter: 2000
+test_1080p 7: iter: 3000
+Epoch 8 completed. The result on the STDA test_1080p databaset: SRCC: 0.7835, KRCC: 0.5935, PLCC: 0.8210, and RMSE: 5.9229
+Update best model using best_test_criterion in epoch 8
+Saving model...
+Epoch: 9/50 | Step: 62/1750 | Training loss: 0.0264
+CostTime: 122.3348
+Epoch: 9/50 | Step: 124/1750 | Training loss: 0.0246
+CostTime: 112.6493
+Epoch: 9/50 | Step: 186/1750 | Training loss: 0.0241
+CostTime: 113.1719
+Epoch: 9/50 | Step: 248/1750 | Training loss: 0.0248
+CostTime: 114.2979
+Epoch: 9/50 | Step: 310/1750 | Training loss: 0.0253
+CostTime: 107.9189
+Epoch: 9/50 | Step: 372/1750 | Training loss: 0.0247
+CostTime: 117.2668
+Epoch: 9/50 | Step: 434/1750 | Training loss: 0.0262
+CostTime: 115.8600
+Epoch: 9/50 | Step: 496/1750 | Training loss: 0.0278
+CostTime: 118.4822
+Epoch: 9/50 | Step: 558/1750 | Training loss: 0.0251
+CostTime: 113.8651
+Epoch: 9/50 | Step: 620/1750 | Training loss: 0.0257
+CostTime: 115.6748
+Epoch: 9/50 | Step: 682/1750 | Training loss: 0.0237
+CostTime: 105.2399
+Epoch: 9/50 | Step: 744/1750 | Training loss: 0.0254
+CostTime: 116.8459
+Epoch: 9/50 | Step: 806/1750 | Training loss: 0.0276
+CostTime: 118.0283
+Epoch: 9/50 | Step: 868/1750 | Training loss: 0.0262
+CostTime: 116.2294
+Epoch: 9/50 | Step: 930/1750 | Training loss: 0.0248
+CostTime: 114.9483
+Epoch: 9/50 | Step: 992/1750 | Training loss: 0.0260
+CostTime: 114.6678
+Epoch: 9/50 | Step: 1054/1750 | Training loss: 0.0270
+CostTime: 118.8041
+Epoch: 9/50 | Step: 1116/1750 | Training loss: 0.0261
+CostTime: 104.6765
+Epoch: 9/50 | Step: 1178/1750 | Training loss: 0.0268
+CostTime: 123.9731
+Epoch: 9/50 | Step: 1240/1750 | Training loss: 0.0253
+CostTime: 114.0587
+Epoch: 9/50 | Step: 1302/1750 | Training loss: 0.0258
+CostTime: 115.4460
+Epoch: 9/50 | Step: 1364/1750 | Training loss: 0.0261
+CostTime: 117.8426
+Epoch: 9/50 | Step: 1426/1750 | Training loss: 0.0264
+CostTime: 117.3611
+Epoch: 9/50 | Step: 1488/1750 | Training loss: 0.0266
+CostTime: 112.1133
+Epoch: 9/50 | Step: 1550/1750 | Training loss: 0.0258
+CostTime: 112.1060
+Epoch: 9/50 | Step: 1612/1750 | Training loss: 0.0250
+CostTime: 114.4370
+Epoch: 9/50 | Step: 1674/1750 | Training loss: 0.0278
+CostTime: 119.6139
+Epoch: 9/50 | Step: 1736/1750 | Training loss: 0.0282
+CostTime: 107.1761
+Epoch 9 averaged training loss: 0.0259
+The current learning rate is 0.000007
+test 8: iter: 0
+test 8: iter: 1000
+test 8: iter: 2000
+test 8: iter: 3000
+test 8: iter: 4000
+test 8: iter: 5000
+test 8: iter: 6000
+test 8: iter: 7000
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8773, KRCC: 0.6936, PLCC: 0.8771, and RMSE: 5.0494
+test_1080p 8: iter: 0
+test_1080p 8: iter: 1000
+test_1080p 8: iter: 2000
+test_1080p 8: iter: 3000
+Epoch 9 completed. The result on the STDA test_1080p databaset: SRCC: 0.7697, KRCC: 0.5797, PLCC: 0.8087, and RMSE: 6.1017
+Epoch: 10/50 | Step: 62/1750 | Training loss: 0.0259
+CostTime: 121.7151
+Epoch: 10/50 | Step: 124/1750 | Training loss: 0.0264
+CostTime: 119.1273
+Epoch: 10/50 | Step: 186/1750 | Training loss: 0.0262
+CostTime: 109.6738
+Epoch: 10/50 | Step: 248/1750 | Training loss: 0.0254
+CostTime: 109.6137
+Epoch: 10/50 | Step: 310/1750 | Training loss: 0.0233
+CostTime: 113.9557
+Epoch: 10/50 | Step: 372/1750 | Training loss: 0.0258
+CostTime: 107.4426
+Epoch: 10/50 | Step: 434/1750 | Training loss: 0.0245
+CostTime: 114.5474
+Epoch: 10/50 | Step: 496/1750 | Training loss: 0.0242
+CostTime: 120.1293
+Epoch: 10/50 | Step: 558/1750 | Training loss: 0.0240
+CostTime: 104.3335
+Epoch: 10/50 | Step: 620/1750 | Training loss: 0.0263
+CostTime: 115.2758
+Epoch: 10/50 | Step: 682/1750 | Training loss: 0.0261
+CostTime: 113.5448
+Epoch: 10/50 | Step: 744/1750 | Training loss: 0.0240
+CostTime: 111.7329
+Epoch: 10/50 | Step: 806/1750 | Training loss: 0.0233
+CostTime: 111.9090
+Epoch: 10/50 | Step: 868/1750 | Training loss: 0.0248
+CostTime: 111.2764
+Epoch: 10/50 | Step: 930/1750 | Training loss: 0.0240
+CostTime: 112.5063
+Epoch: 10/50 | Step: 992/1750 | Training loss: 0.0235
+CostTime: 113.3431
+Epoch: 10/50 | Step: 1054/1750 | Training loss: 0.0252
+CostTime: 105.3109
+Epoch: 10/50 | Step: 1116/1750 | Training loss: 0.0246
+CostTime: 116.7442
+Epoch: 10/50 | Step: 1178/1750 | Training loss: 0.0252
+CostTime: 115.8695
+Epoch: 10/50 | Step: 1240/1750 | Training loss: 0.0264
+CostTime: 111.8970
+Epoch: 10/50 | Step: 1302/1750 | Training loss: 0.0253
+CostTime: 110.3952
+Epoch: 10/50 | Step: 1364/1750 | Training loss: 0.0252
+CostTime: 114.1937
+Epoch: 10/50 | Step: 1426/1750 | Training loss: 0.0250
+CostTime: 118.4456
+Epoch: 10/50 | Step: 1488/1750 | Training loss: 0.0254
+CostTime: 119.7222
+Epoch: 10/50 | Step: 1550/1750 | Training loss: 0.0246
+CostTime: 117.4641
+Epoch: 10/50 | Step: 1612/1750 | Training loss: 0.0265
+CostTime: 122.3007
+Epoch: 10/50 | Step: 1674/1750 | Training loss: 0.0244
+CostTime: 113.5232
+Epoch: 10/50 | Step: 1736/1750 | Training loss: 0.0253
+CostTime: 121.4035
+Epoch 10 averaged training loss: 0.0250
+The current learning rate is 0.000006
+test 9: iter: 0
+test 9: iter: 1000
+test 9: iter: 2000
+test 9: iter: 3000
+test 9: iter: 4000
+test 9: iter: 5000
+test 9: iter: 6000
+test 9: iter: 7000
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8809, KRCC: 0.6986, PLCC: 0.8815, and RMSE: 4.9646
+test_1080p 9: iter: 0
+test_1080p 9: iter: 1000
+test_1080p 9: iter: 2000
+test_1080p 9: iter: 3000
+Epoch 10 completed. The result on the STDA test_1080p databaset: SRCC: 0.7791, KRCC: 0.5887, PLCC: 0.8196, and RMSE: 5.9435
+Update best model using best_test_criterion in epoch 10
+Saving model...
+Epoch: 11/50 | Step: 62/1750 | Training loss: 0.0255
+CostTime: 131.1256
+Epoch: 11/50 | Step: 124/1750 | Training loss: 0.0242
+CostTime: 109.4219
+Epoch: 11/50 | Step: 186/1750 | Training loss: 0.0234
+CostTime: 113.5632
+Epoch: 11/50 | Step: 248/1750 | Training loss: 0.0231
+CostTime: 114.5097
+Epoch: 11/50 | Step: 310/1750 | Training loss: 0.0235
+CostTime: 117.4230
+Epoch: 11/50 | Step: 372/1750 | Training loss: 0.0241
+CostTime: 105.9559
+Epoch: 11/50 | Step: 434/1750 | Training loss: 0.0231
+CostTime: 111.8651
+Epoch: 11/50 | Step: 496/1750 | Training loss: 0.0234
+CostTime: 112.0856
+Epoch: 11/50 | Step: 558/1750 | Training loss: 0.0251
+CostTime: 118.1693
+Epoch: 11/50 | Step: 620/1750 | Training loss: 0.0243
+CostTime: 110.6284
+Epoch: 11/50 | Step: 682/1750 | Training loss: 0.0245
+CostTime: 106.3943
+Epoch: 11/50 | Step: 744/1750 | Training loss: 0.0250
+CostTime: 113.8497
+Epoch: 11/50 | Step: 806/1750 | Training loss: 0.0253
+CostTime: 111.3779
+Epoch: 11/50 | Step: 868/1750 | Training loss: 0.0232
+CostTime: 111.8793
+Epoch: 11/50 | Step: 930/1750 | Training loss: 0.0237
+CostTime: 110.6576
+Epoch: 11/50 | Step: 992/1750 | Training loss: 0.0236
+CostTime: 120.3311
+Epoch: 11/50 | Step: 1054/1750 | Training loss: 0.0236
+CostTime: 119.7084
+Epoch: 11/50 | Step: 1116/1750 | Training loss: 0.0250
+CostTime: 118.6606
+Epoch: 11/50 | Step: 1178/1750 | Training loss: 0.0233
+CostTime: 124.0080
+Epoch: 11/50 | Step: 1240/1750 | Training loss: 0.0234
+CostTime: 120.7064
+Epoch: 11/50 | Step: 1302/1750 | Training loss: 0.0240
+CostTime: 120.1167
+Epoch: 11/50 | Step: 1364/1750 | Training loss: 0.0229
+CostTime: 123.3952
+Epoch: 11/50 | Step: 1426/1750 | Training loss: 0.0247
+CostTime: 121.4023
+Epoch: 11/50 | Step: 1488/1750 | Training loss: 0.0234
+CostTime: 119.8568
+Epoch: 11/50 | Step: 1550/1750 | Training loss: 0.0247
+CostTime: 123.5907
+Epoch: 11/50 | Step: 1612/1750 | Training loss: 0.0246
+CostTime: 127.1172
+Epoch: 11/50 | Step: 1674/1750 | Training loss: 0.0243
+CostTime: 118.1462
+Epoch: 11/50 | Step: 1736/1750 | Training loss: 0.0266
+CostTime: 126.3438
+Epoch 11 averaged training loss: 0.0241
+The current learning rate is 0.000006
+test 10: iter: 0
+test 10: iter: 1000
+test 10: iter: 2000
+test 10: iter: 3000
+test 10: iter: 4000
+test 10: iter: 5000
+test 10: iter: 6000
+test 10: iter: 7000
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8799, KRCC: 0.6969, PLCC: 0.8791, and RMSE: 5.0107
+test_1080p 10: iter: 0
+test_1080p 10: iter: 1000
+test_1080p 10: iter: 2000
+test_1080p 10: iter: 3000
+Epoch 11 completed. The result on the STDA test_1080p databaset: SRCC: 0.7753, KRCC: 0.5852, PLCC: 0.8156, and RMSE: 6.0023
+Epoch: 12/50 | Step: 62/1750 | Training loss: 0.0249
+CostTime: 117.4266
+Epoch: 12/50 | Step: 124/1750 | Training loss: 0.0263
+CostTime: 107.2580
+Epoch: 12/50 | Step: 186/1750 | Training loss: 0.0242
+CostTime: 108.0446
+Epoch: 12/50 | Step: 248/1750 | Training loss: 0.0237
+CostTime: 113.2264
+Epoch: 12/50 | Step: 310/1750 | Training loss: 0.0230
+CostTime: 105.3311
+Epoch: 12/50 | Step: 372/1750 | Training loss: 0.0229
+CostTime: 116.3831
+Epoch: 12/50 | Step: 434/1750 | Training loss: 0.0236
+CostTime: 113.3894
+Epoch: 12/50 | Step: 496/1750 | Training loss: 0.0232
+CostTime: 113.8870
+Epoch: 12/50 | Step: 558/1750 | Training loss: 0.0233
+CostTime: 103.5146
+Epoch: 12/50 | Step: 620/1750 | Training loss: 0.0229
+CostTime: 112.9335
+Epoch: 12/50 | Step: 682/1750 | Training loss: 0.0225
+CostTime: 110.6291
+Epoch: 12/50 | Step: 744/1750 | Training loss: 0.0225
+CostTime: 106.5644
+Epoch: 12/50 | Step: 806/1750 | Training loss: 0.0225
+CostTime: 109.6569
+Epoch: 12/50 | Step: 868/1750 | Training loss: 0.0235
+CostTime: 109.3733
+Epoch: 12/50 | Step: 930/1750 | Training loss: 0.0243
+CostTime: 115.6079
+Epoch: 12/50 | Step: 992/1750 | Training loss: 0.0222
+CostTime: 105.6547
+Epoch: 12/50 | Step: 1054/1750 | Training loss: 0.0232
+CostTime: 115.7653
+Epoch: 12/50 | Step: 1116/1750 | Training loss: 0.0228
+CostTime: 118.4883
+Epoch: 12/50 | Step: 1178/1750 | Training loss: 0.0217
+CostTime: 109.4928
+Epoch: 12/50 | Step: 1240/1750 | Training loss: 0.0235
+CostTime: 107.5428
+Epoch: 12/50 | Step: 1302/1750 | Training loss: 0.0228
+CostTime: 108.4795
+Epoch: 12/50 | Step: 1364/1750 | Training loss: 0.0247
+CostTime: 114.8811
+Epoch: 12/50 | Step: 1426/1750 | Training loss: 0.0238
+CostTime: 104.7671
+Epoch: 12/50 | Step: 1488/1750 | Training loss: 0.0240
+CostTime: 116.8117
+Epoch: 12/50 | Step: 1550/1750 | Training loss: 0.0225
+CostTime: 105.9044
+Epoch: 12/50 | Step: 1612/1750 | Training loss: 0.0242
+CostTime: 108.3507
+Epoch: 12/50 | Step: 1674/1750 | Training loss: 0.0235
+CostTime: 118.9491
+Epoch: 12/50 | Step: 1736/1750 | Training loss: 0.0271
+CostTime: 111.1517
+Epoch 12 averaged training loss: 0.0236
+The current learning rate is 0.000006
+test 11: iter: 0
+test 11: iter: 1000
+test 11: iter: 2000
+test 11: iter: 3000
+test 11: iter: 4000
+test 11: iter: 5000
+test 11: iter: 6000
+test 11: iter: 7000
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8795, KRCC: 0.6970, PLCC: 0.8794, and RMSE: 5.0061
+test_1080p 11: iter: 0
+test_1080p 11: iter: 1000
+test_1080p 11: iter: 2000
+test_1080p 11: iter: 3000
+Epoch 12 completed. The result on the STDA test_1080p databaset: SRCC: 0.7873, KRCC: 0.5979, PLCC: 0.8245, and RMSE: 5.8700
+Epoch: 13/50 | Step: 62/1750 | Training loss: 0.0218
+CostTime: 120.3797
+Epoch: 13/50 | Step: 124/1750 | Training loss: 0.0230
+CostTime: 113.6911
+Epoch: 13/50 | Step: 186/1750 | Training loss: 0.0228
+CostTime: 108.1192
+Epoch: 13/50 | Step: 248/1750 | Training loss: 0.0216
+CostTime: 105.8446
+Epoch: 13/50 | Step: 310/1750 | Training loss: 0.0221
+CostTime: 109.1006
+Epoch: 13/50 | Step: 372/1750 | Training loss: 0.0228
+CostTime: 113.1491
+Epoch: 13/50 | Step: 434/1750 | Training loss: 0.0224
+CostTime: 118.0606
+Epoch: 13/50 | Step: 496/1750 | Training loss: 0.0232
+CostTime: 102.8549
+Epoch: 13/50 | Step: 558/1750 | Training loss: 0.0235
+CostTime: 109.9803
+Epoch: 13/50 | Step: 620/1750 | Training loss: 0.0233
+CostTime: 107.0217
+Epoch: 13/50 | Step: 682/1750 | Training loss: 0.0225
+CostTime: 110.9661
+Epoch: 13/50 | Step: 744/1750 | Training loss: 0.0221
+CostTime: 113.9109
+Epoch: 13/50 | Step: 806/1750 | Training loss: 0.0240
+CostTime: 108.2652
+Epoch: 13/50 | Step: 868/1750 | Training loss: 0.0225
+CostTime: 109.3967
+Epoch: 13/50 | Step: 930/1750 | Training loss: 0.0221
+CostTime: 106.7262
+Epoch: 13/50 | Step: 992/1750 | Training loss: 0.0234
+CostTime: 110.1285
+Epoch: 13/50 | Step: 1054/1750 | Training loss: 0.0234
+CostTime: 110.0104
+Epoch: 13/50 | Step: 1116/1750 | Training loss: 0.0234
+CostTime: 112.3731
+Epoch: 13/50 | Step: 1178/1750 | Training loss: 0.0224
+CostTime: 106.7327
+Epoch: 13/50 | Step: 1240/1750 | Training loss: 0.0230
+CostTime: 108.6885
+Epoch: 13/50 | Step: 1302/1750 | Training loss: 0.0226
+CostTime: 110.0801
+Epoch: 13/50 | Step: 1364/1750 | Training loss: 0.0214
+CostTime: 115.4065
+Epoch: 13/50 | Step: 1426/1750 | Training loss: 0.0222
+CostTime: 109.7308
+Epoch: 13/50 | Step: 1488/1750 | Training loss: 0.0235
+CostTime: 105.5546
+Epoch: 13/50 | Step: 1550/1750 | Training loss: 0.0223
+CostTime: 103.1971
+Epoch: 13/50 | Step: 1612/1750 | Training loss: 0.0221
+CostTime: 114.7564
+Epoch: 13/50 | Step: 1674/1750 | Training loss: 0.0229
+CostTime: 107.1871
+Epoch: 13/50 | Step: 1736/1750 | Training loss: 0.0248
+CostTime: 110.3239
+Epoch 13 averaged training loss: 0.0228
+The current learning rate is 0.000006
+test 12: iter: 0
+test 12: iter: 1000
+test 12: iter: 2000
+test 12: iter: 3000
+test 12: iter: 4000
+test 12: iter: 5000
+test 12: iter: 6000
+test 12: iter: 7000
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8790, KRCC: 0.6954, PLCC: 0.8782, and RMSE: 5.0293
+test_1080p 12: iter: 0
+test_1080p 12: iter: 1000
+test_1080p 12: iter: 2000
+test_1080p 12: iter: 3000
+Epoch 13 completed. The result on the STDA test_1080p databaset: SRCC: 0.7782, KRCC: 0.5871, PLCC: 0.8180, and RMSE: 5.9665
+Epoch: 14/50 | Step: 62/1750 | Training loss: 0.0231
+CostTime: 119.0669
+Epoch: 14/50 | Step: 124/1750 | Training loss: 0.0215
+CostTime: 111.2107
+Epoch: 14/50 | Step: 186/1750 | Training loss: 0.0222
+CostTime: 115.1715
+Epoch: 14/50 | Step: 248/1750 | Training loss: 0.0211
+CostTime: 108.6528
+Epoch: 14/50 | Step: 310/1750 | Training loss: 0.0212
+CostTime: 108.5980
+Epoch: 14/50 | Step: 372/1750 | Training loss: 0.0221
+CostTime: 111.8194
+Epoch: 14/50 | Step: 434/1750 | Training loss: 0.0219
+CostTime: 102.3299
+Epoch: 14/50 | Step: 496/1750 | Training loss: 0.0225
+CostTime: 108.6873
+Epoch: 14/50 | Step: 558/1750 | Training loss: 0.0228
+CostTime: 112.7938
+Epoch: 14/50 | Step: 620/1750 | Training loss: 0.0221
+CostTime: 107.6577
+Epoch: 14/50 | Step: 682/1750 | Training loss: 0.0224
+CostTime: 107.3162
+Epoch: 14/50 | Step: 744/1750 | Training loss: 0.0219
+CostTime: 112.4767
+Epoch: 14/50 | Step: 806/1750 | Training loss: 0.0218
+CostTime: 109.8818
+Epoch: 14/50 | Step: 868/1750 | Training loss: 0.0225
+CostTime: 107.3822
+Epoch: 14/50 | Step: 930/1750 | Training loss: 0.0221
+CostTime: 109.8250
+Epoch: 14/50 | Step: 992/1750 | Training loss: 0.0221
+CostTime: 110.4137
+Epoch: 14/50 | Step: 1054/1750 | Training loss: 0.0214
+CostTime: 114.4962
+Epoch: 14/50 | Step: 1116/1750 | Training loss: 0.0222
+CostTime: 107.6950
+Epoch: 14/50 | Step: 1178/1750 | Training loss: 0.0217
+CostTime: 121.7441
+Epoch: 14/50 | Step: 1240/1750 | Training loss: 0.0215
+CostTime: 104.4917
+Epoch: 14/50 | Step: 1302/1750 | Training loss: 0.0217
+CostTime: 112.7435
+Epoch: 14/50 | Step: 1364/1750 | Training loss: 0.0233
+CostTime: 100.8395
+Epoch: 14/50 | Step: 1426/1750 | Training loss: 0.0218
+CostTime: 110.4976
+Epoch: 14/50 | Step: 1488/1750 | Training loss: 0.0225
+CostTime: 109.7738
+Epoch: 14/50 | Step: 1550/1750 | Training loss: 0.0227
+CostTime: 110.4471
+Epoch: 14/50 | Step: 1612/1750 | Training loss: 0.0221
+CostTime: 111.1018
+Epoch: 14/50 | Step: 1674/1750 | Training loss: 0.0228
+CostTime: 104.7373
+Epoch: 14/50 | Step: 1736/1750 | Training loss: 0.0220
+CostTime: 109.6971
+Epoch 14 averaged training loss: 0.0221
+The current learning rate is 0.000006
+test 13: iter: 0
+test 13: iter: 1000
+test 13: iter: 2000
+test 13: iter: 3000
+test 13: iter: 4000
+test 13: iter: 5000
+test 13: iter: 6000
+test 13: iter: 7000
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8809, KRCC: 0.6975, PLCC: 0.8793, and RMSE: 5.0077
+test_1080p 13: iter: 0
+test_1080p 13: iter: 1000
+test_1080p 13: iter: 2000
+test_1080p 13: iter: 3000
+Epoch 14 completed. The result on the STDA test_1080p databaset: SRCC: 0.7763, KRCC: 0.5869, PLCC: 0.8180, and RMSE: 5.9672
+Update best model using best_test_criterion in epoch 14
+Saving model...
+Epoch: 15/50 | Step: 62/1750 | Training loss: 0.0220
+CostTime: 123.2482
+Epoch: 15/50 | Step: 124/1750 | Training loss: 0.0222
+CostTime: 106.3542
+Epoch: 15/50 | Step: 186/1750 | Training loss: 0.0223
+CostTime: 115.5574
+Epoch: 15/50 | Step: 248/1750 | Training loss: 0.0220
+CostTime: 113.4438
+Epoch: 15/50 | Step: 310/1750 | Training loss: 0.0224
+CostTime: 106.7007
+Epoch: 15/50 | Step: 372/1750 | Training loss: 0.0217
+CostTime: 104.5692
+Epoch: 15/50 | Step: 434/1750 | Training loss: 0.0210
+CostTime: 111.6711
+Epoch: 15/50 | Step: 496/1750 | Training loss: 0.0221
+CostTime: 106.2150
+Epoch: 15/50 | Step: 558/1750 | Training loss: 0.0214
+CostTime: 111.6561
+Epoch: 15/50 | Step: 620/1750 | Training loss: 0.0226
+CostTime: 108.8124
+Epoch: 15/50 | Step: 682/1750 | Training loss: 0.0233
+CostTime: 108.0492
+Epoch: 15/50 | Step: 744/1750 | Training loss: 0.0209
+CostTime: 108.3612
+Epoch: 15/50 | Step: 806/1750 | Training loss: 0.0220
+CostTime: 111.3982
+Epoch: 15/50 | Step: 868/1750 | Training loss: 0.0226
+CostTime: 115.1969
+Epoch: 15/50 | Step: 930/1750 | Training loss: 0.0217
+CostTime: 107.2908
+Epoch: 15/50 | Step: 992/1750 | Training loss: 0.0215
+CostTime: 104.3534
+Epoch: 15/50 | Step: 1054/1750 | Training loss: 0.0215
+CostTime: 115.1115
+Epoch: 15/50 | Step: 1116/1750 | Training loss: 0.0226
+CostTime: 111.2683
+Epoch: 15/50 | Step: 1178/1750 | Training loss: 0.0217
+CostTime: 106.2245
+Epoch: 15/50 | Step: 1240/1750 | Training loss: 0.0210
+CostTime: 110.7821
+Epoch: 15/50 | Step: 1302/1750 | Training loss: 0.0228
+CostTime: 108.3911
+Epoch: 15/50 | Step: 1364/1750 | Training loss: 0.0226
+CostTime: 108.9519
+Epoch: 15/50 | Step: 1426/1750 | Training loss: 0.0220
+CostTime: 115.2903
+Epoch: 15/50 | Step: 1488/1750 | Training loss: 0.0206
+CostTime: 105.6229
+Epoch: 15/50 | Step: 1550/1750 | Training loss: 0.0214
+CostTime: 105.8354
+Epoch: 15/50 | Step: 1612/1750 | Training loss: 0.0220
+CostTime: 107.4966
+Epoch: 15/50 | Step: 1674/1750 | Training loss: 0.0207
+CostTime: 106.3956
+Epoch: 15/50 | Step: 1736/1750 | Training loss: 0.0215
+CostTime: 115.4775
+Epoch 15 averaged training loss: 0.0219
+The current learning rate is 0.000006
+test 14: iter: 0
+test 14: iter: 1000
+test 14: iter: 2000
+test 14: iter: 3000
+test 14: iter: 4000
+test 14: iter: 5000
+test 14: iter: 6000
+test 14: iter: 7000
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8835, KRCC: 0.7016, PLCC: 0.8829, and RMSE: 4.9375
+test_1080p 14: iter: 0
+test_1080p 14: iter: 1000
+test_1080p 14: iter: 2000
+test_1080p 14: iter: 3000
+/data/guest/anaconda3/envs/zhaoyimeng/lib/python3.8/site-packages/scipy/optimize/_minpack_py.py:906: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+/data/guest/anaconda3/envs/zhaoyimeng/lib/python3.8/site-packages/scipy/stats/_stats_py.py:4424: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  warnings.warn(stats.ConstantInputWarning(msg))
+Epoch 15 completed. The result on the STDA test_1080p databaset: SRCC: 0.7829, KRCC: 0.5931, PLCC: nan, and RMSE: 10.3736
+Update best model using best_test_criterion in epoch 15
+Saving model...
+Epoch: 16/50 | Step: 62/1750 | Training loss: 0.0225
+CostTime: 124.5133
+Epoch: 16/50 | Step: 124/1750 | Training loss: 0.0214
+CostTime: 107.2657
+Epoch: 16/50 | Step: 186/1750 | Training loss: 0.0211
+CostTime: 105.6386
+Epoch: 16/50 | Step: 248/1750 | Training loss: 0.0214
+CostTime: 109.8369
+Epoch: 16/50 | Step: 310/1750 | Training loss: 0.0209
+CostTime: 110.0045
+Epoch: 16/50 | Step: 372/1750 | Training loss: 0.0219
+CostTime: 113.6299
+Epoch: 16/50 | Step: 434/1750 | Training loss: 0.0220
+CostTime: 103.5738
+Epoch: 16/50 | Step: 496/1750 | Training loss: 0.0215
+CostTime: 107.7062
+Epoch: 16/50 | Step: 558/1750 | Training loss: 0.0207
+CostTime: 109.2666
+Epoch: 16/50 | Step: 620/1750 | Training loss: 0.0215
+CostTime: 118.8210
+Epoch: 16/50 | Step: 682/1750 | Training loss: 0.0211
+CostTime: 105.6307
+Epoch: 16/50 | Step: 744/1750 | Training loss: 0.0231
+CostTime: 116.8846
+Epoch: 16/50 | Step: 806/1750 | Training loss: 0.0220
+CostTime: 107.0771
+Epoch: 16/50 | Step: 868/1750 | Training loss: 0.0216
+CostTime: 103.7920
+Epoch: 16/50 | Step: 930/1750 | Training loss: 0.0219
+CostTime: 104.5059
+Epoch: 16/50 | Step: 992/1750 | Training loss: 0.0212
+CostTime: 119.0296
+Epoch: 16/50 | Step: 1054/1750 | Training loss: 0.0215
+CostTime: 107.5741
+Epoch: 16/50 | Step: 1116/1750 | Training loss: 0.0210
+CostTime: 111.4922
+Epoch: 16/50 | Step: 1178/1750 | Training loss: 0.0208
+CostTime: 107.3652
+Epoch: 16/50 | Step: 1240/1750 | Training loss: 0.0211
+CostTime: 107.3694
+Epoch: 16/50 | Step: 1302/1750 | Training loss: 0.0211
+CostTime: 111.3656
+Epoch: 16/50 | Step: 1364/1750 | Training loss: 0.0216
+CostTime: 114.7946
+Epoch: 16/50 | Step: 1426/1750 | Training loss: 0.0220
+CostTime: 110.7714
+Epoch: 16/50 | Step: 1488/1750 | Training loss: 0.0212
+CostTime: 105.5986
+Epoch: 16/50 | Step: 1550/1750 | Training loss: 0.0215
+CostTime: 116.2404
+Epoch: 16/50 | Step: 1612/1750 | Training loss: 0.0208
+CostTime: 110.8829
+Epoch: 16/50 | Step: 1674/1750 | Training loss: 0.0212
+CostTime: 111.4680
+Epoch: 16/50 | Step: 1736/1750 | Training loss: 0.0215
+CostTime: 109.7518
+Epoch 16 averaged training loss: 0.0215
+The current learning rate is 0.000005
+test 15: iter: 0
+test 15: iter: 1000
+test 15: iter: 2000
+test 15: iter: 3000
+test 15: iter: 4000
+test 15: iter: 5000
+test 15: iter: 6000
+test 15: iter: 7000
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8826, KRCC: 0.7000, PLCC: 0.8823, and RMSE: 4.9478
+test_1080p 15: iter: 0
+test_1080p 15: iter: 1000
+test_1080p 15: iter: 2000
+test_1080p 15: iter: 3000
+Epoch 16 completed. The result on the STDA test_1080p databaset: SRCC: 0.7802, KRCC: 0.5897, PLCC: 0.8185, and RMSE: 5.9604
+Epoch: 17/50 | Step: 62/1750 | Training loss: 0.0216
+CostTime: 123.2478
+Epoch: 17/50 | Step: 124/1750 | Training loss: 0.0215
+CostTime: 111.7458
+Epoch: 17/50 | Step: 186/1750 | Training loss: 0.0207
+CostTime: 115.7159
+Epoch: 17/50 | Step: 248/1750 | Training loss: 0.0214
+CostTime: 119.5320
+Epoch: 17/50 | Step: 310/1750 | Training loss: 0.0215
+CostTime: 111.8750
+Epoch: 17/50 | Step: 372/1750 | Training loss: 0.0209
+CostTime: 118.2953
+Epoch: 17/50 | Step: 434/1750 | Training loss: 0.0203
+CostTime: 111.5764
+Epoch: 17/50 | Step: 496/1750 | Training loss: 0.0216
+CostTime: 112.1342
+Epoch: 17/50 | Step: 558/1750 | Training loss: 0.0203
+CostTime: 116.1077
+Epoch: 17/50 | Step: 620/1750 | Training loss: 0.0206
+CostTime: 118.6913
+Epoch: 17/50 | Step: 682/1750 | Training loss: 0.0206
+CostTime: 112.9900
+Epoch: 17/50 | Step: 744/1750 | Training loss: 0.0217
+CostTime: 114.6371
+Epoch: 17/50 | Step: 806/1750 | Training loss: 0.0209
+CostTime: 106.9040
+Epoch: 17/50 | Step: 868/1750 | Training loss: 0.0226
+CostTime: 115.3258
+Epoch: 17/50 | Step: 930/1750 | Training loss: 0.0209
+CostTime: 107.5799
+Epoch: 17/50 | Step: 992/1750 | Training loss: 0.0204
+CostTime: 118.8644
+Epoch: 17/50 | Step: 1054/1750 | Training loss: 0.0216
+CostTime: 113.4105
+Epoch: 17/50 | Step: 1116/1750 | Training loss: 0.0211
+CostTime: 105.1775
+Epoch: 17/50 | Step: 1178/1750 | Training loss: 0.0196
+CostTime: 116.6331
+Epoch: 17/50 | Step: 1240/1750 | Training loss: 0.0205
+CostTime: 110.1583
+Epoch: 17/50 | Step: 1302/1750 | Training loss: 0.0211
+CostTime: 116.5621
+Epoch: 17/50 | Step: 1364/1750 | Training loss: 0.0202
+CostTime: 116.9485
+Epoch: 17/50 | Step: 1426/1750 | Training loss: 0.0211
+CostTime: 118.6372
+Epoch: 17/50 | Step: 1488/1750 | Training loss: 0.0213
+CostTime: 121.6187
+Epoch: 17/50 | Step: 1550/1750 | Training loss: 0.0210
+CostTime: 106.1836
+Epoch: 17/50 | Step: 1612/1750 | Training loss: 0.0216
+CostTime: 119.8410
+Epoch: 17/50 | Step: 1674/1750 | Training loss: 0.0198
+CostTime: 123.1233
+Epoch: 17/50 | Step: 1736/1750 | Training loss: 0.0221
+CostTime: 114.7899
+Epoch 17 averaged training loss: 0.0210
+The current learning rate is 0.000005
+test 16: iter: 0
+test 16: iter: 1000
+test 16: iter: 2000
+test 16: iter: 3000
+test 16: iter: 4000
+test 16: iter: 5000
+test 16: iter: 6000
+test 16: iter: 7000
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8833, KRCC: 0.7014, PLCC: 0.8836, and RMSE: 4.9221
+test_1080p 16: iter: 0
+test_1080p 16: iter: 1000
+test_1080p 16: iter: 2000
+test_1080p 16: iter: 3000
+Epoch 17 completed. The result on the STDA test_1080p databaset: SRCC: 0.7849, KRCC: 0.5949, PLCC: 0.8234, and RMSE: 5.8861
+Epoch: 18/50 | Step: 62/1750 | Training loss: 0.0205
+CostTime: 125.8021
+Epoch: 18/50 | Step: 124/1750 | Training loss: 0.0196
+CostTime: 112.4189
+Epoch: 18/50 | Step: 186/1750 | Training loss: 0.0202
+CostTime: 110.6974
+Epoch: 18/50 | Step: 248/1750 | Training loss: 0.0206
+CostTime: 108.2081
+Epoch: 18/50 | Step: 310/1750 | Training loss: 0.0205
+CostTime: 114.0450
+Epoch: 18/50 | Step: 372/1750 | Training loss: 0.0199
+CostTime: 117.1684
+Epoch: 18/50 | Step: 434/1750 | Training loss: 0.0203
+CostTime: 109.8618
+Epoch: 18/50 | Step: 496/1750 | Training loss: 0.0201
+CostTime: 107.2033
+Epoch: 18/50 | Step: 558/1750 | Training loss: 0.0221
+CostTime: 118.4382
+Epoch: 18/50 | Step: 620/1750 | Training loss: 0.0217
+CostTime: 113.1842
+Epoch: 18/50 | Step: 682/1750 | Training loss: 0.0207
+CostTime: 110.9094
+Epoch: 18/50 | Step: 744/1750 | Training loss: 0.0205
+CostTime: 120.0514
+Epoch: 18/50 | Step: 806/1750 | Training loss: 0.0214
+CostTime: 110.2223
+Epoch: 18/50 | Step: 868/1750 | Training loss: 0.0212
+CostTime: 116.4075
+Epoch: 18/50 | Step: 930/1750 | Training loss: 0.0205
+CostTime: 122.9924
+Epoch: 18/50 | Step: 992/1750 | Training loss: 0.0208
+CostTime: 119.9491
+Epoch: 18/50 | Step: 1054/1750 | Training loss: 0.0220
+CostTime: 111.1623
+Epoch: 18/50 | Step: 1116/1750 | Training loss: 0.0214
+CostTime: 116.1738
+Epoch: 18/50 | Step: 1178/1750 | Training loss: 0.0203
+CostTime: 118.0613
+Epoch: 18/50 | Step: 1240/1750 | Training loss: 0.0203
+CostTime: 123.6856
+Epoch: 18/50 | Step: 1302/1750 | Training loss: 0.0200
+CostTime: 115.5308
+Epoch: 18/50 | Step: 1364/1750 | Training loss: 0.0206
+CostTime: 115.3202
+Epoch: 18/50 | Step: 1426/1750 | Training loss: 0.0214
+CostTime: 119.0265
+Epoch: 18/50 | Step: 1488/1750 | Training loss: 0.0214
+CostTime: 118.1658
+Epoch: 18/50 | Step: 1550/1750 | Training loss: 0.0207
+CostTime: 117.8010
+Epoch: 18/50 | Step: 1612/1750 | Training loss: 0.0205
+CostTime: 117.1332
+Epoch: 18/50 | Step: 1674/1750 | Training loss: 0.0208
+CostTime: 118.7834
+Epoch: 18/50 | Step: 1736/1750 | Training loss: 0.0207
+CostTime: 119.3204
+Epoch 18 averaged training loss: 0.0208
+The current learning rate is 0.000005
+test 17: iter: 0
+test 17: iter: 1000
+test 17: iter: 2000
+test 17: iter: 3000
+test 17: iter: 4000
+test 17: iter: 5000
+test 17: iter: 6000
+test 17: iter: 7000
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8826, KRCC: 0.7002, PLCC: 0.8825, and RMSE: 4.9438
+test_1080p 17: iter: 0
+test_1080p 17: iter: 1000
+test_1080p 17: iter: 2000
+test_1080p 17: iter: 3000
+Epoch 18 completed. The result on the STDA test_1080p databaset: SRCC: 0.7819, KRCC: 0.5921, PLCC: nan, and RMSE: 10.3736
+Epoch: 19/50 | Step: 62/1750 | Training loss: 0.0208
+CostTime: 119.0426
+Epoch: 19/50 | Step: 124/1750 | Training loss: 0.0209
+CostTime: 108.5134
+Epoch: 19/50 | Step: 186/1750 | Training loss: 0.0218
+CostTime: 113.8877
+Epoch: 19/50 | Step: 248/1750 | Training loss: 0.0201
+CostTime: 112.9748
+Epoch: 19/50 | Step: 310/1750 | Training loss: 0.0207
+CostTime: 118.3536
+Epoch: 19/50 | Step: 372/1750 | Training loss: 0.0203
+CostTime: 110.2407
+Epoch: 19/50 | Step: 434/1750 | Training loss: 0.0197
+CostTime: 111.9467
+Epoch: 19/50 | Step: 496/1750 | Training loss: 0.0204
+CostTime: 116.2111
+Epoch: 19/50 | Step: 558/1750 | Training loss: 0.0200
+CostTime: 115.0835
+Epoch: 19/50 | Step: 620/1750 | Training loss: 0.0196
+CostTime: 109.2680
+Epoch: 19/50 | Step: 682/1750 | Training loss: 0.0195
+CostTime: 107.4421
+Epoch: 19/50 | Step: 744/1750 | Training loss: 0.0201
+CostTime: 115.2290
+Epoch: 19/50 | Step: 806/1750 | Training loss: 0.0209
+CostTime: 111.6207
+Epoch: 19/50 | Step: 868/1750 | Training loss: 0.0212
+CostTime: 106.4436
+Epoch: 19/50 | Step: 930/1750 | Training loss: 0.0219
+CostTime: 113.2739
+Epoch: 19/50 | Step: 992/1750 | Training loss: 0.0209
+CostTime: 114.1530
+Epoch: 19/50 | Step: 1054/1750 | Training loss: 0.0207
+CostTime: 111.4797
+Epoch: 19/50 | Step: 1116/1750 | Training loss: 0.0209
+CostTime: 108.0626
+Epoch: 19/50 | Step: 1178/1750 | Training loss: 0.0197
+CostTime: 116.8611
+Epoch: 19/50 | Step: 1240/1750 | Training loss: 0.0198
+CostTime: 114.8489
+Epoch: 19/50 | Step: 1302/1750 | Training loss: 0.0200
+CostTime: 113.5757
+Epoch: 19/50 | Step: 1364/1750 | Training loss: 0.0196
+CostTime: 112.5161
+Epoch: 19/50 | Step: 1426/1750 | Training loss: 0.0201
+CostTime: 112.7213
+Epoch: 19/50 | Step: 1488/1750 | Training loss: 0.0204
+CostTime: 113.3806
+Epoch: 19/50 | Step: 1550/1750 | Training loss: 0.0208
+CostTime: 110.4677
+Epoch: 19/50 | Step: 1612/1750 | Training loss: 0.0196
+CostTime: 116.6558
+Epoch: 19/50 | Step: 1674/1750 | Training loss: 0.0208
+CostTime: 114.7493
+Epoch: 19/50 | Step: 1736/1750 | Training loss: 0.0205
+CostTime: 114.1542
+Epoch 19 averaged training loss: 0.0204
+The current learning rate is 0.000005
+test 18: iter: 0
+test 18: iter: 1000
+test 18: iter: 2000
+test 18: iter: 3000
+test 18: iter: 4000
+test 18: iter: 5000
+test 18: iter: 6000
+test 18: iter: 7000
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8859, KRCC: 0.7048, PLCC: 0.8859, and RMSE: 4.8759
+test_1080p 18: iter: 0
+test_1080p 18: iter: 1000
+test_1080p 18: iter: 2000
+test_1080p 18: iter: 3000
+Epoch 19 completed. The result on the STDA test_1080p databaset: SRCC: 0.7868, KRCC: 0.5959, PLCC: 0.8237, and RMSE: 5.8814
+Update best model using best_test_criterion in epoch 19
+Saving model...
+Epoch: 20/50 | Step: 62/1750 | Training loss: 0.0201
+CostTime: 122.6173
+Epoch: 20/50 | Step: 124/1750 | Training loss: 0.0203
+CostTime: 109.3708
+Epoch: 20/50 | Step: 186/1750 | Training loss: 0.0203
+CostTime: 105.6088
+Epoch: 20/50 | Step: 248/1750 | Training loss: 0.0202
+CostTime: 109.8200
+Epoch: 20/50 | Step: 310/1750 | Training loss: 0.0197
+CostTime: 110.0600
+Epoch: 20/50 | Step: 372/1750 | Training loss: 0.0201
+CostTime: 112.1935
+Epoch: 20/50 | Step: 434/1750 | Training loss: 0.0203
+CostTime: 114.3244
+Epoch: 20/50 | Step: 496/1750 | Training loss: 0.0205
+CostTime: 106.9552
+Epoch: 20/50 | Step: 558/1750 | Training loss: 0.0196
+CostTime: 108.6452
+Epoch: 20/50 | Step: 620/1750 | Training loss: 0.0196
+CostTime: 116.7228
+Epoch: 20/50 | Step: 682/1750 | Training loss: 0.0204
+CostTime: 109.9610
+Epoch: 20/50 | Step: 744/1750 | Training loss: 0.0206
+CostTime: 106.8534
+Epoch: 20/50 | Step: 806/1750 | Training loss: 0.0196
+CostTime: 105.2975
+Epoch: 20/50 | Step: 868/1750 | Training loss: 0.0197
+CostTime: 107.9426
+Epoch: 20/50 | Step: 930/1750 | Training loss: 0.0197
+CostTime: 114.3387
+Epoch: 20/50 | Step: 992/1750 | Training loss: 0.0198
+CostTime: 105.1613
+Epoch: 20/50 | Step: 1054/1750 | Training loss: 0.0196
+CostTime: 115.7853
+Epoch: 20/50 | Step: 1116/1750 | Training loss: 0.0195
+CostTime: 108.9959
+Epoch: 20/50 | Step: 1178/1750 | Training loss: 0.0193
+CostTime: 103.7727
+Epoch: 20/50 | Step: 1240/1750 | Training loss: 0.0197
+CostTime: 117.9049
+Epoch: 20/50 | Step: 1302/1750 | Training loss: 0.0201
+CostTime: 106.3214
+Epoch: 20/50 | Step: 1364/1750 | Training loss: 0.0206
+CostTime: 110.4656
+Epoch: 20/50 | Step: 1426/1750 | Training loss: 0.0203
+CostTime: 109.4082
+Epoch: 20/50 | Step: 1488/1750 | Training loss: 0.0194
+CostTime: 110.3483
+Epoch: 20/50 | Step: 1550/1750 | Training loss: 0.0194
+CostTime: 108.5490
+Epoch: 20/50 | Step: 1612/1750 | Training loss: 0.0199
+CostTime: 111.0788
+Epoch: 20/50 | Step: 1674/1750 | Training loss: 0.0211
+CostTime: 110.4069
+Epoch: 20/50 | Step: 1736/1750 | Training loss: 0.0203
+CostTime: 110.1201
+Epoch 20 averaged training loss: 0.0200
+The current learning rate is 0.000005
+test 19: iter: 0
+test 19: iter: 1000
+test 19: iter: 2000
+test 19: iter: 3000
+test 19: iter: 4000
+test 19: iter: 5000
+test 19: iter: 6000
+test 19: iter: 7000
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8823, KRCC: 0.6998, PLCC: 0.8824, and RMSE: 4.9464
+test_1080p 19: iter: 0
+test_1080p 19: iter: 1000
+test_1080p 19: iter: 2000
+test_1080p 19: iter: 3000
+Epoch 20 completed. The result on the STDA test_1080p databaset: SRCC: 0.7839, KRCC: 0.5935, PLCC: 0.8219, and RMSE: 5.9093
+Epoch: 21/50 | Step: 62/1750 | Training loss: 0.0210
+CostTime: 127.7922
+Epoch: 21/50 | Step: 124/1750 | Training loss: 0.0203
+CostTime: 111.7590
+Epoch: 21/50 | Step: 186/1750 | Training loss: 0.0203
+CostTime: 105.3173
+Epoch: 21/50 | Step: 248/1750 | Training loss: 0.0195
+CostTime: 114.0243
+Epoch: 21/50 | Step: 310/1750 | Training loss: 0.0197
+CostTime: 107.7657
+Epoch: 21/50 | Step: 372/1750 | Training loss: 0.0202
+CostTime: 105.6523
+Epoch: 21/50 | Step: 434/1750 | Training loss: 0.0189
+CostTime: 106.7367
+Epoch: 21/50 | Step: 496/1750 | Training loss: 0.0197
+CostTime: 111.2447
+Epoch: 21/50 | Step: 558/1750 | Training loss: 0.0193
+CostTime: 108.7279
+Epoch: 21/50 | Step: 620/1750 | Training loss: 0.0195
+CostTime: 108.9035
+Epoch: 21/50 | Step: 682/1750 | Training loss: 0.0197
+CostTime: 110.9646
+Epoch: 21/50 | Step: 744/1750 | Training loss: 0.0201
+CostTime: 104.1005
+Epoch: 21/50 | Step: 806/1750 | Training loss: 0.0201
+CostTime: 111.0477
+Epoch: 21/50 | Step: 868/1750 | Training loss: 0.0198
+CostTime: 111.9994
+Epoch: 21/50 | Step: 930/1750 | Training loss: 0.0197
+CostTime: 108.2374
+Epoch: 21/50 | Step: 992/1750 | Training loss: 0.0201
+CostTime: 112.7286
+Epoch: 21/50 | Step: 1054/1750 | Training loss: 0.0199
+CostTime: 112.9627
+Epoch: 21/50 | Step: 1116/1750 | Training loss: 0.0195
+CostTime: 109.6529
+Epoch: 21/50 | Step: 1178/1750 | Training loss: 0.0195
+CostTime: 105.3632
+Epoch: 21/50 | Step: 1240/1750 | Training loss: 0.0190
+CostTime: 113.5407
+Epoch: 21/50 | Step: 1302/1750 | Training loss: 0.0196
+CostTime: 112.4414
+Epoch: 21/50 | Step: 1364/1750 | Training loss: 0.0193
+CostTime: 108.0749
+Epoch: 21/50 | Step: 1426/1750 | Training loss: 0.0196
+CostTime: 112.1057
+Epoch: 21/50 | Step: 1488/1750 | Training loss: 0.0199
+CostTime: 110.0416
+Epoch: 21/50 | Step: 1550/1750 | Training loss: 0.0200
+CostTime: 111.8150
+Epoch: 21/50 | Step: 1612/1750 | Training loss: 0.0199
+CostTime: 112.1851
+Epoch: 21/50 | Step: 1674/1750 | Training loss: 0.0206
+CostTime: 109.7284
+Epoch: 21/50 | Step: 1736/1750 | Training loss: 0.0198
+CostTime: 106.9091
+Epoch 21 averaged training loss: 0.0198
+The current learning rate is 0.000005
+test 20: iter: 0
+test 20: iter: 1000
+test 20: iter: 2000
+test 20: iter: 3000
+test 20: iter: 4000
+test 20: iter: 5000
+test 20: iter: 6000
+test 20: iter: 7000
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8828, KRCC: 0.7011, PLCC: 0.8843, and RMSE: 4.9097
+test_1080p 20: iter: 0
+test_1080p 20: iter: 1000
+test_1080p 20: iter: 2000
+test_1080p 20: iter: 3000
+Epoch 21 completed. The result on the STDA test_1080p databaset: SRCC: 0.7786, KRCC: 0.5881, PLCC: 0.8189, and RMSE: 5.9532
+Epoch: 22/50 | Step: 62/1750 | Training loss: 0.0194
+CostTime: 122.8797
+Epoch: 22/50 | Step: 124/1750 | Training loss: 0.0195
+CostTime: 107.2989
+Epoch: 22/50 | Step: 186/1750 | Training loss: 0.0193
+CostTime: 108.4442
+Epoch: 22/50 | Step: 248/1750 | Training loss: 0.0195
+CostTime: 113.9171
+Epoch: 22/50 | Step: 310/1750 | Training loss: 0.0199
+CostTime: 108.3703
+Epoch: 22/50 | Step: 372/1750 | Training loss: 0.0191
+CostTime: 109.4943
+Epoch: 22/50 | Step: 434/1750 | Training loss: 0.0190
+CostTime: 109.1145
+Epoch: 22/50 | Step: 496/1750 | Training loss: 0.0198
+CostTime: 114.1086
+Epoch: 22/50 | Step: 558/1750 | Training loss: 0.0192
+CostTime: 107.0189
+Epoch: 22/50 | Step: 620/1750 | Training loss: 0.0203
+CostTime: 111.6634
+Epoch: 22/50 | Step: 682/1750 | Training loss: 0.0191
+CostTime: 110.8798
+Epoch: 22/50 | Step: 744/1750 | Training loss: 0.0198
+CostTime: 110.2826
+Epoch: 22/50 | Step: 806/1750 | Training loss: 0.0202
+CostTime: 106.3532
+Epoch: 22/50 | Step: 868/1750 | Training loss: 0.0195
+CostTime: 115.5310
+Epoch: 22/50 | Step: 930/1750 | Training loss: 0.0201
+CostTime: 108.9807
+Epoch: 22/50 | Step: 992/1750 | Training loss: 0.0192
+CostTime: 111.0691
+Epoch: 22/50 | Step: 1054/1750 | Training loss: 0.0191
+CostTime: 110.5973
+Epoch: 22/50 | Step: 1116/1750 | Training loss: 0.0194
+CostTime: 112.1048
+Epoch: 22/50 | Step: 1178/1750 | Training loss: 0.0196
+CostTime: 108.0945
+Epoch: 22/50 | Step: 1240/1750 | Training loss: 0.0198
+CostTime: 112.2092
+Epoch: 22/50 | Step: 1302/1750 | Training loss: 0.0193
+CostTime: 105.8654
+Epoch: 22/50 | Step: 1364/1750 | Training loss: 0.0200
+CostTime: 110.6243
+Epoch: 22/50 | Step: 1426/1750 | Training loss: 0.0191
+CostTime: 117.2131
+Epoch: 22/50 | Step: 1488/1750 | Training loss: 0.0195
+CostTime: 114.5432
+Epoch: 22/50 | Step: 1550/1750 | Training loss: 0.0199
+CostTime: 109.5937
+Epoch: 22/50 | Step: 1612/1750 | Training loss: 0.0200
+CostTime: 112.1822
+Epoch: 22/50 | Step: 1674/1750 | Training loss: 0.0193
+CostTime: 116.1633
+Epoch: 22/50 | Step: 1736/1750 | Training loss: 0.0192
+CostTime: 107.7265
+Epoch 22 averaged training loss: 0.0196
+The current learning rate is 0.000005
+test 21: iter: 0
+test 21: iter: 1000
+test 21: iter: 2000
+test 21: iter: 3000
+test 21: iter: 4000
+test 21: iter: 5000
+test 21: iter: 6000
+test 21: iter: 7000
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8858, KRCC: 0.7049, PLCC: 0.8861, and RMSE: 4.8732
+test_1080p 21: iter: 0
+test_1080p 21: iter: 1000
+test_1080p 21: iter: 2000
+test_1080p 21: iter: 3000
+Epoch 22 completed. The result on the STDA test_1080p databaset: SRCC: 0.7878, KRCC: 0.5972, PLCC: 0.8231, and RMSE: 5.8911
+Epoch: 23/50 | Step: 62/1750 | Training loss: 0.0193
+CostTime: 120.2951
+Epoch: 23/50 | Step: 124/1750 | Training loss: 0.0193
+CostTime: 111.3175
+Epoch: 23/50 | Step: 186/1750 | Training loss: 0.0191
+CostTime: 108.6771
+Epoch: 23/50 | Step: 248/1750 | Training loss: 0.0200
+CostTime: 102.5122
+Epoch: 23/50 | Step: 310/1750 | Training loss: 0.0190
+CostTime: 108.2737
+Epoch: 23/50 | Step: 372/1750 | Training loss: 0.0199
+CostTime: 109.9120
+Epoch: 23/50 | Step: 434/1750 | Training loss: 0.0196
+CostTime: 111.1572
+Epoch: 23/50 | Step: 496/1750 | Training loss: 0.0199
+CostTime: 106.0451
+Epoch: 23/50 | Step: 558/1750 | Training loss: 0.0199
+CostTime: 113.5243
+Epoch: 23/50 | Step: 620/1750 | Training loss: 0.0198
+CostTime: 108.5043
+Epoch: 23/50 | Step: 682/1750 | Training loss: 0.0199
+CostTime: 113.2464
+Epoch: 23/50 | Step: 744/1750 | Training loss: 0.0194
+CostTime: 104.2914
+Epoch: 23/50 | Step: 806/1750 | Training loss: 0.0189
+CostTime: 112.6460
+Epoch: 23/50 | Step: 868/1750 | Training loss: 0.0191
+CostTime: 104.2172
+Epoch: 23/50 | Step: 930/1750 | Training loss: 0.0190
+CostTime: 106.6490
+Epoch: 23/50 | Step: 992/1750 | Training loss: 0.0194
+CostTime: 108.8890
+Epoch: 23/50 | Step: 1054/1750 | Training loss: 0.0195
+CostTime: 107.7738
+Epoch: 23/50 | Step: 1116/1750 | Training loss: 0.0196
+CostTime: 105.9203
+Epoch: 23/50 | Step: 1178/1750 | Training loss: 0.0194
+CostTime: 107.7461
+Epoch: 23/50 | Step: 1240/1750 | Training loss: 0.0189
+CostTime: 109.6159
+Epoch: 23/50 | Step: 1302/1750 | Training loss: 0.0191
+CostTime: 110.8173
+Epoch: 23/50 | Step: 1364/1750 | Training loss: 0.0187
+CostTime: 114.2928
+Epoch: 23/50 | Step: 1426/1750 | Training loss: 0.0196
+CostTime: 105.1855
+Epoch: 23/50 | Step: 1488/1750 | Training loss: 0.0193
+CostTime: 119.6403
+Epoch: 23/50 | Step: 1550/1750 | Training loss: 0.0188
+CostTime: 106.6453
+Epoch: 23/50 | Step: 1612/1750 | Training loss: 0.0189
+CostTime: 116.4631
+Epoch: 23/50 | Step: 1674/1750 | Training loss: 0.0193
+CostTime: 111.9571
+Epoch: 23/50 | Step: 1736/1750 | Training loss: 0.0200
+CostTime: 106.1044
+Epoch 23 averaged training loss: 0.0194
+The current learning rate is 0.000005
+test 22: iter: 0
+test 22: iter: 1000
+test 22: iter: 2000
+test 22: iter: 3000
+test 22: iter: 4000
+test 22: iter: 5000
+test 22: iter: 6000
+test 22: iter: 7000
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8848, KRCC: 0.7031, PLCC: 0.8839, and RMSE: 4.9164
+test_1080p 22: iter: 0
+test_1080p 22: iter: 1000
+test_1080p 22: iter: 2000
+test_1080p 22: iter: 3000
+Epoch 23 completed. The result on the STDA test_1080p databaset: SRCC: 0.7844, KRCC: 0.5937, PLCC: 0.8235, and RMSE: 5.8853
+Epoch: 24/50 | Step: 62/1750 | Training loss: 0.0197
+CostTime: 126.6706
+Epoch: 24/50 | Step: 124/1750 | Training loss: 0.0184
+CostTime: 104.7608
+Epoch: 24/50 | Step: 186/1750 | Training loss: 0.0195
+CostTime: 110.8091
+Epoch: 24/50 | Step: 248/1750 | Training loss: 0.0186
+CostTime: 110.0087
+Epoch: 24/50 | Step: 310/1750 | Training loss: 0.0188
+CostTime: 105.4055
+Epoch: 24/50 | Step: 372/1750 | Training loss: 0.0184
+CostTime: 113.9087
+Epoch: 24/50 | Step: 434/1750 | Training loss: 0.0193
+CostTime: 107.7081
+Epoch: 24/50 | Step: 496/1750 | Training loss: 0.0191
+CostTime: 109.5889
+Epoch: 24/50 | Step: 558/1750 | Training loss: 0.0198
+CostTime: 109.3517
+Epoch: 24/50 | Step: 620/1750 | Training loss: 0.0193
+CostTime: 113.7733
+Epoch: 24/50 | Step: 682/1750 | Training loss: 0.0191
+CostTime: 111.1556
+Epoch: 24/50 | Step: 744/1750 | Training loss: 0.0189
+CostTime: 107.7114
+Epoch: 24/50 | Step: 806/1750 | Training loss: 0.0193
+CostTime: 109.4239
+Epoch: 24/50 | Step: 868/1750 | Training loss: 0.0195
+CostTime: 107.3337
+Epoch: 24/50 | Step: 930/1750 | Training loss: 0.0193
+CostTime: 108.9555
+Epoch: 24/50 | Step: 992/1750 | Training loss: 0.0200
+CostTime: 108.5948
+Epoch: 24/50 | Step: 1054/1750 | Training loss: 0.0191
+CostTime: 113.1562
+Epoch: 24/50 | Step: 1116/1750 | Training loss: 0.0191
+CostTime: 108.6174
+Epoch: 24/50 | Step: 1178/1750 | Training loss: 0.0186
+CostTime: 109.6709
+Epoch: 24/50 | Step: 1240/1750 | Training loss: 0.0192
+CostTime: 108.0101
+Epoch: 24/50 | Step: 1302/1750 | Training loss: 0.0196
+CostTime: 117.7126
+Epoch: 24/50 | Step: 1364/1750 | Training loss: 0.0192
+CostTime: 110.4786
+Epoch: 24/50 | Step: 1426/1750 | Training loss: 0.0191
+CostTime: 110.5732
+Epoch: 24/50 | Step: 1488/1750 | Training loss: 0.0188
+CostTime: 108.1262
+Epoch: 24/50 | Step: 1550/1750 | Training loss: 0.0193
+CostTime: 112.1780
+Epoch: 24/50 | Step: 1612/1750 | Training loss: 0.0196
+CostTime: 115.2646
+Epoch: 24/50 | Step: 1674/1750 | Training loss: 0.0199
+CostTime: 100.7839
+Epoch: 24/50 | Step: 1736/1750 | Training loss: 0.0189
+CostTime: 112.5897
+Epoch 24 averaged training loss: 0.0192
+The current learning rate is 0.000004
+test 23: iter: 0
+test 23: iter: 1000
+test 23: iter: 2000
+test 23: iter: 3000
+test 23: iter: 4000
+test 23: iter: 5000
+test 23: iter: 6000
+test 23: iter: 7000
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8876, KRCC: 0.7070, PLCC: 0.8869, and RMSE: 4.8575
+test_1080p 23: iter: 0
+test_1080p 23: iter: 1000
+test_1080p 23: iter: 2000
+test_1080p 23: iter: 3000
+Epoch 24 completed. The result on the STDA test_1080p databaset: SRCC: 0.7894, KRCC: 0.5985, PLCC: 0.8252, and RMSE: 5.8596
+Update best model using best_test_criterion in epoch 24
+Saving model...
+Epoch: 25/50 | Step: 62/1750 | Training loss: 0.0191
+CostTime: 126.1860
+Epoch: 25/50 | Step: 124/1750 | Training loss: 0.0196
+CostTime: 110.7147
+Epoch: 25/50 | Step: 186/1750 | Training loss: 0.0192
+CostTime: 112.3861
+Epoch: 25/50 | Step: 248/1750 | Training loss: 0.0191
+CostTime: 110.2647
+Epoch: 25/50 | Step: 310/1750 | Training loss: 0.0188
+CostTime: 110.4454
+Epoch: 25/50 | Step: 372/1750 | Training loss: 0.0184
+CostTime: 112.5785
+Epoch: 25/50 | Step: 434/1750 | Training loss: 0.0186
+CostTime: 113.5191
+Epoch: 25/50 | Step: 496/1750 | Training loss: 0.0192
+CostTime: 111.8672
+Epoch: 25/50 | Step: 558/1750 | Training loss: 0.0187
+CostTime: 109.1020
+Epoch: 25/50 | Step: 620/1750 | Training loss: 0.0197
+CostTime: 113.0140
+Epoch: 25/50 | Step: 682/1750 | Training loss: 0.0193
+CostTime: 117.2586
+Epoch: 25/50 | Step: 744/1750 | Training loss: 0.0191
+CostTime: 101.9156
+Epoch: 25/50 | Step: 806/1750 | Training loss: 0.0196
+CostTime: 121.5807
+Epoch: 25/50 | Step: 868/1750 | Training loss: 0.0193
+CostTime: 113.1780
+Epoch: 25/50 | Step: 930/1750 | Training loss: 0.0189
+CostTime: 108.5304
+Epoch: 25/50 | Step: 992/1750 | Training loss: 0.0188
+CostTime: 118.0399
+Epoch: 25/50 | Step: 1054/1750 | Training loss: 0.0189
+CostTime: 112.7098
+Epoch: 25/50 | Step: 1116/1750 | Training loss: 0.0194
+CostTime: 115.2733
+Epoch: 25/50 | Step: 1178/1750 | Training loss: 0.0189
+CostTime: 106.0474
+Epoch: 25/50 | Step: 1240/1750 | Training loss: 0.0188
+CostTime: 119.0656
+Epoch: 25/50 | Step: 1302/1750 | Training loss: 0.0193
+CostTime: 117.8911
+Epoch: 25/50 | Step: 1364/1750 | Training loss: 0.0188
+CostTime: 124.9549
+Epoch: 25/50 | Step: 1426/1750 | Training loss: 0.0190
+CostTime: 117.9336
+Epoch: 25/50 | Step: 1488/1750 | Training loss: 0.0193
+CostTime: 118.0867
+Epoch: 25/50 | Step: 1550/1750 | Training loss: 0.0189
+CostTime: 116.0202
+Epoch: 25/50 | Step: 1612/1750 | Training loss: 0.0187
+CostTime: 126.0048
+Epoch: 25/50 | Step: 1674/1750 | Training loss: 0.0191
+CostTime: 116.7881
+Epoch: 25/50 | Step: 1736/1750 | Training loss: 0.0193
+CostTime: 117.3551
+Epoch 25 averaged training loss: 0.0191
+The current learning rate is 0.000004
+test 24: iter: 0
+test 24: iter: 1000
+test 24: iter: 2000
+test 24: iter: 3000
+test 24: iter: 4000
+test 24: iter: 5000
+test 24: iter: 6000
+test 24: iter: 7000
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8874, KRCC: 0.7069, PLCC: 0.8870, and RMSE: 4.8554
+test_1080p 24: iter: 0
+test_1080p 24: iter: 1000
+test_1080p 24: iter: 2000
+test_1080p 24: iter: 3000
+Epoch 25 completed. The result on the STDA test_1080p databaset: SRCC: 0.7882, KRCC: 0.5982, PLCC: 0.8267, and RMSE: 5.8371
+Epoch: 26/50 | Step: 62/1750 | Training loss: 0.0193
+CostTime: 125.6922
+Epoch: 26/50 | Step: 124/1750 | Training loss: 0.0189
+CostTime: 113.1578
+Epoch: 26/50 | Step: 186/1750 | Training loss: 0.0190
+CostTime: 109.5071
+Epoch: 26/50 | Step: 248/1750 | Training loss: 0.0185
+CostTime: 109.7966
+Epoch: 26/50 | Step: 310/1750 | Training loss: 0.0188
+CostTime: 107.4776
+Epoch: 26/50 | Step: 372/1750 | Training loss: 0.0198
+CostTime: 112.3303
+Epoch: 26/50 | Step: 434/1750 | Training loss: 0.0189
+CostTime: 109.5731
+Epoch: 26/50 | Step: 496/1750 | Training loss: 0.0181
+CostTime: 105.6961
+Epoch: 26/50 | Step: 558/1750 | Training loss: 0.0185
+CostTime: 111.4377
+Epoch: 26/50 | Step: 620/1750 | Training loss: 0.0192
+CostTime: 104.4605
+Epoch: 26/50 | Step: 682/1750 | Training loss: 0.0184
+CostTime: 109.5316
+Epoch: 26/50 | Step: 744/1750 | Training loss: 0.0189
+CostTime: 112.9937
+Epoch: 26/50 | Step: 806/1750 | Training loss: 0.0184
+CostTime: 113.1029
+Epoch: 26/50 | Step: 868/1750 | Training loss: 0.0189
+CostTime: 113.9663
+Epoch: 26/50 | Step: 930/1750 | Training loss: 0.0185
+CostTime: 116.7148
+Epoch: 26/50 | Step: 992/1750 | Training loss: 0.0193
+CostTime: 119.0402
+Epoch: 26/50 | Step: 1054/1750 | Training loss: 0.0190
+CostTime: 116.6495
+Epoch: 26/50 | Step: 1116/1750 | Training loss: 0.0185
+CostTime: 113.1704
+Epoch: 26/50 | Step: 1178/1750 | Training loss: 0.0181
+CostTime: 116.3008
+Epoch: 26/50 | Step: 1240/1750 | Training loss: 0.0190
+CostTime: 120.2637
+Epoch: 26/50 | Step: 1302/1750 | Training loss: 0.0190
+CostTime: 118.6710
+Epoch: 26/50 | Step: 1364/1750 | Training loss: 0.0185
+CostTime: 122.7164
+Epoch: 26/50 | Step: 1426/1750 | Training loss: 0.0196
+CostTime: 120.4591
+Epoch: 26/50 | Step: 1488/1750 | Training loss: 0.0189
+CostTime: 115.1737
+Epoch: 26/50 | Step: 1550/1750 | Training loss: 0.0187
+CostTime: 123.3622
+Epoch: 26/50 | Step: 1612/1750 | Training loss: 0.0189
+CostTime: 120.8589
+Epoch: 26/50 | Step: 1674/1750 | Training loss: 0.0188
+CostTime: 113.7317
+Epoch: 26/50 | Step: 1736/1750 | Training loss: 0.0188
+CostTime: 118.3312
+Epoch 26 averaged training loss: 0.0188
+The current learning rate is 0.000004
+test 25: iter: 0
+test 25: iter: 1000
+test 25: iter: 2000
+test 25: iter: 3000
+test 25: iter: 4000
+test 25: iter: 5000
+test 25: iter: 6000
+test 25: iter: 7000
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8857, KRCC: 0.7048, PLCC: 0.8859, and RMSE: 4.8768
+test_1080p 25: iter: 0
+test_1080p 25: iter: 1000
+test_1080p 25: iter: 2000
+test_1080p 25: iter: 3000
+Epoch 26 completed. The result on the STDA test_1080p databaset: SRCC: 0.7829, KRCC: 0.5927, PLCC: 0.8216, and RMSE: 5.9130
+Epoch: 27/50 | Step: 62/1750 | Training loss: 0.0188
+CostTime: 126.2285
+Epoch: 27/50 | Step: 124/1750 | Training loss: 0.0188
+CostTime: 120.8257
+Epoch: 27/50 | Step: 186/1750 | Training loss: 0.0183
+CostTime: 103.9417
+Epoch: 27/50 | Step: 248/1750 | Training loss: 0.0186
+CostTime: 110.2130
+Epoch: 27/50 | Step: 310/1750 | Training loss: 0.0191
+CostTime: 113.4607
+Epoch: 27/50 | Step: 372/1750 | Training loss: 0.0184
+CostTime: 114.3530
+Epoch: 27/50 | Step: 434/1750 | Training loss: 0.0194
+CostTime: 105.1013
+Epoch: 27/50 | Step: 496/1750 | Training loss: 0.0188
+CostTime: 118.2213
+Epoch: 27/50 | Step: 558/1750 | Training loss: 0.0186
+CostTime: 107.4838
+Epoch: 27/50 | Step: 620/1750 | Training loss: 0.0183
+CostTime: 105.4101
+Epoch: 27/50 | Step: 682/1750 | Training loss: 0.0188
+CostTime: 120.5482
+Epoch: 27/50 | Step: 744/1750 | Training loss: 0.0184
+CostTime: 105.2189
+Epoch: 27/50 | Step: 806/1750 | Training loss: 0.0185
+CostTime: 114.9863
+Epoch: 27/50 | Step: 868/1750 | Training loss: 0.0184
+CostTime: 110.2737
+Epoch: 27/50 | Step: 930/1750 | Training loss: 0.0184
+CostTime: 112.9346
+Epoch: 27/50 | Step: 992/1750 | Training loss: 0.0198
+CostTime: 104.7705
+Epoch: 27/50 | Step: 1054/1750 | Training loss: 0.0186
+CostTime: 112.4730
+Epoch: 27/50 | Step: 1116/1750 | Training loss: 0.0186
+CostTime: 107.5157
+Epoch: 27/50 | Step: 1178/1750 | Training loss: 0.0190
+CostTime: 118.0822
+Epoch: 27/50 | Step: 1240/1750 | Training loss: 0.0185
+CostTime: 108.2967
+Epoch: 27/50 | Step: 1302/1750 | Training loss: 0.0187
+CostTime: 113.1623
+Epoch: 27/50 | Step: 1364/1750 | Training loss: 0.0186
+CostTime: 116.1656
+Epoch: 27/50 | Step: 1426/1750 | Training loss: 0.0182
+CostTime: 112.0674
+Epoch: 27/50 | Step: 1488/1750 | Training loss: 0.0182
+CostTime: 118.7938
+Epoch: 27/50 | Step: 1550/1750 | Training loss: 0.0185
+CostTime: 106.3613
+Epoch: 27/50 | Step: 1612/1750 | Training loss: 0.0177
+CostTime: 118.6927
+Epoch: 27/50 | Step: 1674/1750 | Training loss: 0.0185
+CostTime: 108.9454
+Epoch: 27/50 | Step: 1736/1750 | Training loss: 0.0186
+CostTime: 112.6438
+Epoch 27 averaged training loss: 0.0186
+The current learning rate is 0.000004
+test 26: iter: 0
+test 26: iter: 1000
+test 26: iter: 2000
+test 26: iter: 3000
+test 26: iter: 4000
+test 26: iter: 5000
+test 26: iter: 6000
+test 26: iter: 7000
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8871, KRCC: 0.7061, PLCC: 0.8868, and RMSE: 4.8596
+test_1080p 26: iter: 0
+test_1080p 26: iter: 1000
+test_1080p 26: iter: 2000
+test_1080p 26: iter: 3000
+Epoch 27 completed. The result on the STDA test_1080p databaset: SRCC: 0.7877, KRCC: 0.5974, PLCC: 0.8255, and RMSE: 5.8542
+Epoch: 28/50 | Step: 62/1750 | Training loss: 0.0183
+CostTime: 122.7991
+Epoch: 28/50 | Step: 124/1750 | Training loss: 0.0187
+CostTime: 108.8828
+Epoch: 28/50 | Step: 186/1750 | Training loss: 0.0184
+CostTime: 115.8893
+Epoch: 28/50 | Step: 248/1750 | Training loss: 0.0184
+CostTime: 100.9757
+Epoch: 28/50 | Step: 310/1750 | Training loss: 0.0191
+CostTime: 111.1331
+Epoch: 28/50 | Step: 372/1750 | Training loss: 0.0184
+CostTime: 106.6583
+Epoch: 28/50 | Step: 434/1750 | Training loss: 0.0183
+CostTime: 108.9680
+Epoch: 28/50 | Step: 496/1750 | Training loss: 0.0185
+CostTime: 109.7644
+Epoch: 28/50 | Step: 558/1750 | Training loss: 0.0186
+CostTime: 106.3503
+Epoch: 28/50 | Step: 620/1750 | Training loss: 0.0191
+CostTime: 110.2320
+Epoch: 28/50 | Step: 682/1750 | Training loss: 0.0180
+CostTime: 111.7435
+Epoch: 28/50 | Step: 744/1750 | Training loss: 0.0186
+CostTime: 106.0269
+Epoch: 28/50 | Step: 806/1750 | Training loss: 0.0183
+CostTime: 114.7314
+Epoch: 28/50 | Step: 868/1750 | Training loss: 0.0181
+CostTime: 101.0234
+Epoch: 28/50 | Step: 930/1750 | Training loss: 0.0191
+CostTime: 107.3394
+Epoch: 28/50 | Step: 992/1750 | Training loss: 0.0186
+CostTime: 111.2994
+Epoch: 28/50 | Step: 1054/1750 | Training loss: 0.0187
+CostTime: 106.5700
+Epoch: 28/50 | Step: 1116/1750 | Training loss: 0.0182
+CostTime: 113.5668
+Epoch: 28/50 | Step: 1178/1750 | Training loss: 0.0184
+CostTime: 105.0217
+Epoch: 28/50 | Step: 1240/1750 | Training loss: 0.0205
+CostTime: 111.5682
+Epoch: 28/50 | Step: 1302/1750 | Training loss: 0.0192
+CostTime: 110.0109
+Epoch: 28/50 | Step: 1364/1750 | Training loss: 0.0193
+CostTime: 103.7382
+Epoch: 28/50 | Step: 1426/1750 | Training loss: 0.0183
+CostTime: 112.5026
+Epoch: 28/50 | Step: 1488/1750 | Training loss: 0.0183
+CostTime: 105.8776
+Epoch: 28/50 | Step: 1550/1750 | Training loss: 0.0182
+CostTime: 111.4135
+Epoch: 28/50 | Step: 1612/1750 | Training loss: 0.0188
+CostTime: 111.1860
+Epoch: 28/50 | Step: 1674/1750 | Training loss: 0.0193
+CostTime: 110.3197
+Epoch: 28/50 | Step: 1736/1750 | Training loss: 0.0186
+CostTime: 115.0177
+Epoch 28 averaged training loss: 0.0187
+The current learning rate is 0.000004
+test 27: iter: 0
+test 27: iter: 1000
+test 27: iter: 2000
+test 27: iter: 3000
+test 27: iter: 4000
+test 27: iter: 5000
+test 27: iter: 6000
+test 27: iter: 7000
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8861, KRCC: 0.7048, PLCC: 0.8853, and RMSE: 4.8888
+test_1080p 27: iter: 0
+test_1080p 27: iter: 1000
+test_1080p 27: iter: 2000
+test_1080p 27: iter: 3000
+Epoch 28 completed. The result on the STDA test_1080p databaset: SRCC: 0.7844, KRCC: 0.5940, PLCC: 0.8227, and RMSE: 5.8971
+Epoch: 29/50 | Step: 62/1750 | Training loss: 0.0192
+CostTime: 121.1519
+Epoch: 29/50 | Step: 124/1750 | Training loss: 0.0188
+CostTime: 109.2843
+Epoch: 29/50 | Step: 186/1750 | Training loss: 0.0182
+CostTime: 117.2215
+Epoch: 29/50 | Step: 248/1750 | Training loss: 0.0183
+CostTime: 108.3021
+Epoch: 29/50 | Step: 310/1750 | Training loss: 0.0187
+CostTime: 114.6503
+Epoch: 29/50 | Step: 372/1750 | Training loss: 0.0176
+CostTime: 111.8025
+Epoch: 29/50 | Step: 434/1750 | Training loss: 0.0184
+CostTime: 108.0498
+Epoch: 29/50 | Step: 496/1750 | Training loss: 0.0182
+CostTime: 121.6675
+Epoch: 29/50 | Step: 558/1750 | Training loss: 0.0177
+CostTime: 106.7717
+Epoch: 29/50 | Step: 620/1750 | Training loss: 0.0182
+CostTime: 111.7435
+Epoch: 29/50 | Step: 682/1750 | Training loss: 0.0184
+CostTime: 117.1692
+Epoch: 29/50 | Step: 744/1750 | Training loss: 0.0182
+CostTime: 109.2799
+Epoch: 29/50 | Step: 806/1750 | Training loss: 0.0184
+CostTime: 110.8716
+Epoch: 29/50 | Step: 868/1750 | Training loss: 0.0183
+CostTime: 117.8350
+Epoch: 29/50 | Step: 930/1750 | Training loss: 0.0184
+CostTime: 119.5905
+Epoch: 29/50 | Step: 992/1750 | Training loss: 0.0185
+CostTime: 115.9455
+Epoch: 29/50 | Step: 1054/1750 | Training loss: 0.0189
+CostTime: 109.4573
+Epoch: 29/50 | Step: 1116/1750 | Training loss: 0.0186
+CostTime: 115.7575
+Epoch: 29/50 | Step: 1178/1750 | Training loss: 0.0194
+CostTime: 126.9269
+Epoch: 29/50 | Step: 1240/1750 | Training loss: 0.0181
+CostTime: 110.4158
+Epoch: 29/50 | Step: 1302/1750 | Training loss: 0.0177
+CostTime: 106.9286
+Epoch: 29/50 | Step: 1364/1750 | Training loss: 0.0183
+CostTime: 120.4710
+Epoch: 29/50 | Step: 1426/1750 | Training loss: 0.0183
+CostTime: 116.1415
+Epoch: 29/50 | Step: 1488/1750 | Training loss: 0.0184
+CostTime: 115.5334
+Epoch: 29/50 | Step: 1550/1750 | Training loss: 0.0191
+CostTime: 116.1450
+Epoch: 29/50 | Step: 1612/1750 | Training loss: 0.0185
+CostTime: 112.4130
+Epoch: 29/50 | Step: 1674/1750 | Training loss: 0.0187
+CostTime: 121.0902
+Epoch: 29/50 | Step: 1736/1750 | Training loss: 0.0184
+CostTime: 118.0624
+Epoch 29 averaged training loss: 0.0184
+The current learning rate is 0.000004
+test 28: iter: 0
+test 28: iter: 1000
+test 28: iter: 2000
+test 28: iter: 3000
+test 28: iter: 4000
+test 28: iter: 5000
+test 28: iter: 6000
+test 28: iter: 7000
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8877, KRCC: 0.7071, PLCC: 0.8867, and RMSE: 4.8601
+test_1080p 28: iter: 0
+test_1080p 28: iter: 1000
+test_1080p 28: iter: 2000
+test_1080p 28: iter: 3000
+Epoch 29 completed. The result on the STDA test_1080p databaset: SRCC: 0.7901, KRCC: 0.6001, PLCC: 0.8280, and RMSE: 5.8166
+Update best model using best_test_criterion in epoch 29
+Saving model...
+Epoch: 30/50 | Step: 62/1750 | Training loss: 0.0184
+CostTime: 130.0266
+Epoch: 30/50 | Step: 124/1750 | Training loss: 0.0185
+CostTime: 102.5699
+Epoch: 30/50 | Step: 186/1750 | Training loss: 0.0184
+CostTime: 106.5137
+Epoch: 30/50 | Step: 248/1750 | Training loss: 0.0181
+CostTime: 108.1394
+Epoch: 30/50 | Step: 310/1750 | Training loss: 0.0177
+CostTime: 117.1271
+Epoch: 30/50 | Step: 372/1750 | Training loss: 0.0184
+CostTime: 106.0307
+Epoch: 30/50 | Step: 434/1750 | Training loss: 0.0183
+CostTime: 110.2424
+Epoch: 30/50 | Step: 496/1750 | Training loss: 0.0183
+CostTime: 109.2919
+Epoch: 30/50 | Step: 558/1750 | Training loss: 0.0184
+CostTime: 114.4359
+Epoch: 30/50 | Step: 620/1750 | Training loss: 0.0179
+CostTime: 110.0751
+Epoch: 30/50 | Step: 682/1750 | Training loss: 0.0180
+CostTime: 108.0942
+Epoch: 30/50 | Step: 744/1750 | Training loss: 0.0186
+CostTime: 107.6216
+Epoch: 30/50 | Step: 806/1750 | Training loss: 0.0180
+CostTime: 113.2908
+Epoch: 30/50 | Step: 868/1750 | Training loss: 0.0183
+CostTime: 112.8295
+Epoch: 30/50 | Step: 930/1750 | Training loss: 0.0185
+CostTime: 101.6772
+Epoch: 30/50 | Step: 992/1750 | Training loss: 0.0183
+CostTime: 109.6107
+Epoch: 30/50 | Step: 1054/1750 | Training loss: 0.0183
+CostTime: 112.2983
+Epoch: 30/50 | Step: 1116/1750 | Training loss: 0.0189
+CostTime: 114.0775
+Epoch: 30/50 | Step: 1178/1750 | Training loss: 0.0180
+CostTime: 116.9864
+Epoch: 30/50 | Step: 1240/1750 | Training loss: 0.0184
+CostTime: 109.2796
+Epoch: 30/50 | Step: 1302/1750 | Training loss: 0.0182
+CostTime: 108.0011
+Epoch: 30/50 | Step: 1364/1750 | Training loss: 0.0180
+CostTime: 112.8283
+Epoch: 30/50 | Step: 1426/1750 | Training loss: 0.0191
+CostTime: 108.3410
+Epoch: 30/50 | Step: 1488/1750 | Training loss: 0.0187
+CostTime: 116.5789
+Epoch: 30/50 | Step: 1550/1750 | Training loss: 0.0178
+CostTime: 105.4662
+Epoch: 30/50 | Step: 1612/1750 | Training loss: 0.0184
+CostTime: 111.8922
+Epoch: 30/50 | Step: 1674/1750 | Training loss: 0.0182
+CostTime: 115.9844
+Epoch: 30/50 | Step: 1736/1750 | Training loss: 0.0182
+CostTime: 108.3667
+Epoch 30 averaged training loss: 0.0183
+The current learning rate is 0.000004
+test 29: iter: 0
+test 29: iter: 1000
+test 29: iter: 2000
+test 29: iter: 3000
+test 29: iter: 4000
+test 29: iter: 5000
+test 29: iter: 6000
+test 29: iter: 7000
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8886, KRCC: 0.7081, PLCC: 0.8885, and RMSE: 4.8233
+test_1080p 29: iter: 0
+test_1080p 29: iter: 1000
+test_1080p 29: iter: 2000
+test_1080p 29: iter: 3000
+Epoch 30 completed. The result on the STDA test_1080p databaset: SRCC: 0.7916, KRCC: 0.6017, PLCC: 0.8295, and RMSE: 5.7941
+Update best model using best_test_criterion in epoch 30
+Saving model...
+Epoch: 31/50 | Step: 62/1750 | Training loss: 0.0184
+CostTime: 128.1656
+Epoch: 31/50 | Step: 124/1750 | Training loss: 0.0180
+CostTime: 104.2646
+Epoch: 31/50 | Step: 186/1750 | Training loss: 0.0180
+CostTime: 109.4942
+Epoch: 31/50 | Step: 248/1750 | Training loss: 0.0178
+CostTime: 104.5336
+Epoch: 31/50 | Step: 310/1750 | Training loss: 0.0182
+CostTime: 113.9495
+Epoch: 31/50 | Step: 372/1750 | Training loss: 0.0183
+CostTime: 104.6793
+Epoch: 31/50 | Step: 434/1750 | Training loss: 0.0178
+CostTime: 110.0766
+Epoch: 31/50 | Step: 496/1750 | Training loss: 0.0184
+CostTime: 106.4619
+Epoch: 31/50 | Step: 558/1750 | Training loss: 0.0188
+CostTime: 105.9445
+Epoch: 31/50 | Step: 620/1750 | Training loss: 0.0176
+CostTime: 105.7275
+Epoch: 31/50 | Step: 682/1750 | Training loss: 0.0184
+CostTime: 112.8119
+Epoch: 31/50 | Step: 744/1750 | Training loss: 0.0178
+CostTime: 105.7813
+Epoch: 31/50 | Step: 806/1750 | Training loss: 0.0180
+CostTime: 111.0671
+Epoch: 31/50 | Step: 868/1750 | Training loss: 0.0180
+CostTime: 109.6464
+Epoch: 31/50 | Step: 930/1750 | Training loss: 0.0184
+CostTime: 109.3915
+Epoch: 31/50 | Step: 992/1750 | Training loss: 0.0179
+CostTime: 107.3912
+Epoch: 31/50 | Step: 1054/1750 | Training loss: 0.0181
+CostTime: 113.8915
+Epoch: 31/50 | Step: 1116/1750 | Training loss: 0.0181
+CostTime: 103.1544
+Epoch: 31/50 | Step: 1178/1750 | Training loss: 0.0176
+CostTime: 107.3282
+Epoch: 31/50 | Step: 1240/1750 | Training loss: 0.0179
+CostTime: 103.3961
+Epoch: 31/50 | Step: 1302/1750 | Training loss: 0.0181
+CostTime: 109.9036
+Epoch: 31/50 | Step: 1364/1750 | Training loss: 0.0184
+CostTime: 106.4409
+Epoch: 31/50 | Step: 1426/1750 | Training loss: 0.0185
+CostTime: 109.4013
+Epoch: 31/50 | Step: 1488/1750 | Training loss: 0.0181
+CostTime: 111.3651
+Epoch: 31/50 | Step: 1550/1750 | Training loss: 0.0183
+CostTime: 102.5468
+Epoch: 31/50 | Step: 1612/1750 | Training loss: 0.0186
+CostTime: 104.8651
+Epoch: 31/50 | Step: 1674/1750 | Training loss: 0.0181
+CostTime: 111.5035
+Epoch: 31/50 | Step: 1736/1750 | Training loss: 0.0189
+CostTime: 109.4457
+Epoch 31 averaged training loss: 0.0182
+The current learning rate is 0.000004
+test 30: iter: 0
+test 30: iter: 1000
+test 30: iter: 2000
+test 30: iter: 3000
+test 30: iter: 4000
+test 30: iter: 5000
+test 30: iter: 6000
+test 30: iter: 7000
+Epoch 31 completed. The result on the STDA test databaset: SRCC: 0.8882, KRCC: 0.7078, PLCC: 0.8878, and RMSE: 4.8390
+test_1080p 30: iter: 0
+test_1080p 30: iter: 1000
+test_1080p 30: iter: 2000
+test_1080p 30: iter: 3000
+Epoch 31 completed. The result on the STDA test_1080p databaset: SRCC: 0.7910, KRCC: 0.6013, PLCC: 0.8289, and RMSE: 5.8027
+Epoch: 32/50 | Step: 62/1750 | Training loss: 0.0176
+CostTime: 123.4884
+Epoch: 32/50 | Step: 124/1750 | Training loss: 0.0177
+CostTime: 102.8635
+Epoch: 32/50 | Step: 186/1750 | Training loss: 0.0176
+CostTime: 108.4990
+Epoch: 32/50 | Step: 248/1750 | Training loss: 0.0181
+CostTime: 111.5337
+Epoch: 32/50 | Step: 310/1750 | Training loss: 0.0178
+CostTime: 109.2246
+Epoch: 32/50 | Step: 372/1750 | Training loss: 0.0181
+CostTime: 106.1209
+Epoch: 32/50 | Step: 434/1750 | Training loss: 0.0184
+CostTime: 108.7452
+Epoch: 32/50 | Step: 496/1750 | Training loss: 0.0176
+CostTime: 115.6504
+Epoch: 32/50 | Step: 558/1750 | Training loss: 0.0179
+CostTime: 108.3787
+Epoch: 32/50 | Step: 620/1750 | Training loss: 0.0181
+CostTime: 107.5261
+Epoch: 32/50 | Step: 682/1750 | Training loss: 0.0179
+CostTime: 107.7896
+Epoch: 32/50 | Step: 744/1750 | Training loss: 0.0180
+CostTime: 107.8168
+Epoch: 32/50 | Step: 806/1750 | Training loss: 0.0182
+CostTime: 108.2639
+Epoch: 32/50 | Step: 868/1750 | Training loss: 0.0190
+CostTime: 103.9970
+Epoch: 32/50 | Step: 930/1750 | Training loss: 0.0183
+CostTime: 106.8337
+Epoch: 32/50 | Step: 992/1750 | Training loss: 0.0179
+CostTime: 106.1810
+Epoch: 32/50 | Step: 1054/1750 | Training loss: 0.0184
+CostTime: 108.8056
+Epoch: 32/50 | Step: 1116/1750 | Training loss: 0.0178
+CostTime: 107.4544
+Epoch: 32/50 | Step: 1178/1750 | Training loss: 0.0180
+CostTime: 111.6708
+Epoch: 32/50 | Step: 1240/1750 | Training loss: 0.0184
+CostTime: 109.2554
+Epoch: 32/50 | Step: 1302/1750 | Training loss: 0.0186
+CostTime: 112.0609
+Epoch: 32/50 | Step: 1364/1750 | Training loss: 0.0177
+CostTime: 107.6634
+Epoch: 32/50 | Step: 1426/1750 | Training loss: 0.0178
+CostTime: 112.6646
+Epoch: 32/50 | Step: 1488/1750 | Training loss: 0.0183
+CostTime: 110.2384
+Epoch: 32/50 | Step: 1550/1750 | Training loss: 0.0183
+CostTime: 109.1075
+Epoch: 32/50 | Step: 1612/1750 | Training loss: 0.0187
+CostTime: 108.3082
+Epoch: 32/50 | Step: 1674/1750 | Training loss: 0.0178
+CostTime: 112.5930
+Epoch: 32/50 | Step: 1736/1750 | Training loss: 0.0184
+CostTime: 109.4970
+Epoch 32 averaged training loss: 0.0181
+The current learning rate is 0.000004
+test 31: iter: 0
+test 31: iter: 1000
+test 31: iter: 2000
+test 31: iter: 3000
+test 31: iter: 4000
+test 31: iter: 5000
+test 31: iter: 6000
+test 31: iter: 7000
+Epoch 32 completed. The result on the STDA test databaset: SRCC: 0.8885, KRCC: 0.7080, PLCC: 0.8874, and RMSE: 4.8463
+test_1080p 31: iter: 0
+test_1080p 31: iter: 1000
+test_1080p 31: iter: 2000
+test_1080p 31: iter: 3000
+Epoch 32 completed. The result on the STDA test_1080p databaset: SRCC: 0.7890, KRCC: 0.5990, PLCC: 0.8270, and RMSE: 5.8319
+Epoch: 33/50 | Step: 62/1750 | Training loss: 0.0177
+CostTime: 120.7430
+Epoch: 33/50 | Step: 124/1750 | Training loss: 0.0184
+CostTime: 112.8923
+Epoch: 33/50 | Step: 186/1750 | Training loss: 0.0180
+CostTime: 104.4534
+Epoch: 33/50 | Step: 248/1750 | Training loss: 0.0179
+CostTime: 106.0173
+Epoch: 33/50 | Step: 310/1750 | Training loss: 0.0184
+CostTime: 111.7614
+Epoch: 33/50 | Step: 372/1750 | Training loss: 0.0179
+CostTime: 111.6399
+Epoch: 33/50 | Step: 434/1750 | Training loss: 0.0180
+CostTime: 108.7918
+Epoch: 33/50 | Step: 496/1750 | Training loss: 0.0184
+CostTime: 105.0544
+Epoch: 33/50 | Step: 558/1750 | Training loss: 0.0175
+CostTime: 115.6032
+Epoch: 33/50 | Step: 620/1750 | Training loss: 0.0175
+CostTime: 113.8542
+Epoch: 33/50 | Step: 682/1750 | Training loss: 0.0183
+CostTime: 102.2104
+Epoch: 33/50 | Step: 744/1750 | Training loss: 0.0176
+CostTime: 111.1429
+Epoch: 33/50 | Step: 806/1750 | Training loss: 0.0176
+CostTime: 103.2960
+Epoch: 33/50 | Step: 868/1750 | Training loss: 0.0181
+CostTime: 104.8509
+Epoch: 33/50 | Step: 930/1750 | Training loss: 0.0179
+CostTime: 110.6649
+Epoch: 33/50 | Step: 992/1750 | Training loss: 0.0174
+CostTime: 111.8195
+Epoch: 33/50 | Step: 1054/1750 | Training loss: 0.0176
+CostTime: 107.6610
+Epoch: 33/50 | Step: 1116/1750 | Training loss: 0.0182
+CostTime: 112.9410
+Epoch: 33/50 | Step: 1178/1750 | Training loss: 0.0180
+CostTime: 105.9482
+Epoch: 33/50 | Step: 1240/1750 | Training loss: 0.0176
+CostTime: 110.3333
+Epoch: 33/50 | Step: 1302/1750 | Training loss: 0.0178
+CostTime: 112.3294
+Epoch: 33/50 | Step: 1364/1750 | Training loss: 0.0176
+CostTime: 112.2496
+Epoch: 33/50 | Step: 1426/1750 | Training loss: 0.0177
+CostTime: 111.7246
+Epoch: 33/50 | Step: 1488/1750 | Training loss: 0.0181
+CostTime: 107.8590
+Epoch: 33/50 | Step: 1550/1750 | Training loss: 0.0180
+CostTime: 113.7187
+Epoch: 33/50 | Step: 1612/1750 | Training loss: 0.0176
+CostTime: 111.1172
+Epoch: 33/50 | Step: 1674/1750 | Training loss: 0.0180
+CostTime: 111.7904
+Epoch: 33/50 | Step: 1736/1750 | Training loss: 0.0188
+CostTime: 106.7789
+Epoch 33 averaged training loss: 0.0179
+The current learning rate is 0.000004
+test 32: iter: 0
+test 32: iter: 1000
+test 32: iter: 2000
+test 32: iter: 3000
+test 32: iter: 4000
+test 32: iter: 5000
+test 32: iter: 6000
+test 32: iter: 7000
+Epoch 33 completed. The result on the STDA test databaset: SRCC: 0.8896, KRCC: 0.7094, PLCC: 0.8890, and RMSE: 4.8141
+test_1080p 32: iter: 0
+test_1080p 32: iter: 1000
+test_1080p 32: iter: 2000
+test_1080p 32: iter: 3000
+Epoch 33 completed. The result on the STDA test_1080p databaset: SRCC: 0.7897, KRCC: 0.6000, PLCC: nan, and RMSE: 10.3736
+Update best model using best_test_criterion in epoch 33
+Saving model...
+Epoch: 34/50 | Step: 62/1750 | Training loss: 0.0178
+CostTime: 124.4476
+Epoch: 34/50 | Step: 124/1750 | Training loss: 0.0184
+CostTime: 106.7648
+Epoch: 34/50 | Step: 186/1750 | Training loss: 0.0176
+CostTime: 117.0289
+Epoch: 34/50 | Step: 248/1750 | Training loss: 0.0173
+CostTime: 112.3246
+Epoch: 34/50 | Step: 310/1750 | Training loss: 0.0176
+CostTime: 110.7037
+Epoch: 34/50 | Step: 372/1750 | Training loss: 0.0179
+CostTime: 113.6057
+Epoch: 34/50 | Step: 434/1750 | Training loss: 0.0177
+CostTime: 112.3428
+Epoch: 34/50 | Step: 496/1750 | Training loss: 0.0183
+CostTime: 110.0982
+Epoch: 34/50 | Step: 558/1750 | Training loss: 0.0178
+CostTime: 105.9792
+Epoch: 34/50 | Step: 620/1750 | Training loss: 0.0182
+CostTime: 111.1550
+Epoch: 34/50 | Step: 682/1750 | Training loss: 0.0176
+CostTime: 111.9883
+Epoch: 34/50 | Step: 744/1750 | Training loss: 0.0173
+CostTime: 115.5480
+Epoch: 34/50 | Step: 806/1750 | Training loss: 0.0180
+CostTime: 112.7351
+Epoch: 34/50 | Step: 868/1750 | Training loss: 0.0186
+CostTime: 107.7622
+Epoch: 34/50 | Step: 930/1750 | Training loss: 0.0177
+CostTime: 112.9314
+Epoch: 34/50 | Step: 992/1750 | Training loss: 0.0180
+CostTime: 105.7457
+Epoch: 34/50 | Step: 1054/1750 | Training loss: 0.0175
+CostTime: 109.5096
+Epoch: 34/50 | Step: 1116/1750 | Training loss: 0.0182
+CostTime: 115.5402
+Epoch: 34/50 | Step: 1178/1750 | Training loss: 0.0179
+CostTime: 109.4792
+Epoch: 34/50 | Step: 1240/1750 | Training loss: 0.0176
+CostTime: 111.6452
+Epoch: 34/50 | Step: 1302/1750 | Training loss: 0.0178
+CostTime: 121.5861
+Epoch: 34/50 | Step: 1364/1750 | Training loss: 0.0175
+CostTime: 112.9279
+Epoch: 34/50 | Step: 1426/1750 | Training loss: 0.0177
+CostTime: 110.4359
+Epoch: 34/50 | Step: 1488/1750 | Training loss: 0.0179
+CostTime: 107.5858
+Epoch: 34/50 | Step: 1550/1750 | Training loss: 0.0177
+CostTime: 121.9499
+Epoch: 34/50 | Step: 1612/1750 | Training loss: 0.0182
+CostTime: 111.6499
+Epoch: 34/50 | Step: 1674/1750 | Training loss: 0.0178
+CostTime: 114.9436
+Epoch: 34/50 | Step: 1736/1750 | Training loss: 0.0177
+CostTime: 117.3243
+Epoch 34 averaged training loss: 0.0178
+The current learning rate is 0.000003
+test 33: iter: 0
+test 33: iter: 1000
+test 33: iter: 2000
+test 33: iter: 3000
+test 33: iter: 4000
+test 33: iter: 5000
+test 33: iter: 6000
+test 33: iter: 7000
+Epoch 34 completed. The result on the STDA test databaset: SRCC: 0.8893, KRCC: 0.7091, PLCC: 0.8892, and RMSE: 4.8097
+test_1080p 33: iter: 0
+test_1080p 33: iter: 1000
+test_1080p 33: iter: 2000
+test_1080p 33: iter: 3000
+Epoch 34 completed. The result on the STDA test_1080p databaset: SRCC: 0.7926, KRCC: 0.6025, PLCC: 0.8299, and RMSE: 5.7878
+Epoch: 35/50 | Step: 62/1750 | Training loss: 0.0180
+CostTime: 128.3518
+Epoch: 35/50 | Step: 124/1750 | Training loss: 0.0175
+CostTime: 113.1180
+Epoch: 35/50 | Step: 186/1750 | Training loss: 0.0175
+CostTime: 107.7683
+Epoch: 35/50 | Step: 248/1750 | Training loss: 0.0178
+CostTime: 110.6133
+Epoch: 35/50 | Step: 310/1750 | Training loss: 0.0186
+CostTime: 106.1503
+Epoch: 35/50 | Step: 372/1750 | Training loss: 0.0179
+CostTime: 117.7737
+Epoch: 35/50 | Step: 434/1750 | Training loss: 0.0179
+CostTime: 114.1911
+Epoch: 35/50 | Step: 496/1750 | Training loss: 0.0172
+CostTime: 103.8176
+Epoch: 35/50 | Step: 558/1750 | Training loss: 0.0174
+CostTime: 104.1254
+Epoch: 35/50 | Step: 620/1750 | Training loss: 0.0175
+CostTime: 107.9720
+Epoch: 35/50 | Step: 682/1750 | Training loss: 0.0177
+CostTime: 113.3751
+Epoch: 35/50 | Step: 744/1750 | Training loss: 0.0172
+CostTime: 106.3405
+Epoch: 35/50 | Step: 806/1750 | Training loss: 0.0178
+CostTime: 111.7576
+Epoch: 35/50 | Step: 868/1750 | Training loss: 0.0176
+CostTime: 118.7318
+Epoch: 35/50 | Step: 930/1750 | Training loss: 0.0176
+CostTime: 105.5554
+Epoch: 35/50 | Step: 992/1750 | Training loss: 0.0181
+CostTime: 107.9490
+Epoch: 35/50 | Step: 1054/1750 | Training loss: 0.0180
+CostTime: 106.5224
+Epoch: 35/50 | Step: 1116/1750 | Training loss: 0.0181
+CostTime: 110.4042
+Epoch: 35/50 | Step: 1178/1750 | Training loss: 0.0174
+CostTime: 109.4200
+Epoch: 35/50 | Step: 1240/1750 | Training loss: 0.0179
+CostTime: 108.1210
+Epoch: 35/50 | Step: 1302/1750 | Training loss: 0.0177
+CostTime: 111.4551
+Epoch: 35/50 | Step: 1364/1750 | Training loss: 0.0176
+CostTime: 114.7058
+Epoch: 35/50 | Step: 1426/1750 | Training loss: 0.0192
+CostTime: 122.8661
+Epoch: 35/50 | Step: 1488/1750 | Training loss: 0.0178
+CostTime: 114.6480
+Epoch: 35/50 | Step: 1550/1750 | Training loss: 0.0179
+CostTime: 106.2626
+Epoch: 35/50 | Step: 1612/1750 | Training loss: 0.0183
+CostTime: 113.8111
+Epoch: 35/50 | Step: 1674/1750 | Training loss: 0.0177
+CostTime: 118.2847
+Epoch: 35/50 | Step: 1736/1750 | Training loss: 0.0183
+CostTime: 116.1712
+Epoch 35 averaged training loss: 0.0178
+The current learning rate is 0.000003
+test 34: iter: 0
+test 34: iter: 1000
+test 34: iter: 2000
+test 34: iter: 3000
+test 34: iter: 4000
+test 34: iter: 5000
+test 34: iter: 6000
+test 34: iter: 7000
+Epoch 35 completed. The result on the STDA test databaset: SRCC: 0.8871, KRCC: 0.7063, PLCC: 0.8874, and RMSE: 4.8475
+test_1080p 34: iter: 0
+test_1080p 34: iter: 1000
+test_1080p 34: iter: 2000
+test_1080p 34: iter: 3000
+Epoch 35 completed. The result on the STDA test_1080p databaset: SRCC: 0.7909, KRCC: 0.6009, PLCC: 0.8283, and RMSE: 5.8118
+Epoch: 36/50 | Step: 62/1750 | Training loss: 0.0180
+CostTime: 126.9003
+Epoch: 36/50 | Step: 124/1750 | Training loss: 0.0173
+CostTime: 111.6559
+Epoch: 36/50 | Step: 186/1750 | Training loss: 0.0175
+CostTime: 113.0964
+Epoch: 36/50 | Step: 248/1750 | Training loss: 0.0179
+CostTime: 114.6452
+Epoch: 36/50 | Step: 310/1750 | Training loss: 0.0173
+CostTime: 108.8961
+Epoch: 36/50 | Step: 372/1750 | Training loss: 0.0181
+CostTime: 116.3411
+Epoch: 36/50 | Step: 434/1750 | Training loss: 0.0172
+CostTime: 107.7857
+Epoch: 36/50 | Step: 496/1750 | Training loss: 0.0176
+CostTime: 110.4616
+Epoch: 36/50 | Step: 558/1750 | Training loss: 0.0177
+CostTime: 107.8275
+Epoch: 36/50 | Step: 620/1750 | Training loss: 0.0176
+CostTime: 111.7658
+Epoch: 36/50 | Step: 682/1750 | Training loss: 0.0181
+CostTime: 115.4011
+Epoch: 36/50 | Step: 744/1750 | Training loss: 0.0176
+CostTime: 109.5164
+Epoch: 36/50 | Step: 806/1750 | Training loss: 0.0175
+CostTime: 109.6815
+Epoch: 36/50 | Step: 868/1750 | Training loss: 0.0176
+CostTime: 118.2814
+Epoch: 36/50 | Step: 930/1750 | Training loss: 0.0175
+CostTime: 115.3992
+Epoch: 36/50 | Step: 992/1750 | Training loss: 0.0177
+CostTime: 113.7397
+Epoch: 36/50 | Step: 1054/1750 | Training loss: 0.0174
+CostTime: 122.7976
+Epoch: 36/50 | Step: 1116/1750 | Training loss: 0.0178
+CostTime: 110.3453
+Epoch: 36/50 | Step: 1178/1750 | Training loss: 0.0183
+CostTime: 113.1114
+Epoch: 36/50 | Step: 1240/1750 | Training loss: 0.0177
+CostTime: 114.6541
+Epoch: 36/50 | Step: 1302/1750 | Training loss: 0.0173
+CostTime: 119.3781
+Epoch: 36/50 | Step: 1364/1750 | Training loss: 0.0175
+CostTime: 114.4162
+Epoch: 36/50 | Step: 1426/1750 | Training loss: 0.0173
+CostTime: 116.6055
+Epoch: 36/50 | Step: 1488/1750 | Training loss: 0.0179
+CostTime: 111.8125
+Epoch: 36/50 | Step: 1550/1750 | Training loss: 0.0176
+CostTime: 116.9432
+Epoch: 36/50 | Step: 1612/1750 | Training loss: 0.0181
+CostTime: 109.9057
+Epoch: 36/50 | Step: 1674/1750 | Training loss: 0.0174
+CostTime: 118.7621
+Epoch: 36/50 | Step: 1736/1750 | Training loss: 0.0182
+CostTime: 121.6099
+Epoch 36 averaged training loss: 0.0177
+The current learning rate is 0.000003
+test 35: iter: 0
+test 35: iter: 1000
+test 35: iter: 2000
+test 35: iter: 3000
+test 35: iter: 4000
+test 35: iter: 5000
+test 35: iter: 6000
+test 35: iter: 7000
+Epoch 36 completed. The result on the STDA test databaset: SRCC: 0.8881, KRCC: 0.7073, PLCC: 0.8871, and RMSE: 4.8522
+test_1080p 35: iter: 0
+test_1080p 35: iter: 1000
+test_1080p 35: iter: 2000
+test_1080p 35: iter: 3000
+Epoch 36 completed. The result on the STDA test_1080p databaset: SRCC: 0.7927, KRCC: 0.6025, PLCC: 0.8290, and RMSE: 5.8011
+Epoch: 37/50 | Step: 62/1750 | Training loss: 0.0181
+CostTime: 119.9599
+Epoch: 37/50 | Step: 124/1750 | Training loss: 0.0181
+CostTime: 110.2484
+Epoch: 37/50 | Step: 186/1750 | Training loss: 0.0176
+CostTime: 109.1829
+Epoch: 37/50 | Step: 248/1750 | Training loss: 0.0177
+CostTime: 113.1732
+Epoch: 37/50 | Step: 310/1750 | Training loss: 0.0180
+CostTime: 107.5593
+Epoch: 37/50 | Step: 372/1750 | Training loss: 0.0173
+CostTime: 105.2104
+Epoch: 37/50 | Step: 434/1750 | Training loss: 0.0172
+CostTime: 112.0108
+Epoch: 37/50 | Step: 496/1750 | Training loss: 0.0179
+CostTime: 104.3412
+Epoch: 37/50 | Step: 558/1750 | Training loss: 0.0177
+CostTime: 114.9183
+Epoch: 37/50 | Step: 620/1750 | Training loss: 0.0171
+CostTime: 109.7941
+Epoch: 37/50 | Step: 682/1750 | Training loss: 0.0170
+CostTime: 112.6348
+Epoch: 37/50 | Step: 744/1750 | Training loss: 0.0172
+CostTime: 107.4715
+Epoch: 37/50 | Step: 806/1750 | Training loss: 0.0181
+CostTime: 114.5094
+Epoch: 37/50 | Step: 868/1750 | Training loss: 0.0173
+CostTime: 106.7486
+Epoch: 37/50 | Step: 930/1750 | Training loss: 0.0174
+CostTime: 111.7327
+Epoch: 37/50 | Step: 992/1750 | Training loss: 0.0175
+CostTime: 106.3838
+Epoch: 37/50 | Step: 1054/1750 | Training loss: 0.0173
+CostTime: 107.6157
+Epoch: 37/50 | Step: 1116/1750 | Training loss: 0.0174
+CostTime: 105.0894
+Epoch: 37/50 | Step: 1178/1750 | Training loss: 0.0177
+CostTime: 116.1001
+Epoch: 37/50 | Step: 1240/1750 | Training loss: 0.0177
+CostTime: 104.7100
+Epoch: 37/50 | Step: 1302/1750 | Training loss: 0.0186
+CostTime: 115.4795
+Epoch: 37/50 | Step: 1364/1750 | Training loss: 0.0175
+CostTime: 105.6031
+Epoch: 37/50 | Step: 1426/1750 | Training loss: 0.0178
+CostTime: 108.6345
+Epoch: 37/50 | Step: 1488/1750 | Training loss: 0.0174
+CostTime: 106.6669
+Epoch: 37/50 | Step: 1550/1750 | Training loss: 0.0170
+CostTime: 110.1015
+Epoch: 37/50 | Step: 1612/1750 | Training loss: 0.0183
+CostTime: 110.3144
+Epoch: 37/50 | Step: 1674/1750 | Training loss: 0.0174
+CostTime: 109.5570
+Epoch: 37/50 | Step: 1736/1750 | Training loss: 0.0174
+CostTime: 110.9843
+Epoch 37 averaged training loss: 0.0176
+The current learning rate is 0.000003
+test 36: iter: 0
+test 36: iter: 1000
+test 36: iter: 2000
+test 36: iter: 3000
+test 36: iter: 4000
+test 36: iter: 5000
+test 36: iter: 6000
+test 36: iter: 7000
+Epoch 37 completed. The result on the STDA test databaset: SRCC: 0.8895, KRCC: 0.7095, PLCC: 0.8885, and RMSE: 4.8234
+test_1080p 36: iter: 0
+test_1080p 36: iter: 1000
+test_1080p 36: iter: 2000
+test_1080p 36: iter: 3000
+/data/user/zhaoyimeng/ModularBVQA/utils.py:11: RuntimeWarning: overflow encountered in exp
+  logisticPart = 1 + np.exp(np.negative(np.divide(X - bayta3, np.abs(bayta4))))
+Epoch 37 completed. The result on the STDA test_1080p databaset: SRCC: 0.7918, KRCC: 0.6016, PLCC: 0.8293, and RMSE: 5.7971
+Epoch: 38/50 | Step: 62/1750 | Training loss: 0.0175
+CostTime: 122.8702
+Epoch: 38/50 | Step: 124/1750 | Training loss: 0.0176
+CostTime: 105.7796
+Epoch: 38/50 | Step: 186/1750 | Training loss: 0.0174
+CostTime: 110.5913
+Epoch: 38/50 | Step: 248/1750 | Training loss: 0.0174
+CostTime: 110.9873
+Epoch: 38/50 | Step: 310/1750 | Training loss: 0.0178
+CostTime: 109.8124
+Epoch: 38/50 | Step: 372/1750 | Training loss: 0.0179
+CostTime: 107.0151
+Epoch: 38/50 | Step: 434/1750 | Training loss: 0.0172
+CostTime: 111.6490
+Epoch: 38/50 | Step: 496/1750 | Training loss: 0.0174
+CostTime: 102.1145
+Epoch: 38/50 | Step: 558/1750 | Training loss: 0.0178
+CostTime: 110.7247
+Epoch: 38/50 | Step: 620/1750 | Training loss: 0.0176
+CostTime: 103.4124
+Epoch: 38/50 | Step: 682/1750 | Training loss: 0.0178
+CostTime: 108.3400
+Epoch: 38/50 | Step: 744/1750 | Training loss: 0.0174
+CostTime: 109.4647
+Epoch: 38/50 | Step: 806/1750 | Training loss: 0.0173
+CostTime: 108.5376
+Epoch: 38/50 | Step: 868/1750 | Training loss: 0.0171
+CostTime: 109.7129
+Epoch: 38/50 | Step: 930/1750 | Training loss: 0.0180
+CostTime: 103.9965
+Epoch: 38/50 | Step: 992/1750 | Training loss: 0.0184
+CostTime: 109.5343
+Epoch: 38/50 | Step: 1054/1750 | Training loss: 0.0174
+CostTime: 113.8706
+Epoch: 38/50 | Step: 1116/1750 | Training loss: 0.0176
+CostTime: 113.0761
+Epoch: 38/50 | Step: 1178/1750 | Training loss: 0.0177
+CostTime: 103.4943
+Epoch: 38/50 | Step: 1240/1750 | Training loss: 0.0174
+CostTime: 107.9671
+Epoch: 38/50 | Step: 1302/1750 | Training loss: 0.0175
+CostTime: 110.8547
+Epoch: 38/50 | Step: 1364/1750 | Training loss: 0.0178
+CostTime: 106.6597
+Epoch: 38/50 | Step: 1426/1750 | Training loss: 0.0170
+CostTime: 110.2364
+Epoch: 38/50 | Step: 1488/1750 | Training loss: 0.0171
+CostTime: 105.2887
+Epoch: 38/50 | Step: 1550/1750 | Training loss: 0.0173
+CostTime: 112.6411
+Epoch: 38/50 | Step: 1612/1750 | Training loss: 0.0174
+CostTime: 109.5107
+Epoch: 38/50 | Step: 1674/1750 | Training loss: 0.0174
+CostTime: 106.0258
+Epoch: 38/50 | Step: 1736/1750 | Training loss: 0.0175
+CostTime: 112.4724
+Epoch 38 averaged training loss: 0.0175
+The current learning rate is 0.000003
+test 37: iter: 0
+test 37: iter: 1000
+test 37: iter: 2000
+test 37: iter: 3000
+test 37: iter: 4000
+test 37: iter: 5000
+test 37: iter: 6000
+test 37: iter: 7000
+Epoch 38 completed. The result on the STDA test databaset: SRCC: 0.8889, KRCC: 0.7091, PLCC: 0.8885, and RMSE: 4.8233
+test_1080p 37: iter: 0
+test_1080p 37: iter: 1000
+test_1080p 37: iter: 2000
+test_1080p 37: iter: 3000
+Epoch 38 completed. The result on the STDA test_1080p databaset: SRCC: 0.7940, KRCC: 0.6044, PLCC: 0.8291, and RMSE: 5.7997
+Epoch: 39/50 | Step: 62/1750 | Training loss: 0.0173
+CostTime: 119.4577
+Epoch: 39/50 | Step: 124/1750 | Training loss: 0.0173
+CostTime: 105.5963
+
+Process finished with exit code 143 (interrupted by signal 15: SIGTERM)

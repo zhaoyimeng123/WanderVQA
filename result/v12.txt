@@ -1,0 +1,1540 @@
+/data/guest/anaconda3/envs/zhaoyimeng/bin/python3.8 /data/user/zhaoyimeng/ModularBVQA/train_baseline_modular_dist_loda_cross_atten_videomae_cam_v12.py
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12
+Trainable params: 95.54 million
+No checkpoint found at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, starting from scratch.
+Starting training:
+Epoch: 1/200 | Step: 31/875 | Training loss: 0.1478
+CostTime: 40.3248
+Epoch: 1/200 | Step: 62/875 | Training loss: 0.1102
+CostTime: 98.6055
+Epoch: 1/200 | Step: 93/875 | Training loss: 0.0981
+CostTime: 129.2222
+Epoch: 1/200 | Step: 124/875 | Training loss: 0.0884
+CostTime: 110.7085
+Epoch: 1/200 | Step: 155/875 | Training loss: 0.0841
+CostTime: 116.9326
+Epoch: 1/200 | Step: 186/875 | Training loss: 0.0868
+CostTime: 108.3469
+Epoch: 1/200 | Step: 217/875 | Training loss: 0.0824
+CostTime: 116.6857
+Epoch: 1/200 | Step: 248/875 | Training loss: 0.0790
+CostTime: 124.6473
+Epoch: 1/200 | Step: 279/875 | Training loss: 0.0777
+CostTime: 127.3313
+Epoch: 1/200 | Step: 310/875 | Training loss: 0.0756
+CostTime: 128.9361
+Epoch: 1/200 | Step: 341/875 | Training loss: 0.0776
+CostTime: 103.3335
+Epoch: 1/200 | Step: 372/875 | Training loss: 0.0808
+CostTime: 127.5335
+Epoch: 1/200 | Step: 403/875 | Training loss: 0.0834
+CostTime: 123.1295
+Epoch: 1/200 | Step: 434/875 | Training loss: 0.0741
+CostTime: 136.0473
+Epoch: 1/200 | Step: 465/875 | Training loss: 0.0746
+CostTime: 128.0517
+Epoch: 1/200 | Step: 496/875 | Training loss: 0.0715
+CostTime: 120.8811
+Epoch: 1/200 | Step: 527/875 | Training loss: 0.0856
+CostTime: 131.8834
+Epoch: 1/200 | Step: 558/875 | Training loss: 0.0805
+CostTime: 125.1721
+Epoch: 1/200 | Step: 589/875 | Training loss: 0.0783
+CostTime: 112.4646
+Epoch: 1/200 | Step: 620/875 | Training loss: 0.0682
+CostTime: 141.6107
+Epoch: 1/200 | Step: 651/875 | Training loss: 0.0747
+CostTime: 154.4914
+Epoch: 1/200 | Step: 682/875 | Training loss: 0.0710
+CostTime: 157.0011
+Epoch: 1/200 | Step: 713/875 | Training loss: 0.0712
+CostTime: 144.6036
+Epoch: 1/200 | Step: 744/875 | Training loss: 0.0734
+CostTime: 152.1349
+Epoch: 1/200 | Step: 775/875 | Training loss: 0.0792
+CostTime: 143.3093
+Epoch: 1/200 | Step: 806/875 | Training loss: 0.0699
+CostTime: 153.8855
+Epoch: 1/200 | Step: 837/875 | Training loss: 0.0693
+CostTime: 126.2968
+Epoch: 1/200 | Step: 868/875 | Training loss: 0.0783
+CostTime: 155.0663
+Epoch 1 averaged training loss: 0.0819
+The current learning rate is 0.000020
+test 0: iter: 0
+test 0: iter: 1000
+test 0: iter: 2000
+test 0: iter: 3000
+test 0: iter: 4000
+test 0: iter: 5000
+test 0: iter: 6000
+test 0: iter: 7000
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8637, KRCC: 0.6765, PLCC: 0.8640, and RMSE: 5.2930
+Update best model using best_test_criterion in epoch 1
+test_1080p 0: iter: 0
+test_1080p 0: iter: 1000
+test_1080p 0: iter: 2000
+test_1080p 0: iter: 3000
+Epoch 1 completed. The result on the STDA test_1080p databaset: SRCC: 0.7603, KRCC: 0.5689, PLCC: 0.8070, and RMSE: 6.1255
+Saving model...
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_1_SRCC_0.863708.pth
+Epoch: 2/200 | Step: 31/875 | Training loss: 0.0649
+CostTime: 136.8572
+Epoch: 2/200 | Step: 62/875 | Training loss: 0.0608
+CostTime: 125.0189
+Epoch: 2/200 | Step: 93/875 | Training loss: 0.0695
+CostTime: 125.2468
+Epoch: 2/200 | Step: 124/875 | Training loss: 0.0614
+CostTime: 125.0196
+Epoch: 2/200 | Step: 155/875 | Training loss: 0.0608
+CostTime: 99.1083
+Epoch: 2/200 | Step: 186/875 | Training loss: 0.0615
+CostTime: 115.7322
+Epoch: 2/200 | Step: 217/875 | Training loss: 0.0618
+CostTime: 121.7580
+Epoch: 2/200 | Step: 248/875 | Training loss: 0.0674
+CostTime: 110.9496
+Epoch: 2/200 | Step: 279/875 | Training loss: 0.0717
+CostTime: 121.8931
+Epoch: 2/200 | Step: 310/875 | Training loss: 0.0648
+CostTime: 119.6992
+Epoch: 2/200 | Step: 341/875 | Training loss: 0.0639
+CostTime: 121.7161
+Epoch: 2/200 | Step: 372/875 | Training loss: 0.0615
+CostTime: 120.7875
+Epoch: 2/200 | Step: 403/875 | Training loss: 0.0621
+CostTime: 113.7989
+Epoch: 2/200 | Step: 434/875 | Training loss: 0.0647
+CostTime: 114.1535
+Epoch: 2/200 | Step: 465/875 | Training loss: 0.0706
+CostTime: 100.3454
+Epoch: 2/200 | Step: 496/875 | Training loss: 0.0651
+CostTime: 120.4246
+Epoch: 2/200 | Step: 527/875 | Training loss: 0.0710
+CostTime: 115.0237
+Epoch: 2/200 | Step: 558/875 | Training loss: 0.0678
+CostTime: 117.6089
+Epoch: 2/200 | Step: 589/875 | Training loss: 0.0668
+CostTime: 121.8935
+Epoch: 2/200 | Step: 620/875 | Training loss: 0.0699
+CostTime: 130.7605
+Epoch: 2/200 | Step: 651/875 | Training loss: 0.0604
+CostTime: 120.1829
+Epoch: 2/200 | Step: 682/875 | Training loss: 0.0604
+CostTime: 118.4643
+Epoch: 2/200 | Step: 713/875 | Training loss: 0.0680
+CostTime: 107.4197
+Epoch: 2/200 | Step: 744/875 | Training loss: 0.0674
+CostTime: 123.8368
+Epoch: 2/200 | Step: 775/875 | Training loss: 0.0692
+CostTime: 123.0484
+Epoch: 2/200 | Step: 806/875 | Training loss: 0.0658
+CostTime: 124.8017
+Epoch: 2/200 | Step: 837/875 | Training loss: 0.0703
+CostTime: 107.3786
+Epoch: 2/200 | Step: 868/875 | Training loss: 0.0701
+CostTime: 118.5633
+Epoch 2 averaged training loss: 0.0658
+The current learning rate is 0.000020
+test 1: iter: 0
+test 1: iter: 1000
+test 1: iter: 2000
+test 1: iter: 3000
+test 1: iter: 4000
+test 1: iter: 5000
+test 1: iter: 6000
+test 1: iter: 7000
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8630, KRCC: 0.6764, PLCC: 0.8679, and RMSE: 5.2230
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_1_SRCC_0.863708.pth
+Epoch: 3/200 | Step: 31/875 | Training loss: 0.0586
+CostTime: 110.2096
+Epoch: 3/200 | Step: 62/875 | Training loss: 0.0565
+CostTime: 96.6362
+Epoch: 3/200 | Step: 93/875 | Training loss: 0.0544
+CostTime: 87.7461
+Epoch: 3/200 | Step: 124/875 | Training loss: 0.0578
+CostTime: 101.7224
+Epoch: 3/200 | Step: 155/875 | Training loss: 0.0578
+CostTime: 106.8953
+Epoch: 3/200 | Step: 186/875 | Training loss: 0.0583
+CostTime: 96.0220
+Epoch: 3/200 | Step: 217/875 | Training loss: 0.0607
+CostTime: 108.6548
+Epoch: 3/200 | Step: 248/875 | Training loss: 0.0561
+CostTime: 112.6475
+Epoch: 3/200 | Step: 279/875 | Training loss: 0.0569
+CostTime: 117.8110
+Epoch: 3/200 | Step: 310/875 | Training loss: 0.0536
+CostTime: 111.8429
+Epoch: 3/200 | Step: 341/875 | Training loss: 0.0555
+CostTime: 121.0109
+Epoch: 3/200 | Step: 372/875 | Training loss: 0.0609
+CostTime: 119.9236
+Epoch: 3/200 | Step: 403/875 | Training loss: 0.0587
+CostTime: 112.6748
+Epoch: 3/200 | Step: 434/875 | Training loss: 0.0580
+CostTime: 95.3821
+Epoch: 3/200 | Step: 465/875 | Training loss: 0.0622
+CostTime: 123.5906
+Epoch: 3/200 | Step: 496/875 | Training loss: 0.0646
+CostTime: 125.4626
+Epoch: 3/200 | Step: 527/875 | Training loss: 0.0596
+CostTime: 122.4067
+Epoch: 3/200 | Step: 558/875 | Training loss: 0.0633
+CostTime: 111.9532
+Epoch: 3/200 | Step: 589/875 | Training loss: 0.0577
+CostTime: 121.1689
+Epoch: 3/200 | Step: 620/875 | Training loss: 0.0573
+CostTime: 115.5745
+Epoch: 3/200 | Step: 651/875 | Training loss: 0.0536
+CostTime: 119.7496
+Epoch: 3/200 | Step: 682/875 | Training loss: 0.0598
+CostTime: 96.8766
+Epoch: 3/200 | Step: 713/875 | Training loss: 0.0643
+CostTime: 126.2853
+Epoch: 3/200 | Step: 744/875 | Training loss: 0.0573
+CostTime: 136.1300
+Epoch: 3/200 | Step: 775/875 | Training loss: 0.0663
+CostTime: 133.4392
+Epoch: 3/200 | Step: 806/875 | Training loss: 0.0589
+CostTime: 128.2622
+Epoch: 3/200 | Step: 837/875 | Training loss: 0.0582
+CostTime: 127.9402
+Epoch: 3/200 | Step: 868/875 | Training loss: 0.0605
+CostTime: 119.1080
+Epoch 3 averaged training loss: 0.0589
+The current learning rate is 0.000020
+test 2: iter: 0
+test 2: iter: 1000
+test 2: iter: 2000
+test 2: iter: 3000
+test 2: iter: 4000
+test 2: iter: 5000
+test 2: iter: 6000
+test 2: iter: 7000
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8739, KRCC: 0.6892, PLCC: 0.8767, and RMSE: 5.0578
+Update best model using best_test_criterion in epoch 3
+test_1080p 2: iter: 0
+test_1080p 2: iter: 1000
+test_1080p 2: iter: 2000
+test_1080p 2: iter: 3000
+Epoch 3 completed. The result on the STDA test_1080p databaset: SRCC: 0.7670, KRCC: 0.5764, PLCC: 0.8153, and RMSE: 6.0072
+Saving model...
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_3_SRCC_0.873874.pth
+Epoch: 4/200 | Step: 31/875 | Training loss: 0.0470
+CostTime: 129.8571
+Epoch: 4/200 | Step: 62/875 | Training loss: 0.0466
+CostTime: 118.9353
+Epoch: 4/200 | Step: 93/875 | Training loss: 0.0502
+CostTime: 122.3819
+Epoch: 4/200 | Step: 124/875 | Training loss: 0.0509
+CostTime: 105.0722
+Epoch: 4/200 | Step: 155/875 | Training loss: 0.0505
+CostTime: 118.3480
+Epoch: 4/200 | Step: 186/875 | Training loss: 0.0499
+CostTime: 127.4873
+Epoch: 4/200 | Step: 217/875 | Training loss: 0.0475
+CostTime: 108.8500
+Epoch: 4/200 | Step: 248/875 | Training loss: 0.0511
+CostTime: 116.3519
+Epoch: 4/200 | Step: 279/875 | Training loss: 0.0480
+CostTime: 116.1538
+Epoch: 4/200 | Step: 310/875 | Training loss: 0.0503
+CostTime: 115.6622
+Epoch: 4/200 | Step: 341/875 | Training loss: 0.0520
+CostTime: 124.9136
+Epoch: 4/200 | Step: 372/875 | Training loss: 0.0571
+CostTime: 97.1461
+Epoch: 4/200 | Step: 403/875 | Training loss: 0.0500
+CostTime: 112.4802
+Epoch: 4/200 | Step: 434/875 | Training loss: 0.0503
+CostTime: 125.0963
+Epoch: 4/200 | Step: 465/875 | Training loss: 0.0522
+CostTime: 112.9780
+Epoch: 4/200 | Step: 496/875 | Training loss: 0.0538
+CostTime: 124.0833
+Epoch: 4/200 | Step: 527/875 | Training loss: 0.0570
+CostTime: 117.0651
+Epoch: 4/200 | Step: 558/875 | Training loss: 0.0551
+CostTime: 121.8526
+Epoch: 4/200 | Step: 589/875 | Training loss: 0.0519
+CostTime: 120.5087
+Epoch: 4/200 | Step: 620/875 | Training loss: 0.0561
+CostTime: 98.7231
+Epoch: 4/200 | Step: 651/875 | Training loss: 0.0510
+CostTime: 118.9933
+Epoch: 4/200 | Step: 682/875 | Training loss: 0.0520
+CostTime: 125.9840
+Epoch: 4/200 | Step: 713/875 | Training loss: 0.0535
+CostTime: 128.1059
+Epoch: 4/200 | Step: 744/875 | Training loss: 0.0515
+CostTime: 131.4783
+Epoch: 4/200 | Step: 775/875 | Training loss: 0.0536
+CostTime: 117.0565
+Epoch: 4/200 | Step: 806/875 | Training loss: 0.0527
+CostTime: 116.1735
+Epoch: 4/200 | Step: 837/875 | Training loss: 0.0508
+CostTime: 128.2371
+Epoch: 4/200 | Step: 868/875 | Training loss: 0.0618
+CostTime: 96.0995
+Epoch 4 averaged training loss: 0.0520
+The current learning rate is 0.000019
+test 3: iter: 0
+test 3: iter: 1000
+test 3: iter: 2000
+test 3: iter: 3000
+test 3: iter: 4000
+test 3: iter: 5000
+test 3: iter: 6000
+test 3: iter: 7000
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8697, KRCC: 0.6840, PLCC: 0.8718, and RMSE: 5.1493
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_3_SRCC_0.873874.pth
+Epoch: 5/200 | Step: 31/875 | Training loss: 0.0458
+CostTime: 91.6389
+Epoch: 5/200 | Step: 62/875 | Training loss: 0.0452
+CostTime: 90.2876
+Epoch: 5/200 | Step: 93/875 | Training loss: 0.0467
+CostTime: 87.6137
+Epoch: 5/200 | Step: 124/875 | Training loss: 0.0439
+CostTime: 84.2149
+Epoch: 5/200 | Step: 155/875 | Training loss: 0.0413
+CostTime: 87.2513
+Epoch: 5/200 | Step: 186/875 | Training loss: 0.0450
+CostTime: 99.7702
+Epoch: 5/200 | Step: 217/875 | Training loss: 0.0463
+CostTime: 111.7377
+Epoch: 5/200 | Step: 248/875 | Training loss: 0.0420
+CostTime: 98.6051
+Epoch: 5/200 | Step: 279/875 | Training loss: 0.0466
+CostTime: 108.4161
+Epoch: 5/200 | Step: 310/875 | Training loss: 0.0471
+CostTime: 113.2068
+Epoch: 5/200 | Step: 341/875 | Training loss: 0.0436
+CostTime: 100.9761
+Epoch: 5/200 | Step: 372/875 | Training loss: 0.0484
+CostTime: 121.1641
+Epoch: 5/200 | Step: 403/875 | Training loss: 0.0426
+CostTime: 119.4755
+Epoch: 5/200 | Step: 434/875 | Training loss: 0.0422
+CostTime: 117.1745
+Epoch: 5/200 | Step: 465/875 | Training loss: 0.0464
+CostTime: 118.2194
+Epoch: 5/200 | Step: 496/875 | Training loss: 0.0473
+CostTime: 115.6583
+Epoch: 5/200 | Step: 527/875 | Training loss: 0.0480
+CostTime: 130.2736
+Epoch: 5/200 | Step: 558/875 | Training loss: 0.0486
+CostTime: 125.1094
+Epoch: 5/200 | Step: 589/875 | Training loss: 0.0460
+CostTime: 124.6033
+Epoch: 5/200 | Step: 620/875 | Training loss: 0.0518
+CostTime: 102.8235
+Epoch: 5/200 | Step: 651/875 | Training loss: 0.0451
+CostTime: 123.6556
+Epoch: 5/200 | Step: 682/875 | Training loss: 0.0470
+CostTime: 133.1029
+Epoch: 5/200 | Step: 713/875 | Training loss: 0.0420
+CostTime: 128.1087
+Epoch: 5/200 | Step: 744/875 | Training loss: 0.0455
+CostTime: 124.5451
+Epoch: 5/200 | Step: 775/875 | Training loss: 0.0466
+CostTime: 117.7485
+Epoch: 5/200 | Step: 806/875 | Training loss: 0.0452
+CostTime: 138.7663
+Epoch: 5/200 | Step: 837/875 | Training loss: 0.0459
+CostTime: 119.7971
+Epoch: 5/200 | Step: 868/875 | Training loss: 0.0452
+CostTime: 123.8140
+Epoch 5 averaged training loss: 0.0457
+The current learning rate is 0.000019
+test 4: iter: 0
+test 4: iter: 1000
+test 4: iter: 2000
+test 4: iter: 3000
+test 4: iter: 4000
+test 4: iter: 5000
+test 4: iter: 6000
+test 4: iter: 7000
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8740, KRCC: 0.6892, PLCC: 0.8767, and RMSE: 5.0580
+Update best model using best_test_criterion in epoch 5
+test_1080p 4: iter: 0
+test_1080p 4: iter: 1000
+test_1080p 4: iter: 2000
+test_1080p 4: iter: 3000
+Epoch 5 completed. The result on the STDA test_1080p databaset: SRCC: 0.7801, KRCC: 0.5891, PLCC: 0.8198, and RMSE: 5.9402
+Saving model...
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 6/200 | Step: 31/875 | Training loss: 0.0399
+CostTime: 131.3784
+Epoch: 6/200 | Step: 62/875 | Training loss: 0.0396
+CostTime: 122.6046
+Epoch: 6/200 | Step: 93/875 | Training loss: 0.0364
+CostTime: 117.8758
+Epoch: 6/200 | Step: 124/875 | Training loss: 0.0384
+CostTime: 127.3963
+Epoch: 6/200 | Step: 155/875 | Training loss: 0.0380
+CostTime: 119.6558
+Epoch: 6/200 | Step: 186/875 | Training loss: 0.0381
+CostTime: 119.8908
+Epoch: 6/200 | Step: 217/875 | Training loss: 0.0368
+CostTime: 127.9399
+Epoch: 6/200 | Step: 248/875 | Training loss: 0.0369
+CostTime: 99.5374
+Epoch: 6/200 | Step: 279/875 | Training loss: 0.0392
+CostTime: 122.4029
+Epoch: 6/200 | Step: 310/875 | Training loss: 0.0365
+CostTime: 121.2997
+Epoch: 6/200 | Step: 341/875 | Training loss: 0.0408
+CostTime: 124.1603
+Epoch: 6/200 | Step: 372/875 | Training loss: 0.0394
+CostTime: 125.5385
+Epoch: 6/200 | Step: 403/875 | Training loss: 0.0381
+CostTime: 135.3688
+Epoch: 6/200 | Step: 434/875 | Training loss: 0.0380
+CostTime: 152.7493
+Epoch: 6/200 | Step: 465/875 | Training loss: 0.0381
+CostTime: 124.7233
+Epoch: 6/200 | Step: 496/875 | Training loss: 0.0392
+CostTime: 100.2135
+Epoch: 6/200 | Step: 527/875 | Training loss: 0.0351
+CostTime: 128.1840
+Epoch: 6/200 | Step: 558/875 | Training loss: 0.0380
+CostTime: 130.9256
+Epoch: 6/200 | Step: 589/875 | Training loss: 0.0429
+CostTime: 119.4708
+Epoch: 6/200 | Step: 620/875 | Training loss: 0.0398
+CostTime: 116.5922
+Epoch: 6/200 | Step: 651/875 | Training loss: 0.0394
+CostTime: 122.9151
+Epoch: 6/200 | Step: 682/875 | Training loss: 0.0389
+CostTime: 122.1653
+Epoch: 6/200 | Step: 713/875 | Training loss: 0.0407
+CostTime: 116.2965
+Epoch: 6/200 | Step: 744/875 | Training loss: 0.0408
+CostTime: 114.1907
+Epoch: 6/200 | Step: 775/875 | Training loss: 0.0405
+CostTime: 114.6470
+Epoch: 6/200 | Step: 806/875 | Training loss: 0.0402
+CostTime: 118.9755
+Epoch: 6/200 | Step: 837/875 | Training loss: 0.0398
+CostTime: 129.0898
+Epoch: 6/200 | Step: 868/875 | Training loss: 0.0458
+CostTime: 125.8272
+Epoch 6 averaged training loss: 0.0392
+The current learning rate is 0.000019
+test 5: iter: 0
+test 5: iter: 1000
+test 5: iter: 2000
+test 5: iter: 3000
+test 5: iter: 4000
+test 5: iter: 5000
+test 5: iter: 6000
+test 5: iter: 7000
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8681, KRCC: 0.6818, PLCC: 0.8714, and RMSE: 5.1584
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 7/200 | Step: 31/875 | Training loss: 0.0301
+CostTime: 88.1596
+Epoch: 7/200 | Step: 62/875 | Training loss: 0.0338
+CostTime: 77.7973
+Epoch: 7/200 | Step: 93/875 | Training loss: 0.0345
+CostTime: 88.3772
+Epoch: 7/200 | Step: 124/875 | Training loss: 0.0309
+CostTime: 82.0588
+Epoch: 7/200 | Step: 155/875 | Training loss: 0.0322
+CostTime: 88.4688
+Epoch: 7/200 | Step: 186/875 | Training loss: 0.0340
+CostTime: 103.6155
+Epoch: 7/200 | Step: 217/875 | Training loss: 0.0328
+CostTime: 96.0455
+Epoch: 7/200 | Step: 248/875 | Training loss: 0.0344
+CostTime: 90.1525
+Epoch: 7/200 | Step: 279/875 | Training loss: 0.0362
+CostTime: 106.6957
+Epoch: 7/200 | Step: 310/875 | Training loss: 0.0358
+CostTime: 111.2684
+Epoch: 7/200 | Step: 341/875 | Training loss: 0.0338
+CostTime: 109.8024
+Epoch: 7/200 | Step: 372/875 | Training loss: 0.0323
+CostTime: 120.4981
+Epoch: 7/200 | Step: 403/875 | Training loss: 0.0329
+CostTime: 111.3621
+Epoch: 7/200 | Step: 434/875 | Training loss: 0.0334
+CostTime: 113.8271
+Epoch: 7/200 | Step: 465/875 | Training loss: 0.0358
+CostTime: 95.6131
+Epoch: 7/200 | Step: 496/875 | Training loss: 0.0330
+CostTime: 115.6056
+Epoch: 7/200 | Step: 527/875 | Training loss: 0.0308
+CostTime: 109.9500
+Epoch: 7/200 | Step: 558/875 | Training loss: 0.0361
+CostTime: 120.3440
+Epoch: 7/200 | Step: 589/875 | Training loss: 0.0337
+CostTime: 115.9264
+Epoch: 7/200 | Step: 620/875 | Training loss: 0.0335
+CostTime: 114.9406
+Epoch: 7/200 | Step: 651/875 | Training loss: 0.0347
+CostTime: 110.3229
+Epoch: 7/200 | Step: 682/875 | Training loss: 0.0396
+CostTime: 113.3304
+Epoch: 7/200 | Step: 713/875 | Training loss: 0.0370
+CostTime: 88.6599
+Epoch: 7/200 | Step: 744/875 | Training loss: 0.0400
+CostTime: 121.1761
+Epoch: 7/200 | Step: 775/875 | Training loss: 0.0373
+CostTime: 113.1860
+Epoch: 7/200 | Step: 806/875 | Training loss: 0.0343
+CostTime: 114.3892
+Epoch: 7/200 | Step: 837/875 | Training loss: 0.0344
+CostTime: 118.0028
+Epoch: 7/200 | Step: 868/875 | Training loss: 0.0359
+CostTime: 115.7846
+Epoch 7 averaged training loss: 0.0344
+The current learning rate is 0.000019
+test 6: iter: 0
+test 6: iter: 1000
+test 6: iter: 2000
+test 6: iter: 3000
+test 6: iter: 4000
+test 6: iter: 5000
+test 6: iter: 6000
+test 6: iter: 7000
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8677, KRCC: 0.6812, PLCC: 0.8707, and RMSE: 5.1698
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 8/200 | Step: 31/875 | Training loss: 0.0279
+CostTime: 82.3948
+Epoch: 8/200 | Step: 62/875 | Training loss: 0.0279
+CostTime: 80.9922
+Epoch: 8/200 | Step: 93/875 | Training loss: 0.0258
+CostTime: 82.0118
+Epoch: 8/200 | Step: 124/875 | Training loss: 0.0263
+CostTime: 78.6492
+Epoch: 8/200 | Step: 155/875 | Training loss: 0.0289
+CostTime: 105.2915
+Epoch: 8/200 | Step: 186/875 | Training loss: 0.0275
+CostTime: 92.1018
+Epoch: 8/200 | Step: 217/875 | Training loss: 0.0280
+CostTime: 97.3790
+Epoch: 8/200 | Step: 248/875 | Training loss: 0.0275
+CostTime: 93.6770
+Epoch: 8/200 | Step: 279/875 | Training loss: 0.0306
+CostTime: 113.5114
+Epoch: 8/200 | Step: 310/875 | Training loss: 0.0291
+CostTime: 110.0824
+Epoch: 8/200 | Step: 341/875 | Training loss: 0.0279
+CostTime: 104.3240
+Epoch: 8/200 | Step: 372/875 | Training loss: 0.0279
+CostTime: 91.2396
+Epoch: 8/200 | Step: 403/875 | Training loss: 0.0300
+CostTime: 118.1983
+Epoch: 8/200 | Step: 434/875 | Training loss: 0.0314
+CostTime: 104.7782
+Epoch: 8/200 | Step: 465/875 | Training loss: 0.0339
+CostTime: 122.4265
+Epoch: 8/200 | Step: 496/875 | Training loss: 0.0330
+CostTime: 96.0169
+Epoch: 8/200 | Step: 527/875 | Training loss: 0.0318
+CostTime: 105.8850
+Epoch: 8/200 | Step: 558/875 | Training loss: 0.0294
+CostTime: 112.3753
+Epoch: 8/200 | Step: 589/875 | Training loss: 0.0297
+CostTime: 114.2869
+Epoch: 8/200 | Step: 620/875 | Training loss: 0.0292
+CostTime: 121.5030
+Epoch: 8/200 | Step: 651/875 | Training loss: 0.0277
+CostTime: 121.9084
+Epoch: 8/200 | Step: 682/875 | Training loss: 0.0294
+CostTime: 127.1146
+Epoch: 8/200 | Step: 713/875 | Training loss: 0.0294
+CostTime: 134.9374
+Epoch: 8/200 | Step: 744/875 | Training loss: 0.0313
+CostTime: 131.5754
+Epoch: 8/200 | Step: 775/875 | Training loss: 0.0311
+CostTime: 123.1934
+Epoch: 8/200 | Step: 806/875 | Training loss: 0.0314
+CostTime: 120.3800
+Epoch: 8/200 | Step: 837/875 | Training loss: 0.0319
+CostTime: 140.1250
+Epoch: 8/200 | Step: 868/875 | Training loss: 0.0316
+CostTime: 130.1138
+Epoch 8 averaged training loss: 0.0296
+The current learning rate is 0.000018
+test 7: iter: 0
+test 7: iter: 1000
+test 7: iter: 2000
+test 7: iter: 3000
+test 7: iter: 4000
+test 7: iter: 5000
+test 7: iter: 6000
+test 7: iter: 7000
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8680, KRCC: 0.6814, PLCC: 0.8700, and RMSE: 5.1829
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 9/200 | Step: 31/875 | Training loss: 0.0244
+CostTime: 94.0532
+Epoch: 9/200 | Step: 62/875 | Training loss: 0.0242
+CostTime: 84.0024
+Epoch: 9/200 | Step: 93/875 | Training loss: 0.0232
+CostTime: 89.7708
+Epoch: 9/200 | Step: 124/875 | Training loss: 0.0260
+CostTime: 86.5063
+Epoch: 9/200 | Step: 155/875 | Training loss: 0.0250
+CostTime: 81.6853
+Epoch: 9/200 | Step: 186/875 | Training loss: 0.0242
+CostTime: 79.4361
+Epoch: 9/200 | Step: 217/875 | Training loss: 0.0250
+CostTime: 98.8905
+Epoch: 9/200 | Step: 248/875 | Training loss: 0.0224
+CostTime: 105.2655
+Epoch: 9/200 | Step: 279/875 | Training loss: 0.0250
+CostTime: 112.1104
+Epoch: 9/200 | Step: 310/875 | Training loss: 0.0249
+CostTime: 91.6638
+Epoch: 9/200 | Step: 341/875 | Training loss: 0.0258
+CostTime: 107.1304
+Epoch: 9/200 | Step: 372/875 | Training loss: 0.0249
+CostTime: 114.3914
+Epoch: 9/200 | Step: 403/875 | Training loss: 0.0262
+CostTime: 109.1039
+Epoch: 9/200 | Step: 434/875 | Training loss: 0.0245
+CostTime: 108.9025
+Epoch: 9/200 | Step: 465/875 | Training loss: 0.0254
+CostTime: 112.5745
+Epoch: 9/200 | Step: 496/875 | Training loss: 0.0256
+CostTime: 103.3157
+Epoch: 9/200 | Step: 527/875 | Training loss: 0.0236
+CostTime: 107.9398
+Epoch: 9/200 | Step: 558/875 | Training loss: 0.0273
+CostTime: 106.0189
+Epoch: 9/200 | Step: 589/875 | Training loss: 0.0272
+CostTime: 112.2809
+Epoch: 9/200 | Step: 620/875 | Training loss: 0.0250
+CostTime: 107.2701
+Epoch: 9/200 | Step: 651/875 | Training loss: 0.0251
+CostTime: 110.5963
+Epoch: 9/200 | Step: 682/875 | Training loss: 0.0257
+CostTime: 107.0545
+Epoch: 9/200 | Step: 713/875 | Training loss: 0.0269
+CostTime: 116.1704
+Epoch: 9/200 | Step: 744/875 | Training loss: 0.0286
+CostTime: 120.9091
+Epoch: 9/200 | Step: 775/875 | Training loss: 0.0282
+CostTime: 126.3231
+Epoch: 9/200 | Step: 806/875 | Training loss: 0.0278
+CostTime: 116.8149
+Epoch: 9/200 | Step: 837/875 | Training loss: 0.0275
+CostTime: 102.1502
+Epoch: 9/200 | Step: 868/875 | Training loss: 0.0255
+CostTime: 118.4112
+Epoch 9 averaged training loss: 0.0256
+The current learning rate is 0.000018
+test 8: iter: 0
+test 8: iter: 1000
+test 8: iter: 2000
+test 8: iter: 3000
+test 8: iter: 4000
+test 8: iter: 5000
+test 8: iter: 6000
+test 8: iter: 7000
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8704, KRCC: 0.6844, PLCC: 0.8731, and RMSE: 5.1250
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 10/200 | Step: 31/875 | Training loss: 0.0230
+CostTime: 85.7694
+Epoch: 10/200 | Step: 62/875 | Training loss: 0.0238
+CostTime: 86.6877
+Epoch: 10/200 | Step: 93/875 | Training loss: 0.0224
+CostTime: 83.6923
+Epoch: 10/200 | Step: 124/875 | Training loss: 0.0231
+CostTime: 82.1026
+Epoch: 10/200 | Step: 155/875 | Training loss: 0.0224
+CostTime: 88.0167
+Epoch: 10/200 | Step: 186/875 | Training loss: 0.0205
+CostTime: 88.6263
+Epoch: 10/200 | Step: 217/875 | Training loss: 0.0207
+CostTime: 90.2159
+Epoch: 10/200 | Step: 248/875 | Training loss: 0.0220
+CostTime: 95.3455
+Epoch: 10/200 | Step: 279/875 | Training loss: 0.0216
+CostTime: 108.0535
+Epoch: 10/200 | Step: 310/875 | Training loss: 0.0241
+CostTime: 120.7613
+Epoch: 10/200 | Step: 341/875 | Training loss: 0.0220
+CostTime: 105.1897
+Epoch: 10/200 | Step: 372/875 | Training loss: 0.0222
+CostTime: 83.1605
+Epoch: 10/200 | Step: 403/875 | Training loss: 0.0218
+CostTime: 112.2034
+Epoch: 10/200 | Step: 434/875 | Training loss: 0.0212
+CostTime: 97.9144
+Epoch: 10/200 | Step: 465/875 | Training loss: 0.0228
+CostTime: 105.7899
+Epoch: 10/200 | Step: 496/875 | Training loss: 0.0243
+CostTime: 114.5657
+Epoch: 10/200 | Step: 527/875 | Training loss: 0.0232
+CostTime: 102.3877
+Epoch: 10/200 | Step: 558/875 | Training loss: 0.0237
+CostTime: 103.7780
+Epoch: 10/200 | Step: 589/875 | Training loss: 0.0228
+CostTime: 111.9745
+Epoch: 10/200 | Step: 620/875 | Training loss: 0.0221
+CostTime: 93.0455
+Epoch: 10/200 | Step: 651/875 | Training loss: 0.0223
+CostTime: 119.3583
+Epoch: 10/200 | Step: 682/875 | Training loss: 0.0241
+CostTime: 118.7311
+Epoch: 10/200 | Step: 713/875 | Training loss: 0.0229
+CostTime: 123.3440
+Epoch: 10/200 | Step: 744/875 | Training loss: 0.0240
+CostTime: 135.2318
+Epoch: 10/200 | Step: 775/875 | Training loss: 0.0230
+CostTime: 126.2191
+Epoch: 10/200 | Step: 806/875 | Training loss: 0.0235
+CostTime: 118.5871
+Epoch: 10/200 | Step: 837/875 | Training loss: 0.0243
+CostTime: 112.8982
+Epoch: 10/200 | Step: 868/875 | Training loss: 0.0242
+CostTime: 127.9734
+Epoch 10 averaged training loss: 0.0228
+The current learning rate is 0.000018
+test 9: iter: 0
+test 9: iter: 1000
+test 9: iter: 2000
+test 9: iter: 3000
+test 9: iter: 4000
+test 9: iter: 5000
+test 9: iter: 6000
+test 9: iter: 7000
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8665, KRCC: 0.6789, PLCC: 0.8683, and RMSE: 5.2145
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 11/200 | Step: 31/875 | Training loss: 0.0210
+CostTime: 86.3885
+Epoch: 11/200 | Step: 62/875 | Training loss: 0.0208
+CostTime: 81.5514
+Epoch: 11/200 | Step: 93/875 | Training loss: 0.0201
+CostTime: 85.3295
+Epoch: 11/200 | Step: 124/875 | Training loss: 0.0208
+CostTime: 79.2628
+Epoch: 11/200 | Step: 155/875 | Training loss: 0.0210
+CostTime: 88.2211
+Epoch: 11/200 | Step: 186/875 | Training loss: 0.0212
+CostTime: 94.5187
+Epoch: 11/200 | Step: 217/875 | Training loss: 0.0201
+CostTime: 94.6862
+Epoch: 11/200 | Step: 248/875 | Training loss: 0.0189
+CostTime: 96.9656
+Epoch: 11/200 | Step: 279/875 | Training loss: 0.0195
+CostTime: 110.0695
+Epoch: 11/200 | Step: 310/875 | Training loss: 0.0196
+CostTime: 108.5345
+Epoch: 11/200 | Step: 341/875 | Training loss: 0.0199
+CostTime: 110.8293
+Epoch: 11/200 | Step: 372/875 | Training loss: 0.0212
+CostTime: 109.8194
+Epoch: 11/200 | Step: 403/875 | Training loss: 0.0210
+CostTime: 113.4336
+Epoch: 11/200 | Step: 434/875 | Training loss: 0.0216
+CostTime: 107.8936
+Epoch: 11/200 | Step: 465/875 | Training loss: 0.0206
+CostTime: 93.9412
+Epoch: 11/200 | Step: 496/875 | Training loss: 0.0226
+CostTime: 114.8722
+Epoch: 11/200 | Step: 527/875 | Training loss: 0.0225
+CostTime: 105.7379
+Epoch: 11/200 | Step: 558/875 | Training loss: 0.0216
+CostTime: 112.7070
+Epoch: 11/200 | Step: 589/875 | Training loss: 0.0229
+CostTime: 113.6383
+Epoch: 11/200 | Step: 620/875 | Training loss: 0.0222
+CostTime: 109.4616
+Epoch: 11/200 | Step: 651/875 | Training loss: 0.0203
+CostTime: 121.9493
+Epoch: 11/200 | Step: 682/875 | Training loss: 0.0216
+CostTime: 115.7922
+Epoch: 11/200 | Step: 713/875 | Training loss: 0.0218
+CostTime: 100.4896
+Epoch: 11/200 | Step: 744/875 | Training loss: 0.0226
+CostTime: 115.7072
+Epoch: 11/200 | Step: 775/875 | Training loss: 0.0225
+CostTime: 125.0769
+Epoch: 11/200 | Step: 806/875 | Training loss: 0.0235
+CostTime: 117.6629
+Epoch: 11/200 | Step: 837/875 | Training loss: 0.0213
+CostTime: 119.2766
+Epoch: 11/200 | Step: 868/875 | Training loss: 0.0233
+CostTime: 116.3573
+Epoch 11 averaged training loss: 0.0213
+The current learning rate is 0.000018
+test 10: iter: 0
+test 10: iter: 1000
+test 10: iter: 2000
+test 10: iter: 3000
+test 10: iter: 4000
+test 10: iter: 5000
+test 10: iter: 6000
+test 10: iter: 7000
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8670, KRCC: 0.6797, PLCC: 0.8686, and RMSE: 5.2088
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 12/200 | Step: 31/875 | Training loss: 0.0203
+CostTime: 87.3770
+Epoch: 12/200 | Step: 62/875 | Training loss: 0.0198
+CostTime: 83.4211
+Epoch: 12/200 | Step: 93/875 | Training loss: 0.0180
+CostTime: 81.4068
+Epoch: 12/200 | Step: 124/875 | Training loss: 0.0204
+CostTime: 82.8215
+Epoch: 12/200 | Step: 155/875 | Training loss: 0.0202
+CostTime: 88.0663
+Epoch: 12/200 | Step: 186/875 | Training loss: 0.0199
+CostTime: 88.3024
+Epoch: 12/200 | Step: 217/875 | Training loss: 0.0206
+CostTime: 100.8288
+Epoch: 12/200 | Step: 248/875 | Training loss: 0.0189
+CostTime: 85.7881
+Epoch: 12/200 | Step: 279/875 | Training loss: 0.0206
+CostTime: 110.2426
+Epoch: 12/200 | Step: 310/875 | Training loss: 0.0201
+CostTime: 104.2098
+Epoch: 12/200 | Step: 341/875 | Training loss: 0.0194
+CostTime: 103.8037
+Epoch: 12/200 | Step: 372/875 | Training loss: 0.0196
+CostTime: 108.6951
+Epoch: 12/200 | Step: 403/875 | Training loss: 0.0190
+CostTime: 105.6790
+Epoch: 12/200 | Step: 434/875 | Training loss: 0.0196
+CostTime: 107.8564
+Epoch: 12/200 | Step: 465/875 | Training loss: 0.0203
+CostTime: 106.4689
+Epoch: 12/200 | Step: 496/875 | Training loss: 0.0194
+CostTime: 96.8210
+Epoch: 12/200 | Step: 527/875 | Training loss: 0.0203
+CostTime: 104.3206
+Epoch: 12/200 | Step: 558/875 | Training loss: 0.0203
+CostTime: 104.8176
+Epoch: 12/200 | Step: 589/875 | Training loss: 0.0200
+CostTime: 107.8783
+Epoch: 12/200 | Step: 620/875 | Training loss: 0.0195
+CostTime: 119.1460
+Epoch: 12/200 | Step: 651/875 | Training loss: 0.0226
+CostTime: 112.1292
+Epoch: 12/200 | Step: 682/875 | Training loss: 0.0220
+CostTime: 115.0820
+Epoch: 12/200 | Step: 713/875 | Training loss: 0.0212
+CostTime: 96.5304
+Epoch: 12/200 | Step: 744/875 | Training loss: 0.0213
+CostTime: 132.4102
+Epoch: 12/200 | Step: 775/875 | Training loss: 0.0213
+CostTime: 122.6522
+Epoch: 12/200 | Step: 806/875 | Training loss: 0.0226
+CostTime: 123.4752
+Epoch: 12/200 | Step: 837/875 | Training loss: 0.0210
+CostTime: 121.0335
+Epoch: 12/200 | Step: 868/875 | Training loss: 0.0212
+CostTime: 121.7146
+Epoch 12 averaged training loss: 0.0204
+The current learning rate is 0.000017
+test 11: iter: 0
+test 11: iter: 1000
+test 11: iter: 2000
+test 11: iter: 3000
+test 11: iter: 4000
+test 11: iter: 5000
+test 11: iter: 6000
+test 11: iter: 7000
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8642, KRCC: 0.6768, PLCC: 0.8678, and RMSE: 5.2236
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 13/200 | Step: 31/875 | Training loss: 0.0186
+CostTime: 84.5291
+Epoch: 13/200 | Step: 62/875 | Training loss: 0.0180
+CostTime: 75.8901
+Epoch: 13/200 | Step: 93/875 | Training loss: 0.0179
+CostTime: 77.0771
+Epoch: 13/200 | Step: 124/875 | Training loss: 0.0178
+CostTime: 86.7962
+Epoch: 13/200 | Step: 155/875 | Training loss: 0.0175
+CostTime: 96.3399
+Epoch: 13/200 | Step: 186/875 | Training loss: 0.0170
+CostTime: 93.3129
+Epoch: 13/200 | Step: 217/875 | Training loss: 0.0178
+CostTime: 97.0691
+Epoch: 13/200 | Step: 248/875 | Training loss: 0.0184
+CostTime: 102.8602
+Epoch: 13/200 | Step: 279/875 | Training loss: 0.0182
+CostTime: 96.3939
+Epoch: 13/200 | Step: 310/875 | Training loss: 0.0167
+CostTime: 100.0200
+Epoch: 13/200 | Step: 341/875 | Training loss: 0.0164
+CostTime: 104.1047
+Epoch: 13/200 | Step: 372/875 | Training loss: 0.0161
+CostTime: 111.3477
+Epoch: 13/200 | Step: 403/875 | Training loss: 0.0170
+CostTime: 116.7998
+Epoch: 13/200 | Step: 434/875 | Training loss: 0.0173
+CostTime: 113.1151
+Epoch: 13/200 | Step: 465/875 | Training loss: 0.0171
+CostTime: 106.4202
+Epoch: 13/200 | Step: 496/875 | Training loss: 0.0199
+CostTime: 94.7933
+Epoch: 13/200 | Step: 527/875 | Training loss: 0.0193
+CostTime: 105.9895
+Epoch: 13/200 | Step: 558/875 | Training loss: 0.0187
+CostTime: 111.9108
+Epoch: 13/200 | Step: 589/875 | Training loss: 0.0173
+CostTime: 111.3498
+Epoch: 13/200 | Step: 620/875 | Training loss: 0.0179
+CostTime: 107.6835
+Epoch: 13/200 | Step: 651/875 | Training loss: 0.0178
+CostTime: 113.4903
+Epoch: 13/200 | Step: 682/875 | Training loss: 0.0177
+CostTime: 114.6920
+Epoch: 13/200 | Step: 713/875 | Training loss: 0.0192
+CostTime: 120.6376
+Epoch: 13/200 | Step: 744/875 | Training loss: 0.0175
+CostTime: 105.6573
+Epoch: 13/200 | Step: 775/875 | Training loss: 0.0192
+CostTime: 116.8381
+Epoch: 13/200 | Step: 806/875 | Training loss: 0.0187
+CostTime: 124.1470
+Epoch: 13/200 | Step: 837/875 | Training loss: 0.0198
+CostTime: 122.7343
+Epoch: 13/200 | Step: 868/875 | Training loss: 0.0167
+CostTime: 112.4220
+Epoch 13 averaged training loss: 0.0180
+The current learning rate is 0.000017
+test 12: iter: 0
+test 12: iter: 1000
+test 12: iter: 2000
+test 12: iter: 3000
+test 12: iter: 4000
+test 12: iter: 5000
+test 12: iter: 6000
+test 12: iter: 7000
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8706, KRCC: 0.6840, PLCC: 0.8728, and RMSE: 5.1307
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 14/200 | Step: 31/875 | Training loss: 0.0168
+CostTime: 90.3088
+Epoch: 14/200 | Step: 62/875 | Training loss: 0.0176
+CostTime: 83.5054
+Epoch: 14/200 | Step: 93/875 | Training loss: 0.0187
+CostTime: 77.5112
+Epoch: 14/200 | Step: 124/875 | Training loss: 0.0177
+CostTime: 89.1665
+Epoch: 14/200 | Step: 155/875 | Training loss: 0.0168
+CostTime: 81.3569
+Epoch: 14/200 | Step: 186/875 | Training loss: 0.0159
+CostTime: 89.3853
+Epoch: 14/200 | Step: 217/875 | Training loss: 0.0164
+CostTime: 94.1826
+Epoch: 14/200 | Step: 248/875 | Training loss: 0.0172
+CostTime: 101.6658
+Epoch: 14/200 | Step: 279/875 | Training loss: 0.0166
+CostTime: 109.7587
+Epoch: 14/200 | Step: 310/875 | Training loss: 0.0181
+CostTime: 104.3153
+Epoch: 14/200 | Step: 341/875 | Training loss: 0.0182
+CostTime: 96.7290
+Epoch: 14/200 | Step: 372/875 | Training loss: 0.0170
+CostTime: 100.4317
+Epoch: 14/200 | Step: 403/875 | Training loss: 0.0173
+CostTime: 113.0665
+Epoch: 14/200 | Step: 434/875 | Training loss: 0.0179
+CostTime: 101.1647
+Epoch: 14/200 | Step: 465/875 | Training loss: 0.0167
+CostTime: 103.1944
+Epoch: 14/200 | Step: 496/875 | Training loss: 0.0162
+CostTime: 102.3588
+Epoch: 14/200 | Step: 527/875 | Training loss: 0.0182
+CostTime: 107.9326
+Epoch: 14/200 | Step: 558/875 | Training loss: 0.0180
+CostTime: 111.1364
+Epoch: 14/200 | Step: 589/875 | Training loss: 0.0177
+CostTime: 96.6147
+Epoch: 14/200 | Step: 620/875 | Training loss: 0.0180
+CostTime: 127.6339
+Epoch: 14/200 | Step: 651/875 | Training loss: 0.0165
+CostTime: 104.8185
+Epoch: 14/200 | Step: 682/875 | Training loss: 0.0174
+CostTime: 119.9351
+Epoch: 14/200 | Step: 713/875 | Training loss: 0.0183
+CostTime: 107.8588
+Epoch: 14/200 | Step: 744/875 | Training loss: 0.0171
+CostTime: 121.9801
+Epoch: 14/200 | Step: 775/875 | Training loss: 0.0189
+CostTime: 115.2937
+Epoch: 14/200 | Step: 806/875 | Training loss: 0.0173
+CostTime: 128.2636
+Epoch: 14/200 | Step: 837/875 | Training loss: 0.0185
+CostTime: 123.0003
+Epoch: 14/200 | Step: 868/875 | Training loss: 0.0177
+CostTime: 122.4961
+Epoch 14 averaged training loss: 0.0175
+The current learning rate is 0.000017
+test 13: iter: 0
+test 13: iter: 1000
+test 13: iter: 2000
+test 13: iter: 3000
+test 13: iter: 4000
+test 13: iter: 5000
+test 13: iter: 6000
+test 13: iter: 7000
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8703, KRCC: 0.6840, PLCC: 0.8729, and RMSE: 5.1291
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 15/200 | Step: 31/875 | Training loss: 0.0151
+CostTime: 90.2553
+Epoch: 15/200 | Step: 62/875 | Training loss: 0.0158
+CostTime: 80.8013
+Epoch: 15/200 | Step: 93/875 | Training loss: 0.0163
+CostTime: 83.2575
+Epoch: 15/200 | Step: 124/875 | Training loss: 0.0172
+CostTime: 78.9855
+Epoch: 15/200 | Step: 155/875 | Training loss: 0.0174
+CostTime: 92.5475
+Epoch: 15/200 | Step: 186/875 | Training loss: 0.0165
+CostTime: 92.2579
+Epoch: 15/200 | Step: 217/875 | Training loss: 0.0165
+CostTime: 77.7171
+Epoch: 15/200 | Step: 248/875 | Training loss: 0.0167
+CostTime: 102.1762
+Epoch: 15/200 | Step: 279/875 | Training loss: 0.0165
+CostTime: 110.0397
+Epoch: 15/200 | Step: 310/875 | Training loss: 0.0186
+CostTime: 103.3985
+Epoch: 15/200 | Step: 341/875 | Training loss: 0.0173
+CostTime: 102.2689
+Epoch: 15/200 | Step: 372/875 | Training loss: 0.0169
+CostTime: 108.5926
+Epoch: 15/200 | Step: 403/875 | Training loss: 0.0179
+CostTime: 112.2076
+Epoch: 15/200 | Step: 434/875 | Training loss: 0.0164
+CostTime: 95.5555
+Epoch: 15/200 | Step: 465/875 | Training loss: 0.0165
+CostTime: 105.2846
+Epoch: 15/200 | Step: 496/875 | Training loss: 0.0168
+CostTime: 115.9895
+Epoch: 15/200 | Step: 527/875 | Training loss: 0.0176
+CostTime: 99.7824
+Epoch: 15/200 | Step: 558/875 | Training loss: 0.0162
+CostTime: 107.3905
+Epoch: 15/200 | Step: 589/875 | Training loss: 0.0172
+CostTime: 105.5642
+Epoch: 15/200 | Step: 620/875 | Training loss: 0.0177
+CostTime: 99.5702
+Epoch: 15/200 | Step: 651/875 | Training loss: 0.0178
+CostTime: 97.4467
+Epoch: 15/200 | Step: 682/875 | Training loss: 0.0171
+CostTime: 113.4783
+Epoch: 15/200 | Step: 713/875 | Training loss: 0.0173
+CostTime: 122.2554
+Epoch: 15/200 | Step: 744/875 | Training loss: 0.0190
+CostTime: 124.3001
+Epoch: 15/200 | Step: 775/875 | Training loss: 0.0186
+CostTime: 127.0054
+Epoch: 15/200 | Step: 806/875 | Training loss: 0.0187
+CostTime: 110.0663
+Epoch: 15/200 | Step: 837/875 | Training loss: 0.0159
+CostTime: 122.5318
+Epoch: 15/200 | Step: 868/875 | Training loss: 0.0170
+CostTime: 121.6475
+Epoch 15 averaged training loss: 0.0171
+The current learning rate is 0.000017
+test 14: iter: 0
+test 14: iter: 1000
+test 14: iter: 2000
+test 14: iter: 3000
+test 14: iter: 4000
+test 14: iter: 5000
+test 14: iter: 6000
+test 14: iter: 7000
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8684, KRCC: 0.6820, PLCC: 0.8717, and RMSE: 5.1517
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 16/200 | Step: 31/875 | Training loss: 0.0167
+CostTime: 92.1716
+Epoch: 16/200 | Step: 62/875 | Training loss: 0.0156
+CostTime: 79.0020
+Epoch: 16/200 | Step: 93/875 | Training loss: 0.0156
+CostTime: 90.8196
+Epoch: 16/200 | Step: 124/875 | Training loss: 0.0168
+CostTime: 78.4268
+Epoch: 16/200 | Step: 155/875 | Training loss: 0.0166
+CostTime: 89.6150
+Epoch: 16/200 | Step: 186/875 | Training loss: 0.0156
+CostTime: 101.2529
+Epoch: 16/200 | Step: 217/875 | Training loss: 0.0153
+CostTime: 69.3996
+Epoch: 16/200 | Step: 248/875 | Training loss: 0.0168
+CostTime: 101.6241
+Epoch: 16/200 | Step: 279/875 | Training loss: 0.0158
+CostTime: 97.9928
+Epoch: 16/200 | Step: 310/875 | Training loss: 0.0162
+CostTime: 119.3665
+Epoch: 16/200 | Step: 341/875 | Training loss: 0.0170
+CostTime: 103.2706
+Epoch: 16/200 | Step: 372/875 | Training loss: 0.0171
+CostTime: 102.4839
+Epoch: 16/200 | Step: 403/875 | Training loss: 0.0186
+CostTime: 120.1195
+Epoch: 16/200 | Step: 434/875 | Training loss: 0.0167
+CostTime: 88.0722
+Epoch: 16/200 | Step: 465/875 | Training loss: 0.0155
+CostTime: 101.0868
+Epoch: 16/200 | Step: 496/875 | Training loss: 0.0149
+CostTime: 112.2620
+Epoch: 16/200 | Step: 527/875 | Training loss: 0.0149
+CostTime: 109.0665
+Epoch: 16/200 | Step: 558/875 | Training loss: 0.0155
+CostTime: 108.3613
+Epoch: 16/200 | Step: 589/875 | Training loss: 0.0165
+CostTime: 102.5870
+Epoch: 16/200 | Step: 620/875 | Training loss: 0.0159
+CostTime: 116.4515
+Epoch: 16/200 | Step: 651/875 | Training loss: 0.0164
+CostTime: 115.7450
+Epoch: 16/200 | Step: 682/875 | Training loss: 0.0162
+CostTime: 118.5092
+Epoch: 16/200 | Step: 713/875 | Training loss: 0.0165
+CostTime: 105.3135
+Epoch: 16/200 | Step: 744/875 | Training loss: 0.0157
+CostTime: 136.1620
+Epoch: 16/200 | Step: 775/875 | Training loss: 0.0180
+CostTime: 127.0253
+Epoch: 16/200 | Step: 806/875 | Training loss: 0.0169
+CostTime: 129.2697
+Epoch: 16/200 | Step: 837/875 | Training loss: 0.0184
+CostTime: 124.9911
+Epoch: 16/200 | Step: 868/875 | Training loss: 0.0172
+CostTime: 109.3587
+Epoch 16 averaged training loss: 0.0164
+The current learning rate is 0.000016
+test 15: iter: 0
+test 15: iter: 1000
+test 15: iter: 2000
+test 15: iter: 3000
+test 15: iter: 4000
+test 15: iter: 5000
+test 15: iter: 6000
+test 15: iter: 7000
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8683, KRCC: 0.6816, PLCC: 0.8711, and RMSE: 5.1626
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_5_SRCC_0.873987.pth
+Epoch: 17/200 | Step: 31/875 | Training loss: 0.0177
+CostTime: 89.6045
+Epoch: 17/200 | Step: 62/875 | Training loss: 0.0160
+CostTime: 85.4984
+Epoch: 17/200 | Step: 93/875 | Training loss: 0.0152
+CostTime: 77.6398
+Epoch: 17/200 | Step: 124/875 | Training loss: 0.0157
+CostTime: 92.9068
+Epoch: 17/200 | Step: 155/875 | Training loss: 0.0169
+CostTime: 80.4160
+Epoch: 17/200 | Step: 186/875 | Training loss: 0.0158
+CostTime: 83.2279
+Epoch: 17/200 | Step: 217/875 | Training loss: 0.0149
+CostTime: 88.7436
+Epoch: 17/200 | Step: 248/875 | Training loss: 0.0158
+CostTime: 102.7806
+Epoch: 17/200 | Step: 279/875 | Training loss: 0.0153
+CostTime: 97.2538
+Epoch: 17/200 | Step: 310/875 | Training loss: 0.0155
+CostTime: 113.1501
+Epoch: 17/200 | Step: 341/875 | Training loss: 0.0162
+CostTime: 121.9996
+Epoch: 17/200 | Step: 372/875 | Training loss: 0.0152
+CostTime: 94.3553
+Epoch: 17/200 | Step: 403/875 | Training loss: 0.0146
+CostTime: 106.3649
+Epoch: 17/200 | Step: 434/875 | Training loss: 0.0156
+CostTime: 102.5185
+Epoch: 17/200 | Step: 465/875 | Training loss: 0.0150
+CostTime: 105.4142
+Epoch: 17/200 | Step: 496/875 | Training loss: 0.0157
+CostTime: 109.4639
+Epoch: 17/200 | Step: 527/875 | Training loss: 0.0154
+CostTime: 100.8929
+Epoch: 17/200 | Step: 558/875 | Training loss: 0.0159
+CostTime: 115.0922
+Epoch: 17/200 | Step: 589/875 | Training loss: 0.0157
+CostTime: 102.6094
+Epoch: 17/200 | Step: 620/875 | Training loss: 0.0154
+CostTime: 95.3624
+Epoch: 17/200 | Step: 651/875 | Training loss: 0.0150
+CostTime: 118.9257
+Epoch: 17/200 | Step: 682/875 | Training loss: 0.0165
+CostTime: 99.5198
+Epoch: 17/200 | Step: 713/875 | Training loss: 0.0163
+CostTime: 120.4161
+Epoch: 17/200 | Step: 744/875 | Training loss: 0.0157
+CostTime: 125.9376
+Epoch: 17/200 | Step: 775/875 | Training loss: 0.0158
+CostTime: 124.7156
+Epoch: 17/200 | Step: 806/875 | Training loss: 0.0150
+CostTime: 123.3673
+Epoch: 17/200 | Step: 837/875 | Training loss: 0.0159
+CostTime: 122.2667
+Epoch: 17/200 | Step: 868/875 | Training loss: 0.0162
+CostTime: 123.0417
+Epoch 17 averaged training loss: 0.0157
+The current learning rate is 0.000016
+test 16: iter: 0
+test 16: iter: 1000
+test 16: iter: 2000
+test 16: iter: 3000
+test 16: iter: 4000
+test 16: iter: 5000
+test 16: iter: 6000
+test 16: iter: 7000
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8746, KRCC: 0.6899, PLCC: 0.8771, and RMSE: 5.0496
+Update best model using best_test_criterion in epoch 17
+test_1080p 16: iter: 0
+test_1080p 16: iter: 1000
+test_1080p 16: iter: 2000
+test_1080p 16: iter: 3000
+Epoch 17 completed. The result on the STDA test_1080p databaset: SRCC: 0.7725, KRCC: 0.5815, PLCC: 0.8197, and RMSE: 5.9415
+Saving model...
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_17_SRCC_0.874561.pth
+Epoch: 18/200 | Step: 31/875 | Training loss: 0.0146
+CostTime: 116.0612
+Epoch: 18/200 | Step: 62/875 | Training loss: 0.0155
+CostTime: 111.8934
+Epoch: 18/200 | Step: 93/875 | Training loss: 0.0150
+CostTime: 102.6996
+Epoch: 18/200 | Step: 124/875 | Training loss: 0.0154
+CostTime: 113.1849
+Epoch: 18/200 | Step: 155/875 | Training loss: 0.0150
+CostTime: 95.2434
+Epoch: 18/200 | Step: 186/875 | Training loss: 0.0154
+CostTime: 115.4918
+Epoch: 18/200 | Step: 217/875 | Training loss: 0.0143
+CostTime: 103.9472
+Epoch: 18/200 | Step: 248/875 | Training loss: 0.0166
+CostTime: 100.9891
+Epoch: 18/200 | Step: 279/875 | Training loss: 0.0139
+CostTime: 101.7103
+Epoch: 18/200 | Step: 310/875 | Training loss: 0.0151
+CostTime: 108.5486
+Epoch: 18/200 | Step: 341/875 | Training loss: 0.0137
+CostTime: 103.9206
+Epoch: 18/200 | Step: 372/875 | Training loss: 0.0139
+CostTime: 110.6535
+Epoch: 18/200 | Step: 403/875 | Training loss: 0.0145
+CostTime: 116.9371
+Epoch: 18/200 | Step: 434/875 | Training loss: 0.0149
+CostTime: 95.6918
+Epoch: 18/200 | Step: 465/875 | Training loss: 0.0157
+CostTime: 113.9621
+Epoch: 18/200 | Step: 496/875 | Training loss: 0.0149
+CostTime: 110.6083
+Epoch: 18/200 | Step: 527/875 | Training loss: 0.0140
+CostTime: 110.7703
+Epoch: 18/200 | Step: 558/875 | Training loss: 0.0143
+CostTime: 103.0520
+Epoch: 18/200 | Step: 589/875 | Training loss: 0.0149
+CostTime: 113.5516
+Epoch: 18/200 | Step: 620/875 | Training loss: 0.0147
+CostTime: 108.2032
+Epoch: 18/200 | Step: 651/875 | Training loss: 0.0145
+CostTime: 111.0728
+Epoch: 18/200 | Step: 682/875 | Training loss: 0.0139
+CostTime: 93.1899
+Epoch: 18/200 | Step: 713/875 | Training loss: 0.0137
+CostTime: 111.8797
+Epoch: 18/200 | Step: 744/875 | Training loss: 0.0138
+CostTime: 102.6994
+Epoch: 18/200 | Step: 775/875 | Training loss: 0.0145
+CostTime: 107.8421
+Epoch: 18/200 | Step: 806/875 | Training loss: 0.0155
+CostTime: 108.4764
+Epoch: 18/200 | Step: 837/875 | Training loss: 0.0149
+CostTime: 109.0742
+Epoch: 18/200 | Step: 868/875 | Training loss: 0.0156
+CostTime: 105.6859
+Epoch 18 averaged training loss: 0.0148
+The current learning rate is 0.000016
+test 17: iter: 0
+test 17: iter: 1000
+test 17: iter: 2000
+test 17: iter: 3000
+test 17: iter: 4000
+test 17: iter: 5000
+test 17: iter: 6000
+test 17: iter: 7000
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8694, KRCC: 0.6830, PLCC: 0.8720, and RMSE: 5.1461
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_17_SRCC_0.874561.pth
+Epoch: 19/200 | Step: 31/875 | Training loss: 0.0149
+CostTime: 82.8939
+Epoch: 19/200 | Step: 62/875 | Training loss: 0.0135
+CostTime: 78.2931
+Epoch: 19/200 | Step: 93/875 | Training loss: 0.0146
+CostTime: 82.5030
+Epoch: 19/200 | Step: 124/875 | Training loss: 0.0137
+CostTime: 87.3186
+Epoch: 19/200 | Step: 155/875 | Training loss: 0.0156
+CostTime: 76.1516
+Epoch: 19/200 | Step: 186/875 | Training loss: 0.0143
+CostTime: 95.8149
+Epoch: 19/200 | Step: 217/875 | Training loss: 0.0147
+CostTime: 99.1799
+Epoch: 19/200 | Step: 248/875 | Training loss: 0.0136
+CostTime: 90.7658
+Epoch: 19/200 | Step: 279/875 | Training loss: 0.0145
+CostTime: 100.4176
+Epoch: 19/200 | Step: 310/875 | Training loss: 0.0142
+CostTime: 105.0972
+Epoch: 19/200 | Step: 341/875 | Training loss: 0.0152
+CostTime: 105.8139
+Epoch: 19/200 | Step: 372/875 | Training loss: 0.0144
+CostTime: 94.3486
+Epoch: 19/200 | Step: 403/875 | Training loss: 0.0154
+CostTime: 112.3407
+Epoch: 19/200 | Step: 434/875 | Training loss: 0.0155
+CostTime: 101.7048
+Epoch: 19/200 | Step: 465/875 | Training loss: 0.0134
+CostTime: 114.9631
+Epoch: 19/200 | Step: 496/875 | Training loss: 0.0138
+CostTime: 108.7385
+Epoch: 19/200 | Step: 527/875 | Training loss: 0.0138
+CostTime: 104.5378
+Epoch: 19/200 | Step: 558/875 | Training loss: 0.0144
+CostTime: 103.0655
+Epoch: 19/200 | Step: 589/875 | Training loss: 0.0147
+CostTime: 110.1040
+Epoch: 19/200 | Step: 620/875 | Training loss: 0.0147
+CostTime: 97.3999
+Epoch: 19/200 | Step: 651/875 | Training loss: 0.0134
+CostTime: 113.0253
+Epoch: 19/200 | Step: 682/875 | Training loss: 0.0145
+CostTime: 119.7154
+Epoch: 19/200 | Step: 713/875 | Training loss: 0.0135
+CostTime: 112.4106
+Epoch: 19/200 | Step: 744/875 | Training loss: 0.0137
+CostTime: 117.5518
+Epoch: 19/200 | Step: 775/875 | Training loss: 0.0150
+CostTime: 122.2663
+Epoch: 19/200 | Step: 806/875 | Training loss: 0.0156
+CostTime: 127.3667
+Epoch: 19/200 | Step: 837/875 | Training loss: 0.0157
+CostTime: 116.9519
+Epoch: 19/200 | Step: 868/875 | Training loss: 0.0167
+CostTime: 98.5663
+Epoch 19 averaged training loss: 0.0146
+The current learning rate is 0.000016
+test 18: iter: 0
+test 18: iter: 1000
+test 18: iter: 2000
+test 18: iter: 3000
+test 18: iter: 4000
+test 18: iter: 5000
+test 18: iter: 6000
+test 18: iter: 7000
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8642, KRCC: 0.6776, PLCC: 0.8681, and RMSE: 5.2195
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_17_SRCC_0.874561.pth
+Epoch: 20/200 | Step: 31/875 | Training loss: 0.0164
+CostTime: 87.6536
+Epoch: 20/200 | Step: 62/875 | Training loss: 0.0156
+CostTime: 85.8892
+Epoch: 20/200 | Step: 93/875 | Training loss: 0.0146
+CostTime: 79.1610
+Epoch: 20/200 | Step: 124/875 | Training loss: 0.0151
+CostTime: 90.0303
+Epoch: 20/200 | Step: 155/875 | Training loss: 0.0146
+CostTime: 92.0845
+Epoch: 20/200 | Step: 186/875 | Training loss: 0.0149
+CostTime: 86.0513
+Epoch: 20/200 | Step: 217/875 | Training loss: 0.0149
+CostTime: 94.9574
+Epoch: 20/200 | Step: 248/875 | Training loss: 0.0141
+CostTime: 90.5046
+Epoch: 20/200 | Step: 279/875 | Training loss: 0.0135
+CostTime: 99.2701
+Epoch: 20/200 | Step: 310/875 | Training loss: 0.0143
+CostTime: 111.1403
+Epoch: 20/200 | Step: 341/875 | Training loss: 0.0139
+CostTime: 110.4167
+Epoch: 20/200 | Step: 372/875 | Training loss: 0.0147
+CostTime: 107.3816
+Epoch: 20/200 | Step: 403/875 | Training loss: 0.0140
+CostTime: 99.1851
+Epoch: 20/200 | Step: 434/875 | Training loss: 0.0143
+CostTime: 99.2494
+Epoch: 20/200 | Step: 465/875 | Training loss: 0.0145
+CostTime: 103.9329
+Epoch: 20/200 | Step: 496/875 | Training loss: 0.0142
+CostTime: 112.1788
+Epoch: 20/200 | Step: 527/875 | Training loss: 0.0148
+CostTime: 104.7259
+Epoch: 20/200 | Step: 558/875 | Training loss: 0.0139
+CostTime: 102.8047
+Epoch: 20/200 | Step: 589/875 | Training loss: 0.0138
+CostTime: 114.8834
+Epoch: 20/200 | Step: 620/875 | Training loss: 0.0146
+CostTime: 128.1273
+Epoch: 20/200 | Step: 651/875 | Training loss: 0.0146
+CostTime: 126.5329
+Epoch: 20/200 | Step: 682/875 | Training loss: 0.0129
+CostTime: 91.6327
+Epoch: 20/200 | Step: 713/875 | Training loss: 0.0148
+CostTime: 122.3212
+Epoch: 20/200 | Step: 744/875 | Training loss: 0.0147
+CostTime: 125.5921
+Epoch: 20/200 | Step: 775/875 | Training loss: 0.0139
+CostTime: 124.4982
+Epoch: 20/200 | Step: 806/875 | Training loss: 0.0163
+CostTime: 121.3948
+Epoch: 20/200 | Step: 837/875 | Training loss: 0.0144
+CostTime: 136.1559
+Epoch: 20/200 | Step: 868/875 | Training loss: 0.0145
+CostTime: 113.1422
+Epoch 20 averaged training loss: 0.0146
+The current learning rate is 0.000015
+test 19: iter: 0
+test 19: iter: 1000
+test 19: iter: 2000
+test 19: iter: 3000
+test 19: iter: 4000
+test 19: iter: 5000
+test 19: iter: 6000
+test 19: iter: 7000
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8707, KRCC: 0.6846, PLCC: 0.8720, and RMSE: 5.1458
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_17_SRCC_0.874561.pth
+Epoch: 21/200 | Step: 31/875 | Training loss: 0.0153
+CostTime: 93.6221
+Epoch: 21/200 | Step: 62/875 | Training loss: 0.0152
+CostTime: 75.8874
+Epoch: 21/200 | Step: 93/875 | Training loss: 0.0133
+CostTime: 81.4252
+Epoch: 21/200 | Step: 124/875 | Training loss: 0.0142
+CostTime: 82.0860
+Epoch: 21/200 | Step: 155/875 | Training loss: 0.0141
+CostTime: 94.6220
+Epoch: 21/200 | Step: 186/875 | Training loss: 0.0145
+CostTime: 73.6686
+Epoch: 21/200 | Step: 217/875 | Training loss: 0.0133
+CostTime: 101.0291
+Epoch: 21/200 | Step: 248/875 | Training loss: 0.0148
+CostTime: 104.0774
+Epoch: 21/200 | Step: 279/875 | Training loss: 0.0134
+CostTime: 94.9017
+Epoch: 21/200 | Step: 310/875 | Training loss: 0.0143
+CostTime: 116.8680
+Epoch: 21/200 | Step: 341/875 | Training loss: 0.0140
+CostTime: 110.8243
+Epoch: 21/200 | Step: 372/875 | Training loss: 0.0151
+CostTime: 106.0479
+Epoch: 21/200 | Step: 403/875 | Training loss: 0.0137
+CostTime: 108.8233
+Epoch: 21/200 | Step: 434/875 | Training loss: 0.0139
+CostTime: 89.5939
+Epoch: 21/200 | Step: 465/875 | Training loss: 0.0139
+CostTime: 116.1933
+Epoch: 21/200 | Step: 496/875 | Training loss: 0.0137
+CostTime: 106.9493
+Epoch: 21/200 | Step: 527/875 | Training loss: 0.0143
+CostTime: 102.1992
+Epoch: 21/200 | Step: 558/875 | Training loss: 0.0135
+CostTime: 111.8218
+Epoch: 21/200 | Step: 589/875 | Training loss: 0.0137
+CostTime: 119.9035
+Epoch: 21/200 | Step: 620/875 | Training loss: 0.0141
+CostTime: 118.9566
+Epoch: 21/200 | Step: 651/875 | Training loss: 0.0150
+CostTime: 116.0371
+Epoch: 21/200 | Step: 682/875 | Training loss: 0.0144
+CostTime: 104.9143
+Epoch: 21/200 | Step: 713/875 | Training loss: 0.0152
+CostTime: 117.9783
+Epoch: 21/200 | Step: 744/875 | Training loss: 0.0137
+CostTime: 111.4582
+Epoch: 21/200 | Step: 775/875 | Training loss: 0.0134
+CostTime: 109.3682
+Epoch: 21/200 | Step: 806/875 | Training loss: 0.0127
+CostTime: 118.3691
+Epoch: 21/200 | Step: 837/875 | Training loss: 0.0135
+CostTime: 138.0201
+Epoch: 21/200 | Step: 868/875 | Training loss: 0.0136
+CostTime: 116.5575
+Epoch 21 averaged training loss: 0.0141
+The current learning rate is 0.000015
+test 20: iter: 0
+test 20: iter: 1000
+test 20: iter: 2000
+test 20: iter: 3000
+test 20: iter: 4000
+test 20: iter: 5000
+test 20: iter: 6000
+test 20: iter: 7000
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8760, KRCC: 0.6913, PLCC: 0.8782, and RMSE: 5.0288
+Update best model using best_test_criterion in epoch 21
+test_1080p 20: iter: 0
+test_1080p 20: iter: 1000
+test_1080p 20: iter: 2000
+test_1080p 20: iter: 3000
+Epoch 21 completed. The result on the STDA test_1080p databaset: SRCC: 0.7744, KRCC: 0.5831, PLCC: 0.8192, and RMSE: 5.9499
+Saving model...
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_21_SRCC_0.875986.pth
+Epoch: 22/200 | Step: 31/875 | Training loss: 0.0128
+CostTime: 119.9567
+Epoch: 22/200 | Step: 62/875 | Training loss: 0.0131
+CostTime: 106.6096
+Epoch: 22/200 | Step: 93/875 | Training loss: 0.0132
+CostTime: 105.4914
+Epoch: 22/200 | Step: 124/875 | Training loss: 0.0130
+CostTime: 108.3070
+Epoch: 22/200 | Step: 155/875 | Training loss: 0.0130
+CostTime: 102.3803
+Epoch: 22/200 | Step: 186/875 | Training loss: 0.0133
+CostTime: 104.7556
+Epoch: 22/200 | Step: 217/875 | Training loss: 0.0133
+CostTime: 104.3039
+Epoch: 22/200 | Step: 248/875 | Training loss: 0.0133
+CostTime: 97.2159
+Epoch: 22/200 | Step: 279/875 | Training loss: 0.0126
+CostTime: 109.7640
+Epoch: 22/200 | Step: 310/875 | Training loss: 0.0138
+CostTime: 116.0783
+Epoch: 22/200 | Step: 341/875 | Training loss: 0.0142
+CostTime: 103.7917
+Epoch: 22/200 | Step: 372/875 | Training loss: 0.0129
+CostTime: 85.7666
+Epoch: 22/200 | Step: 403/875 | Training loss: 0.0133
+CostTime: 116.5669
+Epoch: 22/200 | Step: 434/875 | Training loss: 0.0138
+CostTime: 103.2635
+Epoch: 22/200 | Step: 465/875 | Training loss: 0.0123
+CostTime: 100.3788
+Epoch: 22/200 | Step: 496/875 | Training loss: 0.0128
+CostTime: 103.2843
+Epoch: 22/200 | Step: 527/875 | Training loss: 0.0132
+CostTime: 109.8186
+Epoch: 22/200 | Step: 558/875 | Training loss: 0.0135
+CostTime: 116.1542
+Epoch: 22/200 | Step: 589/875 | Training loss: 0.0137
+CostTime: 91.0872
+Epoch: 22/200 | Step: 620/875 | Training loss: 0.0138
+CostTime: 103.6056
+Epoch: 22/200 | Step: 651/875 | Training loss: 0.0129
+CostTime: 120.1337
+Epoch: 22/200 | Step: 682/875 | Training loss: 0.0144
+CostTime: 108.3277
+Epoch: 22/200 | Step: 713/875 | Training loss: 0.0136
+CostTime: 107.8122
+Epoch: 22/200 | Step: 744/875 | Training loss: 0.0131
+CostTime: 92.4843
+Epoch: 22/200 | Step: 775/875 | Training loss: 0.0130
+CostTime: 113.2949
+Epoch: 22/200 | Step: 806/875 | Training loss: 0.0129
+CostTime: 109.9319
+Epoch: 22/200 | Step: 837/875 | Training loss: 0.0142
+CostTime: 95.2152
+Epoch: 22/200 | Step: 868/875 | Training loss: 0.0145
+CostTime: 113.2933
+Epoch 22 averaged training loss: 0.0134
+The current learning rate is 0.000015
+test 21: iter: 0
+test 21: iter: 1000
+test 21: iter: 2000
+test 21: iter: 3000
+test 21: iter: 4000
+test 21: iter: 5000
+test 21: iter: 6000
+test 21: iter: 7000
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8721, KRCC: 0.6868, PLCC: 0.8749, and RMSE: 5.0908
+Checkpoint saved at /data/user/zhaoyimeng/ModularBVQA/ckpts_modular/checkpoint_v12.pth, saved old_save_name is ckpts_modular/ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_cam_v12_LSVQ_plcc_rank_NR_v555_epoch_21_SRCC_0.875986.pth
+Epoch: 23/200 | Step: 31/875 | Training loss: 0.0126
+CostTime: 85.2310
+
+Process finished with exit code 143 (interrupted by signal 15: SIGTERM)

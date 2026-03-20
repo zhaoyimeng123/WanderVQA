@@ -1,0 +1,10 @@
+/data/guest/anaconda3/envs/zhaoyimeng/bin/python3.8 /data/user/zhaoyimeng/ModularBVQA/test_baseline_modular.py
+cuda
+loading the trained model
+LiveVQC
+The result on the base test databaset: SRCC: 0.7326, KRCC: 0.5434, PLCC: 0.7989, and RMSE: 10.2598
+The result on the S test databaset: SRCC: 0.7466, KRCC: 0.5553, PLCC: 0.8063, and RMSE: 10.0906
+The result on the T test databaset: SRCC: 0.7745, KRCC: 0.5791, PLCC: 0.8257, and RMSE: 9.6228
+The result on the ST test databaset: SRCC: 0.7685, KRCC: 0.5745, PLCC: 0.8208, and RMSE: 9.7426
+
+Process finished with exit code 0

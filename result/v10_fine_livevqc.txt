@@ -1,0 +1,2270 @@
+/data/guest/anaconda3/envs/zhaoyimeng/bin/python3.8 /data/user/zhaoyimeng/ModularBVQA/train_other_modular_dist_loda_cross_atten_videomae_v10.py
+0 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:27,  1.05it/s]
+Epoch 1 averaged training loss: 0.0874
+The current learning rate is 0.000010
+117it [00:04, 24.88it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8125, KRCC: 0.6254, PLCC: 0.8862, and RMSE: 7.5756
+Update best model using best_test_criterion in epoch 1
+29it [00:26,  1.08it/s]
+Epoch 2 averaged training loss: 0.0362
+The current learning rate is 0.000010
+117it [00:04, 24.98it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8095, KRCC: 0.6260, PLCC: 0.8755, and RMSE: 7.9033
+29it [00:26,  1.11it/s]
+Epoch 3 averaged training loss: 0.0225
+The current learning rate is 0.000010
+117it [00:04, 25.18it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8140, KRCC: 0.6292, PLCC: 0.8810, and RMSE: 7.7365
+Update best model using best_test_criterion in epoch 3
+29it [00:26,  1.09it/s]
+Epoch 4 averaged training loss: 0.0183
+The current learning rate is 0.000009
+117it [00:04, 24.56it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8021, KRCC: 0.6177, PLCC: 0.8798, and RMSE: 7.7744
+29it [00:26,  1.09it/s]
+Epoch 5 averaged training loss: 0.0173
+The current learning rate is 0.000009
+117it [00:04, 25.10it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8108, KRCC: 0.6251, PLCC: 0.8821, and RMSE: 7.7030
+29it [00:26,  1.11it/s]
+Epoch 6 averaged training loss: 0.0161
+The current learning rate is 0.000009
+117it [00:04, 24.76it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8047, KRCC: 0.6201, PLCC: 0.8795, and RMSE: 7.7846
+29it [00:26,  1.08it/s]
+Epoch 7 averaged training loss: 0.0151
+The current learning rate is 0.000009
+117it [00:04, 24.53it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8114, KRCC: 0.6260, PLCC: 0.8845, and RMSE: 7.6294
+29it [00:26,  1.09it/s]
+Epoch 8 averaged training loss: 0.0149
+The current learning rate is 0.000008
+117it [00:04, 24.89it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8102, KRCC: 0.6242, PLCC: 0.8815, and RMSE: 7.7217
+29it [00:26,  1.11it/s]
+Epoch 9 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.89it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6239, PLCC: 0.8836, and RMSE: 7.6591
+29it [00:26,  1.10it/s]
+Epoch 10 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 25.06it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8090, KRCC: 0.6230, PLCC: 0.8833, and RMSE: 7.6657
+29it [00:26,  1.07it/s]
+Epoch 11 averaged training loss: 0.0147
+The current learning rate is 0.000008
+117it [00:04, 24.81it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8109, KRCC: 0.6263, PLCC: 0.8830, and RMSE: 7.6752
+29it [00:26,  1.08it/s]
+Epoch 12 averaged training loss: 0.0146
+The current learning rate is 0.000007
+117it [00:04, 24.86it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8091, KRCC: 0.6248, PLCC: 0.8828, and RMSE: 7.6823
+29it [00:26,  1.10it/s]
+Epoch 13 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.87it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8090, KRCC: 0.6242, PLCC: 0.8830, and RMSE: 7.6773
+29it [00:26,  1.07it/s]
+Epoch 14 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.75it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8079, KRCC: 0.6236, PLCC: 0.8828, and RMSE: 7.6818
+29it [00:27,  1.05it/s]
+Epoch 15 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.92it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8104, KRCC: 0.6245, PLCC: 0.8836, and RMSE: 7.6574
+29it [00:27,  1.07it/s]
+Epoch 16 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.95it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8090, KRCC: 0.6242, PLCC: 0.8836, and RMSE: 7.6592
+29it [00:27,  1.07it/s]
+Epoch 17 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.54it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8126, KRCC: 0.6275, PLCC: 0.8832, and RMSE: 7.6697
+29it [00:26,  1.11it/s]
+Epoch 18 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.96it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8084, KRCC: 0.6228, PLCC: 0.8827, and RMSE: 7.6843
+29it [00:26,  1.08it/s]
+Epoch 19 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 25.02it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6239, PLCC: 0.8833, and RMSE: 7.6673
+29it [00:26,  1.10it/s]
+Epoch 20 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 25.16it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8083, KRCC: 0.6228, PLCC: 0.8831, and RMSE: 7.6747
+29it [00:26,  1.08it/s]
+Epoch 21 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 25.04it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8088, KRCC: 0.6236, PLCC: 0.8830, and RMSE: 7.6765
+29it [00:26,  1.08it/s]
+Epoch 22 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.87it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8094, KRCC: 0.6248, PLCC: 0.8834, and RMSE: 7.6655
+29it [00:26,  1.08it/s]
+Epoch 23 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.87it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8101, KRCC: 0.6245, PLCC: 0.8830, and RMSE: 7.6758
+29it [00:26,  1.08it/s]
+Epoch 24 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.95it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8106, KRCC: 0.6254, PLCC: 0.8831, and RMSE: 7.6727
+29it [00:27,  1.07it/s]
+Epoch 25 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.69it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8102, KRCC: 0.6245, PLCC: 0.8833, and RMSE: 7.6673
+29it [00:26,  1.10it/s]
+Epoch 26 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.95it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8101, KRCC: 0.6242, PLCC: 0.8831, and RMSE: 7.6746
+29it [00:26,  1.08it/s]
+Epoch 27 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 25.15it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8089, KRCC: 0.6245, PLCC: 0.8836, and RMSE: 7.6585
+29it [00:26,  1.09it/s]
+Epoch 28 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.97it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8095, KRCC: 0.6248, PLCC: 0.8821, and RMSE: 7.7055
+29it [00:26,  1.08it/s]
+Epoch 29 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 25.01it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8116, KRCC: 0.6260, PLCC: 0.8835, and RMSE: 7.6598
+29it [00:26,  1.09it/s]
+Epoch 30 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.70it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8109, KRCC: 0.6251, PLCC: 0.8832, and RMSE: 7.6701
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8140, KRCC: 0.6292, PLCC: 0.8810, and RMSE: 7.7365
+1 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:27,  1.07it/s]
+Epoch 1 averaged training loss: 0.0889
+The current learning rate is 0.000010
+117it [00:04, 24.56it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8223, KRCC: 0.6351, PLCC: 0.8815, and RMSE: 7.7217
+Update best model using best_test_criterion in epoch 1
+29it [00:26,  1.09it/s]
+Epoch 2 averaged training loss: 0.0396
+The current learning rate is 0.000010
+117it [00:04, 24.93it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8170, KRCC: 0.6292, PLCC: 0.8824, and RMSE: 7.6945
+29it [00:26,  1.08it/s]
+Epoch 3 averaged training loss: 0.0238
+The current learning rate is 0.000010
+117it [00:04, 24.45it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8160, KRCC: 0.6304, PLCC: 0.8808, and RMSE: 7.7422
+29it [00:26,  1.11it/s]
+Epoch 4 averaged training loss: 0.0190
+The current learning rate is 0.000009
+117it [00:04, 24.76it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8056, KRCC: 0.6192, PLCC: 0.8792, and RMSE: 7.7925
+29it [00:27,  1.07it/s]
+Epoch 5 averaged training loss: 0.0172
+The current learning rate is 0.000009
+117it [00:04, 24.17it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8149, KRCC: 0.6289, PLCC: 0.8823, and RMSE: 7.6970
+29it [00:26,  1.09it/s]
+Epoch 6 averaged training loss: 0.0164
+The current learning rate is 0.000009
+117it [00:04, 24.77it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8106, KRCC: 0.6248, PLCC: 0.8778, and RMSE: 7.8329
+29it [00:27,  1.07it/s]
+Epoch 7 averaged training loss: 0.0157
+The current learning rate is 0.000009
+117it [00:04, 24.07it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8175, KRCC: 0.6322, PLCC: 0.8834, and RMSE: 7.6654
+29it [00:26,  1.08it/s]
+Epoch 8 averaged training loss: 0.0152
+The current learning rate is 0.000008
+117it [00:04, 24.40it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8158, KRCC: 0.6295, PLCC: 0.8826, and RMSE: 7.6887
+29it [00:26,  1.09it/s]
+Epoch 9 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.82it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8172, KRCC: 0.6316, PLCC: 0.8825, and RMSE: 7.6924
+29it [00:26,  1.09it/s]
+Epoch 10 averaged training loss: 0.0147
+The current learning rate is 0.000008
+117it [00:04, 24.68it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8135, KRCC: 0.6269, PLCC: 0.8816, and RMSE: 7.7195
+29it [00:26,  1.09it/s]
+Epoch 11 averaged training loss: 0.0153
+The current learning rate is 0.000008
+117it [00:04, 24.98it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8173, KRCC: 0.6331, PLCC: 0.8826, and RMSE: 7.6883
+29it [00:27,  1.06it/s]
+Epoch 12 averaged training loss: 0.0151
+The current learning rate is 0.000007
+117it [00:04, 24.65it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8146, KRCC: 0.6278, PLCC: 0.8815, and RMSE: 7.7236
+29it [00:26,  1.10it/s]
+Epoch 13 averaged training loss: 0.0150
+The current learning rate is 0.000007
+117it [00:04, 24.25it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8148, KRCC: 0.6284, PLCC: 0.8828, and RMSE: 7.6812
+29it [00:27,  1.05it/s]
+Epoch 14 averaged training loss: 0.0148
+The current learning rate is 0.000007
+117it [00:04, 24.64it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8138, KRCC: 0.6272, PLCC: 0.8819, and RMSE: 7.7115
+29it [00:26,  1.09it/s]
+Epoch 15 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.81it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8139, KRCC: 0.6289, PLCC: 0.8811, and RMSE: 7.7350
+29it [00:26,  1.09it/s]
+Epoch 16 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.75it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8139, KRCC: 0.6284, PLCC: 0.8817, and RMSE: 7.7155
+29it [00:26,  1.09it/s]
+Epoch 17 averaged training loss: 0.0143
+The current learning rate is 0.000007
+117it [00:04, 24.77it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8128, KRCC: 0.6272, PLCC: 0.8823, and RMSE: 7.6974
+29it [00:27,  1.07it/s]
+Epoch 18 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.60it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8134, KRCC: 0.6275, PLCC: 0.8817, and RMSE: 7.7178
+29it [00:26,  1.10it/s]
+Epoch 19 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.63it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8139, KRCC: 0.6275, PLCC: 0.8821, and RMSE: 7.7037
+29it [00:26,  1.09it/s]
+Epoch 20 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.47it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8143, KRCC: 0.6286, PLCC: 0.8822, and RMSE: 7.7007
+29it [00:26,  1.11it/s]
+Epoch 21 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.83it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8141, KRCC: 0.6286, PLCC: 0.8819, and RMSE: 7.7098
+29it [00:26,  1.10it/s]
+Epoch 22 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.73it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8141, KRCC: 0.6286, PLCC: 0.8817, and RMSE: 7.7160
+29it [00:27,  1.06it/s]
+Epoch 23 averaged training loss: 0.0146
+The current learning rate is 0.000006
+117it [00:04, 24.41it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8153, KRCC: 0.6298, PLCC: 0.8821, and RMSE: 7.7039
+29it [00:27,  1.05it/s]
+Epoch 24 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.80it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8142, KRCC: 0.6284, PLCC: 0.8820, and RMSE: 7.7065
+29it [00:26,  1.08it/s]
+Epoch 25 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.69it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8141, KRCC: 0.6284, PLCC: 0.8820, and RMSE: 7.7077
+29it [00:26,  1.08it/s]
+Epoch 26 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.68it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8145, KRCC: 0.6292, PLCC: 0.8824, and RMSE: 7.6935
+29it [00:26,  1.11it/s]
+Epoch 27 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.99it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8139, KRCC: 0.6281, PLCC: 0.8820, and RMSE: 7.7066
+29it [00:26,  1.09it/s]
+Epoch 28 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.60it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8141, KRCC: 0.6284, PLCC: 0.8822, and RMSE: 7.7004
+29it [00:26,  1.09it/s]
+Epoch 29 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.80it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8139, KRCC: 0.6278, PLCC: 0.8822, and RMSE: 7.7006
+29it [00:27,  1.06it/s]
+Epoch 30 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.49it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8140, KRCC: 0.6284, PLCC: 0.8822, and RMSE: 7.7003
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8223, KRCC: 0.6351, PLCC: 0.8815, and RMSE: 7.7217
+2 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:26,  1.09it/s]
+Epoch 1 averaged training loss: 0.0863
+The current learning rate is 0.000010
+117it [00:04, 24.67it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8118, KRCC: 0.6269, PLCC: 0.8824, and RMSE: 7.6962
+Update best model using best_test_criterion in epoch 1
+29it [00:27,  1.07it/s]
+Epoch 2 averaged training loss: 0.0365
+The current learning rate is 0.000010
+117it [00:04, 24.65it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8197, KRCC: 0.6372, PLCC: 0.8875, and RMSE: 7.5354
+Update best model using best_test_criterion in epoch 2
+29it [00:26,  1.09it/s]
+Epoch 3 averaged training loss: 0.0236
+The current learning rate is 0.000010
+117it [00:04, 24.52it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8078, KRCC: 0.6228, PLCC: 0.8834, and RMSE: 7.6647
+29it [00:26,  1.09it/s]
+Epoch 4 averaged training loss: 0.0180
+The current learning rate is 0.000009
+117it [00:04, 24.90it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8098, KRCC: 0.6278, PLCC: 0.8811, and RMSE: 7.7343
+29it [00:27,  1.04it/s]
+Epoch 5 averaged training loss: 0.0168
+The current learning rate is 0.000009
+117it [00:04, 24.64it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8045, KRCC: 0.6201, PLCC: 0.8798, and RMSE: 7.7745
+29it [00:27,  1.07it/s]
+Epoch 6 averaged training loss: 0.0161
+The current learning rate is 0.000009
+117it [00:04, 24.73it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8141, KRCC: 0.6301, PLCC: 0.8849, and RMSE: 7.6173
+29it [00:26,  1.08it/s]
+Epoch 7 averaged training loss: 0.0158
+The current learning rate is 0.000009
+117it [00:04, 24.93it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8080, KRCC: 0.6239, PLCC: 0.8823, and RMSE: 7.6972
+29it [00:26,  1.10it/s]
+Epoch 8 averaged training loss: 0.0150
+The current learning rate is 0.000008
+117it [00:04, 24.50it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8124, KRCC: 0.6260, PLCC: 0.8825, and RMSE: 7.6932
+29it [00:26,  1.08it/s]
+Epoch 9 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.54it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8096, KRCC: 0.6254, PLCC: 0.8823, and RMSE: 7.6982
+29it [00:26,  1.09it/s]
+Epoch 10 averaged training loss: 0.0146
+The current learning rate is 0.000008
+117it [00:04, 24.64it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8132, KRCC: 0.6278, PLCC: 0.8827, and RMSE: 7.6842
+29it [00:26,  1.11it/s]
+Epoch 11 averaged training loss: 0.0146
+The current learning rate is 0.000008
+117it [00:04, 24.65it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8120, KRCC: 0.6260, PLCC: 0.8837, and RMSE: 7.6562
+29it [00:27,  1.05it/s]
+Epoch 12 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.67it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8083, KRCC: 0.6225, PLCC: 0.8814, and RMSE: 7.7270
+29it [00:27,  1.06it/s]
+Epoch 13 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.25it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8123, KRCC: 0.6266, PLCC: 0.8835, and RMSE: 7.6615
+29it [00:26,  1.09it/s]
+Epoch 14 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.73it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8110, KRCC: 0.6251, PLCC: 0.8830, and RMSE: 7.6749
+29it [00:27,  1.07it/s]
+Epoch 15 averaged training loss: 0.0146
+The current learning rate is 0.000007
+117it [00:04, 24.34it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8113, KRCC: 0.6257, PLCC: 0.8842, and RMSE: 7.6379
+29it [00:27,  1.05it/s]
+Epoch 16 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.66it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6236, PLCC: 0.8819, and RMSE: 7.7103
+29it [00:26,  1.09it/s]
+Epoch 17 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.66it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8106, KRCC: 0.6236, PLCC: 0.8841, and RMSE: 7.6424
+29it [00:26,  1.08it/s]
+Epoch 18 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.71it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8101, KRCC: 0.6236, PLCC: 0.8823, and RMSE: 7.6974
+29it [00:26,  1.08it/s]
+Epoch 19 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.70it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8122, KRCC: 0.6260, PLCC: 0.8849, and RMSE: 7.6182
+29it [00:26,  1.08it/s]
+Epoch 20 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.41it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8103, KRCC: 0.6230, PLCC: 0.8823, and RMSE: 7.6973
+29it [00:27,  1.06it/s]
+Epoch 21 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.59it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8128, KRCC: 0.6278, PLCC: 0.8837, and RMSE: 7.6560
+29it [00:26,  1.08it/s]
+Epoch 22 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.69it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8110, KRCC: 0.6245, PLCC: 0.8825, and RMSE: 7.6913
+29it [00:27,  1.07it/s]
+Epoch 23 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.35it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8120, KRCC: 0.6266, PLCC: 0.8846, and RMSE: 7.6263
+29it [00:26,  1.09it/s]
+Epoch 24 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.64it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8113, KRCC: 0.6248, PLCC: 0.8832, and RMSE: 7.6717
+29it [00:27,  1.07it/s]
+Epoch 25 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.65it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8117, KRCC: 0.6251, PLCC: 0.8841, and RMSE: 7.6433
+29it [00:26,  1.07it/s]
+Epoch 26 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.45it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8117, KRCC: 0.6257, PLCC: 0.8832, and RMSE: 7.6690
+29it [00:27,  1.05it/s]
+Epoch 27 averaged training loss: 0.0146
+The current learning rate is 0.000005
+117it [00:04, 24.63it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8109, KRCC: 0.6251, PLCC: 0.8841, and RMSE: 7.6410
+29it [00:26,  1.08it/s]
+Epoch 28 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.72it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8103, KRCC: 0.6239, PLCC: 0.8839, and RMSE: 7.6501
+29it [00:26,  1.10it/s]
+Epoch 29 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.70it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8101, KRCC: 0.6239, PLCC: 0.8834, and RMSE: 7.6648
+29it [00:27,  1.07it/s]
+Epoch 30 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.52it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8120, KRCC: 0.6263, PLCC: 0.8839, and RMSE: 7.6481
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8197, KRCC: 0.6372, PLCC: 0.8875, and RMSE: 7.5354
+3 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:26,  1.11it/s]
+Epoch 1 averaged training loss: 0.0875
+The current learning rate is 0.000010
+117it [00:04, 24.49it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8209, KRCC: 0.6328, PLCC: 0.8862, and RMSE: 7.5784
+Update best model using best_test_criterion in epoch 1
+29it [00:26,  1.09it/s]
+Epoch 2 averaged training loss: 0.0388
+The current learning rate is 0.000010
+117it [00:04, 24.34it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8271, KRCC: 0.6416, PLCC: 0.8848, and RMSE: 7.6214
+Update best model using best_test_criterion in epoch 2
+29it [00:26,  1.09it/s]
+Epoch 3 averaged training loss: 0.0228
+The current learning rate is 0.000010
+117it [00:04, 24.60it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8217, KRCC: 0.6396, PLCC: 0.8846, and RMSE: 7.6272
+29it [00:26,  1.08it/s]
+Epoch 4 averaged training loss: 0.0193
+The current learning rate is 0.000009
+117it [00:04, 24.50it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8171, KRCC: 0.6307, PLCC: 0.8816, and RMSE: 7.7183
+29it [00:26,  1.11it/s]
+Epoch 5 averaged training loss: 0.0175
+The current learning rate is 0.000009
+117it [00:04, 24.53it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8153, KRCC: 0.6269, PLCC: 0.8836, and RMSE: 7.6576
+29it [00:27,  1.07it/s]
+Epoch 6 averaged training loss: 0.0162
+The current learning rate is 0.000009
+117it [00:04, 24.86it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8184, KRCC: 0.6328, PLCC: 0.8825, and RMSE: 7.6929
+29it [00:26,  1.09it/s]
+Epoch 7 averaged training loss: 0.0159
+The current learning rate is 0.000009
+117it [00:04, 24.60it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8200, KRCC: 0.6340, PLCC: 0.8836, and RMSE: 7.6583
+29it [00:27,  1.04it/s]
+Epoch 8 averaged training loss: 0.0153
+The current learning rate is 0.000008
+117it [00:04, 24.43it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8134, KRCC: 0.6286, PLCC: 0.8838, and RMSE: 7.6514
+29it [00:26,  1.09it/s]
+Epoch 9 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.67it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8157, KRCC: 0.6286, PLCC: 0.8827, and RMSE: 7.6849
+29it [00:26,  1.08it/s]
+Epoch 10 averaged training loss: 0.0145
+The current learning rate is 0.000008
+117it [00:04, 24.45it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8160, KRCC: 0.6292, PLCC: 0.8840, and RMSE: 7.6451
+29it [00:26,  1.08it/s]
+Epoch 11 averaged training loss: 0.0146
+The current learning rate is 0.000008
+117it [00:04, 24.56it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8171, KRCC: 0.6298, PLCC: 0.8837, and RMSE: 7.6538
+29it [00:26,  1.11it/s]
+Epoch 12 averaged training loss: 0.0147
+The current learning rate is 0.000007
+117it [00:04, 24.67it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8180, KRCC: 0.6307, PLCC: 0.8826, and RMSE: 7.6896
+29it [00:27,  1.06it/s]
+Epoch 13 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.67it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8157, KRCC: 0.6289, PLCC: 0.8847, and RMSE: 7.6252
+29it [00:26,  1.10it/s]
+Epoch 14 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.79it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8155, KRCC: 0.6272, PLCC: 0.8834, and RMSE: 7.6643
+29it [00:27,  1.06it/s]
+Epoch 15 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.35it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8159, KRCC: 0.6298, PLCC: 0.8844, and RMSE: 7.6325
+29it [00:27,  1.06it/s]
+Epoch 16 averaged training loss: 0.0146
+The current learning rate is 0.000007
+117it [00:04, 24.27it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8158, KRCC: 0.6284, PLCC: 0.8838, and RMSE: 7.6516
+29it [00:27,  1.07it/s]
+Epoch 17 averaged training loss: 0.0143
+The current learning rate is 0.000007
+117it [00:04, 24.35it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8152, KRCC: 0.6278, PLCC: 0.8840, and RMSE: 7.6465
+29it [00:26,  1.09it/s]
+Epoch 18 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.75it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8159, KRCC: 0.6286, PLCC: 0.8840, and RMSE: 7.6448
+29it [00:26,  1.09it/s]
+Epoch 19 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.76it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8163, KRCC: 0.6284, PLCC: 0.8839, and RMSE: 7.6495
+29it [00:26,  1.09it/s]
+Epoch 20 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.22it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8145, KRCC: 0.6266, PLCC: 0.8835, and RMSE: 7.6612
+29it [00:26,  1.09it/s]
+Epoch 21 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.59it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8164, KRCC: 0.6292, PLCC: 0.8845, and RMSE: 7.6290
+29it [00:26,  1.10it/s]
+Epoch 22 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.68it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8145, KRCC: 0.6278, PLCC: 0.8835, and RMSE: 7.6610
+29it [00:27,  1.06it/s]
+Epoch 23 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.41it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8161, KRCC: 0.6301, PLCC: 0.8848, and RMSE: 7.6212
+29it [00:26,  1.10it/s]
+Epoch 24 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.72it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8160, KRCC: 0.6292, PLCC: 0.8845, and RMSE: 7.6287
+29it [00:27,  1.07it/s]
+Epoch 25 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.69it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8164, KRCC: 0.6301, PLCC: 0.8835, and RMSE: 7.6625
+29it [00:27,  1.06it/s]
+Epoch 26 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.50it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8153, KRCC: 0.6272, PLCC: 0.8840, and RMSE: 7.6466
+29it [00:26,  1.08it/s]
+Epoch 27 averaged training loss: 0.0145
+The current learning rate is 0.000005
+117it [00:04, 24.52it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8156, KRCC: 0.6278, PLCC: 0.8838, and RMSE: 7.6527
+29it [00:26,  1.08it/s]
+Epoch 28 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.40it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8164, KRCC: 0.6286, PLCC: 0.8845, and RMSE: 7.6299
+29it [00:26,  1.10it/s]
+Epoch 29 averaged training loss: 0.0142
+The current learning rate is 0.000005
+117it [00:04, 24.74it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8155, KRCC: 0.6289, PLCC: 0.8841, and RMSE: 7.6440
+29it [00:26,  1.11it/s]
+Epoch 30 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.63it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8161, KRCC: 0.6281, PLCC: 0.8844, and RMSE: 7.6328
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8271, KRCC: 0.6416, PLCC: 0.8848, and RMSE: 7.6214
+4 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:26,  1.11it/s]
+Epoch 1 averaged training loss: 0.0850
+The current learning rate is 0.000010
+117it [00:04, 24.78it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8098, KRCC: 0.6225, PLCC: 0.8804, and RMSE: 7.7569
+Update best model using best_test_criterion in epoch 1
+29it [00:26,  1.08it/s]
+Epoch 2 averaged training loss: 0.0375
+The current learning rate is 0.000010
+117it [00:04, 24.62it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8113, KRCC: 0.6260, PLCC: 0.8819, and RMSE: 7.7099
+Update best model using best_test_criterion in epoch 2
+29it [00:26,  1.09it/s]
+Epoch 3 averaged training loss: 0.0207
+The current learning rate is 0.000010
+117it [00:04, 24.35it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8142, KRCC: 0.6289, PLCC: 0.8863, and RMSE: 7.5725
+Update best model using best_test_criterion in epoch 3
+29it [00:27,  1.07it/s]
+Epoch 4 averaged training loss: 0.0173
+The current learning rate is 0.000009
+117it [00:04, 24.71it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8134, KRCC: 0.6292, PLCC: 0.8856, and RMSE: 7.5968
+29it [00:27,  1.07it/s]
+Epoch 5 averaged training loss: 0.0167
+The current learning rate is 0.000009
+117it [00:04, 24.84it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8116, KRCC: 0.6257, PLCC: 0.8852, and RMSE: 7.6071
+29it [00:26,  1.09it/s]
+Epoch 6 averaged training loss: 0.0157
+The current learning rate is 0.000009
+117it [00:04, 24.80it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8123, KRCC: 0.6269, PLCC: 0.8842, and RMSE: 7.6401
+29it [00:26,  1.08it/s]
+Epoch 7 averaged training loss: 0.0151
+The current learning rate is 0.000009
+117it [00:04, 24.63it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8089, KRCC: 0.6242, PLCC: 0.8830, and RMSE: 7.6772
+29it [00:26,  1.08it/s]
+Epoch 8 averaged training loss: 0.0150
+The current learning rate is 0.000008
+117it [00:04, 24.92it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8127, KRCC: 0.6278, PLCC: 0.8853, and RMSE: 7.6046
+29it [00:27,  1.06it/s]
+Epoch 9 averaged training loss: 0.0150
+The current learning rate is 0.000008
+117it [00:04, 24.83it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8104, KRCC: 0.6275, PLCC: 0.8830, and RMSE: 7.6775
+29it [00:26,  1.10it/s]
+Epoch 10 averaged training loss: 0.0147
+The current learning rate is 0.000008
+117it [00:04, 24.63it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8125, KRCC: 0.6281, PLCC: 0.8857, and RMSE: 7.5913
+29it [00:26,  1.08it/s]
+Epoch 11 averaged training loss: 0.0147
+The current learning rate is 0.000008
+117it [00:04, 24.75it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8091, KRCC: 0.6228, PLCC: 0.8827, and RMSE: 7.6867
+29it [00:26,  1.10it/s]
+Epoch 12 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.56it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8130, KRCC: 0.6272, PLCC: 0.8845, and RMSE: 7.6297
+29it [00:26,  1.08it/s]
+Epoch 13 averaged training loss: 0.0147
+The current learning rate is 0.000007
+117it [00:04, 24.73it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8111, KRCC: 0.6260, PLCC: 0.8837, and RMSE: 7.6542
+29it [00:26,  1.08it/s]
+Epoch 14 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.67it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8145, KRCC: 0.6289, PLCC: 0.8858, and RMSE: 7.5886
+Update best model using best_test_criterion in epoch 14
+29it [00:27,  1.06it/s]
+Epoch 15 averaged training loss: 0.0143
+The current learning rate is 0.000007
+117it [00:04, 24.75it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8087, KRCC: 0.6236, PLCC: 0.8829, and RMSE: 7.6796
+29it [00:26,  1.08it/s]
+Epoch 16 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.68it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8106, KRCC: 0.6254, PLCC: 0.8847, and RMSE: 7.6250
+29it [00:26,  1.10it/s]
+Epoch 17 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.50it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8111, KRCC: 0.6251, PLCC: 0.8843, and RMSE: 7.6364
+29it [00:25,  1.12it/s]
+Epoch 18 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.78it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8098, KRCC: 0.6251, PLCC: 0.8842, and RMSE: 7.6393
+29it [00:26,  1.09it/s]
+Epoch 19 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.50it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8115, KRCC: 0.6257, PLCC: 0.8851, and RMSE: 7.6106
+29it [00:27,  1.06it/s]
+Epoch 20 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.19it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8096, KRCC: 0.6245, PLCC: 0.8841, and RMSE: 7.6426
+29it [00:26,  1.09it/s]
+Epoch 21 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.77it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8140, KRCC: 0.6275, PLCC: 0.8848, and RMSE: 7.6195
+29it [00:27,  1.06it/s]
+Epoch 22 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.71it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8084, KRCC: 0.6236, PLCC: 0.8841, and RMSE: 7.6438
+29it [00:26,  1.08it/s]
+Epoch 23 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.35it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8113, KRCC: 0.6266, PLCC: 0.8846, and RMSE: 7.6266
+29it [00:26,  1.10it/s]
+Epoch 24 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.83it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8094, KRCC: 0.6236, PLCC: 0.8842, and RMSE: 7.6382
+29it [00:26,  1.09it/s]
+Epoch 25 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.45it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8117, KRCC: 0.6263, PLCC: 0.8851, and RMSE: 7.6110
+29it [00:26,  1.10it/s]
+Epoch 26 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.72it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8108, KRCC: 0.6248, PLCC: 0.8835, and RMSE: 7.6617
+29it [00:26,  1.08it/s]
+Epoch 27 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.58it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8124, KRCC: 0.6275, PLCC: 0.8853, and RMSE: 7.6046
+29it [00:26,  1.10it/s]
+Epoch 28 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.61it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8105, KRCC: 0.6266, PLCC: 0.8840, and RMSE: 7.6469
+29it [00:26,  1.10it/s]
+Epoch 29 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.53it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8114, KRCC: 0.6251, PLCC: 0.8846, and RMSE: 7.6263
+29it [00:26,  1.09it/s]
+Epoch 30 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.63it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8104, KRCC: 0.6260, PLCC: 0.8849, and RMSE: 7.6167
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8145, KRCC: 0.6289, PLCC: 0.8858, and RMSE: 7.5886
+5 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:27,  1.05it/s]
+Epoch 1 averaged training loss: 0.0791
+The current learning rate is 0.000010
+117it [00:04, 24.97it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8157, KRCC: 0.6307, PLCC: 0.8873, and RMSE: 7.5411
+Update best model using best_test_criterion in epoch 1
+29it [00:25,  1.12it/s]
+Epoch 2 averaged training loss: 0.0339
+The current learning rate is 0.000010
+117it [00:04, 24.54it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8092, KRCC: 0.6213, PLCC: 0.8807, and RMSE: 7.7461
+29it [00:26,  1.09it/s]
+Epoch 3 averaged training loss: 0.0216
+The current learning rate is 0.000010
+117it [00:04, 24.65it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8133, KRCC: 0.6263, PLCC: 0.8833, and RMSE: 7.6665
+29it [00:26,  1.10it/s]
+Epoch 4 averaged training loss: 0.0177
+The current learning rate is 0.000009
+117it [00:04, 23.89it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8119, KRCC: 0.6286, PLCC: 0.8844, and RMSE: 7.6329
+29it [00:26,  1.08it/s]
+Epoch 5 averaged training loss: 0.0175
+The current learning rate is 0.000009
+117it [00:04, 23.66it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8091, KRCC: 0.6239, PLCC: 0.8836, and RMSE: 7.6577
+29it [00:27,  1.06it/s]
+Epoch 6 averaged training loss: 0.0160
+The current learning rate is 0.000009
+117it [00:04, 23.72it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8119, KRCC: 0.6304, PLCC: 0.8855, and RMSE: 7.5993
+29it [00:26,  1.09it/s]
+Epoch 7 averaged training loss: 0.0155
+The current learning rate is 0.000009
+117it [00:04, 24.06it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6272, PLCC: 0.8853, and RMSE: 7.6038
+29it [00:26,  1.08it/s]
+Epoch 8 averaged training loss: 0.0153
+The current learning rate is 0.000008
+117it [00:04, 23.73it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8094, KRCC: 0.6245, PLCC: 0.8844, and RMSE: 7.6346
+29it [00:26,  1.09it/s]
+Epoch 9 averaged training loss: 0.0151
+The current learning rate is 0.000008
+117it [00:04, 23.85it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8132, KRCC: 0.6281, PLCC: 0.8861, and RMSE: 7.5794
+29it [00:27,  1.06it/s]
+Epoch 10 averaged training loss: 0.0150
+The current learning rate is 0.000008
+117it [00:04, 24.40it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8111, KRCC: 0.6236, PLCC: 0.8861, and RMSE: 7.5816
+29it [00:27,  1.07it/s]
+Epoch 11 averaged training loss: 0.0151
+The current learning rate is 0.000008
+117it [00:04, 24.45it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8129, KRCC: 0.6292, PLCC: 0.8851, and RMSE: 7.6102
+29it [00:26,  1.07it/s]
+Epoch 12 averaged training loss: 0.0154
+The current learning rate is 0.000007
+117it [00:04, 24.48it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8155, KRCC: 0.6313, PLCC: 0.8862, and RMSE: 7.5771
+29it [00:26,  1.08it/s]
+Epoch 13 averaged training loss: 0.0153
+The current learning rate is 0.000007
+117it [00:04, 24.64it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8168, KRCC: 0.6331, PLCC: 0.8879, and RMSE: 7.5244
+Update best model using best_test_criterion in epoch 13
+29it [00:26,  1.10it/s]
+Epoch 14 averaged training loss: 0.0148
+The current learning rate is 0.000007
+117it [00:04, 24.90it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8137, KRCC: 0.6289, PLCC: 0.8852, and RMSE: 7.6068
+29it [00:27,  1.06it/s]
+Epoch 15 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.69it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8142, KRCC: 0.6278, PLCC: 0.8870, and RMSE: 7.5523
+29it [00:26,  1.09it/s]
+Epoch 16 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.54it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8130, KRCC: 0.6269, PLCC: 0.8858, and RMSE: 7.5900
+29it [00:27,  1.07it/s]
+Epoch 17 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.61it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8132, KRCC: 0.6275, PLCC: 0.8869, and RMSE: 7.5554
+29it [00:27,  1.07it/s]
+Epoch 18 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.61it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8135, KRCC: 0.6286, PLCC: 0.8862, and RMSE: 7.5770
+29it [00:26,  1.08it/s]
+Epoch 19 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.43it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8141, KRCC: 0.6286, PLCC: 0.8867, and RMSE: 7.5604
+29it [00:27,  1.07it/s]
+Epoch 20 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.59it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8118, KRCC: 0.6266, PLCC: 0.8860, and RMSE: 7.5833
+29it [00:26,  1.08it/s]
+Epoch 21 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.58it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8140, KRCC: 0.6284, PLCC: 0.8863, and RMSE: 7.5725
+29it [00:27,  1.06it/s]
+Epoch 22 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.79it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8139, KRCC: 0.6284, PLCC: 0.8863, and RMSE: 7.5746
+29it [00:26,  1.08it/s]
+Epoch 23 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.68it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8127, KRCC: 0.6266, PLCC: 0.8864, and RMSE: 7.5716
+29it [00:26,  1.08it/s]
+Epoch 24 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.59it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8141, KRCC: 0.6284, PLCC: 0.8863, and RMSE: 7.5735
+29it [00:27,  1.07it/s]
+Epoch 25 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.67it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8120, KRCC: 0.6257, PLCC: 0.8865, and RMSE: 7.5669
+29it [00:26,  1.10it/s]
+Epoch 26 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.39it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8143, KRCC: 0.6289, PLCC: 0.8860, and RMSE: 7.5823
+29it [00:26,  1.10it/s]
+Epoch 27 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.75it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8136, KRCC: 0.6275, PLCC: 0.8864, and RMSE: 7.5711
+29it [00:27,  1.07it/s]
+Epoch 28 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.63it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8137, KRCC: 0.6295, PLCC: 0.8860, and RMSE: 7.5834
+29it [00:27,  1.06it/s]
+Epoch 29 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.70it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8145, KRCC: 0.6281, PLCC: 0.8868, and RMSE: 7.5568
+29it [00:26,  1.08it/s]
+Epoch 30 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.49it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8132, KRCC: 0.6284, PLCC: 0.8859, and RMSE: 7.5880
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8168, KRCC: 0.6331, PLCC: 0.8879, and RMSE: 7.5244
+6 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:27,  1.06it/s]
+Epoch 1 averaged training loss: 0.0803
+The current learning rate is 0.000010
+117it [00:04, 24.78it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8045, KRCC: 0.6216, PLCC: 0.8830, and RMSE: 7.6753
+Update best model using best_test_criterion in epoch 1
+29it [00:26,  1.11it/s]
+Epoch 2 averaged training loss: 0.0369
+The current learning rate is 0.000010
+117it [00:04, 24.68it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8002, KRCC: 0.6148, PLCC: 0.8765, and RMSE: 7.8730
+29it [00:27,  1.07it/s]
+Epoch 3 averaged training loss: 0.0244
+The current learning rate is 0.000010
+117it [00:04, 24.52it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8044, KRCC: 0.6198, PLCC: 0.8810, and RMSE: 7.7378
+29it [00:26,  1.09it/s]
+Epoch 4 averaged training loss: 0.0191
+The current learning rate is 0.000009
+117it [00:04, 24.47it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8122, KRCC: 0.6266, PLCC: 0.8803, and RMSE: 7.7575
+Update best model using best_test_criterion in epoch 4
+29it [00:27,  1.07it/s]
+Epoch 5 averaged training loss: 0.0171
+The current learning rate is 0.000009
+117it [00:04, 24.47it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8050, KRCC: 0.6204, PLCC: 0.8797, and RMSE: 7.7758
+29it [00:26,  1.09it/s]
+Epoch 6 averaged training loss: 0.0164
+The current learning rate is 0.000009
+117it [00:04, 24.72it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8097, KRCC: 0.6233, PLCC: 0.8799, and RMSE: 7.7703
+29it [00:26,  1.08it/s]
+Epoch 7 averaged training loss: 0.0151
+The current learning rate is 0.000009
+117it [00:04, 24.36it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8058, KRCC: 0.6189, PLCC: 0.8805, and RMSE: 7.7521
+29it [00:26,  1.07it/s]
+Epoch 8 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.50it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8073, KRCC: 0.6216, PLCC: 0.8798, and RMSE: 7.7755
+29it [00:26,  1.10it/s]
+Epoch 9 averaged training loss: 0.0146
+The current learning rate is 0.000008
+117it [00:04, 24.71it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8086, KRCC: 0.6233, PLCC: 0.8817, and RMSE: 7.7164
+29it [00:26,  1.10it/s]
+Epoch 10 averaged training loss: 0.0145
+The current learning rate is 0.000008
+117it [00:04, 24.28it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8069, KRCC: 0.6213, PLCC: 0.8801, and RMSE: 7.7637
+29it [00:26,  1.09it/s]
+Epoch 11 averaged training loss: 0.0144
+The current learning rate is 0.000008
+117it [00:04, 24.62it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8064, KRCC: 0.6207, PLCC: 0.8807, and RMSE: 7.7468
+29it [00:26,  1.09it/s]
+Epoch 12 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.50it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8065, KRCC: 0.6213, PLCC: 0.8804, and RMSE: 7.7572
+29it [00:27,  1.06it/s]
+Epoch 13 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.49it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8057, KRCC: 0.6195, PLCC: 0.8807, and RMSE: 7.7466
+29it [00:26,  1.08it/s]
+Epoch 14 averaged training loss: 0.0143
+The current learning rate is 0.000007
+117it [00:04, 24.61it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8057, KRCC: 0.6198, PLCC: 0.8801, and RMSE: 7.7650
+29it [00:26,  1.09it/s]
+Epoch 15 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.72it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8082, KRCC: 0.6245, PLCC: 0.8812, and RMSE: 7.7300
+29it [00:26,  1.08it/s]
+Epoch 16 averaged training loss: 0.0143
+The current learning rate is 0.000007
+117it [00:04, 24.59it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8074, KRCC: 0.6201, PLCC: 0.8803, and RMSE: 7.7578
+29it [00:27,  1.05it/s]
+Epoch 17 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.72it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8065, KRCC: 0.6210, PLCC: 0.8805, and RMSE: 7.7526
+29it [00:27,  1.07it/s]
+Epoch 18 averaged training loss: 0.0142
+The current learning rate is 0.000006
+117it [00:04, 24.49it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8070, KRCC: 0.6213, PLCC: 0.8804, and RMSE: 7.7564
+29it [00:26,  1.08it/s]
+Epoch 19 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.48it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8070, KRCC: 0.6204, PLCC: 0.8810, and RMSE: 7.7363
+29it [00:26,  1.11it/s]
+Epoch 20 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.67it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8061, KRCC: 0.6198, PLCC: 0.8808, and RMSE: 7.7448
+29it [00:27,  1.07it/s]
+Epoch 21 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.51it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8071, KRCC: 0.6216, PLCC: 0.8808, and RMSE: 7.7448
+29it [00:27,  1.05it/s]
+Epoch 22 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.68it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8084, KRCC: 0.6236, PLCC: 0.8810, and RMSE: 7.7380
+29it [00:27,  1.05it/s]
+Epoch 23 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.33it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8076, KRCC: 0.6225, PLCC: 0.8807, and RMSE: 7.7468
+29it [00:26,  1.07it/s]
+Epoch 24 averaged training loss: 0.0142
+The current learning rate is 0.000005
+117it [00:04, 24.48it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8084, KRCC: 0.6239, PLCC: 0.8807, and RMSE: 7.7465
+29it [00:26,  1.09it/s]
+Epoch 25 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.75it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8078, KRCC: 0.6222, PLCC: 0.8806, and RMSE: 7.7485
+29it [00:27,  1.05it/s]
+Epoch 26 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.64it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8069, KRCC: 0.6219, PLCC: 0.8808, and RMSE: 7.7447
+29it [00:27,  1.05it/s]
+Epoch 27 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.86it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8070, KRCC: 0.6216, PLCC: 0.8805, and RMSE: 7.7535
+29it [00:26,  1.07it/s]
+Epoch 28 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.43it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8064, KRCC: 0.6219, PLCC: 0.8808, and RMSE: 7.7422
+29it [00:27,  1.06it/s]
+Epoch 29 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.50it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8061, KRCC: 0.6201, PLCC: 0.8803, and RMSE: 7.7580
+29it [00:26,  1.08it/s]
+Epoch 30 averaged training loss: 0.0142
+The current learning rate is 0.000005
+117it [00:04, 24.29it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8063, KRCC: 0.6219, PLCC: 0.8808, and RMSE: 7.7427
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8122, KRCC: 0.6266, PLCC: 0.8803, and RMSE: 7.7575
+7 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:27,  1.07it/s]
+Epoch 1 averaged training loss: 0.0829
+The current learning rate is 0.000010
+117it [00:04, 24.67it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8114, KRCC: 0.6304, PLCC: 0.8839, and RMSE: 7.6494
+Update best model using best_test_criterion in epoch 1
+29it [00:26,  1.09it/s]
+Epoch 2 averaged training loss: 0.0352
+The current learning rate is 0.000010
+117it [00:04, 24.69it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8067, KRCC: 0.6248, PLCC: 0.8778, and RMSE: 7.8342
+29it [00:26,  1.10it/s]
+Epoch 3 averaged training loss: 0.0222
+The current learning rate is 0.000010
+117it [00:04, 24.61it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8047, KRCC: 0.6216, PLCC: 0.8756, and RMSE: 7.9003
+29it [00:26,  1.08it/s]
+Epoch 4 averaged training loss: 0.0181
+The current learning rate is 0.000009
+117it [00:04, 24.75it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8001, KRCC: 0.6130, PLCC: 0.8755, and RMSE: 7.9034
+29it [00:26,  1.08it/s]
+Epoch 5 averaged training loss: 0.0165
+The current learning rate is 0.000009
+117it [00:04, 24.71it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8048, KRCC: 0.6172, PLCC: 0.8799, and RMSE: 7.7718
+29it [00:26,  1.11it/s]
+Epoch 6 averaged training loss: 0.0155
+The current learning rate is 0.000009
+117it [00:04, 24.69it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.7998, KRCC: 0.6148, PLCC: 0.8773, and RMSE: 7.8482
+29it [00:26,  1.08it/s]
+Epoch 7 averaged training loss: 0.0153
+The current learning rate is 0.000009
+117it [00:04, 24.41it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8019, KRCC: 0.6160, PLCC: 0.8789, and RMSE: 7.8012
+29it [00:25,  1.12it/s]
+Epoch 8 averaged training loss: 0.0151
+The current learning rate is 0.000008
+117it [00:04, 24.57it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8028, KRCC: 0.6186, PLCC: 0.8791, and RMSE: 7.7964
+29it [00:26,  1.09it/s]
+Epoch 9 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.70it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8023, KRCC: 0.6174, PLCC: 0.8786, and RMSE: 7.8094
+29it [00:26,  1.11it/s]
+Epoch 10 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.27it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8057, KRCC: 0.6213, PLCC: 0.8786, and RMSE: 7.8102
+29it [00:26,  1.09it/s]
+Epoch 11 averaged training loss: 0.0145
+The current learning rate is 0.000008
+117it [00:04, 24.80it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8018, KRCC: 0.6166, PLCC: 0.8806, and RMSE: 7.7503
+29it [00:26,  1.09it/s]
+Epoch 12 averaged training loss: 0.0147
+The current learning rate is 0.000007
+117it [00:04, 24.66it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8043, KRCC: 0.6216, PLCC: 0.8797, and RMSE: 7.7775
+29it [00:26,  1.09it/s]
+Epoch 13 averaged training loss: 0.0146
+The current learning rate is 0.000007
+117it [00:04, 24.29it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8026, KRCC: 0.6183, PLCC: 0.8789, and RMSE: 7.8007
+29it [00:26,  1.08it/s]
+Epoch 14 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.46it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8050, KRCC: 0.6222, PLCC: 0.8806, and RMSE: 7.7487
+29it [00:26,  1.07it/s]
+Epoch 15 averaged training loss: 0.0143
+The current learning rate is 0.000007
+117it [00:04, 24.44it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8022, KRCC: 0.6177, PLCC: 0.8792, and RMSE: 7.7917
+29it [00:26,  1.10it/s]
+Epoch 16 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.52it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8061, KRCC: 0.6222, PLCC: 0.8794, and RMSE: 7.7847
+29it [00:26,  1.11it/s]
+Epoch 17 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.76it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8029, KRCC: 0.6198, PLCC: 0.8801, and RMSE: 7.7660
+29it [00:27,  1.05it/s]
+Epoch 18 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.69it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8054, KRCC: 0.6219, PLCC: 0.8798, and RMSE: 7.7734
+29it [00:26,  1.07it/s]
+Epoch 19 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.75it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8033, KRCC: 0.6198, PLCC: 0.8795, and RMSE: 7.7839
+29it [00:26,  1.10it/s]
+Epoch 20 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.44it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8045, KRCC: 0.6213, PLCC: 0.8801, and RMSE: 7.7664
+29it [00:26,  1.08it/s]
+Epoch 21 averaged training loss: 0.0142
+The current learning rate is 0.000006
+117it [00:04, 24.77it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8036, KRCC: 0.6204, PLCC: 0.8796, and RMSE: 7.7789
+29it [00:26,  1.09it/s]
+Epoch 22 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.36it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8036, KRCC: 0.6210, PLCC: 0.8798, and RMSE: 7.7734
+29it [00:27,  1.04it/s]
+Epoch 23 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.48it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8028, KRCC: 0.6192, PLCC: 0.8799, and RMSE: 7.7721
+29it [00:26,  1.09it/s]
+Epoch 24 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.65it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8047, KRCC: 0.6213, PLCC: 0.8804, and RMSE: 7.7568
+29it [00:26,  1.09it/s]
+Epoch 25 averaged training loss: 0.0145
+The current learning rate is 0.000005
+117it [00:04, 24.61it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8034, KRCC: 0.6204, PLCC: 0.8795, and RMSE: 7.7845
+29it [00:27,  1.06it/s]
+Epoch 26 averaged training loss: 0.0145
+The current learning rate is 0.000005
+117it [00:04, 24.42it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8053, KRCC: 0.6216, PLCC: 0.8799, and RMSE: 7.7702
+29it [00:27,  1.06it/s]
+Epoch 27 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.69it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8025, KRCC: 0.6192, PLCC: 0.8800, and RMSE: 7.7695
+29it [00:27,  1.06it/s]
+Epoch 28 averaged training loss: 0.0145
+The current learning rate is 0.000005
+117it [00:04, 24.40it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8061, KRCC: 0.6207, PLCC: 0.8804, and RMSE: 7.7560
+29it [00:27,  1.06it/s]
+Epoch 29 averaged training loss: 0.0145
+The current learning rate is 0.000005
+117it [00:04, 24.62it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8021, KRCC: 0.6186, PLCC: 0.8790, and RMSE: 7.7978
+29it [00:27,  1.06it/s]
+Epoch 30 averaged training loss: 0.0145
+The current learning rate is 0.000005
+117it [00:04, 24.37it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8038, KRCC: 0.6204, PLCC: 0.8807, and RMSE: 7.7477
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8114, KRCC: 0.6304, PLCC: 0.8839, and RMSE: 7.6494
+8 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:26,  1.08it/s]
+Epoch 1 averaged training loss: 0.0795
+The current learning rate is 0.000010
+117it [00:04, 24.48it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6316, PLCC: 0.8835, and RMSE: 7.6605
+Update best model using best_test_criterion in epoch 1
+29it [00:26,  1.08it/s]
+Epoch 2 averaged training loss: 0.0421
+The current learning rate is 0.000010
+117it [00:04, 24.64it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8172, KRCC: 0.6354, PLCC: 0.8835, and RMSE: 7.6621
+Update best model using best_test_criterion in epoch 2
+29it [00:27,  1.07it/s]
+Epoch 3 averaged training loss: 0.0224
+The current learning rate is 0.000010
+117it [00:04, 24.38it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8065, KRCC: 0.6248, PLCC: 0.8787, and RMSE: 7.8077
+29it [00:26,  1.10it/s]
+Epoch 4 averaged training loss: 0.0184
+The current learning rate is 0.000009
+117it [00:04, 24.60it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8074, KRCC: 0.6257, PLCC: 0.8809, and RMSE: 7.7411
+29it [00:26,  1.08it/s]
+Epoch 5 averaged training loss: 0.0170
+The current learning rate is 0.000009
+117it [00:04, 24.49it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8026, KRCC: 0.6216, PLCC: 0.8754, and RMSE: 7.9071
+29it [00:26,  1.10it/s]
+Epoch 6 averaged training loss: 0.0159
+The current learning rate is 0.000009
+117it [00:04, 24.49it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8036, KRCC: 0.6198, PLCC: 0.8799, and RMSE: 7.7707
+29it [00:27,  1.06it/s]
+Epoch 7 averaged training loss: 0.0152
+The current learning rate is 0.000009
+117it [00:04, 24.70it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8059, KRCC: 0.6251, PLCC: 0.8790, and RMSE: 7.7973
+29it [00:26,  1.10it/s]
+Epoch 8 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.56it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8028, KRCC: 0.6201, PLCC: 0.8790, and RMSE: 7.7980
+29it [00:26,  1.11it/s]
+Epoch 9 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.69it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8034, KRCC: 0.6228, PLCC: 0.8788, and RMSE: 7.8046
+29it [00:26,  1.09it/s]
+Epoch 10 averaged training loss: 0.0146
+The current learning rate is 0.000008
+117it [00:04, 24.42it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8068, KRCC: 0.6245, PLCC: 0.8798, and RMSE: 7.7751
+29it [00:26,  1.09it/s]
+Epoch 11 averaged training loss: 0.0146
+The current learning rate is 0.000008
+117it [00:04, 24.63it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8052, KRCC: 0.6225, PLCC: 0.8794, and RMSE: 7.7874
+29it [00:26,  1.10it/s]
+Epoch 12 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.67it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8056, KRCC: 0.6233, PLCC: 0.8795, and RMSE: 7.7817
+29it [00:27,  1.06it/s]
+Epoch 13 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.41it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8072, KRCC: 0.6257, PLCC: 0.8803, and RMSE: 7.7583
+29it [00:26,  1.10it/s]
+Epoch 14 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.83it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8057, KRCC: 0.6230, PLCC: 0.8796, and RMSE: 7.7814
+29it [00:27,  1.07it/s]
+Epoch 15 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.46it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8088, KRCC: 0.6286, PLCC: 0.8807, and RMSE: 7.7468
+29it [00:26,  1.09it/s]
+Epoch 16 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.48it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8063, KRCC: 0.6242, PLCC: 0.8802, and RMSE: 7.7629
+29it [00:26,  1.11it/s]
+Epoch 17 averaged training loss: 0.0143
+The current learning rate is 0.000007
+117it [00:04, 24.83it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8077, KRCC: 0.6281, PLCC: 0.8805, and RMSE: 7.7539
+29it [00:26,  1.07it/s]
+Epoch 18 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.66it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8060, KRCC: 0.6242, PLCC: 0.8805, and RMSE: 7.7530
+29it [00:27,  1.05it/s]
+Epoch 19 averaged training loss: 0.0143
+The current learning rate is 0.000006
+117it [00:04, 24.81it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8072, KRCC: 0.6263, PLCC: 0.8806, and RMSE: 7.7497
+29it [00:26,  1.11it/s]
+Epoch 20 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.62it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8073, KRCC: 0.6275, PLCC: 0.8804, and RMSE: 7.7546
+29it [00:26,  1.10it/s]
+Epoch 21 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.68it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8073, KRCC: 0.6272, PLCC: 0.8808, and RMSE: 7.7425
+29it [00:26,  1.09it/s]
+Epoch 22 averaged training loss: 0.0142
+The current learning rate is 0.000006
+117it [00:04, 24.71it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8070, KRCC: 0.6254, PLCC: 0.8805, and RMSE: 7.7513
+29it [00:26,  1.09it/s]
+Epoch 23 averaged training loss: 0.0142
+The current learning rate is 0.000006
+117it [00:04, 24.45it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8064, KRCC: 0.6254, PLCC: 0.8805, and RMSE: 7.7535
+29it [00:27,  1.07it/s]
+Epoch 24 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.78it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8057, KRCC: 0.6239, PLCC: 0.8807, and RMSE: 7.7456
+29it [00:26,  1.08it/s]
+Epoch 25 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.68it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8074, KRCC: 0.6260, PLCC: 0.8810, and RMSE: 7.7375
+29it [00:26,  1.11it/s]
+Epoch 26 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.73it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8059, KRCC: 0.6242, PLCC: 0.8807, and RMSE: 7.7461
+29it [00:27,  1.07it/s]
+Epoch 27 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.62it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8070, KRCC: 0.6263, PLCC: 0.8808, and RMSE: 7.7439
+29it [00:26,  1.09it/s]
+Epoch 28 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.67it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8072, KRCC: 0.6269, PLCC: 0.8806, and RMSE: 7.7512
+29it [00:26,  1.07it/s]
+Epoch 29 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.38it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8060, KRCC: 0.6239, PLCC: 0.8810, and RMSE: 7.7369
+29it [00:26,  1.08it/s]
+Epoch 30 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.87it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8076, KRCC: 0.6278, PLCC: 0.8815, and RMSE: 7.7231
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8172, KRCC: 0.6354, PLCC: 0.8835, and RMSE: 7.6621
+9 round training starts here
+The current model is ViTbCLIP_SpatialTemporalDistortion_loda_modular_dropout_cross_attention_videomae_v10
+loading the pretrained model
+loading model success!
+Trainable params: 95.32 million
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+LiveVQC train_index: [246  92 517 186 390 103 508  14  52 498 583 379 504 404 142 501 172 576
+  21 563 315 334 432 346 178 345 408 181 356 458 229 449 361 454 233 492
+ 165 506 118 455  37 157 433  34 162 272 285   1 425 415  48  85 549 336
+ 333 365 320 122  12 445  64 211 205 316 400  31 206 457 420 252 242 523
+ 434  15 555 132 236 325 558  75  10 393 530 230 313 343 262 263 527 173
+ 453 542  55  90 367 245 127 282 468 507 503 210 240 547 443 190  66 369
+  17 202 293 310 224 283  45 493 540 460 422 401 499 235 546  78 364 337
+  96 531 500 170  89 247 424 268  46 395 107 344 351   0 308  71 417 102
+ 513 108 213 533 562 469 382 243 439  26 188 306 249 231 134 322 566 357
+ 225 447 200 171 340 406 140 529 575 113  18  76 577 271 319 554 581 196
+ 159 303 312 318 386 384 175 112  68 348 350  65 578 126 463 428 372 402
+ 284 279 476 509 137 304   7 441 179 538 261 569 426 329 155 461 185 101
+  97  20 153  54  30 362  49 100 409 298 376 438  56 144  60 194 239 385
+ 582 524   6 264   8 497 414 278 208 474 250 466 167  38 579 421 330 541
+ 403 301 565 489 163 124 154  59 299 550 158  51 580 219  74   4 556 452
+ 475 347   5 141 358 135 311 496  22 276 446 281 220 532 120  81 418 332
+ 570 564 160 573 238 375 342 195 191 116 399 462 164 106 436  63 105 339
+ 553 515 525  93 366 427 389 412 198 145 150  39 535 380 253 355  69   2
+ 221 548 146 289 241 471 467 114 338 522 568 176 518 168 394 494 405 392
+ 136 479 254 391 354 519 487 255 232 133  33  88 290  44 353 341  61 199
+ 378 561 502 397 218 302 297  73 295  35 534  29 495 473 480 309 557 217
+  27 464 407 156 465 477 138 212 104 482 478 484 215 520 189 214 539 204
+ 234 259  67  24 381 216 300 429 223 129 349 111 166 267 207  40 274 490
+  79 435 437 327  13 287 326 121 251 228 416 483 161  83 117 374 440  25
+ 110 149 413 152  16 470 331 109 505 485 139 237 260 352 491 317 323 528
+ 248 450 410 456 521  19 328 296 516 269 363 226  94   3 481 125 280 286]
+LiveVQC test_index: [ 77 444 184 371 545 572 275 294 574 182  32  80 307 258  11 360 511  86
+ 266  36 193  58  41 270 411  50 209 148 526 571 536 451 123 222 419  62
+  98 377 130 187  23 514 560  43 370 512 383 201 368 387 292 256 197  95
+ 567 169 305 373 227 143 180 131  47 324 203  84 398  91  82 430 119 291
+  57 321 257 584 442  42 388 335 273 488  53 552 128  28 183 459 510 151
+ 244 543 544 265 288 423 147 177  99 448 431 115  72 537 174  87 551 486
+ 314 396 472  70 277   9 359 192 559]
+Starting training:
+29it [00:26,  1.09it/s]
+Epoch 1 averaged training loss: 0.0878
+The current learning rate is 0.000010
+117it [00:04, 24.67it/s]
+Epoch 1 completed. The result on the STDA test databaset: SRCC: 0.8066, KRCC: 0.6195, PLCC: 0.8797, and RMSE: 7.7782
+Update best model using best_test_criterion in epoch 1
+29it [00:27,  1.06it/s]
+Epoch 2 averaged training loss: 0.0348
+The current learning rate is 0.000010
+117it [00:04, 24.46it/s]
+Epoch 2 completed. The result on the STDA test databaset: SRCC: 0.8030, KRCC: 0.6183, PLCC: 0.8816, and RMSE: 7.7190
+29it [00:27,  1.07it/s]
+Epoch 3 averaged training loss: 0.0209
+The current learning rate is 0.000010
+117it [00:04, 24.57it/s]
+Epoch 3 completed. The result on the STDA test databaset: SRCC: 0.8066, KRCC: 0.6219, PLCC: 0.8795, and RMSE: 7.7818
+Update best model using best_test_criterion in epoch 3
+29it [00:27,  1.06it/s]
+Epoch 4 averaged training loss: 0.0170
+The current learning rate is 0.000009
+117it [00:04, 24.77it/s]
+Epoch 4 completed. The result on the STDA test databaset: SRCC: 0.8061, KRCC: 0.6219, PLCC: 0.8791, and RMSE: 7.7951
+29it [00:26,  1.09it/s]
+Epoch 5 averaged training loss: 0.0161
+The current learning rate is 0.000009
+117it [00:04, 24.66it/s]
+Epoch 5 completed. The result on the STDA test databaset: SRCC: 0.8084, KRCC: 0.6222, PLCC: 0.8812, and RMSE: 7.7316
+Update best model using best_test_criterion in epoch 5
+29it [00:26,  1.11it/s]
+Epoch 6 averaged training loss: 0.0160
+The current learning rate is 0.000009
+117it [00:04, 24.46it/s]
+Epoch 6 completed. The result on the STDA test databaset: SRCC: 0.8108, KRCC: 0.6245, PLCC: 0.8806, and RMSE: 7.7501
+Update best model using best_test_criterion in epoch 6
+29it [00:26,  1.08it/s]
+Epoch 7 averaged training loss: 0.0154
+The current learning rate is 0.000009
+117it [00:04, 24.70it/s]
+Epoch 7 completed. The result on the STDA test databaset: SRCC: 0.8076, KRCC: 0.6236, PLCC: 0.8815, and RMSE: 7.7215
+29it [00:26,  1.10it/s]
+Epoch 8 averaged training loss: 0.0155
+The current learning rate is 0.000008
+117it [00:04, 24.68it/s]
+Epoch 8 completed. The result on the STDA test databaset: SRCC: 0.8096, KRCC: 0.6219, PLCC: 0.8805, and RMSE: 7.7534
+29it [00:26,  1.09it/s]
+Epoch 9 averaged training loss: 0.0151
+The current learning rate is 0.000008
+117it [00:04, 24.55it/s]
+Epoch 9 completed. The result on the STDA test databaset: SRCC: 0.8087, KRCC: 0.6236, PLCC: 0.8813, and RMSE: 7.7287
+29it [00:26,  1.08it/s]
+Epoch 10 averaged training loss: 0.0149
+The current learning rate is 0.000008
+117it [00:04, 24.81it/s]
+Epoch 10 completed. The result on the STDA test databaset: SRCC: 0.8109, KRCC: 0.6236, PLCC: 0.8830, and RMSE: 7.6755
+Update best model using best_test_criterion in epoch 10
+29it [00:27,  1.04it/s]
+Epoch 11 averaged training loss: 0.0148
+The current learning rate is 0.000008
+117it [00:04, 24.78it/s]
+Epoch 11 completed. The result on the STDA test databaset: SRCC: 0.8082, KRCC: 0.6245, PLCC: 0.8820, and RMSE: 7.7085
+29it [00:26,  1.09it/s]
+Epoch 12 averaged training loss: 0.0146
+The current learning rate is 0.000007
+117it [00:04, 24.68it/s]
+Epoch 12 completed. The result on the STDA test databaset: SRCC: 0.8110, KRCC: 0.6260, PLCC: 0.8826, and RMSE: 7.6877
+Update best model using best_test_criterion in epoch 12
+29it [00:26,  1.09it/s]
+Epoch 13 averaged training loss: 0.0144
+The current learning rate is 0.000007
+117it [00:04, 24.40it/s]
+Epoch 13 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6254, PLCC: 0.8817, and RMSE: 7.7152
+29it [00:27,  1.05it/s]
+Epoch 14 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.66it/s]
+Epoch 14 completed. The result on the STDA test databaset: SRCC: 0.8107, KRCC: 0.6263, PLCC: 0.8828, and RMSE: 7.6810
+29it [00:27,  1.06it/s]
+Epoch 15 averaged training loss: 0.0145
+The current learning rate is 0.000007
+117it [00:04, 24.28it/s]
+Epoch 15 completed. The result on the STDA test databaset: SRCC: 0.8109, KRCC: 0.6269, PLCC: 0.8825, and RMSE: 7.6926
+29it [00:26,  1.10it/s]
+Epoch 16 averaged training loss: 0.0146
+The current learning rate is 0.000007
+117it [00:04, 24.49it/s]
+Epoch 16 completed. The result on the STDA test databaset: SRCC: 0.8093, KRCC: 0.6233, PLCC: 0.8817, and RMSE: 7.7148
+29it [00:26,  1.08it/s]
+Epoch 17 averaged training loss: 0.0146
+The current learning rate is 0.000007
+117it [00:04, 24.72it/s]
+Epoch 17 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6260, PLCC: 0.8832, and RMSE: 7.6690
+29it [00:27,  1.06it/s]
+Epoch 18 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.65it/s]
+Epoch 18 completed. The result on the STDA test databaset: SRCC: 0.8087, KRCC: 0.6225, PLCC: 0.8820, and RMSE: 7.7083
+29it [00:26,  1.08it/s]
+Epoch 19 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.77it/s]
+Epoch 19 completed. The result on the STDA test databaset: SRCC: 0.8119, KRCC: 0.6275, PLCC: 0.8839, and RMSE: 7.6484
+Update best model using best_test_criterion in epoch 19
+29it [00:27,  1.07it/s]
+Epoch 20 averaged training loss: 0.0145
+The current learning rate is 0.000006
+117it [00:04, 24.71it/s]
+Epoch 20 completed. The result on the STDA test databaset: SRCC: 0.8101, KRCC: 0.6248, PLCC: 0.8825, and RMSE: 7.6928
+29it [00:27,  1.07it/s]
+Epoch 21 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.53it/s]
+Epoch 21 completed. The result on the STDA test databaset: SRCC: 0.8111, KRCC: 0.6266, PLCC: 0.8827, and RMSE: 7.6854
+29it [00:26,  1.09it/s]
+Epoch 22 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.75it/s]
+Epoch 22 completed. The result on the STDA test databaset: SRCC: 0.8107, KRCC: 0.6251, PLCC: 0.8831, and RMSE: 7.6745
+29it [00:27,  1.07it/s]
+Epoch 23 averaged training loss: 0.0144
+The current learning rate is 0.000006
+117it [00:04, 24.56it/s]
+Epoch 23 completed. The result on the STDA test databaset: SRCC: 0.8111, KRCC: 0.6278, PLCC: 0.8831, and RMSE: 7.6739
+29it [00:26,  1.09it/s]
+Epoch 24 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.80it/s]
+Epoch 24 completed. The result on the STDA test databaset: SRCC: 0.8098, KRCC: 0.6251, PLCC: 0.8826, and RMSE: 7.6881
+29it [00:27,  1.06it/s]
+Epoch 25 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.58it/s]
+Epoch 25 completed. The result on the STDA test databaset: SRCC: 0.8132, KRCC: 0.6295, PLCC: 0.8839, and RMSE: 7.6483
+Update best model using best_test_criterion in epoch 25
+29it [00:26,  1.09it/s]
+Epoch 26 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.32it/s]
+Epoch 26 completed. The result on the STDA test databaset: SRCC: 0.8101, KRCC: 0.6254, PLCC: 0.8826, and RMSE: 7.6873
+29it [00:26,  1.11it/s]
+Epoch 27 averaged training loss: 0.0145
+The current learning rate is 0.000005
+117it [00:04, 24.67it/s]
+Epoch 27 completed. The result on the STDA test databaset: SRCC: 0.8072, KRCC: 0.6216, PLCC: 0.8821, and RMSE: 7.7048
+29it [00:26,  1.08it/s]
+Epoch 28 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.68it/s]
+Epoch 28 completed. The result on the STDA test databaset: SRCC: 0.8099, KRCC: 0.6257, PLCC: 0.8830, and RMSE: 7.6765
+29it [00:26,  1.09it/s]
+Epoch 29 averaged training loss: 0.0144
+The current learning rate is 0.000005
+117it [00:04, 24.72it/s]
+Epoch 29 completed. The result on the STDA test databaset: SRCC: 0.8098, KRCC: 0.6242, PLCC: 0.8830, and RMSE: 7.6775
+29it [00:27,  1.07it/s]
+Epoch 30 averaged training loss: 0.0143
+The current learning rate is 0.000005
+117it [00:04, 24.88it/s]
+Epoch 30 completed. The result on the STDA test databaset: SRCC: 0.8096, KRCC: 0.6242, PLCC: 0.8829, and RMSE: 7.6804
+Training completed.
+The best training result on the STDA test dataset SRCC: 0.8132, KRCC: 0.6295, PLCC: 0.8839, and RMSE: 7.6483
+The STDA median results SRCC: 0.8156, KRCC: 0.6317, PLCC: 0.8839, and RMSE: 7.6488
+
+Process finished with exit code 0
